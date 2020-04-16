@@ -100,7 +100,7 @@ Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, a
 
 This component flow section aims to describe the general steps that happen in and between each component.
 
-![Fig. 1](link here "Component Architecture Diagram")
+![](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_flow_sequence_diagram.png?token=AABSWQX53UKQK2Y3A557URK6UIA4A "Fig. 2 - Component Flow Sequence Diagram")
 
 1. "{wake word}, add milk to my shopping list at BigGrocery."
 2. NLP calls VRS and passes the query. NLP sends in the query its location and what it thinks the VRS name lookup should resolve for (in the case below it understands that "biggrocery" is what the VRS lookup is for). See Figure 1.0.
@@ -347,13 +347,14 @@ TODO: insert the flow in protecting the privacy in NLP
 
 ## References
 
-- Fig 1: https://docs.google.com/drawings/d/1bn8ZkQwnecmTF1v4Sr2WPfw4VIznkk1q8qN_5TVABg0/edit
+- Fig. 1 - Component Architecture Diagram: https://docs.google.com/drawings/d/1bn8ZkQwnecmTF1v4Sr2WPfw4VIznkk1q8qN_5TVABg0/edit
+- Fig. 2 - Component Flow Sequence Diagram: https://docs.google.com/drawings/d/156TXVWLcGks4FCG8FDTWg0dtPJf9h6q2KpT8Qr8LnBo/edit
 
 # TODOs
 
 A list of general TODOs that don’t fit in sections above:
 
-- TODO: pitch to the team the other possible component that OVN can play in.. conversation orchestration
+- TODO: pitch to the committee the other possible component that OVN can play in: conversation orchestration ???
 
 
 
