@@ -92,7 +92,7 @@ Several examples that are useful to explain all the concepts required in the des
 
 ## Component Architecture
 
-![Fig. 1](link here "Component Architecture Diagram")
+![](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
 
 Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
 
