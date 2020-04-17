@@ -41,6 +41,7 @@ Furthermore, like the open standards that made the WWW successful, these standar
 - Abstracted at the right level as to not too deeply specify particular technologies used to implement them
 
 ## Principles
+- TODO: inclusive, abuse, privacy, security
 - Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
 - No one company or person sets the direction of these open standards
 - Has the ability to protect the privacy of the user AND the user can know where their privacy is protected or not 
