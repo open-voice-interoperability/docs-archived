@@ -66,6 +66,9 @@ This general vocabulary section aims to define general words used when talking a
 - **Automatic Speech Recognition** - is also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
 - **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response.
 - **Voice Application** - also known as skill, action, capsule or domain. This is the specific executable component that has association to multiple things such as invocation, collection of related intents and entities up to the configuration to your dialog manager.
+- **Platform** -  The collection of components (the environment) needed to execute a voice application. Examples of platforms include the Amazon and Google platforms that execute voice applications.
+- **Component interoperability** - A component of a platform may be replaced by another component from a different vendor. I.e., replace the TTS by another TTS from a different vendor.
+- **Voice Application Interoperability** - a voice appliation invokes another voice application.
 
 ### Component Vocabulary
 
@@ -368,3 +371,9 @@ TODO: insert the flow in protecting the privacy in NLP
 A list of general TODOs that don’t fit in sections above:
 
 - TODO: pitch to the committee the other possible component that OVN can play in: conversation orchestration ???
+
+(Interoperabity) Write once publish multiple times.  Specify a voice application in a vendor-independent manner that can be transformed to both a working Alexa or Google voice application.  Recommend if we should develop a vender-independent language for writing speech applications that can be translated to be executed on both Alexa and Google platforms.
+
+(Interoperability) Evaluate Almond as a possible voice-assistant platform. Identify structures and processes useful in our work.  Reference: ALMOND, THE OPEN, PRIVACY-PRESERVING VIRTUAL ASSISTANT https://oval.cs.stanford.edu/
+
+(Voice Commerce Core processes) Specify the vocabulary for a frequently-used business activity by constructing and deploying a skill (printing a portion of a conversation)  An example approach is outlined in Telephone Commands in five languages, Final draft ETSI ES 202 076 V2.1.1 (2009-06) ETSI Standard Human Factors (HF); User Interfaces; Generic spoken command vocabulary for ICT devices and services https://www.etsi.org/deliver/etsi_es/202000_202099/202076/02.01.01_50/es_202076v020101m.pdf 
