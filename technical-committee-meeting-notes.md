@@ -144,7 +144,7 @@ MEETING ADJOURNED AT 17:00 CET, 10:00 Central Daylight US.
 17 April 2020
 
 
-# 2020-04-03 TECHNICAL COMMITTEE MEETING NOTES:
+# 2020-04-03 Notes of the Technical Committee Meeting
 In attendance:
 
 Dan Cundiff, Target (Chair); Christian Wuttke, Schwarz Gruppe; Mirko Saul, Schwarz Gruppe; Scott Nicholas, Linux Foundation; Jim Larson, SpeechTEK; Nick Myers, RedFox-ai; John Iwasz, Whetstone Technologies; Richard Vanderhorst, Wegmans; Alex Weidauer, Rasa; Lawrence Lin, China Netcasting Services Association; Maria Brina-Dobrowski, Target; Joel Crabb, Target; Kristi Dank, Target; Jon Stine, Open Voice Network. 
