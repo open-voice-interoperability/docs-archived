@@ -23,3 +23,8 @@
 - Call for another round of review to the Technical Masterplan - Dan Cundiff - 10 mins 
 - Top 3 working groups to focus on first - Dan Cundiff - 15 mins
 - Feedback - team - 10 mins
+
+# 2020-05-29
+- Antitrust statement - Jon Stine - 1 min
+- Introduction - Ways of Working document on Git - Jon Stine - 5 min
+- Follow-up from 2020-05-14 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 min
