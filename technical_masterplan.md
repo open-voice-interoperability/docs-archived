@@ -1,22 +1,30 @@
 # Technical Masterplan
 
-## Abstract
+### Abstract
 
 The Open Voice Network is a non-profit industry association, operating as a Directed Fund of The Linux Foundation, and dedicated to the development of technical standards and ethical use guidelines. This is an essential step for a technology and an industry that is in its earliest days, and for which user value falls far short of envisioned potential.  
 
-We believe that the future of AI-enabled voice is a world that is voice-first, multi-platform, multi-modal, multi-device, and deeply digitally integrated.  And, we believe that the most significant barrier to the realization of user value in AI-enabled voice is the  lack of trust that users (from consumers to patients to enterprise decision-makers) have in current voice processes and providers. 
+We believe that the future of AI-enabled voice will be found in a voice-first, conversation AI world that is multi-platform, multi-modal, multi-device, multi-use, and contextually integrated.  We also believe that the most significant barrier to the realization of user value in AI-enabled voice is the  lack of trust that users (from consumers to patients to enterprise decision-makers) have in current voice processes and providers. 
 
 The Open Voice Network (OVN) Master Plan is a directional document with high-level design details that lays out the set of open standards needed to realize a trusted, open implementation for voice assistants and related services.
 
 The content of this document is used to define the scope of what the OVN aims to work on and the sections below can map to working groups who will be creating the standards, TCKs, reference implementations, etc.
 
-## Why Open Voice?
+### Why the Open Voice Network?
 
-### Defining the Scope of Open Voice
+Proposed standards will gain the greatest support (and eventual adoption) when such standards are developed through the leadership of an open, neutral, third party -- one dedicated to the best for the most.  The name "Open Voice Network" speaks to our two most important operating principles.  The first is that The OVN is "open" -- transparent in its work, and neutral in its interests.  The second is that The OVN is a network of voice user communities -- inclusive of aspirations and concerns from enterprises to voice developers and designers, data analysts and ethicists, marketers and media, and voice platforms worldwide.  
+
+###  the Scope of Open Voice
 
 The world of AI-enabled voice today ranges from Interactive Voice Response (IVR) to the evolving realm of hardware-independent, voice-activated and -centric personal agents and assistants.  Although our definition of AI-enabled voice spans the entirety of this continuum, our primary focus will be on the integrated, pan-internet, and personal voice agent and assistant, which may include screen-based visual assistance.  
 
 ### Problem Statement 
+
+
+
+
+
+
 
 Today, this world of voice assistance is dominated by proprietary, cloud-centric platforms (and related devices) that deliver services using closed implementations.  Examples include Amazon Alexa, Google Home, and Apple Siri.  While these closed systems have been successful, the lack of worldwide strategies and principles prevent them from becoming systems that work for all future voice participants.  Issues at question include:
 
@@ -34,13 +42,27 @@ There numerous other issues which, unless addressed through standards, will cont
 
 ### Example Use Case(s) for Resolution
 
-In commerce:
+The Open Voice Network will test its proposed solutions against aspirational enterprise use cases from the vertical industries of the Open Voice Network:  commerce (retail and consumer goods), media, transportation, financial services, health and life sciences, public safety, connected cities, and education. 
+
+Commerce:
+
+The enterprise:  a multi-line retailer of goods and services with more than 50 million monthly active customers.  The customer base is 65% female, 35% male; speaks seven primary languages, with multiple dialects; and actively uses conversational AI to connect to the retailer through smartphones (40%), automobiles (30%), smart speakers (25%) and smart appliances (5%).  
+
+Customers of this retailer use voice to establish and manage retailer club membership; place and pay for weekly replenishment orders; place and pay for unique orders; place and pay for prescription drug/pharmacy orders; place and pay for media and streaming services; manage orders and service scheduling-reservations with affiliated service providers; manage access real-time information as to order status and shipment; obtain household value information, ranging from recipes to beverage recommendations to new-born and infant care; obtain use and how-to information from branded product vendors. 
+
+Customers will transact with this retailer using a wide range of payment options.  
+
+The retailer considers all data within its customer interactions and transactions to be proprietary.   
+
+Financial Services:
 
 
-In health and life sciences:
 
 
-In financial services. 
+Health and Life Sciences: 
+
+
+
 
 
 ### Solution
