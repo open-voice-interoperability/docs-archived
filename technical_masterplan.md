@@ -20,12 +20,6 @@ The world of AI-enabled voice today ranges from Interactive Voice Response (IVR)
 
 ### Problem Statement 
 
-
-
-
-
-
-
 Today, this world of voice assistance is dominated by proprietary, cloud-centric platforms (and related devices) that deliver services using closed implementations.  Examples include Amazon Alexa, Google Home, and Apple Siri.  While these closed systems have been successful, the lack of worldwide strategies and principles prevent them from becoming systems that work for all future voice participants.  Issues at question include:
 
 - Deterministic privacy
@@ -53,17 +47,6 @@ Customers of this retailer use voice to establish and manage retailer club membe
 Customers will transact with this retailer using a wide range of payment options.  
 
 The retailer considers all data within its customer interactions and transactions to be proprietary.   
-
-Financial Services:
-
-
-
-
-Health and Life Sciences: 
-
-
-
-
 
 ### Solution
 
