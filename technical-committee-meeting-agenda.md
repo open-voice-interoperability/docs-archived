@@ -28,3 +28,5 @@
 - Antitrust statement - Jon Stine - 1 min
 - Introduction - Ways of Working document on Git - Jon Stine - 5 min
 - Follow-up from 2020-05-14 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 min
+- Follow-up if everyone got the chance to review the Masterplan
+- Identify the top 3 projects for working group (Voice Registry System, Privacy, Security)
