@@ -1,3 +1,59 @@
+# 2020-05-29 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, N. Myers, M. Brinas-Dobrowski, M.Frazzini, J.Iwasz, M. Buck, M. Saul, P. Bentsen, S. Baul, W. Angerer, M. Lens-Fitzgerald, J. Maas, L. Lin, K. Dank, J. Stine, B. Czechowicz, V.Tai, J. Eisenzopf, A. Weidauer
+
+The meeting was brought to order at 8:30 CDT (US).
+### Antitrust statement - Jon Stine 
+### Introduction - Ways of Working document on Git - Jon Stine 
+J.Stine covered the Ways of Working document content (document itself is in Git).  We can work towards building this out to include adding in our git PR processes, etc.   
+ACTION:  Please review Ways of Working document in git and provide comments.  [link to document](https://github.com/open-voice-network/docs/blob/master/way_of_working.md)
+OVN Docs git repo is now open so all should be able to access.  
+ ### Follow-up from 2020-05-14 meeting - outstanding issues - Kristi Dank 
+* Need to formalize the process for issue management, prioritization and discussion – defined process as part of 5/29 session.  Will be added to ways of working doc. 
+* Before the next technical committee meeting, participants to review the Technical  Master Plan document, create PRs, add comments and be prepared to ratify.  Will be discussed in 5/29 meeting
+* Meeting Feedback – participants to send comments in technical committee slack channel or send to D. Cundiff directly.     Ongoing 
+Discussed that all should be opening issues and we can use the git issue list and review material items in the tech comm meetings.   We can leverage the projects feature of Git to aid with this management process.   
+ACTION:  D. Cundiff will add a few instructive notes to the ways of working doc.   
+ACTION:  Create this project view in git.  
+### Follow-up if everyone got the chance to review the Masterplan – M. Brinas-Dobrowski 
+Some changes were put into the Master Plan.   We do want to label a release of this document.   Discussion was supportive of a beta release.  D. Cundiff will post the release in slack.   We can add processes related to this to the Ways of Working document. 
+DECISION:  Confirm Master Plan as 0.1 Beta release. 
+### Review 1.0 proposed list of Tech Comm development projects – Jim
+Following the Developer Community call, M. Lens-Fitzgerald and J. Larsen drafted a list of potential "activities" for Tech Comm consideration.    The full list is still being developed.   Suggest we use the term Activity vs Project to avoid confusion.   Discussion was supportive of using the term Activity.    
+VOCABULARY DECISION: These will be termed "activities"
+ACTION:  J. Stine to add this to "Ways of Working."
+List of suggested activities: 
+1 Destination Registry
+  1.1 Name Approaches for Voice Registry - Need to determine the best approach for developing a voice registry   
+Discussion: This will be similar but not identical to DNS.  D. Cundiff shared a few examples like operating aspects.  Also do not be too confined to DNS and be sure to be forward looking.  Registry aspects of VRS will need to be assessed too –may need separate firms to manage the voice registry.    Collaborate with firms like Google & Amazon (users of VRS).  Expand the scope of this item to include a baseline of first level requirements vs Analysis.   
+2 Voice Commerce Core Processes 
+  2.1 Pay by voice -  Accelerating people’s purchasing process through voice payment, voice print and biometrics
+Discussion:  Not a standard but a reference implementation and guidelines that firms can follow to provide the user with a more common experience.   The soon to be stood-up voice designer community can help with this.    Should this type of experience work come after foundational standards – this work may provide insights into how the lower level standards need to work.   This work may also be applicable for other UI applications.     Would be good to solicit involvement from bill-pay firms (ex.  Capital-One)
+
+3 Identification and Authentication 
+
+Discussion:  Biometrics included here? 
+
+4 Data Privacy 
+  4.1 Name Evaluate OVAL (Open Virtual Assistant Lab, Stanford University) Approach to Privacy – Need to specify a data privacy policy and enforcement mechanism 
+
+Discussion:  Discussion supportive and promotes reuse. Will need to be in line with GDPR and CCPA.  Perhaps combined with Identification and Authentication.   Need to assess liability and regulatory impacts.   
+
+5 Interoperability 
+Discussion:  Should we add to interoperability a set of interfaces to interop between applications. 
+
+  5.1 Vendor Independent language for writing speech applications 
+
+Discussion:   This isn’t necessarily a new programming language but rather a vendor independent API specification.  Like Jovo –a framework.  Could be an open source toolkit.  Voice assistant, IVRs or on-device apps.  Will need to get Amazon and Google on board here (VII).  Will need to put boundaries on the focus of this like channel, NLP, etc.  This may not be an essential building block item.    
+
+### Meeting feedback 
+*  Didn’t get through all agenda items 
+*  Need someone to monitor chat and share out 
+*  Good discussion today –got into some requirement and maybe use this meeting to do higher level inputs 
+* Perhaps a stacked or forced ranked process may be helpful to prioritize efforts 
+* organic nature feels ok now 
+* Helpful to have a location for sharing existing knowledge/articles/links.  Action:  Dan will create an approach 
+
 # 2020-05-15 Notes of the Technical Committee Meeting
 Attendees: D. Cundiff (Chair);  J. Larson, N. Myers, M. Brinas-Dobrowski, J. Crabb, J-C. Junker, M. Frazzini, J. Iwasz, M. Buck, M. Saul, N. Latwis, M. Lewis, P. Bentsen, S. Baul, W. Angerer, M. Lens-Fitzgerald, J. Maas, A. Lee, N. Sharif, L. Lin, S. Nicholas (Linux Foundation), K. Dank, J. Stine. 
 
