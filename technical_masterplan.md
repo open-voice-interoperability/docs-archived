@@ -45,11 +45,12 @@ Furthermore, like the open standards that made the WWW successful, these standar
 
 ## Principles
 
-- TODO: inclusive, abuse, privacy, security
+
 - Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
 - No one company or person sets the direction of these open standards
-- Has the ability to protect the privacy of the user AND the user can know where their privacy is protected or not
-- Can be implemented as open-source or closed source; implentations can be provided for free or not free
+- Has the ability to protect the user's privacy and security, and the user can know where their privacy is protected or not
+- Can be implemented as an open-source or closed source; implementations can be provided for free or not free
+- Make voice inclusive and accessible by everyone
 - Can be applied as low as localhost, a private network, or as big as globally provided
 
 ## Design
@@ -363,8 +364,4 @@ TODO: insert the flow in protecting the privacy in NLP
 - Fig. 1 - Component Architecture Diagram: https://docs.google.com/drawings/d/1bn8ZkQwnecmTF1v4Sr2WPfw4VIznkk1q8qN_5TVABg0/edit
 - Fig. 2 - Component Flow Sequence Diagram: https://docs.google.com/drawings/d/156TXVWLcGks4FCG8FDTWg0dtPJf9h6q2KpT8Qr8LnBo/edit
 
-# TODOs
 
-A list of general TODOs that don’t fit in sections above:
-
-- TODO: pitch to the committee the other possible component that OVN can play in: conversation orchestration ???
