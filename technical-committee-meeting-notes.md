@@ -1,3 +1,96 @@
+# 2020-06-12 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, N. Myers, M. Brinas-Dobrowski, M.Frazzini, J.Iwasz, M. Saul, P. Bentsen, S. Baul, M. Lens-Fitzgerald, J. Maas, L. Lin, K. Dank, J. Stine, A.Dalloul, J.Crabb, S.Nicholas, S.Prayaga, V.Tai, N.Latwis, A.Lee
+
+The meeting was brought to order at 8:32 CDT (US).
+
+### Antitrust statement – Jon Stine 
+
+### Organizational updates and introductions/questions – Jon Stine 
+* Jon shared that the OVN is now a funded, legal entity.  A directed fund of The Linux Foundation 
+* The OVN Steering committee held first meeting on 6/1/20 and approved the OVN Chair, Tech Advisory Chair and the OVN initial budget  
+* Microsoft has joined Ali Dalloul attending Tech Comm meeting today.   Wegman’s has signed on as a sponsor as well
+* Jon shared the OVN organizational structure slide and slide covering how OVN committees and communities work together.  Discussed that public safety should be added to the communities slide 
+
+### Website development work and volunteers – Dan Cundiff
+* OVN website created about a year ago [https://openvoicenetwork.org/]
+* Need volunteers to work on the OVN website and would prefer to have it done by the OVN community vs external resources 
+* Need to post artifacts (charters, whitepapers, etc.)  
+* Site leverages Hugo website, jamstack site, uses a template that allows for flexibility.  Hosting provider is Netlify.  For those that want to edit, use Netlify CMS
+* Nicholas Myers & Mike Frazzini volunteered.  
+**ACTION:**  Jon will setup some time with he and Dan 
+* If others want to volunteer, please post in the OVN Technical Committee slack channel 
+
+### Forming, running, operating working groups for activities 
+* Activity is defined as a body of work that we need to work on and we need to form working groups to complete
+* We need to organize working groups, discuss how they will work and decide which activities we should work on first 
+* The list of activities should map back to the Master Plan.  If they do not, then should be brought back to the Tech Comm meeting for discussion on priority and updates to the Master Plan accordingly 
+* Some of the items in the current activity list do not tie back to the Master Plan
+Discussion:  
+* A.Dalloul –timelines and priorities would be helpful so supportive of the discussion 
+* S. Baul  –regular review of the Master Plan document would be helpful for new joiners and to foster continued alignment.  Team agreed that this would be helpful and will ensure happens.
+**ACTION:**  Setup review sessions – Jon & Dan 
+* Dan walked through the docs repo in Git 
+  * Technical Master Plan –North star, charter doc in markdown.  Teams should do pull requests against this master plan 
+  * Proposed Activities list –point in time artifact that contains the list of activities that have been brought up for us to work on.  Ideally, these activities tie to the Master Plan.   We will need to create an additional roadmap artifact that takes what is in the Master Plan and says the order and likely when the artifacts will be completed 
+  * Ways of working doc explains how our working groups will do activities.  Document is in progress and not yet complete 
+* Activities list formed from discussions in Tech Comm meetings and from communities
+Discussion: 
+* P. Bentsen –roadmap document will help to define interdependencies between working groups that would be helpful 
+* A. Dalloul – Some of the areas are horizontal in nature and others are specific and some regulated.  As we think about the intersection of these, it will be important to have a level of prioritization as we cannot go after everything while the Master Plan is being further developed.  Perhaps a matrix for priorities and sequencing will be helpful
+* J.Larson – at the next developer community group meeting, they will be adding additional activities and will take a run at prioritization via a voting process.   Then the priority list can be vetted against the Master Plan document.   This can be brought back to the next Technical Committee meeting (6/26/20).   
+* J.Stine – also can factor in whether an activity is horizontal or vertical as input to the priority  
+* D.Cundiff - We can prioritize and sequence the work an do it in that order.  Or we can allow additional, more periphery activities to be completed and submitted to the OVN  
+* J.Larson - 2 classes of activities –foundational and exploratory/community driven/pioneering.   Emphasis needs to be on foundational but exploratory/community/pioneering driven will help attract new members, provide new ideas and allow to address fast changing space
+* General discussion was supportive of the 2 class method of foundational and exploratory with the emphasis on foundational
+**ACTION:**  Dan, Jon and Jim Larson to ID the activities as foundational or exploratory  
+
+#### Forming & Running of the working groups: 
+* Working group is a collection of people working on a activity or activities
+* Working groups can come and go and some are permanent pending the activity that they are assigned (ex. VRS)
+* Address things like:  Slack Channel, release process, meeting cadence and notes, artifact publication process
+* The “how we work” may vary slightly from working group to working group (some things need to be consistent and others can vary) 
+* Discussion:  Team is supportive of a simple process and healthy for the success of the working group.   Roles & responsibilities and general operating agreement
+* Maarten Lens-FitzGerald, Samrat Baul and Jon Stine volunteered to create a proposal.  Jon will include non-regulatory requirements like anti-trust, notes and recording (for audit trail). 
+**ACTION:**  Maarten, Samrat and Jon create proposal 
+
+Discussion on the Master Plan and missing components.  Team reiterated that PRs should be done against the Master Plan for this.   Discussed that PRs are new to some.  Discussed the reasons for git: version control, change tracking, transparency and common tech use.
+**ACTION:**  Jon will setup a session on git, PRs, etc.    
+
+### Follow-up from 2020-05-29 meeting – outstanding issues – Dan Cundiff or Kristi Dank 
+* Will create a backlog grooming process outside of the Tech Comm meetings so that we can focus on priority items in the Tech Comm meetings.   
+**ACTION:** Dan & Kristi create process 
+* Discussed why using git project board for tracking activities.  Simple views to allow quick tracking of issues and transparency (work that needs to be done).   
+
+### Next Meeting: 
+* Review activity priorities 
+* Propose working groups for top priority activities 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2020-05-29 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, N. Myers, M. Brinas-Dobrowski, M.Frazzini, J.Iwasz, M. Buck, M. Saul, P. Bentsen, S. Baul, W. Angerer, M. Lens-Fitzgerald, J. Maas, L. Lin, K. Dank, J. Stine, B. Czechowicz, V.Tai, J. Eisenzopf, A. Weidauer
