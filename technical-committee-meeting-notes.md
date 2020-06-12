@@ -10,7 +10,8 @@ The meeting was brought to order at 8:32 CDT (US).
 * Jon shared that the OVN is now a funded, legal entity.  A directed fund of The Linux Foundation 
 * The OVN Steering committee held first meeting on 6/1/20 and approved the OVN Chair, Tech Advisory Chair and the OVN initial budget  
 * Microsoft has joined Ali Dalloul attending Tech Comm meeting today.   Wegman’s has signed on as a sponsor as well
-* Jon shared the OVN organizational structure slide and slide covering how OVN committees and communities work together.  Discussed that public safety should be added to the communities slide 
+* Jon shared the OVN organizational structure slide and slide covering how OVN committees and communities work together.  Discussed that , "connected government" should be the term used instead of "smart cities;"  public safety should be added to the communities slide.  
+**ACTION** Jon to change "smart cities" to connected government, inclusive of public safety. 
 
 ### Website development work and volunteers – Dan Cundiff
 * OVN website created about a year ago [https://openvoicenetwork.org/]
@@ -18,7 +19,7 @@ The meeting was brought to order at 8:32 CDT (US).
 * Need to post artifacts (charters, whitepapers, etc.)  
 * Site leverages Hugo website, jamstack site, uses a template that allows for flexibility.  Hosting provider is Netlify.  For those that want to edit, use Netlify CMS
 * Nicholas Myers & Mike Frazzini volunteered.  
-**ACTION:**  Jon will setup some time with he and Dan 
+**ACTION:**  Jon will setup some time with Nick, Mike, and Dan 
 * If others want to volunteer, please post in the OVN Technical Committee slack channel 
 
 ### Forming, running, operating working groups for activities 
@@ -29,7 +30,7 @@ The meeting was brought to order at 8:32 CDT (US).
 Discussion:  
 * A.Dalloul –timelines and priorities would be helpful so supportive of the discussion 
 * S. Baul  –regular review of the Master Plan document would be helpful for new joiners and to foster continued alignment.  Team agreed that this would be helpful and will ensure happens.
-**ACTION:**  Setup review sessions – Jon & Dan 
+**ACTION:**  Setup review and on-boarding sessions as to the Master Plan, Activities List – Jon & Dan 
 * Dan walked through the docs repo in Git 
   * Technical Master Plan –North star, charter doc in markdown.  Teams should do pull requests against this master plan 
   * Proposed Activities list –point in time artifact that contains the list of activities that have been brought up for us to work on.  Ideally, these activities tie to the Master Plan.   We will need to create an additional roadmap artifact that takes what is in the Master Plan and says the order and likely when the artifacts will be completed 
@@ -41,8 +42,8 @@ Discussion:
 * J.Larson – at the next developer community group meeting, they will be adding additional activities and will take a run at prioritization via a voting process.   Then the priority list can be vetted against the Master Plan document.   This can be brought back to the next Technical Committee meeting (6/26/20).   
 * J.Stine – also can factor in whether an activity is horizontal or vertical as input to the priority  
 * D.Cundiff - We can prioritize and sequence the work an do it in that order.  Or we can allow additional, more periphery activities to be completed and submitted to the OVN  
-* J.Larson - 2 classes of activities –foundational and exploratory/community driven/pioneering.   Emphasis needs to be on foundational but exploratory/community/pioneering driven will help attract new members, provide new ideas and allow to address fast changing space
-* General discussion was supportive of the 2 class method of foundational and exploratory with the emphasis on foundational
+* J.Larson - recommended that 2 classes of activities be identified –foundational and exploratory/community driven/pioneering.   Emphasis needs to be on foundational but exploratory/community/pioneering driven will help attract new members, provide new ideas and allow to address fast changing space
+* General discussion was supportive of the 2 class method of foundational and exploratory with the emphasis on foundational.
 **ACTION:**  Dan, Jon and Jim Larson to ID the activities as foundational or exploratory  
 
 #### Forming & Running of the working groups: 
@@ -66,29 +67,7 @@ Discussion on the Master Plan and missing components.  Team reiterated that PRs 
 * Review activity priorities 
 * Propose working groups for top priority activities 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+* Meeting adjourned at 9:59 a.m. CDT (US)
 
 
 # 2020-05-29 Notes of the Technical Committee Meeting 
