@@ -345,8 +345,8 @@ TODO: clean up this bulleted list; it’s just a placeholder of things to consid
 - Optional configuration items:
 - SST engine to be used by the channel
 
-## Component Dependencies
-Items in the component dependencies need to be addressed in each architectural component.
+## Vertical Dependencies
+Items in the vertical dependencies need to be addressed in each architectural component.
 
 # Privacy
 Part of the principles of OVN is privacy. Each architectural components must address the deterministic privacy principles. Below are the guidelines to focus on:
