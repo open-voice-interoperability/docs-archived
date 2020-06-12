@@ -349,7 +349,7 @@ TODO: clean up this bulleted list; it’s just a placeholder of things to consid
 Items in the vertical dependencies need to be addressed in each architectural component.
 
 # Privacy
-Part of the principles of OVN is privacy. Each architectural components must address the deterministic privacy principles. Below are the guidelines to focus on:
+Part of the principles of OVN is privacy. Below are the guidelines to focus on:
 - Always end-users interest first. This is essential, especially for end-users who are marginalized or vulnerable sectors of the society who may not be aware of how their data are being collected, used, or shared. 
 - Always ask. Get an informed acknowledgment from the end-user, before collecting, sharing, or using the data.
 - Provide an audit trail for personal or sensitive information captured.
