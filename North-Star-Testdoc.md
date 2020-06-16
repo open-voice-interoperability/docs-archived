@@ -12,7 +12,7 @@ Our work could include the development and proposal of standards that will enabl
 - the interoperability of conversational AI platforms
 - consent-driven commercial and consumer privacy; 
 - commands and phraseology for common business processes;
-- language inclusivity;
+- region and language inclusivity;
 - open development. 
 
 ###
