@@ -10,6 +10,8 @@ Per the Technical Committee meeting of 2020.06.12, evaluators will identify each
 
 To evaluate, please list your Git handle and your term of evaluation after every activity.   Example:  jonstine:foundational.  If you wish to add a phrase of explanation, please do so. 
 
+This is an additional sentence for testing. 
+
 If no opinion, please list your Git handle only, like this:  jonstine:
 
 ## Destination Registry
