@@ -1,6 +1,6 @@
 ### Vision of the Open Voice Network: our North Star ###
 
-Conversational AI is in its earliest days.  It is rapidly moving toward a global future that will be multi-platform, multi-device,  multi-modal, and found in every industry.  It promises significant value not only to conversational AI providers, but to its users -- the enterprises, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
+Conversational AI is in its earliest days.  It is rapidly moving toward a global future that will be multi-platform, multi-device,  multi-modal, and found in every industry.  It promises significant value not only to conversational AI providers, but to its users -- the enterprises, governements, communities & institutions, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
 
 However, a broad issue of dis-trust now blankets conversational AI, and inhibits the realization of user value.  To realize its potential, conversational AI must be open and worthy of user trust.  It must be open for development and innovation.  It must be trust-worthy in its ease and reliability use, in its direct and unfiltered access to desired destinations, in its commercial and data usage and privacy, in its cross-platform interoperability, in lack of bias, in its development languages and protocols.  
 
