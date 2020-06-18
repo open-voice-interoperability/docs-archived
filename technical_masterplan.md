@@ -138,6 +138,8 @@ Several examples that are useful to explain all the concepts required in the des
 
 Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
 
+_this is the architecture recommended by the W3C Voice interaction Community Group_
+
 ## Component Flow
 
 This component flow section aims to describe the general steps that happen in and between each component.
