@@ -24,7 +24,7 @@ Description: Analyze the pros and cons of alternative architectures for developi
 
 jonstine:foundational
 omitfo2:  foundational
-
+nkmyers0794: foundational
 
 ## Voice Commerce Core Processes
 
@@ -38,6 +38,7 @@ Description: Specify the vocabulary for a frequently-used business activity by c
 
 jonstine:exploratory. May be phase next due to dependencies. 
 omitfo2:exploratory
+nkmyers0794: exploratory
 
 ## Identification and Authentication
 
@@ -45,6 +46,7 @@ See 2.1 pay by voice
 
 jonstine:exploratory.  May be phase next due to dependencies. 
 omitfo2: foundational
+nkmyers0794: exploratory
 
 ## Data Privacy
 
@@ -58,6 +60,7 @@ Description: Need to specify a data privacy policy for speech applications. Eval
 
 jonstine: foundational. 
 omitfo2: foundational
+nkmyers0794: foundational
 
 ### Security Guidelines
 
@@ -69,6 +72,7 @@ Description: create report and reference framework describing basic set of priva
 
 jonstine: exploratory.  A valuable phases-next deliverable.  
 omitfo2: exploratory
+nkmyers0794: exploratory
 
 ### Privacy and Data Protection
 
@@ -80,6 +84,7 @@ Description: Identify privacy use cases including doctor-patient discussions, vo
 
 jonstine: foundational.
 omitfo2: foundational
+nkmyers0794: foundational
 
 ## Interoperability
 
@@ -93,6 +98,7 @@ Description: Identify differences in functions and features supported by various
 
 jonstine: 
 omitfo2: exploratory
+nkmyers0794: exploratory
 
 ### SSML Markdown Language
 
@@ -104,6 +110,7 @@ Description: Specify text-to-speech formatting notation for content authors, des
 
 jonstine: 
 omitfo2: exploratory
+nkmyers0794: exploratory
 
 ### Interactive aids for editing pronunciations
 
@@ -115,6 +122,7 @@ Description: Develop interactive editor (with verbal feedback) to help non-lingu
 
 jonstine: 
 omitfo2: exploratory
+nkmyers0794: exploratory
 
 ### Matching human resources with development tools and processes
 
@@ -126,6 +134,7 @@ Description: Describe developer background, skills and their roles in the workfl
 
 jonstine:exploratory.
 omitfo2: exploratory
+nkmyers0794: exploratory
 
 ## Other
 
@@ -139,6 +148,7 @@ Description: extend the design work by Dan and Maria in their &quot;master plan&
 
 jonstine:foundational, but should be parsed into separate activities. 
 omitfo2: foundational
+nkmyers0794: exploratory
 
 ### National Voice Commons and NLU
 
@@ -150,6 +160,7 @@ Description: Enable countries to create their own national voice(s), ASR, &amp; 
 
 jonstine:foundational.  Essential to inclusivity aspiration?
 omitfo2: exploratory
+nkmyers0794: foundational
 
 ### Enhanced/Augmented Audio (Audio Input/Voice Analysis)
 
@@ -161,6 +172,7 @@ Description: TDB
 
 jonstine:foundational.
 omitfo2: foundational
+nkmyers0795: foundational
 
 ### A reference handbook for the Voice/Conversational AI industry
 
@@ -172,6 +184,7 @@ Description: handbook that can act as a single source of industry specific infor
 
 jonstine:exploratory.
 omitfo2: exploratory
+nkmyers0794: exploratory - This will go to help A LOT of people when completed down the road and can be used as a marketing/outreach piece
 
 ### User research
 
@@ -183,6 +196,7 @@ Description: Use ethnographic techniques to postulate future uses of voice. Coll
 
 jonstine:exploratory.
 omitfo2: exploratory
+nkmyers0794: exploratory
 
 ### Build a canonical voice application on an open source platform, like Almond
 
@@ -194,3 +208,4 @@ Description: build a canonical voice application on an open source platform, lik
 
 jonstine:foundational in re: development process. 
 omitfo2: foundational
+nkmyers0794: foundational
