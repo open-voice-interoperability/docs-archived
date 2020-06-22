@@ -7,7 +7,7 @@ However, a broad issue of dis-trust now blankets conversational AI, and inhibits
 Through the centuries, the development and adoption of standards has repeatedly catalyzed ever-advancing use, innovation, ecosystem development, and economic growth for new technologies.  We, the sponsors and supporters of The Open Voice Network, believe that now -- at the dawn of conversational AI's multi-platform future -- is the time to communally develop and drive toward adoption the conversational AI standards that will enable user trust.  
 
 Our work could include the development and proposal of standards that will enable:
-- platform-independent destination accessibility
+- platform-independent and dependable destination accessibility
 - platform-indepedent user identification and authentication
 - the interoperability of conversational AI platforms
 - consent-driven commercial and consumer privacy; 
