@@ -8,7 +8,7 @@ Through the centuries, the development and adoption of standards has repeatedly 
 
 Our work could include the development and proposal of standards that will enable:
 - platform-independent and dependable destination accessibility
-- platform-indepedent user identification and authentication
+- platform-independent user identification and authentication
 - the interoperability of conversational AI platforms
 - consent-driven commercial and consumer privacy; 
 - commands and phraseology for common business processes;
