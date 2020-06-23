@@ -120,9 +120,10 @@ omitfo2: exploratory
 
 Suggested by Maaike Groenewege and Hans Van Dam
 
-Motivation: Improve voice application development efficiency
+Motivation: The industry is fragmented with lots of different job titles and no clear workflow. This makes the market inefficient.
 
-Description: Describe developer background, skills and their roles in the workflow of developing voice applications.
+Description: By reaching alignment on workflow, job titles and underlying responsibilities, we will increase liquidity in the market and advance the industry as a whole. 
+
 
 jonstine:exploratory.
 omitfo2: exploratory
