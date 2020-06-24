@@ -13,6 +13,6 @@ Our work could include the development and proposal of standards that will enabl
 - consent-driven commercial and consumer privacy; 
 - commands and phraseology for common business processes;
 - language inclusivity;
-- open development. 
 
 ###
+- Change 1 - hi
