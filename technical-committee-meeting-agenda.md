@@ -41,6 +41,13 @@
 # 2020-06-26
 - Antitrust statement and notice of recording -- Jon Stine -- 1 min
 - Follow-up:  GitHub training and on-boarding meeting recordings -- links via Slack - Jon Stine - 3 minutes
-- Follow-up from 2020-06-10 meeting -- outstanding issues: what must we close in the next two weeks -- Kristi Dank - 5 minutes
+- Follow-up:  review Technical Committee and Developer Community inputs into proposed Activities list:  foundational-exploratory, etc. -- Dan Cundiff
+- Action:  determination of initial prioritized Activities -- Dan Cundiff 
+- Action: determination of Activities work team participants, leaders -- Dan Cundiff, Jon Stine
+- Summation of decisions - Kristi Dank
+- Review of meeting processes, question-comment -- Dan Cundiff
+- Adjournment
+- 
+
 
 
