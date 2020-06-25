@@ -37,3 +37,10 @@
 - Website development work and volunteers - Dan Cundiff - 10 mins
 - Forming, running, operating working groups for activities - 20 mins
 - Follow-up from 2020-05-29 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 mins
+
+# 2020-06-26
+- Antitrust statement and notice of recording -- Jon Stine -- 1 min
+- Follow-up:  GitHub training and on-boarding meeting recordings -- links via Slack - Jon Stine - 3 minutes
+- Follow-up from 2020-06-10 meeting -- outstanding issues: what must we close in the next two weeks -- Kristi Dank - 5 minutes
+
+
