@@ -1,3 +1,80 @@
+# 2020-06-26 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, N. Myers, M.Frazzini, J.Iwasz, P. Bentsen, S. Baul, M. Lens-Fitzgerald, J. Maas, L. Lin, K. Dank, J. Stine, A.Dalloul, J.Crabb, S.Prayaga, J. Eisenzopf, D.Attwater
+
+The meeting was brought to order at 8:31 CDT (US).
+
+### Antitrust statement and notice of recording – Jon Stine 
+
+### Github training and on-boarding meeting recordings – Jon Stine
+* Per request in prior meeting, Jon conducted sessions on Github and onboarding.  Recordings are available on OVN G-Suite for your review.  
+
+### Review Technical Committee and Developer Community inputs into proposed Activities list:  Foundational –exploratory, etc. – Dan 
+There are 16 PRs and we will need to determine a workflow to review the PRs. Options: 
+ * The PR creator assigns the PR review to someone (and they’ll get a notification)  
+ * rfr (request for review) –can post this in the Technical-committee slack channel along with your PR to create awareness of your PR 
+**ACTION:**  Align on PR review process 
+
+### Determination of Initial Prioritized Activities – Dan 
+* Activities are the work that needs to be done 
+* The full list of voting results were posted by Jim Larson in the developer-experience slack channel (posted 6/22)
+* Initial Inputs to Priorities: 
+1.  Approaches for Voice Registry 
+2. Privacy and Data Protection 
+
+Jim Larson feels that we all should better understand the architecture before proceeding much further 
+
+**ACTION:** Form a small working group to review and adjust the architecture ahead of a broader share out.  S. Baul,  M. Lens-FitzGerald, J.Iwasz, P.Bentsen, J.Larson, S.Prayaga and D.Cundiff will participate.  This will be called the Architecture Working Group.  
+**ACTION:** Conduct a session to go over the Master Plan & Architecture after the Architecture Working group reviews & edits. 
+* Discussed items that didn’t get a lot of votes—this does not mean that these won’t be done, they are a lower priority and will go into an activities backlog 
+* Discussed if we should place timelines on some of the activities.  The working groups likely need to get formed to define milestones   
+* Discussed if we should we create a starting milestone framework to aid in timing.   
+ **ACTION** Jon and Dan to create draft milestone framework 
+
+### Determination of Activities work team participants & leaders – Dan & Jon 
+* Working groups are the teams that execute work against the activities 
+* Discussed additional: 
+  * Voice Naming System working group (vertical and long lasting)
+    * the developer community wasn’t aligned that this is a priority 
+    * the VNS is key and central to the architecture in the Masterplan doc 
+    * agreed that we should discuss VNS and validate need -this discussion will be led by the Architecture working group plus others.  Forming the VNS working group is TBD based upon this discussion
+  * Privacy working group (horizontal)-combine with Security 
+  * Security working group (horizontal) – combine with Privacy 
+  * Identity & Authentication working group (horizontal) 
+  
+Agreed to start: 
+* Architecture working group  (S. Baul,  M. Lens-FitzGerald, J.Iwasz, P.Bentsen, J.Larson, S.Prayaga, D.Cundiff)
+* Voice Naming Systems working group (pending further discussion) 
+* Privacy & Security working group –horizontal (S.Prayaga, J.Mass, P. Bentsen, M.Frazzini, N.Myers, L.Lin)
+
+Agreed that the working groups will define the lead for each
+
+Discussed what OVN community members can/should participate in the Tech Comm working groups.  Jim and Maarten will reach out to the communities to seek participation.  Leadership will come from Tech Comm working groups 
+
+Clarified that Tech Comm members can bring in additional resources from their firms or additional experts
+
+Discussed if there should be a list of voice assistant standards.  This is on the activities list backlog
+
+### Summation of Decisions – Kristi 
+* Reviewed above 
+
+### Review of meeting processes, questions, comments – Dan 
+* Did not discuss 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2020-06-12 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, N. Myers, M. Brinas-Dobrowski, M.Frazzini, J.Iwasz, M. Saul, P. Bentsen, S. Baul, M. Lens-Fitzgerald, J. Maas, L. Lin, K. Dank, J. Stine, A.Dalloul, J.Crabb, S.Nicholas, S.Prayaga, V.Tai, N.Latwis, A.Lee
