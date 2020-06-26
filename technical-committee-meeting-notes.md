@@ -45,7 +45,7 @@ Jim Larson feels that we all should better understand the architecture before pr
 Agreed to start: 
 * Architecture working group  (S. Baul,  M. Lens-FitzGerald, J.Iwasz, P.Bentsen, J.Larson, S.Prayaga, D.Cundiff)
 * Voice Naming Systems working group (pending further discussion) 
-* Privacy & Security working group –horizontal (S.Prayaga, J.Mass, P. Bentsen, M.Frazzini, N.Myers, L.Lin)
+* Privacy & Security working group –horizontal (S.Prayaga, J.Maas, P. Bentsen, M.Frazzini, N.Myers, L.Lin)
 
 Agreed that the working groups will define the lead for each
 
@@ -61,17 +61,8 @@ Discussed if there should be a list of voice assistant standards.  This is on th
 ### Review of meeting processes, questions, comments – Dan 
 * Did not discuss 
 
-
-
-
-
-
-
-
-
-
-
-
+### Adjournment
+* Meeting adjourned at 9:57 CDT US
 
 
 
