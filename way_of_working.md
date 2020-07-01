@@ -19,7 +19,7 @@ This document aims to describe the ways in which OVN will work with regards to k
 
 # Working groups 
 
-Working groups are the teams that execute work against the activities.  When a working group exists, they will create their own Github repository and are accounable to manage their own issues and backlogs.  
+Working groups are the teams that execute work against the activities.  When a working group exists, they will create their own Github repository and are accounable to manage their own issues and backlogs.  Working Groups will also form and define their own leads/leadership. 
 
 Technical Committee Working groups formed:  
 * **Architecture working group**  (S. Baul,  M. Lens-FitzGerald, J.Iwasz, P.Bentsen, J.Larson, S.Prayaga, D.Cundiff)
