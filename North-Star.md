@@ -10,7 +10,6 @@ Through the centuries, the development and adoption of standards has repeatedly 
 
 Why an organization such as The Open Voice Network?  We bring a neutral perspective, as befitting a global non-profit Directed Fund of The Linux Foundation.  We approach the issues from the perspective of the current and prospective users of conversational AI.  And, we are solely focused on the future of conversational AI, and the governing standards and guidelines that will create the greatest value (broadly defined) for the most.   As such, we will work in an open and transparent manner; we will work in a communal manner, seeking ideas, comment, and criticism from a broad and diverse spectrum of users; and, we will work in collaboration with existing standards bodies where appropriate.  
 
-
 Our work could include the development and proposal of standards that will enable:
 - privacy-friendly invocation
 - intentional and consent-based security
