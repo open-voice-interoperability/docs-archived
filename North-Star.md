@@ -14,7 +14,7 @@ Our work could include the development and proposal of standards that will enabl
 - privacy-friendly invocation
 - intentional and consent-based security
 - platform-independent and dependable destination accessibility
-- platform-indepedent user identification and authentication
+- platform-independent user identification and authentication
 - the interoperability of conversational AI platforms
 - intentional and consent-driven commercial and consumer privacy 
 - commands and phraseology for common business processes
