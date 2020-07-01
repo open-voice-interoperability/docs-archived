@@ -1,8 +1,8 @@
 ### Vision of the Open Voice Network: our North Star ###
 
-Ours is an initiative for a coming world of conversational artificial intelligence -- a world of where hundreds (if not thousands) of voice assistants provide multi-modal communication through every type of digital device, and in every vertical industry.  this is a world that promises significant value not only to conversational AI providers, but to to the users of conversational AI -- the enterprises, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
+Ours is an initiative for a coming world of conversational artificial intelligence -- a world of where hundreds (if not thousands) of voice assistants provide multi-modal communication through every type of digital device, and in every vertical industry.  This is a world that promises significant value not only to conversational AI providers, but to the users of conversational AI -- the enterprises, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
 
-At present, a broad set of issues -- all centered around a lack of user trust -- now clouds the future of conversational AI, and inhibits the realization of user value.  These include distrust in conversational AI's ease and reliability of use, its ability to provide direct and unfiltered access to desired destinations, its commercial and personal practices regarding data usage and privacy, its lack cross-platform interoperability, its struggle to provide unbiased and inclusive access.  
+At present, a broad set of issues -- all centered around a lack of user trust -- clouds the future of conversational AI, and inhibits the realization of user value.  These include distrust in conversational AI's ease and reliability of use, its ability to provide direct and unfiltered access to desired destinations, its commercial and personal practices regarding data usage and privacy, its lack cross-platform interoperability, its struggle to provide unbiased and inclusive access.  
 
 To reach its potential, conversational AI must be made worthy of user trust. 
 
