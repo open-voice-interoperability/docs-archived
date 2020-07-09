@@ -39,15 +39,21 @@
 - Follow-up from 2020-05-29 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 mins
 
 # 2020-06-26
-- Antitrust statement and notice of recording -- Jon Stine -- 1 min
-- Follow-up:  GitHub training and on-boarding meeting recordings -- links via Slack - Jon Stine - 3 minutes
-- Follow-up:  review Technical Committee and Developer Community inputs into proposed Activities list:  foundational-exploratory, etc. -- Dan Cundiff
-- Action:  determination of initial prioritized Activities -- Dan Cundiff 
-- Action: determination of Activities work team participants, leaders -- Dan Cundiff, Jon Stine
+- Antitrust statement and notice of recording - Jon Stine - 1 min
+- Follow-up: GitHub training and on-boarding meeting recordings - links via Slack - Jon Stine - 3 minutes
+- Follow-up: review Technical Committee and Developer Community inputs into proposed activities list: foundationalexploratory, etc. - Dan Cundiff
+- Action: determination of initial prioritized activities - Dan Cundiff 
+- Action: determination of working group participants and leaders - Dan Cundiff, Jon Stine
 - Summation of decisions - Kristi Dank
-- Review of meeting processes, question-comment -- Dan Cundiff
-- Adjournment
-- 
+- Review of meeting processes, question, comments - Dan Cundiff
+
+# 2020-07-10
+- Antitrust statement and notice of recording - Jon Stine - 1 min
+- Ethical use update - Jon Stine - 5 mins
+- Google question - Jon Stine - 10 mins
+- Update on progress from working groups - Dan Cundiff + chairs of working groups
+- Feedback loop: working group ways of working improvements - Dan Cundiff
+- Request to go over the details of the Technical Masterplan - Dan Cundiff
 
 
 
