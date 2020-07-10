@@ -55,5 +55,13 @@
 - Feedback loop: working group ways of working improvements - Dan Cundiff
 - Request to go over the details of the Technical Masterplan - Dan Cundiff
 
-
+# 2020-07-24
+- Antitrust statement and notice of recording -- Jon Stine
+- Review of the agenda and expectations for the meeting 
+- First look at Tech Comm milestones 
+- Report from the Privacy-Security Work Group: decisions and next steps  -- M. Frazzini
+- Report from the Architecture Work Group: decisions and next steps -- J. Iwasz.
+- Recommended enterprise use cases as suggested by the OVN Designer-Strategist Community -- 
+- Report from the "tech provider Question" Work Group: decisions and next steps -- J. Stine.
+- Review of the proposed "North Star" aspirational statement:  -- J. Stine
 
