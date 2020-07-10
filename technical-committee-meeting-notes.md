@@ -1,3 +1,51 @@
+# 2020-07-10 Notes of the Technical Committee Meeting
+
+Attendees:  D. Cundiff (Chair, J. Larson, N. Myers, J-C. Junqua, C. Wuttke, N. Latwis, L. Lin, A. Dalloul, D. Attwater, M. Brinas-Dobrowski, M. Frazzini, P. Bentsen, V. Tai, S. Baul, M. Saul, J. Stine.  Sending regrets:  J. Maas, S. Prayaga. 
+
+The meeting was brought to order at 9:01 CDT (US).
+
+### Antitrust statement and notice of recording -- J. Stine
+
+### Update on Ethical Use Community -- J. Stine
+
+J. Stine described the purpose of OVN Communities.  Communities are advisory bodies comprised of voice practitioners and enthusiasts, responsible for advising Committees (especially the Technical Committee) on topics of interest.  Decision-making rests with Committees, not Communities.   The Ethical Use Community is now forming, and is developing a list of topics for study; high on that list is the topic of privacy.  It is expected that contributions from the Ethical Use Community discussions on privacy will be brought forward to Privacy-Security Work Group of the Technical Committee.
+
+### Request for Team Assistance in addressing question from major technology provider  -- J. Stine
+
+J. Stine reported potential sponsorship discussions with a major technology provider, and the questions raised by that provider on topics of invocation and dependable discoverability.   Discussion in re: potential OVN positions.   J. Stine requested brief call in week of 2020.07.13 to sketch options; options to be reviewed by Tech Comm in 2020.07.24 meeting.  
+
+### Report from Architecture Work Group Meeting of 2020.07.07 -- J. Larson
+
+J. Larson reported activities and results from the first Technical Committee Architecture Working Group meeting of 2020.07.07.  Working Group reviewed proposed architectures from OVN Master Plan (Cundiff/Brinas-Dobrowski) and the W3C Interactive Voice Community Group (Schnelle-Walka/Dahl).  Discussions of decision methodology, distillation-definition of components and interfaces.   Conversations to continue in next meeting (2020.07.21), and expand to include a review of the Almond architecture of the Stanford Open Voice Assistant Lab (OVAL) of Dr. Monica Lam.   John Iwasz unanimously selected to serve as Work Group Moderator.  
+
+### Report from Privacy-Security Work Group Meeting of 2020.07.07 -- M. Frazzini
+
+M. Frazzini reported activities and results from the first Technical Committee Privacy-Security Work Group.  Acknowledgement that the issues are intertwined, but that parsing will be needed to identify issues, potential areas for standards development.  Initial problem statement drafted.  Work Group Moderator not yet named.
+
+### Review of the OVN Technical MasterPlan -- M. Brinas-Dobrowski
+
+It was agreed through discussion that although it would be useful to provide a "primer" overview of the Technical MasterPlan in the meeting, a 90-to-120-minute deep dive would be required and should be scheduled as a primary agenda item for the Technical Community.  To that end, M. Brinas-Dobrowski provided a section-by-section overview of the MasterPlan in its current state, highlighting key points along the way.  Significant discussion in re: concepts and potential complexity of a DNS, and approaches to architecture.  A. Dalloul noted several options for the management of multiple end points; spoke to the challenges of an assumed "multi-home" environment, citing numerous examples (browers, mobile platforms) and extensive Microsoft research.  A. Dalloul, D. Attwater, J-C Junqua spoke to the importance of use cases against which concepts can be tested.  D. Attwater suggested that the architecture discussion may wish to step backwards, and consider data models and within that, the different entities (devices, enterprises, products, persons) to which a user may wish to connect.  Question: what is a Dispatch Registry to do?  Connect to some or all entities?  
+
+### Next-steps summation -- J. Stine
+
+Four major next steps are planned:
+* The Privacy-Security Work Group will meet again on Tuesday, 2020.07.14
+* A "tech Provider Question" Work Group will be convened by J. Stine in the week of 2020.07.13, and report its recommendations back to the Technical Committee.
+* The Architecture Work Group will meet next on Tuesday, 2020.07.21.
+* A Technical Committee session will be devoted to the Master Plan.
+
+### Recommendations for Next Meeting Agenda (2020.07.24).
+
+* Report from the Privacy-Security Work Group: decisions and next steps  -- M. Frazzini
+* Report from the Architecture Work Group: decisions and next steps -- J. Iwasz.
+* Recommended enterprise use cases as suggested by the OVN Designer-Strategist Community -- 
+* Report from the "tech provider Question" Work Group: decisions and next steps -- J. Stine.
+* Review of the proposed "North Star" aspirational statement:  -- J. Stine
+
+### Meeting adjourned at 10:17 a.m. CDT. 
+
+
+
 # 2020-06-26 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, N. Myers, M.Frazzini, J.Iwasz, P. Bentsen, S. Baul, M. Lens-Fitzgerald, J. Maas, L. Lin, K. Dank, J. Stine, A.Dalloul, J.Crabb, S.Prayaga, J. Eisenzopf, D.Attwater
