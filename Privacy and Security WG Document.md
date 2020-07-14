@@ -26,7 +26,7 @@ Per meeting of 2020.07.14, issues for consideration -- for further discussion :
 - ownership, which includes user control and sharing
 - use, which may include ownership, cointrol, and sharing
 - control 
-Per J. Stine slide:  what do we seek to achieve in addition to the privacy guidelines/regulations of NIST, GDPR, CCPA, the Vatican, etc.?  Proposed:
+What do we seek to achieve in addition to the privacy guidelines/regulations of NIST, GDPR, CCPA, the Vatican, etc.?  Proposed:
 - transparent, readily-available, consent-based opportunity for direct, unfiltered connection between entities
 - transparent, readily-available, consent-based opportunity for data sharing, including biometric and biomarker data
 - transparency of data collection and analysis process and intent
