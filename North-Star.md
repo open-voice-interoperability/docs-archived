@@ -2,6 +2,7 @@
 ##A Call to Governing Standards for Conversational AI##
 
 ##INTRODUCING THE OPEN VOICE NETWORK##
+
 Imagine the ability to communicate directly with the digital world by speaking.  To be understood by  every digital destination– be it a site, a thing, a person, or a complex software or manufacturing system --  with just your voice.
 
 Imagine conversation with those digital destinations.  Conversation akin to that with a friend.  Where it’s easy to engage, information is shared in mutual trust,  personal preferences are known, special dates are remembered and needs anticipated.
