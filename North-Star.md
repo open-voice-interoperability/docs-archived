@@ -1,25 +1,47 @@
-### Vision of the Open Voice Network: our North Star ###
+###User Choice and Trust.###
+##A Call to Governing Standards for Conversational AI##
 
-Ours is an initiative for a coming world of conversational artificial intelligence -- a world of where hundreds (if not thousands) of voice assistants provide multi-modal communication through every type of digital device, and in every vertical industry.  This is a world that promises significant value not only to conversational AI providers, but to the users of conversational AI -- the enterprises, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
-
-At present, a broad set of issues -- all centered around a lack of user trust -- clouds the future of conversational AI, and inhibits the realization of user value.  These include distrust in conversational AI's ease and reliability of use, its ability to provide direct and unfiltered access to desired destinations, its commercial and personal practices regarding data usage and privacy, its lack cross-platform interoperability, its struggle to provide unbiased and inclusive access.  
-
-To reach its potential, conversational AI must be made worthy of user trust. 
-
-Through the centuries, the development and adoption of standards has repeatedly catalyzed ever-advancing use, innovation, ecosystem development, and economic growth for new technologies.  We, the sponsors and supporters of The Open Voice Network, believe that now -- at the dawn of conversational AI's multi-assistant future -- is the time to communally develop and drive toward adoption the conversational AI standards and ethical use guidelines that will enable user trust.  
-
-Why an organization such as The Open Voice Network?  We bring a neutral perspective, as befitting a global non-profit Directed Fund of The Linux Foundation.  We approach the issues from the perspective of the current and prospective users of conversational AI.  And, we are solely focused on the future of conversational AI, and the governing standards and guidelines that will create the greatest value (broadly defined) for the most.   As such, we will work in an open and transparent manner; we will work in a communal manner, seeking ideas, comment, and criticism from a broad and diverse spectrum of users; and, we will work in collaboration with existing standards bodies where appropriate.  
-
-Our work could include the development and proposal of standards that will enable:
-- privacy-friendly invocation
-- intentional and consent-based security
-- platform-independent and dependable destination accessibility
-- platform-independent user identification and authentication
-- the interoperability of conversational AI platforms
-- intentional and consent-driven commercial and consumer privacy 
-- commands and phraseology for common business processes
-- language and dialect inclusivity
-- multi-modal input and output 
+##INTRODUCING THE OPEN VOICE NETWORK##
+Imagine the ability to communicate directly with the digital world by speaking.  To be understood by  every digital destination– be it a site, a thing, a person, or a complex software or manufacturing system --  with just your voice.
+Imagine conversation with those digital destinations.  Conversation akin to that with a friend.  Where it’s easy to engage, information is shared in mutual trust,  personal preferences are known, special dates are remembered and needs anticipated.
+This is the coming world of conversational artificial intelligence, or conversational AI.    At a basic level, it’s what can happen when natural language understanding is combined with the infinite possibilities of artificial intelligence and machine learning.   Computers will not only understand what you say, but the context in which you say it, the emotion with which say it, and the intent behind it – and be able to respond, recommend, and remember. 
+And, connect these remarkable capabilities to a digital universe of nearly two billion global websites, and nearly 30 billion connected devices.¹
+We are in the early days of the conversational AI revolution.  Today’s voice assistants offer but a glimpse of the potential value that conversational AI can bring to every industry, every profession, and society at large.
+We – the sponsoring members and supporters of the Open Voice Network – fear that this glimpse is at risk of remaining faint and unfulfilled.   Standing before the growth of conversational AI in usage and economic value are two broad issues:  
+##Choice and trust.##
+Choice is a catalyst for ecosystem competition and innovation.  It creates value for consumers, developers, and enterprises of all sizes.  
+Trust – in the protection of privacy, in data use (both personal and commercial), in accessibility and inclusivity, in ease of use  – opens the door to personal and enterprise experimentation and to accelerating and ever-more-complex adoption.
+Other nascent technologies have faced these same issues.  In many cases, they were resolved – and great value created – through the communal development, testing, and adoption of global technology standards and usage guidelines. 
+##The time to act is now.##  
+Conversational AI is now entering its next phase.  Analysts predict that today’s app-like “skills” or “actions” (resident on a few dominant proprietary platforms) will be replaced by hundreds, if not thousands, of independent voice assistants.²   
+Will that result in user choice?  Perhaps -- if components and interfaces are standardized, in ways that allow all voice assistants to easily connect with each other and the broader world.  
+Will that result in user trust?  No, not without a widely-adopted system of governance and guidelines.  Not without  standards on data use and privacy, destination accessibility and registration, common dialogues that create a known and comfortable user experience across industries.
+Now -- at the dawn of voice’s multi-assistant future -- is the time for the conversational AI community to come together to develop and adopt the standards and usage guidelines that will enable choice and trust.  
+##Introducing Open Voice Network.## 
+The Open Voice Network is a non-profit industry association, operating as a Directed Fund of the Linux Foundation, dedicated to researching and proposing the technical standards and usage guidelines that will bring the critical benefits of choice and trust to conversational AI.
+We are neutral and inclusive, welcoming to participation and sponsorship all members of the conversational AI industry – from independent developers and designers to enterprise users to technology firms and platform providers.
+We work openly, transparently, and communally, seeking ideas, comment, and criticism from a broad and diverse spectrum.   
+We work collaboratively with standards bodies and existing industry organizations.
+We operate within a governance model pf checks and balances, one that demands accountability. 
+Standards and Usage Guidelines: An Aspirational List.   
+The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines.  It reports to the Open Voice Network Steering Committee.
+These aspirational topics are under discussion: 
+Standards to enhance user interactions and capabilities
+•	Log-in procedures that are privacy-friendly, fast, and easy to use.
+•	Platform-independent discovery and invocation of voice applications and services.
+•	Platform-independent and dependable destination accessibility. 
+•	Seamless invocation of voice applications across platforms.
+•	User interfaces that are consistent across human languages, dialects, and platforms.
+•	User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices. 
+Standards that provide privacy, safety, and security. 
+•	User identification and authentication that is multifactor and platform independent.
+•	Intentional and consent-based individual and commercial privacy. 
+•	Object control language used to specify who may perform what function with which destination, and when. 
+Usage guidelines that protect privacy and enhance inclusivity. 
+•	Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
+•	Transparent, intentional, and consent-based data usage.
+_________________________
+*Essentially, including voice powered by AI alongside other input options to type or swipe and view a screen.
 
 ###
 
