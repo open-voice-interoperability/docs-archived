@@ -52,19 +52,24 @@ The Technical Advisory Council of The Open Voice Network is responsible for dete
 These aspirational topics are under discussion: 
 
 #Standards to enhance user interactions and capabilities#
-•	Log-in procedures that are privacy-friendly, fast, and easy to use.
-•	Platform-independent discovery and invocation of voice applications and services.
-•	Platform-independent and dependable destination accessibility. 
-•	Seamless invocation of voice applications across platforms.
-•	User interfaces that are consistent across human languages, dialects, and platforms.
-•	User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices. 
+
+- Log-in procedures that are privacy-friendly, fast, and easy to use.
+- Platform-independent discovery and invocation of voice applications and services.
+- Platform-independent and dependable destination accessibility. 
+- Seamless invocation of voice applications across platforms.
+- User interfaces that are consistent across human languages, dialects, and platforms.
+- User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices. 
+
 #Standards that provide privacy, safety, and security.#
-•	User identification and authentication that is multifactor and platform independent.
-•	Intentional and consent-based individual and commercial privacy. 
-•	Object control language used to specify who may perform what function with which destination, and when. 
-#Usage guidelines that protect privacy and enhance inclusivity.# 
-•	Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
-•	Transparent, intentional, and consent-based data usage.
+
+-	User identification and authentication that is multifactor and platform independent.
+-	Intentional and consent-based individual and commercial privacy. 
+- Object control language used to specify who may perform what function with which destination, and when.
+
+#Usage guidelines that protect privacy and enhance inclusivity.#
+
+- Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
+- Transparent, intentional, and consent-based data usage.
 _________________________
 *Essentially, including voice powered by AI alongside other input options to type or swipe and view a screen.
 
