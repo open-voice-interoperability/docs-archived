@@ -1,7 +1,7 @@
-###User Choice and Trust.###
-##A Call to Governing Standards for Conversational AI##
+### User Choice and Trust.###
+## A Call to Governing Standards for Conversational AI##
 
-##INTRODUCING THE OPEN VOICE NETWORK##
+## INTRODUCING THE OPEN VOICE NETWORK##
 
 Imagine the ability to communicate directly with the digital world by speaking.  To be understood by  every digital destination– be it a site, a thing, a person, or a complex software or manufacturing system --  with just your voice.
 
@@ -15,7 +15,7 @@ We are in the early days of the conversational AI revolution.  Today’s voice a
 
 We – the sponsoring members and supporters of the Open Voice Network – fear that this glimpse is at risk of remaining faint and unfulfilled.   Standing before the growth of conversational AI in usage and economic value are two broad issues: 
 
-##Choice and trust.##
+## Choice and trust.##
 
 Choice is a catalyst for ecosystem competition and innovation.  It creates value for consumers, developers, and enterprises of all sizes.  
 
@@ -23,7 +23,7 @@ Trust – in the protection of privacy, in data use (both personal and commercia
 
 Other nascent technologies have faced these same issues.  In many cases, they were resolved – and great value created – through the communal development, testing, and adoption of global technology standards and usage guidelines. 
 
-##The time to act is now.##  
+## The time to act is now.##  
 
 Conversational AI is now entering its next phase.  Analysts predict that today’s app-like “skills” or “actions” (resident on a few dominant proprietary platforms) will be replaced by hundreds, if not thousands, of independent voice assistants.²
 
@@ -33,7 +33,7 @@ Will that result in user trust?  No, not without a widely-adopted system of gove
 
 Now -- at the dawn of voice’s multi-assistant future -- is the time for the conversational AI community to come together to develop and adopt the standards and usage guidelines that will enable choice and trust.  
 
-##Introducing Open Voice Network.## 
+## Introducing Open Voice Network.## 
 
 The Open Voice Network is a non-profit industry association, operating as a Directed Fund of the Linux Foundation, dedicated to researching and proposing the technical standards and usage guidelines that will bring the critical benefits of choice and trust to conversational AI.
 
@@ -51,7 +51,7 @@ The Technical Advisory Council of The Open Voice Network is responsible for dete
 
 These aspirational topics are under discussion: 
 
-#Standards to enhance user interactions and capabilities#
+# Standards to enhance user interactions and capabilities#
 
 - Log-in procedures that are privacy-friendly, fast, and easy to use.
 - Platform-independent discovery and invocation of voice applications and services.
@@ -60,13 +60,13 @@ These aspirational topics are under discussion:
 - User interfaces that are consistent across human languages, dialects, and platforms.
 - User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices. 
 
-#Standards that provide privacy, safety, and security.#
+# Standards that provide privacy, safety, and security.#
 
 -	User identification and authentication that is multifactor and platform independent.
 -	Intentional and consent-based individual and commercial privacy. 
 - Object control language used to specify who may perform what function with which destination, and when.
 
-#Usage guidelines that protect privacy and enhance inclusivity.#
+# Usage guidelines that protect privacy and enhance inclusivity.#
 
 - Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
 - Transparent, intentional, and consent-based data usage.
