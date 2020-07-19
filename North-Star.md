@@ -1,5 +1,5 @@
 ## User Choice and Trust.
-### A Call to Governing Standards for Conversational AI##
+### A Call to Governing Standards for Conversational AI
 
 ### INTRODUCING THE OPEN VOICE NETWORK
 
