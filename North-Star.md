@@ -45,33 +45,33 @@ We work collaboratively with standards bodies and existing industry organization
 
 We operate within a governance model pf checks and balances, one that demands accountability.
 
-##Standards and Usage Guidelines: An Aspirational List.##
+### Standards and Usage Guidelines: An Aspirational List.
 
 The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines.  It reports to the Open Voice Network Steering Committee.
 
-These aspirational topics are under discussion: 
+At the core of the OVN’s technical standards will be a reference architecture – the components and interfaces that will enable the next generation of voice applications.   For each component, we plan to produce specifications (how it works), reference implementations (open-source reusable code), and test harnesses (to validate alternative implementations.)   Vendors and developers may reuse and modify reference components and use test harnesses to validate alternative components as they create new voice applications and development tools.
 
-### Standards to enhance user interactions and capabilities
+These are some of the important components we intend to review:  
 
-- Log-in procedures that are privacy-friendly, fast, and easy to use.
-- Platform-independent discovery and invocation of voice applications and services.
-- Platform-independent and dependable destination accessibility. 
-- Seamless invocation of voice applications across platforms.
-- User interfaces that are consistent across human languages, dialects, and platforms.
-- User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices. 
+### Components to enhance user interactions and capabilities
+-	Log-in procedures that are privacy-friendly, fast, and easy to use.
+-	Platform-independent discovery and invocation of voice applications and services.
+-	Platform-independent and dependable destination accessibility. 
+-	Seamless invocation of voice applications across platforms.
+-	User interfaces that are consistent across human languages, dialects, and platforms.
+-	User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices. 
+### Components that provide privacy, safety, and security. 
+- User identification and authentication that is multifactor and platform independent.
+- Intentional and consent-based individual and commercial privacy. 
+- 	Object control language used to specify who may perform what function with which destination, and when. 
 
-### Standards that provide privacy, safety, and security.
-
--	User identification and authentication that is multifactor and platform independent.
--	Intentional and consent-based individual and commercial privacy. 
-- Object control language used to specify who may perform what function with which destination, and when.
-
-### Usage guidelines that protect privacy and enhance inclusivity.
-
-- Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
-- Transparent, intentional, and consent-based data usage.
+### We also intend to develop usage guidelines that protect privacy and enhance inclusivity.  These are expected to include guidelines for 
+-	Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
+- 	Transparent, intentional, and consent-based data usage.
 _________________________
 *Essentially, including voice powered by AI alongside other input options to type or swipe and view a screen.
+¹ Internetlivestats.com, 2020: 1.73 billion global websites as of Q4 2019; IDC, 2019: more than 26 billion connected devices worldwide as of year-end 2019.  
+² Bret Kinsella, voicebot.ai, presentation at Voice Global Summit, June 2020. 
+These aspirational topics are under discussion: 
 
-###
 
