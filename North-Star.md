@@ -72,6 +72,6 @@ _________________________
 *Essentially, including voice powered by AI alongside other input options to type or swipe and view a screen.
 ¹ Internetlivestats.com, 2020: 1.73 billion global websites as of Q4 2019; IDC, 2019: more than 26 billion connected devices worldwide as of year-end 2019.  
 ² Bret Kinsella, voicebot.ai, presentation at Voice Global Summit, June 2020. 
-These aspirational topics are under discussion: 
+
 
 
