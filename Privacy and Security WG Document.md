@@ -21,6 +21,22 @@ WRT Privacy and Security, what makes voice different?
 - Commercial vs. Private viewpoints
 - Data ownership and data sharing
 ### Aspirational Requirements: Privacy
+Per meeting of 2020.07.21
+A construct based upon high-level data definitions: 
+- Level 0 - passive stage (always listening) Transparency and consent of listening in "non-active" state 
+- Level  1 - basic (wake word/invocation?)
+- Level 2 - contextual (location, language, identifies user, background noise) PII
+- Level 3 - personalization (my preferences, history) PII
+- Level 4 - application -- invoking a third party (Macy's) ISSUE: 3rd party processing data / hosting entity  (begin to tackle ownership and use rights) 
+- Level 5 - in the application (commercial data - payment, account, transaction)(ownership and use rights)
+- Level 6 - emotional/sentiment 
+Evaluated in a matrix with key variables of transparency, consent, ownership, use, (and trust, and the data itself)  across each stage 
+- PII, biomarkers exist in all stages
+* question from J. Larson: regarding the transactional reality of data; when/not confirmed?
+* question from M. Frazzini: what of transparency as a key variable?  I must know what is being collected in order to give consent. A precursor of consent.
+* comment from S. Prayaga: importance of trust -- in partners, in processes
+* J. Larson: add "conditions" for moving between stages to the description of each stage
+
 Per meeting of 2020.07.14, issues for consideration -- for further discussion :
 - consent, which includes the issue of awareness
 - ownership, which includes user control and sharing
