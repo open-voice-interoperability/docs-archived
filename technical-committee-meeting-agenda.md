@@ -56,12 +56,14 @@
 - Request to go over the details of the Technical Masterplan - Dan Cundiff
 
 # 2020-07-24
-- Antitrust statement and notice of recording -- Jon Stine
-- Review of the agenda and expectations for the meeting 
-- First look at Tech Comm milestones 
-- Report from the Privacy-Security Work Group: decisions and next steps  -- M. Frazzini
-- Report from the Architecture Work Group: decisions and next steps -- J. Iwasz.
-- Recommended enterprise use cases as suggested by the OVN Designer-Strategist Community -- 
-- Report from the "tech provider Question" Work Group: decisions and next steps -- J. Stine.
-- Review of the proposed "North Star" aspirational statement:  -- J. Stine
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda and expectations for the meeting (1 minute) -- D. Cundiff 
+- Open Voice Network: update from Steering Committee (2 minutes) -- J. Stine
+- First look at Tech Comm milestones; a working draft (3 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group: decisions and next steps (15 minutes)  -- M. Frazzini
+- Report from the Architecture Work Group: decisions and next steps (10 minutes) -- J. Iwasz
+- Update from Architecture Work Group: a review of this past Tuesday's discussion (40 minutes) -- D. Cundiff, D. Attwater, J. Eisenzopf, J. Larson, et. al.
+- Update: Designer-Strategist Community -- enterprise use cases (5 minutes) - J. Stine
+- Request: review of the proposed "North Star" aspirational statement, now on GitHub (5 minutes):  -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
 
