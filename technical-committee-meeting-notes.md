@@ -1,3 +1,103 @@
+# 2020-07-24 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, J.Iwasz, P. Bentsen, S. Baul, L. Lin, K. Dank, J. Stine, A.Dalloul, J.Crabb, S.Prayaga, M. Buck, M.Saul, M. Brinas-Dobrowski, J-C. Junqua
+
+The meeting was brought to order at 9:02 CDT (US).
+
+### Antitrust statement and notice of recording – Jon Stine 
+
+### Review of agenda and expectations for the meeting – Dan Cundiff
+
+### Open Voice Network: Update from Steering Committee – Jon Stine 
+* Revising the branding of OVN
+* Held last Steering Committee on July 13, 2020 
+* Jon shared slide on OVN Journey
+* New member Development includes:  Confirmed sponsors Target, Schwarz, Microsoft, Wegmans and in discussion with 8 tier 1 enterprises and in discussion with 2 major tech firms 
+* Anticipate public launch in September when we have 5 leading sponsors.   
+
+### Review of Milestones and work plans 
+* Draft document that can be used to guide our planning and milestones 
+* Reflects how we move from workgroups to development and potentially to official projects under The Linux Foundation 
+* 3 main streams –Foundational (ex. architecture and privacy), Process/Systems (ex. VRS), User Experience (ex. common commands)  
+* Discussion 
+  * We should put some definition around each of the 3 main streams  
+* This document will be on the G-suite in the Tech Comm folder 
+
+### Report from the Privacy-Security Work Group: decisions and next steps - M. Frazzini
+*  The team met last Tuesday and is meeting weekly working towards deliverable goal of early August 
+*  Have prioritized privacy ahead of security and their goal to provide awareness and guidance with respect to the unique issues related to voice
+* Developing a matrix framework –of 6 levels tied to the life cycle of a voice transaction 
+  1. Passive listening 
+  2. Basic - wake word invocation 
+  3. Personalization
+  4. Application or invoking a 3rd party 
+  5. Within the application –selection, authentication, transaction, payment  
+  6. Emotion and Sentiment 
+* Discussion 
+  *  NLP big players (AMZ, apple) –will this cover what they will keep or what would that look like?  
+  *  We should align on terminology around things like 3rd party, commercial, etc. so it flows through technical master plan to each workgroup 
+  **ACTION**  Privacy and Security group will take first pass at definitions and bring back 
+  * Need to understand AI data needs 
+  * What is the unintended consequence or harm –need to understand what we are trying to avoid (Harms Framework)
+  * Knowing that the broader adoption may not happen, we will need to be practical and balance truly required work and the absolute north star  
+
+### Report from the Architecture Work Group: decisions and next steps - J. Iwasz
+* Intent is to define a discreet set of components that define a working assistant (ex. NLP, TTS/STT) and how they interact with each other 
+* By mid-September, will be bringing in speakers from W3C and Almond to leverage their work as much as possible  
+
+### Update from Architecture Work Group: a review of this past Tuesday's discussion - D. Cundiff, D. Attwater, J. Eisenzopf, J. Larson, et. al.
+* The group met but was smaller and reviewed the Master Plan in detail 
+* Major updates from the meeting: 
+  * Principle:  Can be applied as low as local host, a private network or as big as globally provided
+  * Discussed integrations and standards for those integrations –and they can follow the principles outlined in the document 
+  * Discussed the Component Flow diagram  
+    * the channel receives the utterance and responds back
+    * TTS/STT –translates utterance to text
+    * NLP – identifies the query’s VRS lookup entity and pass it to VRS
+    * VRS – resolves the VRS lookup entity.  It returns the configuration records NLP
+    * Dialog Broker – returns the fulfillable intents
+    * Dialog Manager – returns the proper response to the identified intents
+  * Discussion today: 
+    * would be helpful if there were a list of general principles being followed
+    * we will not live in a voice only world so need to think about having both physical and verbal 
+     **ACTION** Dan will open up issues for these so the Arch Working group can complete 
+    * Jim Larson feels that the group should meet again to review in more detail.   Others requested time from Dan Cundiff to review in more detail as well 
+    * We need identify the use cases that we need to solve and ground the vision in the use cases (the Designer and Strategist community is focusing on use cases by vertical)
+    * The fulfillment logic may need to be explored more deeply and expanded to another level and be added to the document 
+    *  how does this architecture support multiple devices (speakers, microphones)? 
+    * This work requires a coalition of many people with many agendas so important to be grounded in what can and cannot be done.  So the path forward needs to be practical  
+    * Privacy concerns – keeping customer data accessible only to parties that need it ( and should not flow through a commercial channel provider).  This brings a concern that the NLP processing may be found as a privacy exposure point.  We will need to think about how to guarantee that only the responsible parties get the data
+    * Did we distinguish between Voice Registry and Voice Name System –We’ve landed on Voice Registry System and will encompass both the registry and naming system
+    * Use case suggestions:  Airline reservation use case (Jim Larson),  automobile voice use case (Shyamala ) and healthcare scenario (Peter B)
+     **ACTION**  Jim Larson, Shyamala and Peter B will write the uses cases in the next 2 weeks following the W3C example 
+ * [Link to the The Master Plan document]( https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md)  
+   
+### Update: Designer-Strategist Community -- enterprise use cases - J. Stine
+ * was discussed within the above agenda items 
+
+### Request: review of the proposed "North Star" aspirational statement, now on GitHub: -- J. Stine
+ * Jon reviewed the draft North Star document that outlines OVN goals and how we will accomplish and is meant for technical and non-technical audiences.   5 minute read to share out information on OVN in a quick, high-level and effective way
+ * ask for members to review and provide feedback
+* [Link to North Star document]( https://github.com/open-voice-network/docs/blob/master/North-Star.md)
+   
+###  Feedback on todays meeting: 
+* good discussion 
+   
+   
+   
+   
+   
+   
+
+
+
+
+
+
+
+
+
+
 # 2020-07-10 Notes of the Technical Committee Meeting
 
 Attendees:  D. Cundiff (Chair, J. Larson, N. Myers, J-C. Junqua, C. Wuttke, N. Latwis, L. Lin, A. Dalloul, D. Attwater, M. Brinas-Dobrowski, M. Frazzini, P. Bentsen, V. Tai, S. Baul, M. Saul, J. Stine.  Sending regrets:  J. Maas, S. Prayaga. 
