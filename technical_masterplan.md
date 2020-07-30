@@ -356,9 +356,10 @@ Part of the principles of OVN is privacy. Below are the guidelines to focus on:
 - Always communicate to the end-user the data being collected and informed the purpose of the collection of data.
 
 # Security
-
+Add
 
 # Context
+
 
 ## Addendums
 
