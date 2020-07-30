@@ -118,6 +118,10 @@ This general vocabulary section aims to define general words used when talking a
 - **Automatic Speech Recognition** - is also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
 - **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response.
 - **Voice Application** - also known as skill, action, capsule or domain. This is the specific executable component that has association to multiple things such as invocation, collection of related intents and entities up to the configuration to your dialog manager.
+- **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
+- **Component interoperability** - A component of a platform may be replaced by another component from a different vendor.  I.e., replace the TTS by another TTS from a different vendor.
+- **Voice Application Interoperability” – a voice application involves another voice application
+
 
 ### Component Vocabulary
 
