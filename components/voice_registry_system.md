@@ -11,6 +11,7 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 - **Conversational Platform** - the system or services that handle the two-way interaction with the user and the business.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right business. 
 - **User** - a person who interacts with channels.  
 - **Business** - a commercial entity, services, or company.
+- **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
 
 
 ### Problem Context
