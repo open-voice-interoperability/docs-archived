@@ -67,3 +67,11 @@
 - Request: review of the proposed "North Star" aspirational statement, now on GitHub (5 minutes):  -- J. Stine
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
+# 2020-08-07
+- Antitrust statement and notice of recording (1 minutes) -- J. Stine
+- Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update: challenges, updates -- (5 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group:  discussions, direction, next steps (20 minutes) -- M. Frazzini
+- Report from the Architecture Work Group:  discussions, directions, next steps (20 minutes) -- J. Iwasz
+- Update: "North Star" aspirational statement -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
