@@ -23,14 +23,16 @@ This is a problem for the business and users. Users and businesses will not have
 ![](component_assets/vrs_problem_statement.png?raw=true "Fig. 1 - VRS Problem Statement")
 
 
-### Proposed Solution
- 
+### Architecture Options
+The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and businesses. 
 
 
+Like any other problem, there are multiple ways to get to the ideal solution. The purpose of this is to look at options and ratify with the committee the best path forward.
 
 
- ## Architecture Options
+## Option 1
 
 
+## Option 2
 
 
