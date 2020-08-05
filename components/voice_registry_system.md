@@ -22,17 +22,29 @@ This is a problem for the business and users. Users and businesses will not have
 
 ![](component_assets/vrs_problem_statement.png?raw=true "Fig. 1 - VRS Problem Statement")
 
+In the diagram above, the use-case scenario is Patrick's Dessert Kingdom is a business that needs to be multiple conversational platforms such as Amazon, Google, etc. The company is most popularly known for its name as "Patrick's Dessert Kingdom."  The business wants the explicit command for their customer to what they are known for.  Fortunately, it is approved and available in Amazon and Microsoft but not on other conversational platforms.
 
-### Architecture Options
+### Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and businesses. 
 
+The primary role and responsibility of the VRS are to resolve the explicit invocation received by the conversational platforms. The resolution will include taking into account the location of the origin of the place of the utterance. The VRS will store the business's preferred configuration that can be applied to all various conversation platforms.
 
+### Architecture Options
 Like any other problem, there are multiple ways to get to the ideal solution. The purpose of this is to look at options and ratify with the committee the best path forward.
 
 
 ## Option 1
 
+![](component_assets/vrs_proposed_solution_1.png?raw=true "Fig. 2 - VRS Proposed Solution 1")
+
 
 ## Option 2
 
+![](component_assets/vrs_proposed_solution_2.png?raw=true "Fig. 2 - VRS Proposed Solution 2")
 
+
+## Pros and Cons
+| Options     | Pros        | Cons   |
+| :---        | :---        | :---   |
+| Option 1    | - VRS does not have to implement NLU capability - VRS has single responsibility of registry only | - Identifying vrs type is implemented in the proprietary conversational platform, which can cause inconsistency. | 
+| Option 2    | - Identifying vrs type is implemented in one area and consistent across the different conversational platform.         | - VRS has to implement NLU capability. |
