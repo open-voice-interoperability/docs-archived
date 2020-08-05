@@ -33,18 +33,18 @@ The primary role and responsibility of the VRS are to resolve the explicit invoc
 Like any other problem, there are multiple ways to get to the ideal solution. The purpose of this is to look at options and ratify with the committee the best path forward.
 
 
-## Option 1
+#### Option 1
 
 ![](component_assets/vrs_proposed_solution_1.png?raw=true "Fig. 2 - VRS Proposed Solution 1")
 
 
-## Option 2
+#### Option 2
 
 ![](component_assets/vrs_proposed_solution_2.png?raw=true "Fig. 2 - VRS Proposed Solution 2")
 
 
-## Pros and Cons
-| Options     | Pros        | Cons   |
-| :---        | :---        | :---   |
-| Option 1    | - VRS does not have to implement NLU capability - VRS has single responsibility of registry only | - Identifying vrs type is implemented in the proprietary conversational platform, which can cause inconsistency. | 
-| Option 2    | - Identifying vrs type is implemented in one area and consistent across the different conversational platform.         | - VRS has to implement NLU capability. |
+#### Pros and Cons
+| Options  | Pros                                                                                                           | Cons                                                                                                             |
+|----------|----------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|
+| Option 1 | - VRS does not have to implement NLU capability.                                                               | - Identifying vrs type is implemented in the proprietary conversational platform, which can cause inconsistency. |
+| Option 2 | - Identifying vrs type is implemented in one area and consistent across the different conversational platform. | - VRS has to implement NLU capability.                                                                           |
