@@ -10,7 +10,7 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 - **Channel** - an interface and origin of communication. It is where the utterances are received. Examples: voice assistance devices, mobile phones, web sites, etc.
 - **Conversational Platform** - the system or services that handle the two-way interaction with the user and the entity.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right entity. 
 - **User** - a person who interacts with channels.  
-- **Entity** -  government or private company that provides certain businesses or services.
+- **Entity** -  government or private/public company that provides certain businesses or services.
 - **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
 
 
