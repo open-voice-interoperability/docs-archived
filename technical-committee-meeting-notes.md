@@ -1,3 +1,31 @@
+# 2020-08-07 Notes of the Technical Committee Meeting
+
+Attendees:  D. Cundiff (chair), J. Larson, M. Frazzini, J.C. Junqua, M. Brinas-Dobrowski, J. Eisenzopf, N. Latwis, P. Bentsen, N. Myers, S. Baul, J. Crabb, J. Iwasz, J. Maas, M. Buck, M. Saul.
+
+The meeting was brought to order at 9:01 CDT (US).
+
+### Antitrust statement and notice of recording – Jon Stine 
+
+### Review of agenda and expectations for the meeting – Dan Cundiff
+
+### Open Voice Network: Organizational Update – Jon Stine 
+* imminent sponsorship decisions by two major technology firms; significant interest in sponsorship exhibited by Tier 1 retailer
+* presentation of OVN "Communities."  Composed of voice practitioners; moderated by Community members; tasked with advising standing committees, igniting new ideas and forwarding them to standing committees, helping staff and drive work and project groups.  Overall, enables the OVN to "hear" the needs-interests-opinions of the voice practioner community.
+
+### Report, update from the Privacy & Security Work Group of the Technical Committee -- Mike Frazzini
+* M. Frazzini provided update on the work, decisions to date of the Privacy and Security Work Group.   Noted the Work Group's decision to focus first on privacy, adopt a five-level framework (passive listening -> wake word/invocation -> application -> personalization -> emotion/sentiment, and to focus on four operational facets of privacy:  data ownership, data use, transparency, and consent.  
+* M. Frazzini presented examples of the work to date (content compiled on a common slide deck in the Google Share Drive), noted further work to be done.
+* Discussion:  request from M. Brinas-Dobrowski for the Work Group to ensure language/nomenclature be aligned with that in the Master Plan; question-discussion regarding the anticipated recommendations from the OVN -- might some of these recommendations be mandatory?  Might some be mere recommendations?  J. Stine noted that there will be elements that that must be observed, as they are specified by such regulation as GDPR; there will be other elements which may reflect that which the OVN may wish to promote on behalf of all users, such as private data ownership or commercial data privacy.  
+* Work Group meeting weekly; will report again to the Technical Committee. 
+
+### Proposal, review of initial concepts:  Voice Registry System (VRS) -- Jim Larson, Maria Brinas-Dobrowski
+* J. Larson spoke to the recent discussions within the OVN Developer Community regarding the value of, and potential capabilities of, a Voice Registry System -- referred to as a "DNS for Voice" in prior OVN conversations.  J. Larson proposed on behalf of the Developer Community that a VRS Work Group be formed, and tasked with initiating the process of defining the current problem and the capabilities of an aspirational future state. 
+* M. Brinas-Dobrowski shared an initial overview of the VRS problem statement and potential solution archtecture, now available for review in the OVN docs repository on GitHub.
+* Discussion of the overview and steps to move a VRS Work Group forward.  Recommended actions:  1) Work Group (and Technical Committee member) documentation of a) the problems to solve, and b) scenarios-stories that describe the use (and value) of a VRS.  This to be brought to a new VRS Slack channel.   2) the reading and review of the M. Brinas-Dobrowski VRS overview now in the Masterplan, and found here: https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md.  3) The recruitment of members and leadership for the VRS Work Group, and the scheduling of the first VRS Work Group meeting.  
+
+
+
+
 # 2020-07-24 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, J.Iwasz, P. Bentsen, S. Baul, L. Lin, K. Dank, J. Stine, A.Dalloul, J.Crabb, S.Prayaga, M. Buck, M.Saul, M. Brinas-Dobrowski, J-C. Junqua
