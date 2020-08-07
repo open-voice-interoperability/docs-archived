@@ -76,3 +76,13 @@
 - Proposal and Discussion:  launch of a Voice Registry System Work Group (10 minutes) -- J. Larson, M. Brinas-Dobrowski
 - Update: "North Star" aspirational statement -- J. Stine
 - Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-08-21
+- Antitrust statement and notice of recording (1 minutes) -- J. Stine
+- Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update: membership update, milestones -- (10 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group:  discussions, direction, next steps (20 minutes) -- M. Frazzini
+- Report from the Architecture Work Group:  discussions, directions, next steps (20 minutes) -- J. Iwasz
+- Proposal and Discussion:  discussions, directions, next steps -- J. Larson, M. Brinas-Dobrowski
+- Update: "North Star" aspirational statement -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
