@@ -23,8 +23,10 @@ The meeting was brought to order at 9:01 CDT (US).
 * M. Brinas-Dobrowski shared an initial overview of the VRS problem statement and potential solution archtecture, now available for review in the OVN docs repository on GitHub.
 * Discussion of the overview and steps to move a VRS Work Group forward.  Recommended actions:  1) Work Group (and Technical Committee member) documentation of a) the problems to solve, and b) scenarios-stories that describe the use (and value) of a VRS.  This to be brought to a new VRS Slack channel.   2) the reading and review of the M. Brinas-Dobrowski VRS overview now in the Masterplan, and found here: https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md.  3) The recruitment of members and leadership for the VRS Work Group, and the scheduling of the first VRS Work Group meeting.  
 
+### Report, Update from the Architecture Work Group of the Technical Committee -- John Iwasz and Jim Larson.  
+* J. Larson, J. Iwasz reviewed for the Committee their proposal for a "component" approach to the question of an OVN reference architecture.  Noted the value of a "Lego block" concept.  Proposed to the group an operative definition of "components" and "harnesses" -- the latter a collection of existing components that can be used to 1) demonstrate new components, 2) test and evaluate new components, and 3) prototype new voice applications.  J. Iwasz noted that the Work Group will be reviewing proposed architectures from D. Attwater and J. Eisenzopf (next meeting), the W3C Voice Interaction Community (D. Schnelle-Walka and D. Dahl), Stanford Almond (M. Lam), and CMU RavenClaw.  
 
-
+### Meeting Adjourned 10:27 a.m. CDT (US)
 
 # 2020-07-24 Notes of the Technical Committee Meeting 
 
