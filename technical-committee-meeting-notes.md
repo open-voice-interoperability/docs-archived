@@ -26,7 +26,9 @@ The meeting was brought to order at 9:01 CDT (US).
 ### Report, Update from the Architecture Work Group of the Technical Committee -- John Iwasz and Jim Larson.  
 * J. Larson, J. Iwasz reviewed for the Committee their proposal for a "component" approach to the question of an OVN reference architecture.  Noted the value of a "Lego block" concept.  Proposed to the group an operative definition of "components" and "harnesses" -- the latter a collection of existing components that can be used to 1) demonstrate new components, 2) test and evaluate new components, and 3) prototype new voice applications.  J. Iwasz noted that the Work Group will be reviewing proposed architectures from D. Attwater and J. Eisenzopf (next meeting), the W3C Voice Interaction Community (D. Schnelle-Walka and D. Dahl), Stanford Almond (M. Lam), and CMU RavenClaw.  
 
-### Meeting Adjourned 10:27 a.m. CDT (US)
+Meeting Adjourned 10:27 a.m. CDT (US)
+
+
 
 # 2020-07-24 Notes of the Technical Committee Meeting 
 
