@@ -12,21 +12,26 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 - **User** - a person who interacts with channels.  
 - **Entity** -  government or private/public company that provides certain businesses or services.
 - **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
-
+- **Implicit Invocation** - an invocation type where the user invokes the channel, and use the most common words or indirectly saying the explicit Invocation. 
+- **Query** - user’s word requesting for specific function and expecting a particular response.
 
 ### Problem Context
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Whenever an "explicit invocation" is invoked by the user, each proprietary platforms have different standards (i.e., brand vocabulary, etc) and processes on how they are triggered or verified. 
 
-This is a problem for the entity and user. Users and entities will not have consistent experiences in dealing with the various conversational platform. Entities are at the commiseration of every single conversational platform on how they're transactions are getting triggered on the conversational space.  
-
+Entities are at the commiseration of every single conversational platform on how they're transactions are getting triggered on the conversational space.  
 
 Per the OVN principles, the current situation today does not align with the policy we outlined:
 - Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
 
+Below are the diagrams to present the problems with the current landscape of conversational platforms today.
 
-![](component_assets/vrs_problem_statement.png?raw=true "Fig. 1 - VRS Problem Statement")
+![](component_assets/vrs_problem_statement1.png?raw=true "Fig. 1 - VRS Problem Statement 1")
 
-In the diagram above, the use-case scenario is Patrick's Dessert Kingdom is an entity that needs to be in multiple conversational platforms such as Amazon, Google, etc. The company is most popularly known for its name as "Patrick's Dessert Kingdom."  The entity wants the explicit command for their customer to what they are known for.  Fortunately, it is approved and available in Amazon and Microsoft but not on other conversational platforms.
+In the above use-case scenario is Patrick's Dessert Kingdom is an entity that needs to be in multiple conversational platforms such as Amazon, Google, etc. The company is most popularly known for its name as "Patrick's Dessert Kingdom."  The entity wants the explicit command for their customer to what they are known for.  Fortunately, it is approved and available in Amazon and Microsoft but not on other conversational platforms. This is a problem for the entity and user. Users and entities will not have consistent experiences in dealing with the various conversational platform.
+
+![](component_assets/vrs_problem_statement2.png?raw=true "Fig. 2 - VRS Problem Statement 2")
+The second illustration shows a scenario where there are similar entities but on a different location. Today, each conversational platform handles this scenario differently and without transparency.
+
 
 ### Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
@@ -38,6 +43,7 @@ To promote the OVN principle, VRS will support to run locally and globally at sc
 The expected input for VRS is the following:
 - VRS type lookup
 - location
+- query
 
 The expected output for VRS is the following:
 - VRS type registered
@@ -62,6 +68,6 @@ Like any other problem, there are multiple ways to get to the ideal solution. Th
 #### Pros and Cons
 | Options  | Pros                                                                                                                                                                                                                                                                               | Cons                                                                                                                                                                                                           |
 |----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Option 1 | - VRS does not have to implement NLU capability.<br>- Less integration point for VRS.                                                                                                                                                                                              | - Identifying VRS type is implemented in the proprietary conversational platform, which can possibly cause inconsistency.                                                                                      |
-| Option 2 | - NLU will identify if the command is explicit, before passing to VRS.<br>- Identifying the VRS type is implemented in one area and consistent across the different conversational platform.<br>- Less integration for VRS.<br>- No additional integration for TTS/STT, less hop.  | - VRS has to implement NLU capability such as identify VRS type.                                                                                                                                               |
+| Option 1 <br> Conversational platforms handle VRS type identification | - VRS does not have to implement NLU capability.<br>- Less integration point for VRS.                                                                                                                                                                                              | - Identifying VRS type is implemented in the proprietary conversational platform, which can possibly cause inconsistency.                                                                                      |
+| Option 2 <br> VRS handles VRS type identification | - NLU will identify if the command is explicit, before passing to VRS.<br>- Identifying the VRS type is implemented in one area and consistent across the different conversational platform.<br>- Less integration for VRS.<br>- No additional integration for TTS/STT, less hop.  | - VRS has to implement NLU capability such as identify VRS type.                                                                                                                                               |
 | Option 3 | - Identifying vrs type is implemented in one area and consistent across the different conversational platform.                                                                                                                                                                     | - VRS has to implement NLU capability, such as identification of invocation as explicit and identify VRS type.<br>- Increase the integration point for VRS.<br>- Additional integration for TTS/STT component. |
