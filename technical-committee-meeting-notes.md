@@ -1,3 +1,61 @@
+# 2020-08-21 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, P. Bentsen, S. Baul, L. Lin, K. Dank, J. Stine, A.Dalloul, S.Prayaga,  M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Meyers. O.Coleman, D.Attwater
+
+The meeting was brought to order at 9:01 CT (US).
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – D. Cundiff
+* Guest in today’s meeting – Oita Coleman of SAS Institute 
+
+### OVN Update:  membership update, milestones – J. Stine 
+* Sponsorship discussions are increasing and encouraging.   Anticipate decisions Sept/Oct
+* New branding accelerating outreach- revised website, virtual ambassador, participation with Vixen Labs, WPP white paper on voice & brands, daily Twitter presence @openvoicenet
+* Ethical Use Community – Privacy & Security, Accessibility & Inclusivity 
+
+### Report from the Privacy-Security Work Group:  discussions, direction, next steps – M.Frazzini
+* The group continues to make good progress & meets weekly 
+* Completed the framework focusing on interactions, core concepts, harms and interventions 
+* Created a North Star slide-posted on slack 
+* Goal of the North Star is to identify what is unique to voice and provide guidance on addressing issues for both privacy and security 
+* A.Dalloul shared that he will review and share within MS to get additional input.   Added that federated data and tracking of that data and user control is a key problem that should be addressed
+* J.Larson requested that  the North Star document be shared at the Developer Experience Group
+
+  **ACTION** Ask for all to review the Privacy & Security North Star document and provide feedback
+
+### Report from the Architecture Work Group:  discussions, direction, next steps – J.Iwasz
+* J.Iwasz unable to attend, D.Attwater covered 
+* Have been focusing on definitions of components in a dialog systems 
+* Discussed fresh ways to look at the problems-think about the different layers of messages in dialog system 
+* This opens up the possibility of adding a new stream like gestures, emotions, etc.
+*  Want to see if we can think about architecting something that will enable adding additional components /streams -Frame the architecture in layers that are time cross referenced 
+* The team will need a follow up session to discuss further –likely at the next Architecture Working Group meeting and ensure that A.Dalloul will be included 
+
+### VRS Proposal and Discussion:  discussions, direction, next steps – J.Larson, M.Brinas-Dobrowski
+*  First VRS working group meeting occurred 8/20/2020 with 9-10 in attendance and plan to meet every 2 weeks 
+*  The team has not yet elected a leader of the working group –will do in a future meeting
+*  Focusing on the problem context of the current architecture 
+*  Discussed scenarios that will be added to git as issues for VRS to resolve 
+*  Will then focus on the what, then shift into Architecture 
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+### Update:  “North Star” aspirational statement – J.Stine
+* J.Stine shared the Operational Pillars of the OVN slide and the “North Star” of the OVN slide.  Both were reviewed by the OVN Steering Committee
+  *North Star –Guiding Values of Trust, Choice, Accessibility and Openness
+* Team provided feedback and commentary on the content.  Discussion included components such as adding Multi-modal and the group was discussed and aligned to focus on the core voice/speech scope to enable progress but should architect in a way that doesn’t preclude additional layers in the future
+* Suggested and aligned that we should have a crisp, confined problem statement that will lead to marked progress in year 1 
+*  We should document what we do NOT want to focus on  
+  **ACTION** J.Stine will create a slide that documents the scope.  Will bring back to Tech Comm in next meeting and likely in Steering Committee following 
+
+### Other topics:
+*  Consistency in vocabulary used in OVN documents –Need more consistency here
+*  Mozilla had some layoffs including Common Voice initiative so they may be available.  Jon is connecting with some of these resources
+
+
+
+
+
 # 2020-08-07 Notes of the Technical Committee Meeting
 
 Attendees:  D. Cundiff (chair), J. Larson, M. Frazzini, J.C. Junqua, M. Brinas-Dobrowski, J. Eisenzopf, N. Latwis, P. Bentsen, N. Myers, S. Baul, J. Crabb, J. Iwasz, J. Maas, M. Buck, M. Saul.
