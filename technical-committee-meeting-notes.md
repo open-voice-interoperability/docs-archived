@@ -7,7 +7,7 @@ The meeting was brought to order at 9:01 CT (US).
 ### Antitrust statement and notice of recording – J. Stine 
 
 ### Review of agenda and expectations for the meeting – D. Cundiff
-* Guest in today’s meeting – Oita Coleman of SAS Institute 
+* Guest in today’s meeting – Oita Coleman, formerly R&D VP, Software Quality Division, SAS Institute 
 
 ### OVN Update:  membership update, milestones – J. Stine 
 * Sponsorship discussions are increasing and encouraging.   Anticipate decisions Sept/Oct
@@ -52,7 +52,7 @@ The meeting was brought to order at 9:01 CT (US).
 *  Consistency in vocabulary used in OVN documents –Need more consistency here
 *  Mozilla had some layoffs including Common Voice initiative so they may be available.  Jon is connecting with some of these resources
 
-
+Meeting adjourned at 10:27 a.m. CDT. 
 
 
 
