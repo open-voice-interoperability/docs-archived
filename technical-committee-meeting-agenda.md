@@ -91,7 +91,7 @@
 - Antitrust statement and notice of recording (1 minutes) -- J. Stine
 - Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Update: membership update, milestones -- (5 minutes) -- J. Stine
-- OVN North Star / Scope: proposed summary statement.  A follow-up from the 2020.08.21 conversation -- (20 minutes) -- J. Stine, et.al
+- OVN North Star / Scope: proposed summary statement.  A follow-up from the 2020.08.21 conversation -- (15 minutes) -- J. Stine, et.al
 - Report from the Privacy-Security Work Group:  discussions, direction, next steps (15 minutes) -- M. Frazzini
 - Report from the Architecture Work Group:  discussions, directions, next steps (15 minutes) -- J. Iwasz
 - Report from the VRS Work Group: discussions, directions, next steps (15 minutes)-- M. Brinas-Dobrowski
