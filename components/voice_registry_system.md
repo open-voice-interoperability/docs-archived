@@ -9,6 +9,7 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 ### Terminology Alignment
 - **Channel** - an interface and origin of communication. It is where the utterances are received. Examples: voice assistance devices, mobile phones, web sites, etc.
 - **Conversational Platform** - the system or services that handle the two-way interaction with the user and the entity.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right entity. 
+- **Voice Application** - also known as skill, action, capsule or domain.
 - **User** - a person who interacts with channels.  
 - **Entity** -  government or private/public company that provides certain businesses or services.
 - **Technical Resource** -  it can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
