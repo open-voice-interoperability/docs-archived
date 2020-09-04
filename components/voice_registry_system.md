@@ -11,6 +11,7 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 - **Conversational Platform** - the system or services that handle the two-way interaction with the user and the entity.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right entity. 
 - **User** - a person who interacts with channels.  
 - **Entity** -  government or private/public company that provides certain businesses or services.
+- **Technical Resource** -  it can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
 - **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
 - **Implicit Invocation** - an invocation type where the user invokes the channel, and use the most common words or indirectly saying the explicit Invocation. 
 - **Query** - user’s word requesting for specific function and expecting a particular response.
