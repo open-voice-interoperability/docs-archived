@@ -97,3 +97,12 @@
 - Report from the VRS Work Group: discussions, directions, next steps (15 minutes)-- M. Brinas-Dobrowski
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
+# 2020-09-18
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update:  membership update, communications (5 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group (15 minutes) -- M. Frazzini 
+- Report from the Architecture Work Group (15 minutes) - J. Larson
+- Report from the VRS Work Group (15 minutes) - M. Brinas-Dobrowski
+- How all this could fit together: roadmap, milestones, next steps (10 minutes) -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
