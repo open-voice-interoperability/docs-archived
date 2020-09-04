@@ -3,7 +3,7 @@ The [Voice Registry System](https://github.com/open-voice-network/docs/blob/mast
 
 
 ## Terminology Alignment
-For the working group that is as diverse as us from different countries, companies, industries, specialty, and backgrounds, we must define each word similarly and meant the same way. To use an analogy of a car, a wheel alignment is critical because this is one necessary factor that can significantly affect how the vehicle will run and allay any accidents. The goal is to save time, remove confusion, and be concise with our discussion. In short, we should be speaking the same language as a cohesive team.
+For the working group that is as diverse as us from different countries, companies, industries, specialties, and backgrounds, we **must define each word similarly and meant the same way**. To use an analogy of a car, a wheel alignment is critical because this is one necessary factor that can significantly affect how the vehicle will run and allay any accidents. The goal is to save time, remove confusion, and be concise with our discussion. In short, we should be speaking the same language as a cohesive team.
 
 If you are new to the group, please review the terminology alignment section in the VRS document.
 
@@ -18,10 +18,12 @@ If you are new to the group, please review the terminology alignment section in 
 
 
 ## Contributing to the VRS document
-- There are 2 ways to start with this:
-  (1) Fork it,  see [link](https://guides.github.com/activities/forking/)
-  (2) Clone it from the original repository, see  [link](https://github.com/cubeton/git101/blob/master/TurtorialInfo/Tutorial.md)
+- There are multiple ways to start with this:
+  <br>(1) Fork it,  see this [link](https://guides.github.com/activities/forking/)
+  <br>(2) Clone it from the original repository, see  this [link](https://github.com/cubeton/git101/blob/master/TurtorialInfo/Tutorial.md)
+  <br>(3) If you prefer to work of GUI, see this this [link](https://www.wikihow.com/Create-a-Branch-on-GitHub) 
 - Whatever steps you followed above, you will end in Pull Request, also known as PR.
 - In PR process, you will not see your changes right away. It is an area of discussion, where the reviewer can ask for more questions or clarification about the changes you made. It is **best practice** to attach the issue number, so it is easier to understand the changes' background. 
 
-  
+## Tips
+- [Mardown basic syntax and best practice](https://www.markdownguide.org/basic-syntax)
