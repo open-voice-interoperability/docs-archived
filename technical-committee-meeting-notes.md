@@ -12,7 +12,7 @@ The meeting was brought to order at 9:03 CT (US)
 * We are entering 5th or 6th discussion with large network provider 
 * We will have additional potential members attending Technical Committee meetings in near future 
 * We now have 4 enterprise sponsors –Target, Schwarz Gruppe, Microsoft and Wegman’s.   As we reach the 5th enterprise sponsor, we will have the public launch of the OVN.  This will likely happen in September or October
-* This will bring attention to our website, who is active and who is involved.   Ask of this group, are you willing to be identified as a supporter, participant affiliated with the OVN     
+* This will bring attention to our website, who is active and who is involved.   Ask of this group, are you willing to be identified as a supporter, participant affiliated with the OVN.      
   **ACTION:**  Let Jon know if you are willing to be identified in this regard 
 *This will also bring a need for communicators and ambassadors.  A message track is being prepared in advance of this for a common narrative on OVN
 
@@ -48,13 +48,18 @@ The meeting was brought to order at 9:03 CT (US)
   * Bringing in additional partners for exposure to other architecture ideas including W3C
 * Defining components and the definition has been posted on slack for review 
 * Continue analysis of Dialog Managers 
-* Terminology standardization is a need and this group will work to standardize on meaning of terms to be evangelized and adopted by the rest of the OVN Technical Committee
+* Terminology standardization is a need and this group will work to standardize on meaning of terms to be evangelized and adopted by the rest of the OVN Technical Committee.
+ **ACTION** J. Stine to establish, recruit an OVN "Terminology Tsar" for organizing, managing, driving common word definitions across all work groups. 
 
 ### VRS Proposal and Discussion:  discussions, direction, next steps – M.Brinas-Dobrowski
 * First priority is defining the problem context and team has made good progress on this.  Goal is to complete this definition in the next meeting and will bring back to the Technical Committee 
 * Team defined their working style and operating agreement (tools used, etc.) 
 * A key item that VRS is looking for from the Architecture Working group:   Alignment on the role of VRS and how VRS fits into the larger architecture 
 *  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+### Closing -- J. Stine
+
+Meeting adjourned at 10:06 Central (US) time.
 
 
 
