@@ -16,7 +16,17 @@ Proposed standards will gain the greatest support (and eventual adoption) when s
 
 ###  the Scope of Open Voice
 
-The world of AI-enabled voice today ranges from Interactive Voice Response (IVR) to the evolving realm of hardware-independent, voice-activated and -centric personal agents and assistants.  Although our definition of AI-enabled voice spans the entirety of this continuum, our primary focus will be on the integrated, pan-internet, and personal voice agent and assistant, which may include screen-based visual assistance.  
+We are Voice First.  We are language-centric, conversationally-focused, and cognizant of the variety and richness voice data.  We are also user-centric, inclusive (believing that voice is for all), and desirous of voice being a tool for societal good.
+
+We recognize that voice will be increasingly combined with other digital modalities of communication and conversation, such as screen-based visuals, gestures, and facial recognition.  
+
+However: to focus our work and drive results, we will solve voice first. 
+
+
+
+The world of AI-enabled voice ranges from Interactive Voice Response (IVR) to the evolving realm of hardware-independent, voice-activated and -centric personal agents and assistants.  Over time, voice will be increasingly combined with other digital modalities of communication and conversation, including screen-based visuals, gestures, and facial recognition.  
+
+Although Tomorrow, AI-enabled voice Although our definition of AI-enabled voice spans the entirety of this continuum, our primary focus will be on the integrated, pan-internet, and personal voice agent and assistant, which may include screen-based visual assistance.  
 
 ### Problem Statement 
 
