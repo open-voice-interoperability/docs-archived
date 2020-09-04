@@ -71,3 +71,13 @@ Like any other problem, there are multiple ways to get to the ideal solution. Th
 | Option 1 <br> Conversational platforms handle VRS type identification | - VRS does not have to implement NLU capability.<br>- Less integration point for VRS.                                                                                                                                                                                              | - Identifying VRS type is implemented in the proprietary conversational platform, which can possibly cause inconsistency.                                                                                      |
 | Option 2 <br> VRS handles VRS type identification | - NLU will identify if the command is explicit, before passing to VRS.<br>- Identifying the VRS type is implemented in one area and consistent across the different conversational platform.<br>- Less integration for VRS.<br>- No additional integration for TTS/STT, less hop.  | - VRS has to implement NLU capability such as identify VRS type.                                                                                                                                               |
 | Option 3 | - Identifying vrs type is implemented in one area and consistent across the different conversational platform.                                                                                                                                                                     | - VRS has to implement NLU capability, such as identification of invocation as explicit and identify VRS type.<br>- Increase the integration point for VRS.<br>- Additional integration for TTS/STT component. |
+
+
+### Architecture Decision
+TO-DO
+
+
+### Discussions
+1. Is VRS only going to focus on explicit invocation?
+<br>-Similar to the web where if a user typed www.patrickdessertkingdom.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. 
+2.
