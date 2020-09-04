@@ -1,3 +1,64 @@
+# 2020-09-04 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, S. Baul, L. Lin, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Meyers. O.Coleman, D.Attwater, M.Saul, M.Buck, J.Crabb
+
+The meeting was brought to order at 9:03 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – D. Cundiff
+
+### OVN Update:  membership update, milestones – J. Stine 
+* We are entering 5th or 6th discussion with large network provider 
+* We will have additional potential members attending Technical Committee meetings in near future 
+* We now have 4 enterprise sponsors –Target, Schwarz Gruppe, Microsoft and Wegman’s.   As we reach the 5th enterprise sponsor, we will have the public launch of the OVN.  This will likely happen in September or October
+* This will bring attention to our website, who is active and who is involved.   Ask of this group, are you willing to be identified as a supporter, participant affiliated with the OVN     
+  **ACTION:**  Let Jon know if you are willing to be identified in this regard 
+*This will also bring a need for communicators and ambassadors.  A message track is being prepared in advance of this for a common narrative on OVN
+
+### OVN North Star/Scope:  proposed summary statement. A follow up from the 2020.08.21 conversation – J.Stine
+* Jon shared the North Star slides
+* The Scope of the OVN slide 
+  * We are **voice first**
+  * We will address the issues and opportunities from a voice first perspective 
+  * We will be aware of multimodality but we will be voice first 
+  * Team endorsed the slide with some edits 
+
+### Report from the Privacy-Security Work Group:  discussions, direction, next steps – M.Frazzini
+* Have had weekly meetings for last 2 months focused on privacy with the intent to address security after that 
+* Limiting the scope to what is unique to voice 
+* Have identified pillars of trust, data (raw and processed), ownership of data, data use, transparency in data and consent in data use 
+* Identified harms that exist with privacy protection 
+* Created a high level roadmap for goals 
+  * Rights, values and identification of the technical capabilities that will need to be addressed (technical capabilities is the current focus) 
+* Challenge is commercial privacy (v individual privacy)
+  * Commercial right of privacy –one of the core reasons for the founding of the OVN 
+  * Joel shared that once a user has identified that they want to talk to an entity, the provider of the listening device (NLP) should just pass the voice data through to the entity and not log it or keep it in any way 
+  * Challenge is privacy when it comes to commercial interests.   The commercial issues that the team is trying to address focus on ownership and less on privacy 
+  *Individuals –privacy is limited to individuals or groups of individuals.  Not a lot of information available related to privacy for commercial entities –collateral focuses more on ownership
+* Discussed if data processing is a gap here 
+* Next Steps:  Complete the technical capabilities and update the problem statement and guidance 
+
+### Report from the Architecture Work Group:  discussions, direction, next steps – J.Larson
+* Purpose of the Architecture Working Group:  identify common components or elements of those components that could or should be standardized to create the open building blocks of voice assistants 
+* Team is looking for a new moderator for this working group
+* Team has been looking at different architectures
+  * Bucket Brigade architecture
+  * Bus architecture
+  * Bringing in additional partners for exposure to other architecture ideas including W3C
+* Defining components and the definition has been posted on slack for review 
+* Continue analysis of Dialog Managers 
+* Terminology standardization is a need and this group will work to standardize on meaning of terms to be evangelized and adopted by the rest of the OVN Technical Committee
+
+### VRS Proposal and Discussion:  discussions, direction, next steps – M.Brinas-Dobrowski
+* First priority is defining the problem context and team has made good progress on this.  Goal is to complete this definition in the next meeting and will bring back to the Technical Committee 
+* Team defined their working style and operating agreement (tools used, etc.) 
+* A key item that VRS is looking for from the Architecture Working group:   Alignment on the role of VRS and how VRS fits into the larger architecture 
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+
+
+
 # 2020-08-21 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, P. Bentsen, S. Baul, L. Lin, K. Dank, J. Stine, A.Dalloul, S.Prayaga,  M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Meyers. O.Coleman, D.Attwater
