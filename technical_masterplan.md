@@ -30,37 +30,42 @@ Although Tomorrow, AI-enabled voice Although our definition of AI-enabled voice 
 
 ### Problem Statement 
 
-### User Choice and Trust.### ##A Call to Governing Standards for Conversational AI##
+### Why This Work Is Important ###
 
-Imagine the ability to communicate directly with the digital world by speaking. To be understood by every digital destination– be it a site, a thing, a person, or a complex software or manufacturing system -- with just your voice.
+As we enter the third decade of this century, the ability to direct digital devices and systems through speech is increasingly common.
+We speak (and listen) to voice assistants in purpose-built devices, smartphones, automobiles, televisions and home appliances, manufacturing systems, and enterprise software.   
+However, as remarkable as today’s voice assistants appear, they represent only the earliest phase of what artificial intelligence-enabled voice will become by the end of this decade.  In the coming years, we can expect significant changes in three broad areas of voice assistance:  user experience, assistant availability, and the voice ecosystem.
 
-Imagine conversation with those digital destinations. Conversation akin to that with a friend. Where it’s easy to engage, information is shared in mutual trust, personal preferences are known, special dates are remembered and needs anticipated.
+The user experience of voice assistance will be transformed in multiple ways.  Of most importance will be the shift from today’s command-and-question interaction to human-to-machine conversation.  In practice, this will enable conversation akin to that with a friend, where shared history, time, place, sentiment, and personal preferences are brought seamlessly into the flow of a discussion.   A voice assistant will not only understand what is said, but the context in which it is said and the emotion with which it is said -- and be able to respond, recommend, and remember.  Voice will also be combined with visual elements, to provide what experts term “multi-modal” conversation.  This could range from information shown on screens to the recognition of gestures and facial behaviors. 
 
-This is the coming world of conversational artificial intelligence, or conversational AI. At a basic level, it’s what can happen when natural language understanding is combined with the infinite possibilities of artificial intelligence and machine learning. Computers will not only understand what you say, but the context in which you say it, the emotion with which say it, and the intent behind it – and be able to respond, recommend, and remember.
+Voice will become available nearly everywhere -- the ubiquitous interface to the digital world. Voice assistance will be integrated not only into devices of all types, but into places (homes, stores, banks, medical facilities, museums, stadiums) and systems for monitoring environments and processes, from factories to farms.   Analysts predict active voice assistant use on more than two billion smartphones by 2023¹, and some 8.4 billion voice assistant users worldwide by 2024².   Users will search for and speak to websites (more than 1.7 billion worldwide today³), and smart, connected objects (some 41 billion worldwide by 2025⁴.)  Futurists see a world in which voice is the normative interface for all artificial intelligence; indeed, it is predicted that all artificial intelligence will be conversational.⁵
 
-And, connect these remarkable capabilities to a digital universe of nearly two billion global websites, and nearly 30 billion connected devices.¹
+The voice assistance ecosystem will be transformed as well.  Of most importance will be the emergence of hundreds of thousands (and in time, millions) of independently-developed and purpose-built  enterprise and organizational voice assistants, each speaking and listening to constituents through a multitude of voice channels.   This will reflect a shift from platform-based skills and actions.
 
-We are in the early days of the conversational AI revolution. Today’s voice assistants offer but a glimpse of the potential value that conversational AI can bring to every industry, every profession, and society at large.
+All told, we are today in the early days of the artificial intelligence-enabled voice revolution.  Today’s voice assistants offer but a glimpse of the potential value that this technology can bring to every industry, every profession, and society at large.
 
-We – the sponsoring members and supporters of the Open Voice Network – fear that this glimpse is at risk of remaining faint and unfulfilled. Standing before the growth of conversational AI in usage and economic value are two broad issues:
+We – the sponsoring members and supporters of the Open Voice Network – believe that this glimpse of value is at risk of remaining faint and unfulfilled.   Standing before the growth of conversational AI in usage and economic value are four broad issues:
 
-## Choice and trust.##
+## Trust, choice, inclusivity, and openness.##
 
-Choice is a catalyst for ecosystem competition and innovation. It creates value for consumers, developers, and enterprises of all sizes.
+Trust opens the door to personal and enterprise adoption, and to ever-more complex usage by all users – from individuals to developers and designers to enterprise decision-makers.  The foundation of user trust is a “rule of law” which best emerges from the neutral, industry-driven development of standards and standards-based systems.   It is also built through the standards-based  protection of privacy, guidance for data use (both personal and commercial), inclusivity and accessibility, and system governance.  The Open Voice Network’s stated mission is to make voice worthy of user trust. 
 
-Trust – in the protection of privacy, in data use (both personal and commercial), in accessibility and inclusivity, in ease of use – opens the door to personal and enterprise experimentation and to accelerating and ever-more-complex adoption.
+Choice is a catalyst for ecosystem innovation and the growth of value for individuals, developers and designers, and enterprises of all sizes.  Choice is realized in many ways – in a user’s ownership and control of data, in a user’s choice of components, assistants and providers, and in the choice of assistant architecture (be it hosted locally or in the cloud.) 
 
-Other nascent technologies have faced these same issues. In many cases, they were resolved – and great value created – through the communal development, testing, and adoption of global technology standards and usage guidelines.
+Inclusivity is about everyone having a voice, and in every situation.  It is voice that welcomes under-represented vocalizations and dialects; voice that advances access. 
+
+Openness enables interoperability among assistants and providers.  At its core is the identification and definition of standardized development building blocks.  Such blocks serve as a foundation for commercial differentiation and value; they can be assembled according to purpose, and in completely open, completely proprietary, or mixed (or hybrid) implementations. 
+
 
 ## The time to act is now.##
 
-Conversational AI is now entering its next phase. Analysts predict that today’s app-like “skills” or “actions” (resident on a few dominant proprietary platforms) will be replaced by hundreds, if not thousands, of independent voice assistants.²
+Artificial intelligence-enabled voice is now entering its next phase.
 
-Will that result in user choice? Perhaps -- if components and interfaces are standardized, in ways that allow all voice assistants to easily connect with each other and the broader world.
+As such, we face the question of the future of voice assistance. 
 
-Will that result in user trust? No, not without a widely-adopted system of governance and guidelines. Not without standards on data use and privacy, destination accessibility and registration, common dialogues that create a known and comfortable user experience across industries.
+Trust-worthy?  Choice-enabled?  Inclusive?  Open?
 
-Now -- at the dawn of voice’s multi-assistant future -- is the time for the conversational AI community to come together to develop and adopt the standards and usage guidelines that will enable choice and trust.
+A realm of remarkable innovation, enterprise adoption, and economic growth that welcomes all on equal footing?  
 
 ## Introducing Open Voice Network.##
 
