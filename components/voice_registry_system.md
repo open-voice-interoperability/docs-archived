@@ -25,24 +25,18 @@ Entities are at the commiseration of every single conversational platform on how
 Per the OVN principles, the current situation today does not align with the policy we outlined:
 - Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
 
-Below are the problems identified in the current landscape.
-
+Below are the **problems** identified in the current landscape.
+<br>
 <details><summary>1. The entity will not have a consistent experience across conversational platforms.</summary>
-
+<br>
 The below diagram depicts a use-case scenario where Patrick's Dessert Kingdom is an entity that needs to be in multiple conversational platforms such as Amazon, Google, etc. The company is most popularly known for its name as "Patrick's Dessert Kingdom."  The entity wants the explicit command for their customer to what they are known for.  Fortunately, it is approved and available in Amazon and Microsoft but not on other conversational platforms. This is a problem for the entity and user. Users and entities will not have consistent experiences in dealing with the various conversational platform.
 
 ![](component_assets/vrs_problem_statement_1.png?raw=true "Fig. 1 - VRS Problem Statement 1")
 
 </details>
 <br>
-<details><summary>1. Disambiguation of entities location.</summary>
-The second illustration shows a scenario where there are similar entities but on a different location. Today, each conversational platform handles this scenario differently and without transparency.
-
-![](component_assets/vrs_problem_statement_2.png?raw=true "Fig. 2 - VRS Problem Statement 2")
-
-</details>
-<br>
 <details><summary>2. Disambiguation of entities location.</summary>
+<br>
 The second illustration shows a scenario where there are similar entities but on a different location. Today, each conversational platform handles this scenario differently and without transparency.
 
 ![](component_assets/vrs_problem_statement_2.png?raw=true "Fig. 2 - VRS Problem Statement 2")
@@ -51,7 +45,7 @@ The second illustration shows a scenario where there are similar entities but on
 <br>
 
 <details><summary>3. Invocation availability and not consistent guidelines in different conversational platforms.</summary>
-
+<br>
 Due to the walled garden conversational platform landscape today, Technical resources do not have a single area to go to check for the availability of the invocation. They have to go through each of the conversational platforms to verify the availability of the invocation. Also, due to the lack of global standards, each conversational platform created their own. Technical resources have to adhere to these different standards, which creates complexity. 
 
 </details>
