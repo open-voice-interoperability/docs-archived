@@ -9,13 +9,15 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 ### 1.0.2. Terminology Alignment
 - **Channel** - an interface and origin of communication. It is where the utterances are received. Examples: voice assistance devices, mobile phones, web sites, etc.
 - **Conversational Platform** - the system or services that handle the two-way interaction with the user and the entity.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right entity. 
-- **Voice Application** - also known as skill, action, capsule or domain.
-- **User** - a person who interacts with channels.  
+- **Disambiguate** - when the conversational platform hypothesizes two or more possible resolutions to a user utterance, it may ask the user for additional clarification or choose between the various interpretations to decide the user's correct intention. 
 - **Entity** -  government or private/public company that provides certain businesses or services.
-- **Technical Resource** -  it can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
 - **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
+- **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response. 
 - **Implicit Invocation** - an invocation type where the user invokes the channel, and use the most common words or indirectly saying the explicit Invocation. 
+- **Technical Resource** -  it can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
 - **Query** - user’s word requesting for specific function and expecting a particular response.
+- **User** - a person who interacts with channels.  
+- **Voice Application** - also known as skill, action, capsule or domain.
 
 ### 1.0.3. Problem Context
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Whenever an "explicit invocation" is invoked by the user, each proprietary platforms have different standards (i.e., brand vocabulary, etc) and processes on how they are triggered or verified. 
