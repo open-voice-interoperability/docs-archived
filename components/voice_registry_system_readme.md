@@ -26,4 +26,4 @@ If you are new to the group, please review the terminology alignment section in 
 - In PR process, you will not see your changes right away. It is an area of discussion, where the reviewer can ask for more questions or clarification about the changes you made. It is **best practice** to attach the issue number, so it is easier to understand the changes' background. 
 
 ## Tips
-- [Mardown basic syntax and best practice](https://www.markdownguide.org/basic-syntax)
+- [Mark down basic syntax and best practice](https://www.markdownguide.org/basic-syntax)
