@@ -29,28 +29,56 @@ Below are the **problems** identified in the current landscape.
 <br>
 <details><summary>1. The entity will not have a consistent experience across conversational platforms.</summary>
 <br>
-The below diagram depicts a use-case scenario where Patrick's Dessert Kingdom is an entity that needs to be in multiple conversational platforms such as Amazon, Google, etc. The company is most popularly known for its name as "Patrick's Dessert Kingdom."  The entity wants the explicit command for their customer to what they are known for.  Fortunately, it is approved and available in Amazon and Microsoft but not on other conversational platforms. This is a problem for the entity and user. Users and entities will not have consistent experiences in dealing with the various conversational platform.
+> The below diagram depicts a use-case scenario where Patrick's Dessert Kingdom is an entity that needs to be in multiple conversational platforms such as Amazon, Google, etc. The company is most popularly known for its name as "Patrick's Dessert Kingdom."  The entity wants the explicit command for their customer to what they are known for.  Fortunately, it is approved and available in Amazon and Microsoft but not on other conversational platforms. This is a problem for the entity and user. Users and entities will not have consistent experiences in dealing with the various conversational platform.
 
-![](component_assets/vrs_problem_statement_1.png?raw=true "Fig. 1 - VRS Problem Statement 1")
+> ![](component_assets/vrs_problem_statement_1.png?raw=true "Fig. 1 - VRS Problem Statement 1")
 
 </details>
-<br>
 <details><summary>2. Disambiguation of entities location.</summary>
 <br>
-The second illustration shows a scenario where there are similar entities but on a different location. Today, each conversational platform handles this scenario differently and without transparency.
+> The second illustration shows a scenario where there are similar entities but on a different location. Today, each conversational platform handles this scenario differently and without transparency.
 
-![](component_assets/vrs_problem_statement_2.png?raw=true "Fig. 2 - VRS Problem Statement 2")
+> ![](component_assets/vrs_problem_statement_2.png?raw=true "Fig. 2 - VRS Problem Statement 2")
+
+</details>
+<details><summary>3. Disambiguation of entities - homophone.</summary>
+<br>
+> Part of the complexity of voice is the homophone disambiguation. When the user utters an invocation, and there can be multiple possibilities for the invocation. 
+<br>
+> An example:
+> A user utters, "{wake work}, I want to talk to Cisco." Multiple entities can sound like Cisco, such as Sysco Food or Cisco Networking.
+<br>
+> A couple of problems in this scenario: 
+ - (1) who decides for the right interpretation 
+ - (2) there is no central location of all the invocation homophone relationship
+<br>
+</details>
+<details><summary>4. Disambiguation of entities - homograph.</summary>
+<br>
+> Part of the complexity of voice is the homophone disambiguation. When the user utters an invocation, and there can be multiple possibilities for the invocation. 
+<br>
+> An example:
+> A user utters, "{wake work}, I want to talk to Delta." Multiple entities can be associated with Delta such as Delta Dental, Delta Airlines, Delta Network.
+<br>
+> A couple of problems in this scenario: 
+ - (1) who decides for the right interpretation 
+ - (2) there is no central location of all the invocation homograph relationship
+<br>
+
+</details>
+<details><summary>5. Lack of central location for invocation availability.</summary>
+<br>
+> Due to the walled garden conversational platform landscape today, users or technical resources do not have a single area to go to check for the availability of the invocation. They have to go through each of the conversational platforms to verify the availability of the invocation. 
+
+</details>
+
+<details><summary>6. No consistent guidelines for invocation.</summary>
+<br>
+> Due to missing global standards, developers need to adhere to different conversational platforms guidelines. This results in complexity, heavy maintenance, and support for their voice application.
 
 </details>
 <br>
-
-<details><summary>3. Invocation availability and not consistent guidelines in different conversational platforms.</summary>
 <br>
-Due to the walled garden conversational platform landscape today, Technical resources do not have a single area to go to check for the availability of the invocation. They have to go through each of the conversational platforms to verify the availability of the invocation. Also, due to the lack of global standards, each conversational platform created their own. Technical resources have to adhere to these different standards, which creates complexity. 
-
-</details>
-<br>
-
 
 ### Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
