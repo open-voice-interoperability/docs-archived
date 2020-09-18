@@ -1,3 +1,62 @@
+# 2020-09-18 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb, A. Dalloul, J.Maas, N.Latwis, P. Bentsen, S.Prayaga, C.Wuttke
+
+The meeting was brought to order at 9:01 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – D. Cundiff
+
+### OVN Update:  membership update, milestones – J. Stine 
+* No changes in sponsorship commitments since the last meeting 
+* Discussions continue with increasing depth with 2 major tech firms 
+* Follow up from the prior discussion on the Northstar document.  We are sharing out purpose and goals of OVN via Twitter (@openvoicenet) and on Linkedin (Open Voice Network).  Please help share and spread the good information on OVN 
+* As we progress and move from our early phase to publishing RFCs, etc., our communication and outreach will pivot from general outreach towards specific engineer focused communications covering things such as release notes, major releases, decisions, etc. 
+
+### How all this could fit together:  roadmap, milestones, next steps – J.Stine
+* Jon shared a set of slides covering the OVN Development Process from Technical Committee, project definition, working groups, project charters, research and development and ultimately to standards
+* Milestone plan –Goals for what we can achieve by the end of this year 
+  * Architecture- Report on components to Technical Committee in November
+  * Privacy – Report on requirements to Technical Committee in October 
+  * VRS- Report on Requirements to Technical Committee  in November 
+
+### Report from the Privacy-Security Work Group:  discussions, direction, next steps – M.Frazzini
+* Seeking help with prioritizing focus-Group consensus after discussion: 
+  * Privacy 1st focus 
+  * Security 2nd focus 
+  * Commercial Data Ownership and Use -3rd 
+* Have made good progress on working draft of Individual Privacy.  Have privacy problem statement, worked through the privacy risks unique to voice (identified 7 so far), privacy rights and working draft that evaluate technical capabilities and standards to address voice privacy risks
+* Have also summarized guidance not unique to voice   
+* M.Frazzini asked for feedback on the working privacy document
+* J. Eisenzopf suggested a new content N. Hart-the Privacy-Security work group welcomes his participation.  Additional contacts surfaced and may be pursued 
+
+### Report from the Architecture Work Group:  discussions, direction, next steps – J.Larson
+*  2 directions: 
+  * Examining various architectures - Meeting with various industry experts/resource’s 
+  * Identifying components that could /should be standardized   
+    * have Google’s paper on reusable components 
+    * creating an online catalog of reusable components
+* This working group is in need of a new lead 
+   
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Have been working on the problem context –without a VRS.   Have defined 6 components
+  * The entity will not have a consistent experience across conversational platforms
+  * Disambiguation of entities location
+  * Disambiguation of entities – homophone
+  * Disambiguation of entities – homograph
+  * Lack of central location for invocation availability
+  * No consistent guidelines for invocation
+* Discussion around the disambiguation components-what are the specific problems the disambiguation will solve for?   
+* Next steps on problem context:  
+  *Define the capabilities of VRS
+* If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+### Review of actions, next steps – D.Cundiff
+
+
+
 # 2020-09-04 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, S. Baul, L. Lin, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Meyers. O.Coleman, D.Attwater, M.Saul, M.Buck, J.Crabb
