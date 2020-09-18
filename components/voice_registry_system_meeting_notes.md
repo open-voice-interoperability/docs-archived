@@ -34,25 +34,26 @@ This document is meant to capture the meeting notes and decision.
 
 <details><summary>click for meeting details...</summary>
 
-**Attendance:** 
-
 ### Agenda:
   - Action items are addressed from the previous meeting.
   - Solidify and prioritize the problem statement. In each problem, we need to assess the following:
       <br>(1) What is the problem?
       <br>(2) Who is affected?
       <br>(3) Where does it happen?
-      <br>(3) Why this problem is important? What value does it bring?
-  - Prioritize the importance of problem based on business value and impact.
+      <br>(3) Why is this problem important? What value does it bring?
+  - Prioritize the importance of problem-based on business value and impact.
 
 ### Discussion/Decision Points:
-  - 
+- Discussed the difference between VII vs. OVN in general.
+- Identified six problems that VRS can tackle. See git issues. 
+- Problem 5 is an analogy of a Yellowpages. Any persona such as user, publisher, or technical resources can go to VRS as a central location to find voice application or invocation available. 
+-  Marteen mentioned the Conversational Platform should be defined as an assistant. We will discuss this in the next meeting.
 
 ### Action Item:
-  - 
+  - Prioritize the importance of problem-based on business value and impact.
 
 ### Next Steps:
-  - 
+  - Create a poll, and people can vote on the problem prioritization.
 
 
 </details>
