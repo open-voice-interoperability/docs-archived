@@ -49,7 +49,7 @@ The meeting was brought to order at 9:01 CT (US)
   * No consistent guidelines for invocation
 * Discussion around the disambiguation components-what are the specific problems the disambiguation will solve for?   
 * Next steps on problem context:  
-  *Define the capabilities of VRS
+  * Define the capabilities of VRS
 * If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
 *  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
 
