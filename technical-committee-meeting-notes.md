@@ -53,7 +53,7 @@ The meeting was brought to order at 9:01 CT (US)
 * If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
 *  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
 
-### Review of actions, next steps – D.Cundiff
+### Closing – D.Cundiff
 
 
 
