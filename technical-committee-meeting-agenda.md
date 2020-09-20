@@ -111,6 +111,7 @@
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Update:  membership update, communications (5 minutes) -- J. Stine
+- OVN Positioning: market transitions, future of voice assistance (5 minutes) -- J. Stine
 - Milestone review-reminders (5 minutes) -- J. Stine
 - Report from the Privacy-Security Work Group (15 minutes) -- M. Frazzini 
 - Report from the Architecture Work Group (15 minutes) - J. Larson
