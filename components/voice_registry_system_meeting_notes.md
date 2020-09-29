@@ -63,8 +63,9 @@ This document is meant to capture the meeting notes and decision.
 <details><summary>click for meeting details...</summary>
 
 ### Agenda:
-  - Maarten will walk through issue #69 and #70
-  - Jim will walk through the issue #66 
+  - @omitfo2 will walk through the issue #66 
+  - @Lens-fitzgerald will walk through issue #69 and #70
+  - @jcstine discussed the PR #68
   - Review the poll in problem priotization 
   - Recap of the meeting (what can we do differently or keep?) - 5 meeting
 
