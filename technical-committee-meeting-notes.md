@@ -1,3 +1,81 @@
+# 2020-10-02 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, M. Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, M. Lens-FitzGerald, N. Myers, A. Dalloul, S. Prayaga, A. Fricke, J. Eisenzopf, L. Lin, S. Root. I. Mez. M.Saul 
+
+The meeting was brought to order at 9:01 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Meeting timing has changed to 60 minutes going forward in the interests of efficiency and with respect to participant time and efforts done in the working group sessions.   Some sessions may be extended due to content. 
+
+### Review of agenda and expectations for the meeting – D. Cundiff
+
+### OVN Positioning:  market transitions, future of voice assistance – J. Stine 
+* OMERS – Canadian public pension fund.  Published Four Plausible Futures for Voice Technology.   Jon will share the link to this in slack 
+  * Five big voices speak to billions.  Privacy a luxury, but superb digital assistance 
+  * Lost in translation.  Industry infighting leads to a standard set of protocols
+  * Open Voice.  Emergence of standards, use cases, innovation.  Brand voices
+  * Speak Easy.  An industry in decline.  Consumer back-lash to predatory technology 
+* Jon shared slide covering Voice current and future 2024-2025.  Jon will share out slides via slack 
+* Discussion: 
+  * Audience is perspective sponsors and press/analysts that are looking for our perspective on the future 
+  * May be too binary –likely will exist in a hybrid world for longer than the slide depicts 
+  * Stating that there are no industry standards today is misleading as we all comply with standards today 
+  * Assistant’s Architecture - Future of Local or Cloud –it may be both 
+  * Would be good to add more information on the value of OVN 
+  * Additional feedback can be added in the Technical Committee slack channel 
+
+### Milestone review-reminders – J. Stine 
+* Reminder to the workgroups on remit milestones 
+  * Architecture workgroup –components 11/20
+  * Privacy and Security – requirements 10/30
+  * VRS –requirements 11/20 
+* Jon will share slide in slack 
+
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Group continues to identify problems.  Have identified 9 so far- 3new: 
+  * Mispronunciation 
+  * There is hardly an explicit invocation is our personal and messy world 
+  * Conversation platforms vs voice apps 
+* Next meeting, will ratify the business value of the identified problems.   Also will identify if VRS owns the solution or if other components of OVN should own 
+* Problem prioritization will also be achieved
+* This will be brought back to the Technical Committee 
+* * If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+### Report from the Privacy-Security Work Group:  discussions, direction, next steps – M.Frazzini
+* Identified 8 interactions to privacy related to voice
+* Will define examples of how we might implement these standards related to voice 
+* Discussed how best for this group to share out this information.   Aligned that Github is the best direction to enable visibility and collaboration across work groups 
+* Considerations or Principles: 
+  * Aspirational vs reality of how tech works
+  * Accessibility compliance 
+  * Disclaimers or caveats need to be added 
+* M. Lens-FitzGerald will lead the Security component of this work group 
+* M. Frazzini will now lead the Privacy component of this work group 
+* Additional resources are needed so please let Mike and/or Martin know if interested  
+
+### Report from the Architecture Work Group:  discussions, direction, next steps – J.Larson
+* Group continues to examine various architectures 
+* [Link to Voice Tools spreadsheet](https://docs.google.com/spreadsheets/d/1Iw8hy_cyXD6rqBr7HXa1hRFduZSuNn3ELp2uqbYkhgo/edit?usp=sharing)
+* Work group requests Technical Committee to add tools to spreadsheet so can be consolidated.  Discussed posting this on the OVN website but there are concerns due to lack of strong anchoring to OVN and its mission.   Git may be a better alternative so team will take back to the developer community
+* Next meeting will work through a set of straw man components for discussion 
+###  Meeting adjourned at 10:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2020-09-18 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb, A. Dalloul, J.Maas, N.Latwis, P. Bentsen, S.Prayaga, C.Wuttke
