@@ -63,20 +63,24 @@ This document is meant to capture the meeting notes and decision.
 <details><summary>click for meeting details...</summary>
 
 ### Agenda:
-  - @omitfo2 will walk through the issue #66 
+ - @omitfo2 will walk through the issue #66 
   - @Lens-fitzgerald will walk through issue #69 and #70
   - @jcstine discussed the PR #68
-  - Review the poll in problem priotization 
+  - Review the poll in problem prioritization 
   - Recap of the meeting (what can we do differently or keep?) - 5 meeting
 
 ### Discussion/Decision Points:
-
+ - The issue #66, #69 and #70 will be added as part of the VRS problem context.
+ - Anything deemed necessary that needs to be discussed in the VRS meeting will need to be added as a Github issue.
+ - Continue the structure of the meeting.
 
 ### Action Item:
-
+- @Lens-fitzgerald will create PR for the additional problem context #69 and #70
+- @omitfo2 will create PR for the problem context #66.
+- @Lens-fitzgerald will propose the definition for Conversation Assistant
+- @maridob will create a new poll for the new set of the problem context
 
 ### Next Steps:
-
-
+-
 
 </details>
