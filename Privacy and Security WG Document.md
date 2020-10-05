@@ -10,25 +10,31 @@ The remit of the Privacy and Security Work Group of the Technical Advisory Commi
 ### Deliverable Date
 The Privacy and Security Work Group is expected to present a report to the Technical Advisory Committee in its meeting of 30 October 2020.
 
-### Privacy and Security
 ### The World For Which We Work
 By 2025, conversational AI will be a primacy interface to the connected digital world of content, enterprises, things, and persons.  It will be accessed and used through multiple assistants, multiple platforms, and nearly all digital devices.
 ### Problem Statement per meeting 2020.07.01
 Draft Privacy and Security Working Group Problem Statement: *Voice Technology has the power to change our lives, however with voice technology comes a new set of privacy and security risks and concerns that are inherently linked with the adoption and trust of the technology. The goal is to identify and extend existing open privacy and security standards, and guidance with detail specific to voice technologies.*
 ### Statement of Consolidated Values, Technical Capabilities, and Standards to Address Voice-Specific Privacy Risks
 A draft statement presented to the Technical Advisory Committee on 2020.10.02.
+*At the heart of voice-specific privacy is **data ownership**, which may be defined on four related vectors: the **collection** of data, the **control** of collected data and its use, the **consent** with which data is shared, and the **clarity**or transparency of collection, control, and consent processes. Here are eight recommendations of voice-specific issues for design-in consideration by the Open Voice Network.
 #### 1.  CONSENT. 
-Data subjects must be allowed to give explicity, unambiguous consent before the collection and processing of personal data.
+Data subjects must be allowed to give explicit, unambiguous consent before the collection and processing of personal data.
 Illustrative example:
+Technical implication: 
 #### 2. LIMITED COLLECTION
 Collected raw data should be securely deleted immediately post-processing.
 Illustrative example: 
 #### 3.  CONTROL
 Any data that is not deleted should be accessible by the consumer with the ability to review, correct, or securely delete their data.
 Illustrative example: 
-#### 4.  TRANSPARENCY
+#### 4.  CLARITY-TRANSPARENCY
 A voice user-interface should be made easily accessible and readily available to the consumer for the purpose of providing user notification of general data processing and algorithmic inference routines.
+Illustrative example: 
+#### 5.  CLARITY-TRANSPARENCY
+A voice user-interface should be made easily accessible and readily available to the consumer for the purpose of providing user notification of general data processing and algorithmic inference routines. 
 Illustrative example:
+#### 6. CONSENT 
+
 ### Problem Statements Unique to Voice in re: Privacy
 - the claiming by proprietary platforms of all personal and commercial data communicated through said platforms
 - absence of workable guidelines and regulations as to the 1) content-based sharing of voice data, including biometric and biomarker data, and 2) enterprise ethical use and security of personal, biometric, and biomarker data.
