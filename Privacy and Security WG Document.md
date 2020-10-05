@@ -5,11 +5,19 @@ As developed by the Privacy & Security Work Group of the Open Voice Network Tech
 * guiding OVN Technical Committee discussions in re: privacy and security
 * guiding OVN Technical Committee decisions
 
+### Privacy and Security Work Group Remit
+The remit of the Privacy and Security Work Group of the Technical Advisory Committee of the Open Voice Network is to *identify, define, and prioritize the capabilities that the OVN must "design in" in regards to individual privacy and security.*  
+### Deliverable Date
+The Privacy and Security Work Group is expected to present a report to the Technical Advisory Committee in its meeting of 30 October 2020.
+
 ### Privacy and Security
 ### The World For Which We Work
 By 2025, conversational AI will be a primacy interface to the connected digital world of content, enterprises, things, and persons.  It will be accessed and used through multiple assistants, multiple platforms, and nearly all digital devices.
 ### Problem Statement per meeting 2020.07.01
-Draft Privacy and Security Working Group Problem Statement - Voice Technology has the power to change our lives, however with voice technology comes a new set of privacy and security risks and concerns that are inherently linked with the adoption and trust of the technology. The goal is to identify and extend existing open privacy and security standards, and guidance with detail specific to voice technologies.
+Draft Privacy and Security Working Group Problem Statement: *Voice Technology has the power to change our lives, however with voice technology comes a new set of privacy and security risks and concerns that are inherently linked with the adoption and trust of the technology. The goal is to identify and extend existing open privacy and security standards, and guidance with detail specific to voice technologies.*
+### Statement of Consolidated Values, Technical Capabilities, and Standards to Address Voice-Specific Privacy Risks
+A draft statement presented to the Technical Advisory Committee on 2020.10.02.
+##1.0 
 ### Problem Statements Unique to Voice in re: Privacy
 - the claiming by proprietary platforms of all personal and commercial data communicated through said platforms
 - absence of workable guidelines and regulations as to the 1) content-based sharing of voice data, including biometric and biomarker data, and 2) enterprise ethical use and security of personal, biometric, and biomarker data.
@@ -46,9 +54,7 @@ What do we seek to achieve in addition to the privacy guidelines/regulations of 
 - transparent, readily-available, consent-based opportunity for direct, unfiltered connection between entities
 - transparent, readily-available, consent-based opportunity for data sharing, including biometric and biomarker data
 - transparency of data collection and analysis process and intent
-### Technical Capabilities to Enable Requirements: Privacy
 
 
-### Milestones as of 2020.07.14
-- 1.0 problem statement, and initial listing of requirements and capabilities, as per this document:  2020.08.04
-- first report-out to Technical Committee:  2020.08.07.  
+
+
