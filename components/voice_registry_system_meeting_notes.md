@@ -93,7 +93,9 @@ This document is meant to capture the meeting notes and decision.
 - @Lens-fitzgerald will create PR for the additional problem context #69 and #70
 - @omitfo2 will create PR for the problem context #66.
 - @Lens-fitzgerald will propose the definition for Conversation Assistant
-- @maridob will create a new poll for the new set of the problem context
+- @maridob will create a new poll for the new set of the problem context. 
+    >> Poll is sent and created on 10.13.2020 4 PM CST time.
+    >> /poll "Please select the problems that you think should be solved and prioritize by the VRS. The details description of the problems are" "Provide consistent experience across conversational platforms and/or entity conversational assistant." "Disambiguation of entities location." "Disambiguation of entities - homophone." "Disambiguation of entities - homograph." "Lack of central location for invocation availability." "Correction of mispronounciations." "Indirect invocation of application apps. Ex: Add milk to Tarjey." anonymous
 
 ### Agenda:
   - Discuss the goal of the meeting. Goal: Finalized the problem prioritization that VRS can solve.
