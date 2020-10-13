@@ -63,11 +63,11 @@ This document is meant to capture the meeting notes and decision.
 <details><summary>click for meeting details...</summary>
 
 ### Agenda:
- - @omitfo2 will walk through the issue #66 
+  - @omitfo2 will walk through the issue #66 
   - @Lens-fitzgerald will walk through issue #69 and #70
   - @jcstine discussed the PR #68
   - Review the poll in problem prioritization 
-  - Recap of the meeting (what can we do differently or keep?) - 5 meeting
+  - Recap of the meeting (what can we do differently or keep?) - 5 minutes
 
 ### Discussion/Decision Points:
  - The issue #66, #69 and #70 will be added as part of the VRS problem context.
@@ -79,6 +79,32 @@ This document is meant to capture the meeting notes and decision.
 - @omitfo2 will create PR for the problem context #66.
 - @Lens-fitzgerald will propose the definition for Conversation Assistant
 - @maridob will create a new poll for the new set of the problem context
+
+### Next Steps:
+-
+
+</details>
+
+## Meeting 10.15.2020
+
+<details><summary>click for meeting details...</summary>
+
+### Action Items from 10.01.2020:
+- @Lens-fitzgerald will create PR for the additional problem context #69 and #70
+- @omitfo2 will create PR for the problem context #66.
+- @Lens-fitzgerald will propose the definition for Conversation Assistant
+- @maridob will create a new poll for the new set of the problem context
+
+### Agenda:
+  - Discuss the goal of the meeting. Goal: Finalized the problem prioritization that VRS can solve.
+  - Discuss the architecture guidance for VRS. The architecture guidance should help us to align the scope of the problem for VRS.
+  - Discuss and ratify the business value for each problem prioritization, based on the poll. The outcome of this discussion will be brought back to the Technical Committee.
+  - Check if we achieve our goal. If not, why? 
+
+### Discussion/Decision Points:
+
+
+
 
 ### Next Steps:
 -
