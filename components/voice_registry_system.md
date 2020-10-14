@@ -2,7 +2,7 @@
 
 ### 1.0.1. Overview
 Voice Registry System (VRS) is one of the components  in the
-[Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). The purpose of this document is to address the problem context of the VRS and why it is essential to resolve it. 
+[Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). The purpose of this document is to address the problem context of the VRS and why it is essential to resolve it. This is a demostration of a pull request. 
 
 VRS's goal is to provide a consistent experience for the users and create an equal treatment for the entities despite their size - regardless of the conversational platform.
 
