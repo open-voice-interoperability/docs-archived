@@ -18,6 +18,9 @@ VRS's goal is to provide a consistent experience for the users and create an equ
 - **Query** - user’s word requesting for specific function and expecting a particular response.
 - **User** - a person who interacts with channels.  
 - **Voice Application** - also known as skill, action, capsule or domain.
+- **Voice assistant system** A system where a user (primarily) uses his/her voice to interact with an automated conversational assistant for information or to control devices. 
+The assistent responds to the user using verbal interaction, occasionally enhanced with visuals and visual interaction. The assistant system is controlled by an entity (any type of organisation).  Typical components are channel endpoints like a smart speaker or a mobile application. Wake word detection to activate the system. Automatic Speech Recognition to convert the users spoken words into written words. Natural Language Understanding to extract intents and meaning from these words. A back end to enable input and output, provide answers or control the devices. Dialog management to manage the conversation. Text to Speech and Voice generation to respond.
+
 
 ### 1.0.3. Problem Context
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
