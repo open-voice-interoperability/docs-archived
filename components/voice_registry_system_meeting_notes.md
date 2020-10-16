@@ -35,6 +35,8 @@ In identifying the problem context, we focused on the Single Responsibility Prin
 
 As we reviewed and got the feedback from the team about the problems. There is some noticeable gap with some of the issues brought forward.
 
+> ![](component_assets/vrs_problem_poll.png?raw=true "Fig. 1 - VRS Problem Context Poll")
+
 #### Problem #1 and #6 are the top 2 choices for VRS.
 
 #1 Provide a consistent experience across conversational platforms and/or entity's conversational assistant.
@@ -42,7 +44,7 @@ As we reviewed and got the feedback from the team about the problems. There is s
 
 As you can see, it is very much apparent the remaining of the problem has more or less equal number of votes. There is a typical pattern that showed in Disambiguation. 
 
-(1) The decision making for the right interpretation.
+(1) The decision making for the right interpretation.<br>
 (2) Relationship of the location, homograph/homophone/mispronunciation/alternate names with the invocation. 
 
 #### In Problem #2, Disambiguation of Location. 
@@ -119,7 +121,7 @@ This is a similar use-case scenario to Problem #4 Disambiguation of entities - h
 
 #### Other Recommendation/Decision
 - Names have synergies
-- Rescheduling time to 9:30 CST
+- Rescheduling the recurring meeting time to 9:30 CST
 
 
 
