@@ -57,10 +57,10 @@ A couple of problems in this scenario: <br>
 </details>
 <details><summary>4. Disambiguation of entities - homograph.</summary>
 <br>
- Part of the complexity of voice is the homophone disambiguation. When the user utters an invocation, and there can be multiple possibilities for the invocation. 
+ Part of the complexity of voice is the homograph disambiguation. When the user utters an invocation, and there can be multiple possibilities for the invocation. 
 <br>
 An example: <br>
-A user utters, "{wake work}, I want to talk to Delta." Multiple entities can be associated with Delta such as Delta Dental, Delta Airlines, Delta Network.
+A user utters, "{wake word}, I want to talk to Delta." Multiple entities can be associated with Delta such as Delta Dental, Delta Airlines, Delta Network.
 <br>
 A couple of problems in this scenario: <br>
  - (1) who decides for the right interpretation <br> 

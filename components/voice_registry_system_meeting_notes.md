@@ -2,33 +2,162 @@
 This document is meant to capture the meeting notes and decision.
 
 
-## Meeting 09.03.2020
+## Meeting 10.15.2020
 
 <details><summary>click for meeting details...</summary>
 
-**Attendance:** @maridob, @omitfo2, @rogerkibbe, @rmtuckerphx, @nkmyers0794
+### Action Items from 10.01.2020:
+- @Lens-fitzgerald will create PR for the additional problem context #69 and #70
+- @omitfo2 will create PR for the problem context #66.
+- @Lens-fitzgerald will propose the definition for Conversation Assistant
+- @maridob will create a new poll for the new set of the problem context. 
+    >> Poll is sent and created on 10.13.2020 4 PM CST time.
+    >> /poll "Please select the problems that you think should be solved and prioritize by the VRS. The details description of the problems are" "Provide consistent experience across conversational platforms and/or entity conversational assistant." "Disambiguation of entities location." "Disambiguation of entities - homophone." "Disambiguation of entities - homograph." "Lack of central location for invocation availability." "Correction of mispronounciations." "Indirect invocation of application apps. Ex: Add milk to Tarjey." anonymous
+    >> This poll is Issue #77
 
 ### Agenda:
-  - Vote for the VRS moderator
-  - Discuss the problem statement([#56](https://github.com/open-voice-network/docs/issues/56), [#57](https://github.com/open-voice-network/docs/issues/57), [#58](https://github.com/open-voice-network/docs/issues/58), ) submitted from the last meeting. 
+  - Discuss the goal of the meeting. Goal: Finalized the problem prioritization that VRS can solve.
+  - Discuss the architecture guidance for VRS. The architecture guidance should help us to align the scope of the problem for VRS.
+  - Discuss and ratify the business value for each problem prioritization, based on the poll. The outcome of this discussion will be brought back to the Technical Committee.
+  - Check if we achieve our goal. If not, why? 
 
 ### Discussion/Decision Points:
-  - @maridob is voted for VRS moderator
-  - Everyone agreed that we should be using the speaking language. See terminology alignment in the [VRS doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.m)
-  - Reviewed the above issues and rephrased based on the agreed terminology alignment. All notes for the individual issue are captured in the github | issue. 
-  - Create an issue to add *technical resource* in the terminology alignment. 
-    > Technical resource can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
-  - Create an issue to add *voice application* in the terminology alignment. This is similar definition in the the [technical masterplan document](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md).
+As we are trying to build the VRS component's role and responsibilities of VRS in the OVN architecture world. Like Dan's analogy of building a rocket, it will NOT only take 1 component to make it work. To state the obvious, it's going to be more than one.  The critical thing to resolve is the role of the component in building the rocket. Like any component building process, it should start in identifying the problem context and scope. Along with identifying the responsibilities, there are some architecture principles guidelines that we would like to follow. 
 
-### Action Item(s):
-  - Create an issue to add the *technical resource* terminology - Maria
-  - Create an issue to add the *voice application* terminology - Maria
+- Single Responsibility
+- Loose Coupling
+- Event-Driven
+- Availability and Partitioning Eventual Consistency
+- Interface segregation
+- Automation (CICD, DevOps, Containerization, Service Mesh, Observability, etc.)
+
+In identifying the problem context, we focused on the Single Responsibility Principle. This benefits the VRS component to find the right amount of cohesive functionality and responsibility. This is to avoid the pitfall of being monolith or create tight coupling.
+
+As we reviewed and got the feedback from the team about the problems. There is some noticeable gap with some of the issues brought forward.
+
+#### Problem #1 and #6 are the top 2 choices for VRS.
+
+#1 Provide a consistent experience across conversational platforms and/or entity's conversational assistant.
+#6 The lack of central location for invocation availability.
+
+As you can see, it is very much apparent the remaining of the problem has more or less equal number of votes. There is a typical pattern that showed in Disambiguation. 
+
+(1) The decision making for the right interpretation.
+(2) Relationship of the location, homograph/homophone/mispronunciation/alternate names with the invocation. 
+
+#### In Problem #2, Disambiguation of Location. 
+First use-case:
+The user asks for "{wake word}, order 1 Tiramisu chocolate cake from Patrick's Dessert. The current user location is in Apple Valley, MN, where he lives.
+
+Second use-case:
+The user asks for "{wake word}, order 1 Tiramisu chocolate cake from Patrick's Dessert. The current user location is at Minneapolis airport, but his home location is in Apple Valley, MN. His intention is to order to the nearest location to his house and not his current location - so when he gets home, the dessert is already there.
+
+
+There is multiple Patrick's Dessert from a different location. 
+Patrick's Dessert Burnsville, MN (5 miles away from user location)
+Patrick's Dessert Minneapolis, MN (20 miles away from user location)
+
+Multiple ways to solve it:
+- Take into account user location
+- Take into account user preferences based on the user's history.
+- Ask a follow-up question to the user before presenting the selected voice application. 
+
+**RECOMMENDATION:**
+- VRS should not be in the interpretation's decision-making business.
+- Instead, it should be the source of truth of the relationship to the location and voice application. It can have the ability to receive the user's current location that can come from other components but will not store any user's preference. Although it will hold the voice application's selection or settings. 
+- The VRS can return multiple voice applications to the "callee" based on the voice application settings.
+
+
+#### In Problem #3, Disambiguation of entities - homophone.
+ First use-case:
+The user asks for "{wake word}, I want to talk to Cisco" 
+
+ Second use-case:
+The user asks for "{wake word}, I want to check the seafood category of 
+Sysco" 
+
+Multiple ways to solve it:
+- Take into account user preferences based on the user's history.
+- Ask a follow-up question to the user before presenting the selected voice application. 
+- Understand the full context of the utterance. In this case, take into account the "seafood" relationship to the voice application.
+
+**RECOMMENDATION:**
+- VRS should not be in the interpretation's decision-making business.
+- The translation of "voice to text" should be handled by other components outside of VRS. VRS is expected to receive a text.
+- VRS can hold an attribute of a voice application's category.  Example: Cisco belongs to Technology, Networking Category, and Sysco belongs to Retail.
+- VRS can hold an attribute of alternative names. Sysco can have alternative names of Sysco Food, Sysco, while Cisco can have an alternative representation of Cisco Networking, Cisco.
+- The VRS can return multiple voice applications to the "callee" based on the voice application settings.
+
+
+#### In Problem #4, Disambiguation of entities - homograph.
+ First use-case:
+The user asks for "{wake word}, set-up an appointment with Delta." 
+
+ Second use-case:
+The user asks for "{wake word}, how much is the flight from MSP to MNL with Delta?" 
+
+Multiple entities are associated with Delta, such as Delta Dental, Delta Airlines, Delta Network, and like the above disambiguation scenarios, these can be handled in multiple ways.
+
+Take into account user preferences based on the user's history.
+- Ask a follow-up question to the user before presenting the selected voice application. 
+- Understand the full context of the utterance. In this case, take into account the "flight" relationship to the voice application.
+
+RECOMMENDATION:
+- VRS should not be in the interpretation's decision-making business.
+- VRS can hold an attribute of a voice application's category.  Example: Delta Dental belongs to Healthcare, and Delta Airlines belongs to Travel, Flight.
+- VRS can hold an attribute of alternative names. Each voice application can opt to have their alternative names set-up. For example, Delta Airlines can have Delta, while Delta Network can have an alternative representation of Delta.
+- The VRS can return multiple voice applications to the "callee" based on the voice application settings.
+
+#### In Problem #6, Correction of mispronunciations.
+
+This is a similar use-case to Problem #3 Disambiguation of entities-homophone, and we have identical recommendations.
+
+
+#### In Problem #7, Indirect invocation of alternative names. Ex: Add milk to Tarjey.
+
+This is a similar use-case scenario to Problem #4 Disambiguation of entities - homograph, and we have identical recommendations.
+
+#### Other Recommendation/Decision
+- Names have synergies
+- Rescheduling time to 9:30 CST
+
+
 
 ### Next Steps:
-  - Solidify the problem statement.
-  - Prioritize the importance of problem based on business value and impact.
+- Discuss the integration of VRS with other components
+- Discuss the "context" concept
+- Review prioritization of the problem
 
 </details>
+
+
+## Meeting 10.01.2020
+
+<details><summary>click for meeting details...</summary>
+
+### Agenda:
+  - @omitfo2 will walk through the issue #66 
+  - @Lens-fitzgerald will walk through issue #69 and #70
+  - @jcstine discussed the PR #68
+  - Review the poll in problem prioritization 
+  - Recap of the meeting (what can we do differently or keep?) - 5 minutes
+
+### Discussion/Decision Points:
+ - The issue #66, #69 and #70 will be added as part of the VRS problem context.
+ - Anything deemed necessary that needs to be discussed in the VRS meeting will need to be added as a Github issue.
+ - Continue the structure of the meeting.
+
+### Action Item:
+- @Lens-fitzgerald will create PR for the additional problem context #69 and #70
+- @omitfo2 will create PR for the problem context #66.
+- @Lens-fitzgerald will propose the definition for Conversation Assistant
+- @maridob will create a new poll for the new set of the problem context
+
+### Next Steps:
+-
+
+</details>
+
 
 ## Meeting 09.17.2020
 
@@ -58,57 +187,30 @@ This document is meant to capture the meeting notes and decision.
 
 </details>
 
-## Meeting 10.01.2020
+## Meeting 09.03.2020
 
 <details><summary>click for meeting details...</summary>
 
-### Agenda:
-  - @omitfo2 will walk through the issue #66 
-  - @Lens-fitzgerald will walk through issue #69 and #70
-  - @jcstine discussed the PR #68
-  - Review the poll in problem prioritization 
-  - Recap of the meeting (what can we do differently or keep?) - 5 minutes
-
-### Discussion/Decision Points:
- - The issue #66, #69 and #70 will be added as part of the VRS problem context.
- - Anything deemed necessary that needs to be discussed in the VRS meeting will need to be added as a Github issue.
- - Continue the structure of the meeting.
-
-### Action Item:
-- @Lens-fitzgerald will create PR for the additional problem context #69 and #70
-- @omitfo2 will create PR for the problem context #66.
-- @Lens-fitzgerald will propose the definition for Conversation Assistant
-- @maridob will create a new poll for the new set of the problem context
-
-### Next Steps:
--
-
-</details>
-
-## Meeting 10.15.2020
-
-<details><summary>click for meeting details...</summary>
-
-### Action Items from 10.01.2020:
-- @Lens-fitzgerald will create PR for the additional problem context #69 and #70
-- @omitfo2 will create PR for the problem context #66.
-- @Lens-fitzgerald will propose the definition for Conversation Assistant
-- @maridob will create a new poll for the new set of the problem context. 
-    >> Poll is sent and created on 10.13.2020 4 PM CST time.
-    >> /poll "Please select the problems that you think should be solved and prioritize by the VRS. The details description of the problems are" "Provide consistent experience across conversational platforms and/or entity conversational assistant." "Disambiguation of entities location." "Disambiguation of entities - homophone." "Disambiguation of entities - homograph." "Lack of central location for invocation availability." "Correction of mispronounciations." "Indirect invocation of application apps. Ex: Add milk to Tarjey." anonymous
+**Attendance:** @maridob, @omitfo2, @rogerkibbe, @rmtuckerphx, @nkmyers0794
 
 ### Agenda:
-  - Discuss the goal of the meeting. Goal: Finalized the problem prioritization that VRS can solve.
-  - Discuss the architecture guidance for VRS. The architecture guidance should help us to align the scope of the problem for VRS.
-  - Discuss and ratify the business value for each problem prioritization, based on the poll. The outcome of this discussion will be brought back to the Technical Committee.
-  - Check if we achieve our goal. If not, why? 
+  - Vote for the VRS moderator
+  - Discuss the problem statement([#56](https://github.com/open-voice-network/docs/issues/56), [#57](https://github.com/open-voice-network/docs/issues/57), [#58](https://github.com/open-voice-network/docs/issues/58), ) submitted from the last meeting. 
 
 ### Discussion/Decision Points:
+  - @maridob is voted for VRS moderator
+  - Everyone agreed that we should be using the speaking language. See terminology alignment in the [VRS doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.m)
+  - Reviewed the above issues and rephrased based on the agreed terminology alignment. All notes for the individual issue are captured in the github | issue. 
+  - Create an issue to add *technical resource* in the terminology alignment. 
+    > Technical resource can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
+  - Create an issue to add *voice application* in the terminology alignment. This is similar definition in the the [technical masterplan document](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md).
 
-
-
+### Action Item(s):
+  - Create an issue to add the *technical resource* terminology - Maria
+  - Create an issue to add the *voice application* terminology - Maria
 
 ### Next Steps:
--
+  - Solidify the problem statement.
+  - Prioritize the importance of problem based on business value and impact.
 
 </details>
