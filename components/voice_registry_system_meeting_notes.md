@@ -102,7 +102,7 @@ Take into account user preferences based on the user's history.
 - Ask a follow-up question to the user before presenting the selected voice application. 
 - Understand the full context of the utterance. In this case, take into account the "flight" relationship to the voice application.
 
-RECOMMENDATION:
+**RECOMMENDATION:**
 - VRS should not be in the interpretation's decision-making business.
 - VRS can hold an attribute of a voice application's category.  Example: Delta Dental belongs to Healthcare, and Delta Airlines belongs to Travel, Flight.
 - VRS can hold an attribute of alternative names. Each voice application can opt to have their alternative names set-up. For example, Delta Airlines can have Delta, while Delta Network can have an alternative representation of Delta.
