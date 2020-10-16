@@ -123,12 +123,14 @@ This is a similar use-case scenario to Problem #4 Disambiguation of entities - h
 - Names have synergies
 - Rescheduling the recurring meeting time to 9:30 CST
 
-
+### Action Item:
+- @maridob will review the PR of @Lens-fitzgerald and @omitfo2 for merging
 
 ### Next Steps:
 - Discuss the integration of VRS with other components
 - Discuss the "context" concept
 - Review prioritization of the problem
+- Review the active issues
 
 </details>
 
