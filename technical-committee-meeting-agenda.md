@@ -134,6 +134,7 @@
 - OVN organizational update: sponsorship, participation, messaging (2 minutes) -- J. Stine
 - Milestone review-reminders (1 minutes) -- J. Stine
 - Report and Recommendations from the Privacy-Security Work Group (30 minutes) -- M. Frazzini, M. Lens-Fitzgerald
+  - Overview of process/methodology/references (2 minutes)
   - Key Findings (10 minutes)
   - Recommendations for Action-Adoption (10 minutes)
   - Questions, Discussion, Roundtable (10 minutes)
