@@ -16,9 +16,90 @@ Proposed standards will gain the greatest support (and eventual adoption) when s
 
 ###  the Scope of Open Voice
 
-The world of AI-enabled voice today ranges from Interactive Voice Response (IVR) to the evolving realm of hardware-independent, voice-activated and -centric personal agents and assistants.  Although our definition of AI-enabled voice spans the entirety of this continuum, our primary focus will be on the integrated, pan-internet, and personal voice agent and assistant, which may include screen-based visual assistance.  
+We are Voice First.  We are language-centric, conversationally-focused, and cognizant of the variety and richness voice data.  We are also user-centric, inclusive (believing that voice is for all), and desirous of voice being a tool for societal good.
+
+We recognize that voice will be increasingly combined with other digital modalities of communication and conversation, such as screen-based visuals, gestures, and facial recognition.  
+
+However: to focus our work and drive results, we will solve voice first. 
+
+
+
+The world of AI-enabled voice ranges from Interactive Voice Response (IVR) to the evolving realm of hardware-independent, voice-activated and -centric personal agents and assistants.  Over time, voice will be increasingly combined with other digital modalities of communication and conversation, including screen-based visuals, gestures, and facial recognition.  
+
+Although Tomorrow, AI-enabled voice Although our definition of AI-enabled voice spans the entirety of this continuum, our primary focus will be on the integrated, pan-internet, and personal voice agent and assistant, which may include screen-based visual assistance.  
 
 ### Problem Statement 
+
+### Why This Work Is Important ###
+
+As we enter the third decade of this century, the ability to direct digital devices and systems through speech is increasingly common.
+We speak (and listen) to voice assistants in purpose-built devices, smartphones, automobiles, televisions and home appliances, manufacturing systems, and enterprise software.   
+However, as remarkable as today’s voice assistants appear, they represent only the earliest phase of what artificial intelligence-enabled voice will become by the end of this decade.  In the coming years, we can expect significant changes in three broad areas of voice assistance:  user experience, assistant availability, and the voice ecosystem.
+
+The user experience of voice assistance will be transformed in multiple ways.  Of most importance will be the shift from today’s command-and-question interaction to human-to-machine conversation.  In practice, this will enable conversation akin to that with a friend, where shared history, time, place, sentiment, and personal preferences are brought seamlessly into the flow of a discussion.   A voice assistant will not only understand what is said, but the context in which it is said and the emotion with which it is said -- and be able to respond, recommend, and remember.  Voice will also be combined with visual elements, to provide what experts term “multi-modal” conversation.  This could range from information shown on screens to the recognition of gestures and facial behaviors. 
+
+Voice will become available nearly everywhere -- the ubiquitous interface to the digital world. Voice assistance will be integrated not only into devices of all types, but into places (homes, stores, banks, medical facilities, museums, stadiums) and systems for monitoring environments and processes, from factories to farms.   Analysts predict active voice assistant use on more than two billion smartphones by 2023¹, and some 8.4 billion voice assistant users worldwide by 2024².   Users will search for and speak to websites (more than 1.7 billion worldwide today³), and smart, connected objects (some 41 billion worldwide by 2025⁴.)  Futurists see a world in which voice is the normative interface for all artificial intelligence; indeed, it is predicted that all artificial intelligence will be conversational.⁵
+
+The voice assistance ecosystem will be transformed as well.  Of most importance will be the emergence of hundreds of thousands (and in time, millions) of independently-developed and purpose-built  enterprise and organizational voice assistants, each speaking and listening to constituents through a multitude of voice channels.   This will reflect a shift from platform-based skills and actions.
+
+All told, we are today in the early days of the artificial intelligence-enabled voice revolution.  Today’s voice assistants offer but a glimpse of the potential value that this technology can bring to every industry, every profession, and society at large.
+
+We – the sponsoring members and supporters of the Open Voice Network – believe that this glimpse of value is at risk of remaining faint and unfulfilled.   Standing before the growth of conversational AI in usage and economic value are four broad issues:
+
+## Trust, choice, inclusivity, and openness.##
+
+Trust opens the door to personal and enterprise adoption, and to ever-more complex usage by all users – from individuals to developers and designers to enterprise decision-makers.  The foundation of user trust is a “rule of law” which best emerges from the neutral, industry-driven development of standards and standards-based systems.   It is also built through the standards-based  protection of privacy, guidance for data use (both personal and commercial), inclusivity and accessibility, and system governance.  The Open Voice Network’s stated mission is to make voice worthy of user trust. 
+
+Choice is a catalyst for ecosystem innovation and the growth of value for individuals, developers and designers, and enterprises of all sizes.  Choice is realized in many ways – in a user’s ownership and control of data, in a user’s choice of components, assistants and providers, and in the choice of assistant architecture (be it hosted locally or in the cloud.) 
+
+Inclusivity is about everyone having a voice, and in every situation.  It is voice that welcomes under-represented vocalizations and dialects; voice that advances access. 
+
+Openness enables interoperability among assistants and providers.  At its core is the identification and definition of standardized development building blocks.  Such blocks serve as a foundation for commercial differentiation and value; they can be assembled according to purpose, and in completely open, completely proprietary, or mixed (or hybrid) implementations. 
+
+
+## The time to act is now.##
+
+Artificial intelligence-enabled voice is now entering its next phase.
+
+As such, we face the question of the future of voice assistance. 
+
+Trust-worthy?  Choice-enabled?  Inclusive?  Open?
+
+A realm of remarkable innovation, enterprise adoption, and economic growth that welcomes all on equal footing?  
+
+## Introducing Open Voice Network.##
+
+The Open Voice Network is a non-profit industry association, operating as a Directed Fund of the Linux Foundation, dedicated to researching and proposing the technical standards and usage guidelines that will bring the critical benefits of choice and trust to conversational AI.
+
+We are neutral and inclusive, welcoming to participation and sponsorship all members of the conversational AI industry – from independent developers and designers to enterprise users to technology firms and platform providers.
+
+We work openly, transparently, and communally, seeking ideas, comment, and criticism from a broad and diverse spectrum.
+
+We work collaboratively with standards bodies and existing industry organizations.
+
+We operate within a governance model pf checks and balances, one that demands accountability.
+
+## Standards and Usage Guidelines: An Aspirational List.##
+
+The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines. It reports to the Open Voice Network Steering Committee.
+
+These aspirational topics are under discussion:
+
+# Standards to enhance user interactions and capabilities#
+
+Log-in procedures that are privacy-friendly, fast, and easy to use.
+Platform-independent discovery and invocation of voice applications and services.
+Platform-independent and dependable destination accessibility.
+Seamless invocation of voice applications across platforms.
+User interfaces that are consistent across human languages, dialects, and platforms.
+User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices.
+## Standards that provide privacy, safety, and security.#
+User identification and authentication that is multifactor and platform independent.
+Intentional and consent-based individual and commercial privacy.
+Object control language used to specify who may perform what function with which destination, and when.
+## Usage guidelines that protect privacy and enhance inclusivity.#
+Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
+Transparent, intentional, and consent-based data usage.
 
 Today, this world of voice assistance is dominated by proprietary, cloud-centric platforms (and related devices) that deliver services using closed implementations.  Examples include Amazon Alexa, Google Assistant, and Apple Siri.  While these closed systems have been successful, the lack of worldwide strategies and principles prevent them from becoming systems that work for all future voice participants.  Issues at question include:
 
@@ -33,6 +114,23 @@ There are numerous other issues which, unless addressed through standards, will 
 - platform-agnostic user identification and authentication
 - the lack of common voice commands for common, non-differentiating business processes (such as transaction and payment)
 - user inclusivity across languages, dialects, gender, and age.
+
+### Vision of the Open Voice Network: our North Star
+
+Conversational AI is in its earliest days.  It is rapidly moving toward a global future that will be multi-platform, multi-device,  multi-modal, and found in every industry.  It promises significant value not only to conversational AI providers, but to its users -- the enterprises, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
+
+However, a broad issue of dis-trust now blankets conversational AI, and inhibits the realization of user value.  To realize its potential, conversational AI must be open and worthy of user trust.  It must be open for development and innovation.  It must be trust-worthy in its ease and reliability use, in its direct and unfiltered access to desired destinations, in its commercial and data usage and privacy, in its cross-platform interoperability, in lack of bias, in its development languages and protocols.  
+
+Through the centuries, the development and adoption of standards has repeatedly catalyzed ever-advancing use, innovation, ecosystem development, and economic growth for new technologies.  We, the sponsors and supporters of The Open Voice Network, believe that now -- at the dawn of conversational AI's multi-platform future -- is the time to communally develop and drive toward adoption the conversational AI standards that will enable user trust.  
+
+Our work could include the development and proposal of standards that will enable:
+- platform-independent destination accessibility
+- platform-indepedent user identification and authentication
+- the interoperability of conversational AI platforms
+- consent-driven commercial and consumer privacy; 
+- commands and phraseology for common business processes;
+- language inclusivity;
+- open development. 
 
 ### Example Use Case(s) for Resolution
 
@@ -101,6 +199,10 @@ This general vocabulary section aims to define general words used when talking a
 - **Automatic Speech Recognition** - is also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
 - **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response.
 - **Voice Application** - also known as skill, action, capsule or domain. This is the specific executable component that has association to multiple things such as invocation, collection of related intents and entities up to the configuration to your dialog manager.
+- **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
+- **Component interoperability** - A component of a platform may be replaced by another component from a different vendor.  I.e., replace the TTS by another TTS from a different vendor.
+- **Voice Application Interoperability” – a voice application involves another voice application
+
 
 ### Component Vocabulary
 
@@ -379,6 +481,22 @@ TODO: clean up this bulleted list; it’s just a placeholder of things to consid
 - Optional configuration items:
 - SST engine to be used by the channel
 
+## Vertical Dependencies
+Items in the vertical dependencies need to be addressed in each architectural component.
+
+# Privacy
+Part of the principles of OVN is privacy. Below are the guidelines to focus on:
+- Always end-users interest first. This is essential, especially for end-users who are marginalized or vulnerable sectors of the society who may not be aware of how their data are being collected, used, or shared. 
+- Always ask. Get an informed acknowledgment from the end-user, before collecting, sharing, or using the data.
+- Provide an audit trail for personal or sensitive information captured.
+- Always communicate to the end-user the data being collected and informed the purpose of the collection of data.
+
+# Security
+Add
+
+# Context
+
+
 ## Addendums
 
 TODO
@@ -387,11 +505,7 @@ TODO
 
 TODO
 
-### Privacy
 
-TODO: document privacy to the hardware level; incognito switch; no listening switch
-
-TODO: insert the flow in protecting the privacy in NLP
 
 ### Common Commands for Common Processes
 
@@ -406,7 +520,7 @@ TODO
 
 ## References
 
-- Fig. 1 - Component Architecture Diagram: https://docs.google.com/drawings/d/1bn8ZkQwnecmTF1v4Sr2WPfw4VIznkk1q8qN_5TVABg0/edit
-- Fig. 2 - Component Flow Sequence Diagram: https://docs.google.com/drawings/d/156TXVWLcGks4FCG8FDTWg0dtPJf9h6q2KpT8Qr8LnBo/edit
+- Fig. 1 - Component Architecture Diagram: https://docs.google.com/drawings/d/1ELxRKqyaUCWRoc5ein_ajHsy3Y_ZDpY9ErIfGT0lYq4/edit?usp=sharing
+- Fig. 2 - Component Flow Sequence Diagram: https://docs.google.com/drawings/d/1rMfX6-oN81t27WD6Dbkd6Bee1KDYkHWEXPb-tNn0ykQ/edit?usp=sharing 
 
 

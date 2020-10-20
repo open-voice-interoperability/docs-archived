@@ -37,3 +37,107 @@
 - Website development work and volunteers - Dan Cundiff - 10 mins
 - Forming, running, operating working groups for activities - 20 mins
 - Follow-up from 2020-05-29 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 mins
+
+# 2020-06-26
+- Antitrust statement and notice of recording - Jon Stine - 1 min
+- Follow-up: GitHub training and on-boarding meeting recordings - links via Slack - Jon Stine - 3 minutes
+- Follow-up: review Technical Committee and Developer Community inputs into proposed activities list: foundationalexploratory, etc. - Dan Cundiff
+- Action: determination of initial prioritized activities - Dan Cundiff 
+- Action: determination of working group participants and leaders - Dan Cundiff, Jon Stine
+- Summation of decisions - Kristi Dank
+- Review of meeting processes, question, comments - Dan Cundiff
+
+# 2020-07-10
+- Antitrust statement and notice of recording - Jon Stine - 1 min
+- Ethical use update - Jon Stine - 5 mins
+- Google question - Jon Stine - 10 mins
+- Update on progress from working groups - Dan Cundiff + chairs of working groups
+- Feedback loop: working group ways of working improvements - Dan Cundiff
+- Request to go over the details of the Technical Masterplan - Dan Cundiff
+
+# 2020-07-24
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda and expectations for the meeting (1 minute) -- D. Cundiff 
+- Open Voice Network: update from Steering Committee (2 minutes) -- J. Stine
+- First look at Tech Comm milestones; a working draft (3 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group: decisions and next steps (15 minutes)  -- M. Frazzini
+- Report from the Architecture Work Group: decisions and next steps (10 minutes) -- J. Iwasz
+- Update from Architecture Work Group: a review of this past Tuesday's discussion (40 minutes) -- D. Cundiff, D. Attwater, J. Eisenzopf, J. Larson, et. al.
+- Update: Designer-Strategist Community -- enterprise use cases (5 minutes) - J. Stine
+- Request: review of the proposed "North Star" aspirational statement, now on GitHub (5 minutes):  -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-08-07
+- Antitrust statement and notice of recording (1 minutes) -- J. Stine
+- Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update: challenges, updates -- (5 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group:  discussions, direction, next steps (20 minutes) -- M. Frazzini
+- Report from the Architecture Work Group:  discussions, directions, next steps (20 minutes) -- J. Iwasz
+- Proposal and Discussion:  launch of a Voice Registry System Work Group (10 minutes) -- J. Larson, M. Brinas-Dobrowski
+- Update: "North Star" aspirational statement -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-08-21
+- Antitrust statement and notice of recording (1 minutes) -- J. Stine
+- Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update: membership update, milestones -- (10 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group:  discussions, direction, next steps (20 minutes) -- M. Frazzini
+- Report from the Architecture Work Group:  discussions, directions, next steps (20 minutes) -- J. Iwasz
+- Proposal and Discussion:  discussions, directions, next steps -- J. Larson, M. Brinas-Dobrowski
+- Update: "North Star" aspirational statement -- J. Stine
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-09-4
+- Antitrust statement and notice of recording (1 minutes) -- J. Stine
+- Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update: membership update, milestones -- (5 minutes) -- J. Stine
+- OVN North Star / Scope: proposed summary statement.  A follow-up from the 2020.08.21 conversation -- (15 minutes) -- J. Stine, et.al
+- Report from the Privacy-Security Work Group:  discussions, direction, next steps (15 minutes) -- M. Frazzini
+- Report from the Architecture Work Group:  discussions, directions, next steps (15 minutes) -- J. Iwasz
+- Report from the VRS Work Group: discussions, directions, next steps (15 minutes)-- M. Brinas-Dobrowski
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-09-18
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Update:  membership update, communications (5 minutes) -- J. Stine
+- How all this could fit together: roadmap, milestones, next steps (10 minutes) -- J. Stine
+- Report from the Privacy-Security Work Group (15 minutes) -- M. Frazzini 
+- Report from the Architecture Work Group (15 minutes) - J. Larson
+- Report from the VRS Work Group (15 minutes) - M. Brinas-Dobrowski
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-10-02
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN Positioning: market transitions, future of voice assistance (5 minutes) -- J. Stine
+- Milestone review-reminders (1 minutes) -- J. Stine
+- Report from the VRS Work Group (10 minutes) - M. Brinas-Dobrowski
+- Report from the Privacy-Security Work Group (10 minutes) -- M. Frazzini 
+- Report from the Architecture Work Group (10 minutes) - J. Larson
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-10-16
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
+- OVN organizational update: sponsorship, participation, messaging (5 minutes) -- J. Stine
+- Milestone review-reminders (1 minutes) -- J. Stine
+- Requests/recommendations from OVN Communities (5 minutes) -- 
+- Report from the VRS Work Group (10 minutes) - M. Brinas-Dobrowski
+- Report from the Privacy-Security Work Group (10 minutes) -- M. Frazzini 
+- Report from the Architecture Work Group (10 minutes) - J. Larson
+- Review of actions, next steps (5 minutes) -- D. Cundiff
+
+# 2020-10-30
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff
+- OVN organizational update: sponsorship, participation, messaging (2 minutes) -- J. Stine
+- Milestone review-reminders (1 minutes) -- J. Stine
+- Report and Recommendations from the Privacy-Security Work Group (30 minutes) -- M. Frazzini, M. Lens-Fitzgerald
+  - Overview of process/methodology/references (2 minutes)
+  - Key Findings (10 minutes)
+  - Recommendations for Action-Adoption (10 minutes)
+  - Questions, Discussion, Roundtable (10 minutes)
+- Report from the VRS Work Group (5 minutes) - M. Brinas-Dobrowski
+- Report from the Architecture Work Group (5 minutes) - J. Larson
+- Review of actions, next steps (5 minutes) -- D. Cundiff

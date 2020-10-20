@@ -16,3 +16,13 @@ This document aims to describe the ways in which OVN will work with regards to k
 - Github for technical document management and review, at https://github.com/orgs/open-voice-network. Team members will be added to the proper OVN GitHub account upon invitation to the Technical Committee, or through a request (providing GitHub handle) to the OVN Executive Director via Slack, or by e-mail (jon.stine@openvoicenetwork.org.)   
 - Slack for instant messaging and quick issue resolution. You will be added to the OVN Slack channels upon invitation to the OVN Technical Committee, a project task force, or one of the OVN Communities. To request participation in the OVN Slack Channels, please e-mail the OVN Executive Director (jon.stine@openvoicenetwork.org.) 
 - Google G Suite (as noted above) for non-technical document management (calendars, some non-TC meeting notes, meeting recordings, relevant financial documents, etc.). Technically-focused committees and project task forces will use GitHub for document management; other OVN Communities and committees (such as Ethical Use, and Health & Life Sciences) will use Google G Suite for document storage and management. To obtain access, please request access via an e-mail to the OVN Executive Director (jon.stine@openvoicenetwork.org), and include your e-mail address (required for access to G Suite).  
+
+# Working groups 
+
+Working groups are the teams that execute work against the activities.  When a working group exists, they will create their own Github repository and are accounable to manage their own issues and backlogs.  Working Groups will also form and define their own leads/leadership. 
+
+Technical Committee Working groups formed:  
+* **Architecture working group**  (S. Baul,  M. Lens-FitzGerald, J.Iwasz, P.Bentsen, J.Larson, S.Prayaga, D.Cundiff)
+  * formed in 6/26/20 Technical Committee meeting 
+* **Privacy & Security working group** –horizontal (S.Prayaga, J.Mass, P. Bentsen, M.Frazzini, N.Myers, L.Lin)
+  * formed in 6/26/20 Technical Committee meeting 
