@@ -1,6 +1,22 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
 
+## Meeting 10.29.2020
+
+<details>
+<summary>click for meeting details</summary>
+
+### Action Items from 10.15.2020:
+- @Lens-fitzgerald will need to respond on my comment [#76](re: https://github.com/open-voice-network/docs/pull/76)
+
+### Agenda:
+- Review the decision made last 10.15.2020
+- Review prioritization of the problem
+- Discuss the integration of VRS with other components
+- Discuss the "context" concept
+- Review the active issues
+
+</details>
 
 ## Meeting 10.15.2020
 
