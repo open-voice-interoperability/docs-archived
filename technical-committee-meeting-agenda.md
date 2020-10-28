@@ -130,14 +130,13 @@
 
 # 2020-10-30
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
-- Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff
-- OVN organizational update: sponsorship, participation, messaging (2 minutes) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- J. Stine
 - Milestone review-reminders (1 minutes) -- J. Stine
 - Report and Recommendations from the Privacy-Security Work Group (30 minutes) -- M. Frazzini, M. Lens-Fitzgerald
-  - Overview of process/methodology/references (2 minutes)
+  - Overview of problem statement, process/methodology/references (2 minutes)
   - Key Findings (10 minutes)
   - Recommendations for Action-Adoption (10 minutes)
   - Questions, Discussion, Roundtable (10 minutes)
 - Report from the VRS Work Group (5 minutes) - M. Brinas-Dobrowski
 - Report from the Architecture Work Group (5 minutes) - J. Larson
-- Review of actions, next steps (5 minutes) -- D. Cundiff
+- Review of actions, next steps (5 minutes) -- J. Stine
