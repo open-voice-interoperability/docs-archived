@@ -16,6 +16,29 @@ This document is meant to capture the meeting notes and decision.
 - Discuss the "context" concept
 - Review the active issues
 
+### Discussion/Decision Points:
+1. Reviewed the decision made last 10.15.2020. VRS roles and responsibilities in the world of Voice.
+    - Central location for invocation and platform agnostic.
+    - Provide a consistent experience across conversational platforms and/or entity's conversational assistant.
+    - VRS is not responsible for the interpretation of the intent of the user.
+    - VRS can hold various attributes regarding the invocation, such as name, alternative names, category, geolocation.
+    - VRS can receive inputs like the user's current location but is not responsible for storing its preference. 
+    - VRS names can have synergies.
+2.  Prioritization for VRS
+    - Bucket 1
+    - Bucket 2
+3. "Context" concept will be discussed in the architectute meeting group.
+4. VRS integration with other components will be pushed for another meeting.
+
+### Action Items
+- Closed the #66 - owner: @maridob
+- Add the rewording suggestion by @omitfo2 - owner: @maridob
+- Jon will adjust the time of the recurring meeting - owner: @jcstine
+
+### Next Meeting Agenda:
+- Build the content the Nov 20 Technical Steering Committee report.
+
+
 </details>
 
 ## Meeting 10.15.2020
@@ -53,7 +76,7 @@ As we reviewed and got the feedback from the team about the problems. There is s
 
 > ![](component_assets/vrs_problem_poll.png?raw=true "Fig. 1 - VRS Problem Context Poll")
 
-#### Problem #1 and #6 are the top 2 choices for VRS.
+#### Problem #1 and #5 are the top 2 choices for VRS.
 
 #1 Provide a consistent experience across conversational platforms and/or entity's conversational assistant.
 #6 The lack of central location for invocation availability.
