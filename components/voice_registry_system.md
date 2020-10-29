@@ -7,17 +7,7 @@ Voice Registry System (VRS) is one of the components  in the
 VRS's goal is to provide a consistent experience for the users and create an equal treatment for the entities despite their size - regardless of the conversational platform.
 
 ### 1.0.2. Terminology Alignment
-- **Channel** - an interface and origin of communication. It is where the utterances are received. Examples: voice assistance devices, mobile phones, web sites, etc.
-- **Conversational Platform** - the system or services that handle the two-way interaction with the user and the entity.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right entity. 
-- **Disambiguate** - when the conversational platform hypothesizes two or more possible resolutions to a user utterance, it may ask the user for additional clarification or choose between the various interpretations to decide the user's correct intention. 
-- **Entity** -  government or private/public company that provides certain businesses or services.
-- **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
-- **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response. 
-- **Implicit Invocation** - an invocation type where the user invokes the channel, and use the most common words or indirectly saying the explicit Invocation. 
-- **Technical Resource** -  it can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
-- **Query** - user’s word requesting for specific function and expecting a particular response.
-- **User** - a person who interacts with channels.  
-- **Voice Application** - also known as skill, action, capsule or domain.
+See [OVN Terminologies](https://github.com/open-voice-network/docs/blob/master/terminologies.md)
 
 ### 1.0.3. Problem Context
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
@@ -74,17 +64,37 @@ A couple of problems in this scenario: <br>
 
 </details>
 
-<details><summary>6. No consistent guidelines for invocation.</summary>
+<details><summary>6. Correction of mispronounciations.</summary>
+<br>
+> The user's utterance of a word does not exist in the list of valid pronunciations. For example, the user utters "pitco" which does not match "ditco" or "botcp" or any other articulation is the list of valid pronunciations.
+
+</details>
+
+</details>
+<details><summary>7. Indirect invocation of voice application.</summary>
+<br>
+Due to natural language nature, a user will invoke a voice application based on the known slang or just based on the user's direct preference.
+<br>
+An example: <br>
+A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefers to call Target a retail store as "Tarrjaay."
+<br>
+
+</details>
+
+<details><summary>8. No consistent guidelines for invocation.</summary>
 <br>
 > Due to missing global standards, developers need to adhere to different conversational platforms guidelines. This results in complexity, heavy maintenance, and support for their voice application.
 
 </details>
+
+
 <br>
 <br>
 
 ### 1.0.4. Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
 
+#### 1.0.4.1 Roles and Responsibilities
 The primary role and responsibility of the VRS are to resolve the explicit invocation received by the conversational platforms if it is available based on a given location. The resolution will include taking into account the origin of the place of the utterance. The VRS will store the entities' preferred configuration that can be applied to all various conversation platforms. To achieve this, VRS is responsible for registry functionalities. 
 
 To promote the OVN principle, VRS will support to run locally and globally at scale.
