@@ -1,3 +1,56 @@
+# 2020-10-30 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, I. Mez, S. Prayaga, R.Nathenson, C.Wuttke, O. Coleman, A. Dalloul, D. Attwater
+
+The meeting was brought to order at 9:02 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – M. Brinas-Dobrowski 
+
+### Milestone review –reminders and OVN process – J. Stine
+* Reminder to the workgroups on remit milestones 
+  * Privacy and Security – Tech Comm Report  10/30 – today 
+  * Architecture workgroup –Tech Comm Report   11/20
+  * VRS –Tech Comm Report 11/20 
+  * Plan for 25 minutes max including Q&A 
+* Special 90 minute Session on 11/20 to review work group reports from Architecture and Voice Registry System 
+* OVN’s maturing development process – Jon will share slide 
+
+
+### Report and recommendations from the Privacy-Security work group -  M.Frazzini & M. Lens-FitzGerald
+* Privacy Guidelines and Capabilities unique to voice –M. Frazzini 
+  * [link to Privacy Guidelines document( https://docs.google.com/document/d/19o7k00fvFqwd0XdPbacd6h-JOVMB13sEaruKZfi529E/edit#heading=h.9l4e2earpcv9)
+  * Overview of problem statement, process/methodology/references
+     * Voice technology has the power to change our lives, however with voice technology there comes a unique set of privacy risks. Identifying these risks, and minimizing their potential harms, is inherently linked to the successful adoption and use of voice technology.  The Open Voice Network seeks to provide guidance and standards for creating voice technology that respects privacy rights and earns the trust and use of consumers.
+  * Questions, discussion, roundtable 
+    * What was reviewed with regard to legality on privacy assertions- Reviewed GDPR, US laws, researching constitutional privacy laws in the US.   Need privacy attorney’s to provide additional insight  	
+    * The boundaries need to be grounded in the law of the geography 
+    * Legal compliance affects to architectural issues such as permission giving and archiving and ability to access data recorded against an individual
+    * Consent will and should not be similar to the cookie experience today as well as the experience of excepting user agreements before installing software 
+    * Need to define the RFC process for public feedback and interactions
+    * Great job team! 
+ * Comments on this process for review
+   * team did a great job and review was effective 
+   * Review the OVN process document to ensure it ties to this process 
+
+* Voice Security Capabilities Report  - M. Lens-FitzGerald  -review tabled until next meeting due to time 
+  * [link to Voice Security Capabilities Report]( https://docs.google.com/document/d/1vlpaPlw62SPpTjcaLtLlJrXqH1LOSnTyAnApOUlfvA8/edit)
+  
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Reviewed and validated decisions
+* [VRS meeting minutes to catch all of the details]( https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_meeting_notes.md)
+  
+### Report from the Architecture Work Group: – J.Larson
+* Identified additional components for review and will move to categories these components 
+
+Meeting adjourned at 9:57 CT (US)
+
+
+
+
+
+
 # 2020-10-16 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, M.Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb,  A. Fyles, D. Rogers, I. Mez, S. Root, S. Prayaga, R.Nathenson
