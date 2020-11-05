@@ -10,12 +10,12 @@ VRS's goal is to provide and promote voice openness and transparency.
 See [OVN Terminologies](https://github.com/open-voice-network/docs/blob/master/terminologies.md)
 
 ### 1.0.3. Problem Context
-Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Whenever an "explicit invocation" is invoked by the user, each proprietary platforms have different standards (i.e., brand vocabulary, etc) and processes on how they are triggered or verified. 
+Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
 
-Entities are at the commiseration of every single conversational platform on how they're transactions are getting triggered on the conversational space.  
+In addition, the world of voice assistance is also in the midst of a major market transition.  In the near future, the role of cloud-centric platforms and third party entities will change, as third-party entities (especially enterprises) increasingly develop their own independent voice assistants.   This will -- at first, slowly, then rapidly --  push the industry from the current skills-on-platform model (similar to that of world of mobile apps) to what might be described as an internet model, where independent voice assistants (like web sites) connect interoperably across platforms and services providers.
 
-Per the OVN principles, the current situation today does not align with the policy we outlined:
-- Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
+Both the present and future situations are problematic for entities that wish to connect to their customers, patients, clients, and suppliers through voice assistance.
+
 
 Below are the **problems** identified in the current landscape.
 <br>
@@ -163,4 +163,3 @@ The expected output for VRS is the following:
  3. Is VRS only going to focus on explicit invocation?
  <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </br>
  
-

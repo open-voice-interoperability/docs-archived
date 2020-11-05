@@ -22,8 +22,9 @@ Motivation: Need to determine the best approach for developing a voice registry 
 
 Description: Analyze the pros and cons of alternative architectures for developing a Voice Registry including leveraging DNS, the standalone CUvoice registry, and others. The end result may be a decision to build and test a voice registry.
 
-jonstine:foundational
-omitfo2:  foundational
+- jonstine:foundational
+- Maarten Lens-FitzGerald: foundational 
+- omitfo2: foundational
 
 
 ## Voice Commerce Core Processes
@@ -36,15 +37,16 @@ Motivation: Accelerating people&#39;s purchasing process through of voice paymen
 
 Description: Specify the vocabulary for a frequently-used business activity by constructing and deploying a skill (printing a portion of a conversation) An example approach is outlined in Telephone Commands in five languages, Final draft ETSI ES 202 076 V2.1.1 (2009-06) ETSI Standard Human Factors (HF); User Interfaces; Generic spoken command vocabulary for ICT devices and services https://www.etsi.org/deliver/etsi\_es/202000\_202099/202076/02.01.01\_50/es\_202076v020101m.pdf . This activity may result in example code implementing pay-by-voice and recommendations for additional studies of use-case patterns for frequently-used business activities. Should align with GDPR and CCPA.
 
-jonstine:exploratory. May be phase next due to dependencies. 
-omitfo2:exploratory
+- jonstine: exploratory -- may be phase next due to dependencies
+- Maarten Lens-FitzGerald: exploratory due to category focus
+- omitfo2: exploratory
 
 ## Identification and Authentication
 
 See 2.1 pay by voice
 
-jonstine:exploratory.  May be phase next due to dependencies. 
-omitfo2: foundational
+- jonstine:exploratory -- may be phase next due to dependencies
+- omitfo2: foundational
 
 ## Data Privacy
 
@@ -56,8 +58,9 @@ Motivation: Need to specify a data privacy policy and enforcement mechanism
 
 Description: Need to specify a data privacy policy for speech applications. Evaluate Almond approach to privacy and determine it if is useful in our work. Reference: ALMOND, THE OPEN, PRIVACY-PRESERVING VIRTUAL ASSISTANT https://oval.cs.stanford.edu/
 
-jonstine: foundational. 
-omitfo2: foundational
+- jonstine: foundational
+- Maarten Lens-FitzGerald: foundational
+- omitfo2: foundational
 
 ### Security Guidelines
 
@@ -67,8 +70,9 @@ Motivation: privacy is a growing concern among users and needs to be a core focu
 
 Description: create report and reference framework describing basic set of privacy/security guidelines, recommendations, and standards, including identification and authentication of users, and transport of secure information among components of voice applications.
 
-jonstine: exploratory.  A valuable phases-next deliverable.  
-omitfo2: exploratory
+- jonstine: exploratory -- a valuable phases-next deliverable  
+- Maarten Lens-FitzGerald: foundational, if not secure then no function
+- omitfo2: exploratory
 
 ### Privacy and Data Protection
 
@@ -78,8 +82,9 @@ Motivation: Privacy and Data Protection should be foundational and pervasive in 
 
 Description: Identify privacy use cases including doctor-patient discussions, voice payment, and voice in research.
 
-jonstine: foundational.
-omitfo2: foundational
+- jonstine: foundational.  
+- Maarten Lens-FitzGerald: what is teh diferende with data privacy
+- omitfo2: foundational
 
 ## Interoperability
 
@@ -91,8 +96,9 @@ Motivation: Developers waste time and effort developing applications multiple ti
 
 Description: Identify differences in functions and features supported by various voice platforms. Determine how to handle functions available on some platforms and missing on other platforms. Evaluate Jovo for solving these problems.
 
-jonstine: 
-omitfo2: exploratory
+- jonstine: 
+- Maarten Lens-FitzGerald: foundational, project needs to move up the "value chain" to assitant level as we will live in a multi asistent and app model may be temporary, or we need to find an aproach to fit both.  
+- omitfo2: exploratory
 
 ### SSML Markdown Language
 
@@ -102,8 +108,9 @@ Motivation: SSML is complex and requires linguistic expertise to use effectively
 
 Description: Specify text-to-speech formatting notation for content authors, designers, and developers. Converts to SSML while handling inconsistencies across Amazon Alexa &amp; Google Assistant. https://www.speechmarkdown.org/
 
-jonstine: 
-omitfo2: exploratory
+- jonstine: 
+- Maarten Lens-FitzGerald: not exploratory as it is in production already, a key community initiative
+- omitfo2: exploratory
 
 ### Interactive aids for editing pronunciations
 
@@ -113,19 +120,22 @@ Motivation: It is difficult for non-linguists to specify pronunciations with IPA
 
 Description: Develop interactive editor (with verbal feedback) to help non-linguists select appropriate pronunciation of words and specify appropriate prosody of phrases.
 
-jonstine: 
-omitfo2: exploratory
+- jonstine: 
+- Maarten Lens-FitzGerald: exploratory
+- omitfo2: exploratory
 
 ### Matching human resources with development tools and processes
 
 Suggested by Maaike Groenewege and Hans Van Dam
 
-Motivation: Improve voice application development efficiency
+Motivation: The industry is fragmented with lots of different job titles and no clear workflow. This makes the market inefficient.
 
-Description: Describe developer background, skills and their roles in the workflow of developing voice applications.
+Description: By reaching alignment on workflow, job titles and underlying responsibilities, we will increase liquidity in the market and advance the industry as a whole. 
 
-jonstine:exploratory.
-omitfo2: exploratory
+
+- jonstine: exploratory
+- Maarten Lens-FitzGerald: exploratory
+- omitfo2: exploratory
 
 ## Other
 
@@ -137,8 +147,9 @@ Motivation: Make new functions and features available to users via enhanced plat
 
 Description: extend the design work by Dan and Maria in their &quot;master plan&quot; to include multimodel functionality, emotion detection and generation, personality detection, and other new and useful features and functionality. This could be step 1 of developing next gen voice app platform
 
-jonstine:foundational, but should be parsed into separate activities. 
-omitfo2: foundational
+- jonstine: foundational, but should be parsed into separate activities
+- Maarten Lens-FitzGerald: foundational, see interoperatbility remark; its not about the voice app possibily
+- omitfo2: foundational
 
 ### National Voice Commons and NLU
 
@@ -148,8 +159,9 @@ Motivation: The voices and NLU provided by Google and Amazon platforms are subpa
 
 Description: Enable countries to create their own national voice(s), ASR, &amp; NLU, ensuring quality is in their control and to limit dependency on major platforms. This may involve collecting voice data, local linguistic models, and development tools, and identify missing pieces. Work with organizations that create them.
 
-jonstine:foundational.  Essential to inclusivity aspiration?
-omitfo2: exploratory
+- jonstine:foundational.  Essential to inclusivity aspiration?
+- Maarten Lens-FitzGerald: foundational, Vocie platform as a public servcie there for inclusive
+- omitfo2: exploratory
 
 ### Enhanced/Augmented Audio (Audio Input/Voice Analysis)
 
@@ -159,8 +171,9 @@ Motivation?: Specify audio solution requirements (HW, DSP, ASR/STT, AI, VRS, Wak
 
 Description: TDB
 
-jonstine:foundational.
-omitfo2: foundational
+- jonstine: foundational
+- Maarten Lens-FitzGerald: foundational, title maty need more clarification
+- omitfo2: foundational
 
 ### A reference handbook for the Voice/Conversational AI industry
 
@@ -170,8 +183,9 @@ Motivation: information regarding Voice and Conversational AI is disjointed and 
 
 Description: handbook that can act as a single source of industry specific information for new practitioners, business leaders, the general public, etc. coming from a neutral body like OVN
 
-jonstine:exploratory.
-omitfo2: exploratory
+- jonstine: exploratory
+- Maarten Lens-FitzGerald: exploratory
+- omitfo2: exploratory
 
 ### User research
 
@@ -181,8 +195,9 @@ Motivation: a majority of the research that has been conducted focuses on how pe
 
 Description: Use ethnographic techniques to postulate future uses of voice. Collect voice data and statistics.
 
-jonstine:exploratory.
-omitfo2: exploratory
+- jonstine: exploratory
+- Maarten Lens-FitzGerald: exploratory
+- omitfo2: exploratory
 
 ### Build a canonical voice application on an open source platform, like Almond
 
@@ -192,5 +207,6 @@ Motivation: Provide a concrete example of the abstract vocabulary terms. It woul
 
 Description: build a canonical voice application on an open source platform, like Almond.
 
-jonstine:foundational in re: development process. 
-omitfo2: foundational
+- jonstine: foundational in re: development process. 
+- Maarten Lens-FitzGerald: foundational
+- omitfo2: foundational
