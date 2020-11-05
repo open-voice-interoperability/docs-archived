@@ -2,9 +2,9 @@
 
 ### 1.0.1. Overview
 Voice Registry System (VRS) is one of the components  in the
-[Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). The purpose of this document is to address the problem context of the VRS and why it is essential to resolve it. 
+[Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). This document aims to address the current problem of the existing voice architecture landscape.
 
-VRS's goal is to provide a consistent experience for the users and create an equal treatment for the entities despite their size - regardless of the conversational platform.
+VRS's goal is to provide and promote voice openness and transparency. 
 
 ### 1.0.2. Terminology Alignment
 See [OVN Terminologies](https://github.com/open-voice-network/docs/blob/master/terminologies.md)
@@ -95,9 +95,50 @@ A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefe
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
 
 #### 1.0.4.1 Roles and Responsibilities
-The primary role and responsibility of the VRS are to resolve the explicit invocation received by the conversational platforms if it is available based on a given location. The resolution will include taking into account the origin of the place of the utterance. The VRS will store the entities' preferred configuration that can be applied to all various conversation platforms. To achieve this, VRS is responsible for registry functionalities. 
+The primary role and responsibilities of the VRS are the following:
+ 1. Be a standard and platform-agnostic location for voice application.
+ 2. Provide a consistent experience across conversational platforms and entity's conversational assistant.
+ 3. VRS is not responsible for the interpretation of the intent of the user.
+ 4. VRS can hold various attributes regarding the voice application, such as name, alternative names, category, geolocation.
+ 5. VRS can receive inputs like the user's current location but is not responsible for storing its preference. 
+ 6. VRS names can have synergies.
 
-To promote the OVN principle, VRS will support to run locally and globally at scale.
+#### 1.0.4.2 Architecture Principles
+As we continue to build the capability and solution of VRS, we are going to be guided by these principles.
+- Single Responsibility
+- Loose Coupling
+- Event-Driven
+- Availability and Partitioning of Network
+- Eventual Consistency
+- Interface segregation
+- Automation (CICD, DevOps, Containerization, Service Mesh, Observability, etc.)
+
+#### 1.0.4.3 Architecture
+![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
+![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
+<br>
+In this architecture, we follow the Single Responsibility Principle, whereas the Conversational Platform or Voice Assistant will remain responsible for identifying the user's intent for their utterance. For initial phase,  Also, the translation of the user's utterance from audio to text is outside of VRS; therefore, the expected query input is a string datatype.
+<br>
+There are a couple of assumptions in the initial phase. CP's accountability extends to the decision-making of classifying, whether an invocation is implicit or explicit. 
+<br>
+The VRS core responsibility is to be a standard and platform-agnostic location for voice application. By identifyingg 
+<br>
+By following the SRP, we reduce the dependency of VRS on other voice components, decrease the extra hop that can create additional latency in the voice flow, and remove the unnecessary complexity for VRS.
+
+**Known Risk:**
+- Dependency on Conversational Platform's NLU integration.
+
+#### 1.0.4.4 VRS Requirements
+ 1. Registry for voice application regardless of Conversational Platform. 
+ 2. To promote the OVN principle, VRS will support to run locally and globally at scale.
+ 3. VRS will store and identify attributes for voice application.
+ 4. VRS will provide search functionality for voice application.
+ 5. VRS will provide data administrations.
+
+<br>
+Note: get more requirements from developers group.
+
+### 1.0.5. Proposed Schema
 
 The expected input for VRS is the following:
 - VRS type lookup
@@ -110,33 +151,16 @@ The expected output for VRS is the following:
 - entity configuration settings such as NLP default, dialog manager, dialog broker
 
 
-### 1.0.5. Architecture Options
-Like any other problem, there are multiple ways to get to the ideal solution. The purpose of this is to look at options and ratify with the committee the best path forward.
-
-
-#### 1.0.5.1. Option 1 and 2
-
-![](component_assets/vrs_proposed_solution_1.png?raw=true "Fig. 2 - VRS Proposed Solution 1")
-
-
-#### 1.0.5.2. Option 3
-
-![](component_assets/vrs_proposed_solution_2.png?raw=true "Fig. 3 - VRS Proposed Solution 2")
-
-
-#### 1.0.5.3. Pros and Cons
-| Options  | Pros                                                                                                                                                                                                                                                                               | Cons                                                                                                                                                                                                           |
-|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Option 1 <br> Conversational platforms handle VRS type identification | - VRS does not have to implement NLU capability.<br>- Less integration point for VRS.                                                                                                                                                                                              | - Identifying VRS type is implemented in the proprietary conversational platform, which can possibly cause inconsistency.                                                                                      |
-| Option 2 <br> VRS handles VRS type identification | - NLU will identify if the command is explicit, before passing to VRS.<br>- Identifying the VRS type is implemented in one area and consistent across the different conversational platform.<br>- Less integration for VRS.<br>- No additional integration for TTS/STT, less hop.  | - VRS has to implement NLU capability such as identify VRS type.                                                                                                                                               |
-| Option 3 | - Identifying vrs type is implemented in one area and consistent across the different conversational platform.                                                                                                                                                                     | - VRS has to implement NLU capability, such as identification of invocation as explicit and identify VRS type.<br>- Increase the integration point for VRS.<br>- Additional integration for TTS/STT component. |
-
-
 ### 1.0.6. Architecture Decision
-TO-DO
-
+#### 1.0.6.1 Do we need central location for common words?
+//todo: #85
+#### 1.0.6.2 Who is the decision maker whether user's utterance is explicit or implicit invocation?
+//todo: #86
 
 ### 1.0.7. Discussions
-1. Is VRS only going to focus on explicit invocation?
-<br>-Similar to the web where if a user typed www.patrickdessertkingdom.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. 
-2.
+ 1. Do we need central location for common words?
+ 2. Who is the decision maker whether user's utterance is explicit or implicit invocation?
+ 3. Is VRS only going to focus on explicit invocation?
+ <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </br>
+ 
+
