@@ -144,21 +144,10 @@ By following the SRP, we achieve the following: <br>
 <br>
 <br>
 
-### 1.0.5. Proposed VRS Schema
-Note: Below are some thoughts of what it can look like but by no means vetted out.
 
-```
-POST /register/v1
-
-The expected input for VRS is the following:
-- VRS type lookup
-- location
-- query
-
-The expected output for VRS is the following:
-- VRS type registered
-- location
-- entity configuration settings such as NLP default, dialog manager, dialog broker
+### 1.0.5. Proposed Schema
+***Note:*** The swagger is something what it can look like but by no means vetted out<br>
+[See voice-registry-system-v1 swagger.](https://github.com/open-voice-network/docs/blob/master/components/api_docs/voice-registry-system-v1.json)
 
 
 ### 1.0.6. Architecture Decision
@@ -171,5 +160,5 @@ The expected output for VRS is the following:
  1. Do we need central location for common words?
  2. Who is the decision maker whether user's utterance is explicit or implicit invocation?
  3. Is VRS only going to focus on explicit invocation?
- <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </br>
+ <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </The>
  
