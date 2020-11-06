@@ -139,10 +139,9 @@ By following the SRP, we reduce the dependency of VRS on other voice components,
 Note: get more requirements from developers group.
 
 ### 1.0.5. Proposed Schema
-<br>
-***Note:*** The swagger is somethingg what it can look like but by no means vetted out
-<br>
-[See voice-registry-system-v1 swagger](https://github.com/open-voice-network/docs/blob/master/components/api_docs/voice-registry-system-v1.json)
+***Note:*** <br>
+The swagger is something what it can look like but by no means vetted out<br>
+[See voice-registry-system-v1 swagger.](https://github.com/open-voice-network/docs/blob/master/components/api_docs/voice-registry-system-v1.json)
 
 
 ### 1.0.6. Architecture Decision
