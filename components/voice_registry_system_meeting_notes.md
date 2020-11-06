@@ -1,6 +1,17 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
 
+## Meeting 11.06.2020
+### Action Items from 10.29.2020:
+- Closed the #66 - owner: @maridob
+- Add the rewording suggestion by @omitfo2 - owner: @maridob
+- Jon will adjust the time of the recurring meeting - owner: @jcstine
+
+### Agenda:
+- Discuss the open issues
+- Build the content the Nov 20 Technical Steering Committee report. 
+
+
 ## Meeting 10.29.2020
 
 <details>
