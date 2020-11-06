@@ -140,6 +140,75 @@ Note: get more requirements from developers group.
 
 ### 1.0.5. Proposed Schema
 ***Note:*** The swagger is something what it can look like but by no means vetted out<br>
+
+
+```
+  "voice_application": {
+        "type": "object",
+        "description": "Voice Application object",
+        "properties": {
+          "voice_application_id": {
+            "type": "string",
+            "description": "Unique identifier for the voice application",
+            "format": "uuid",
+            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+          },
+          "name": {
+            "type": "string",
+            "description": "Invocation name for the voice application",
+            "example": "patrick dessert"
+          },
+          "alternative_names": {
+            "type": "array",
+            "description": "Alternative names or slang name for the voice application",
+            "items": {
+              "type": "string",
+              "example": "patrick d"
+            }
+          },
+          "registered_date": {
+            "type": "string",
+            "description": "voice application registration date",
+            "format": "date-time"
+          },
+          "expiration_date": {
+            "type": "string",
+            "description": "voice application expiration date",
+            "format": "date-time"
+          },
+          "status": {
+            "type": "string",
+            "description": "voice application validity status",
+            "enum": [
+              "registered",
+              "pending",
+              "cancelled",
+              "expired"
+            ]
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/voice_application_location"
+            }
+          },
+          "categories": {
+            "type": "array",
+            "description": "List of voice application categories.",
+            "items": {
+              "$ref": "#/components/schemas/category"
+            }
+          },
+          "conversation_platforms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/conversation_platform"
+            }
+          }
+        }
+      }
+```
+
 [See voice-registry-system-v1 swagger.](https://github.com/open-voice-network/docs/blob/master/components/api_docs/voice-registry-system-v1.json)
 
 
