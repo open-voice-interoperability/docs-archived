@@ -2,24 +2,12 @@
 
 ### 1.0.1. Overview
 Voice Registry System (VRS) is one of the components  in the
-[Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). The purpose of this document is to address the problem context of the VRS and why it is essential to resolve it. 
+[Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). This document aims to address the current problem of the existing voice architecture landscape.
 
-VRS's goal is to provide a consistent experience for the users and create an equal treatment for the entities despite their size - regardless of the conversational platform.
+VRS's goal is to provide and promote voice openness and transparency. 
 
 ### 1.0.2. Terminology Alignment
-- **Channel** - an interface and origin of communication. It is where the utterances are received. Examples: voice assistance devices, mobile phones, web sites, etc.
-- **Conversational Platform** - the system or services that handle the two-way interaction with the user and the entity.  The platform owns the task of understanding the user's utterance, translating it to humans, and machine exchange, and making sure it is reaching the right entity. 
-- **Disambiguate** - when the conversational platform hypothesizes two or more possible resolutions to a user utterance, it may ask the user for additional clarification or choose between the various interpretations to decide the user's correct intention. 
-- **Entity** -  government or private/public company that provides certain businesses or services.
-- **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
-- **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response. 
-- **Implicit Invocation** - an invocation type where the user invokes the channel, and use the most common words or indirectly saying the explicit Invocation. 
-- **Technical Resource** -  it can be a publisher/developer. It can be a representative of an entity or independent party. Their role is to create an actual listing of the voice application.
-- **Query** - user’s word requesting for specific function and expecting a particular response.
-- **User** - a person who interacts with channels.  
-- **Voice Application** - also known as skill, action, capsule or domain.
-- **Voice Assistant System** - a system where a user (primarily) uses his/her voice to interact with an automated conversational assistant for information or to control devices. The assistent responds to the user using verbal interaction, occasionally enhanced with visuals and visual interaction. The assistant system is controlled by an entity (any type of organisation).  Typical components are channel endpoints like a smart speaker or a mobile application. Wake word detection to activate the system. Automatic Speech Recognition to convert the users spoken words into written words. Natural Language Understanding to extract intents and meaning from these words. A back end to enable input and output, provide answers or control the devices. Dialog management to manage the conversation. Text to Speech and Voice generation to respond.
-
+See [OVN Terminologies](https://github.com/open-voice-network/docs/blob/master/terminologies.md)
 
 ### 1.0.3. Problem Context
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
@@ -59,10 +47,10 @@ A couple of problems in this scenario: <br>
 </details>
 <details><summary>4. Disambiguation of entities - homograph.</summary>
 <br>
- Part of the complexity of voice is the homophone disambiguation. When the user utters an invocation, and there can be multiple possibilities for the invocation. 
+ Part of the complexity of voice is the homograph disambiguation. When the user utters an invocation, and there can be multiple possibilities for the invocation. 
 <br>
 An example: <br>
-A user utters, "{wake work}, I want to talk to Delta." Multiple entities can be associated with Delta such as Delta Dental, Delta Airlines, Delta Network.
+A user utters, "{wake word}, I want to talk to Delta." Multiple entities can be associated with Delta such as Delta Dental, Delta Airlines, Delta Network.
 <br>
 A couple of problems in this scenario: <br>
  - (1) who decides for the right interpretation <br> 
@@ -76,7 +64,24 @@ A couple of problems in this scenario: <br>
 
 </details>
 
-<details><summary>6. No consistent guidelines for invocation.</summary>
+<details><summary>6. Correction of mispronounciations.</summary>
+<br>
+> The user's utterance of a word does not exist in the list of valid pronunciations. For example, the user utters "pitco" which does not match "ditco" or "botcp" or any other articulation is the list of valid pronunciations.
+
+</details>
+
+</details>
+<details><summary>7. Indirect invocation of voice application.</summary>
+<br>
+Due to natural language nature, a user will invoke a voice application based on the known slang or just based on the user's direct preference.
+<br>
+An example: <br>
+A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefers to call Target a retail store as "Tarrjaay."
+<br>
+
+</details>
+
+<details><summary>8. No consistent guidelines for invocation.</summary>
 <br>
 > Due to missing global standards, developers need to adhere to different conversational platforms guidelines. This results in complexity, heavy maintenance, and support for their voice application.
 
@@ -87,48 +92,73 @@ A couple of problems in this scenario: <br>
 ### 1.0.4. Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
 
-The primary role and responsibility of the VRS are to resolve the explicit invocation received by the conversational platforms if it is available based on a given location. The resolution will include taking into account the origin of the place of the utterance. The VRS will store the entities' preferred configuration that can be applied to all various conversation platforms. To achieve this, VRS is responsible for registry functionalities. 
+#### 1.0.4.1 Roles and Responsibilities
+The primary role and responsibilities of the VRS are the following:
+ 1. Be a standard and platform-agnostic location for voice application.
+ 2. Provide a consistent experience across conversational platforms and entity's conversational assistant.
+ 3. VRS is not responsible for the interpretation of the intent of the user.
+ 4. VRS can hold various attributes regarding the voice application, such as name, alternative names, category, geolocation.
+ 5. VRS can receive inputs like the user's current location but is not responsible for storing its preference. 
+ 6. VRS names can have synergies.
 
-To promote the OVN principle, VRS will support to run locally and globally at scale.
+#### 1.0.4.2 Architecture Principles
+As we continue to build the capability and solution of VRS, we are going to be guided by these principles.
+- Single Responsibility
+- Loose Coupling
+- Event-Driven
+- Availability and Partitioning of Network
+- Eventual Consistency
+- Interface segregation
+- Automation (CICD, DevOps, Containerization, Service Mesh, Observability, etc.)
 
-The expected input for VRS is the following:
-- VRS type lookup
-- location
-- query
+#### 1.0.4.3 Architecture
+![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
+![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
+<br>
+In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Conversational Platform or Voice Assistant will remain responsible for identifying the user's intent for their utterance. For initial phase,  Also, the translation of the user's utterance from audio to text is outside of VRS; therefore, the expected query input is a string datatype.
+<br>
+<br>
+There are a couple of assumptions in the initial phase. CP's accountability extends to the decision-making of classifying, whether an invocation is implicit or explicit. 
+<br>
+<br>
+The VRS core responsibility is to be a standard and platform-agnostic location for voice application. 
+<br>
+<br>
+By following the SRP, we achieve the following: <br>
+ - Reduce the dependency of VRS on other voice components. <br>
+ - Decrease the extra hop that can create additional latency in the voice flow.<br>
+ - Remove the unnecessary complexity for VRS. <br>
 
-The expected output for VRS is the following:
-- VRS type registered
-- location
-- entity configuration settings such as NLP default, dialog manager, dialog broker
+**Known Risk:**
+- Dependency on Conversational Platform's NLU integration.
+
+#### 1.0.4.4 VRS Requirements
+ 1. Registry for voice application regardless of Conversational Platform. 
+ 2. To promote the OVN principle, VRS will support to run locally and globally at scale.
+ 3. VRS will store and identify attributes for voice application.
+ 4. VRS will provide search functionality for voice application.
+ 5. VRS will provide data administrations.
+
+<br>
+//todo: #88 Note: get more requirements from developers group.
+<br>
+<br>
 
 
-### 1.0.5. Architecture Options
-Like any other problem, there are multiple ways to get to the ideal solution. The purpose of this is to look at options and ratify with the committee the best path forward.
-
-
-#### 1.0.5.1. Option 1 and 2
-
-![](component_assets/vrs_proposed_solution_1.png?raw=true "Fig. 2 - VRS Proposed Solution 1")
-
-
-#### 1.0.5.2. Option 3
-
-![](component_assets/vrs_proposed_solution_2.png?raw=true "Fig. 3 - VRS Proposed Solution 2")
-
-
-#### 1.0.5.3. Pros and Cons
-| Options  | Pros                                                                                                                                                                                                                                                                               | Cons                                                                                                                                                                                                           |
-|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Option 1 <br> Conversational platforms handle VRS type identification | - VRS does not have to implement NLU capability.<br>- Less integration point for VRS.                                                                                                                                                                                              | - Identifying VRS type is implemented in the proprietary conversational platform, which can possibly cause inconsistency.                                                                                      |
-| Option 2 <br> VRS handles VRS type identification | - NLU will identify if the command is explicit, before passing to VRS.<br>- Identifying the VRS type is implemented in one area and consistent across the different conversational platform.<br>- Less integration for VRS.<br>- No additional integration for TTS/STT, less hop.  | - VRS has to implement NLU capability such as identify VRS type.                                                                                                                                               |
-| Option 3 | - Identifying vrs type is implemented in one area and consistent across the different conversational platform.                                                                                                                                                                     | - VRS has to implement NLU capability, such as identification of invocation as explicit and identify VRS type.<br>- Increase the integration point for VRS.<br>- Additional integration for TTS/STT component. |
+### 1.0.5. Proposed Schema
+***Note:*** The swagger is something what it can look like but by no means vetted out<br>
+[See voice-registry-system-v1 swagger.](https://github.com/open-voice-network/docs/blob/master/components/api_docs/voice-registry-system-v1.json)
 
 
 ### 1.0.6. Architecture Decision
-TO-DO
-
+#### 1.0.6.1 Do we need central location for common words?
+//todo: #85
+#### 1.0.6.2 Who is the decision maker whether user's utterance is explicit or implicit invocation?
+//todo: #86
 
 ### 1.0.7. Discussions
-1. Is VRS only going to focus on explicit invocation?
-<br>-Similar to the web where if a user typed www.patrickdessertkingdom.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. 
-2.
+ 1. Do we need central location for common words?
+ 2. Who is the decision maker whether user's utterance is explicit or implicit invocation?
+ 3. Is VRS only going to focus on explicit invocation?
+ <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </The>
+ 

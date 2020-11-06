@@ -1,0 +1,699 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "description": "Voice Registry System (VRS) service to perform various operation in enabling the standard and platform-agnostic location for voice application.",
+    "version": "1.0.2",
+    "title": "voice-registry-system-v1",
+    "termsOfService": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_terms.md",
+    "contact": {
+      "email": "vrsteam@ovn.org"
+    },
+    "license": {
+      "name": "Apache 2.0",
+      "url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+    }
+  },
+  "tags": [
+    {
+      "name": "voice_applications",
+      "description": "Manage everything about voice applications",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md"
+      }
+    },
+    {
+      "name": "voice_categories",
+      "description": "Manage everything about voice categories",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md"
+      }
+    },
+    {
+      "name": "locations",
+      "description": "Manage everything about location",
+      "externalDocs": {
+        "description": "Find out more",
+        "url": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md"
+      }
+    }
+  ],
+  "paths": {
+    "/": {
+      "post": {
+        "x-success_http_code": "201",
+        "x-expected_tps": "100",
+        "tags": [
+          "voice_applications"
+        ],
+        "summary": "Create new voice application",
+        "description": "Add or register a new voice application",
+        "operationId": "create_voice_application",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/create_voice_application"
+              }
+            }
+          },
+          "description": "Fields below are accepted for voice application registry"
+        },
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "description": "The consumer's valid API key.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "items": {
+                    "$ref": "#/components/schemas/create_voice_application"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      }
+    },
+    "/{voice_application_id}": {
+      "get": {
+        "x-success_http_code": "200",
+        "x-expected_tps": "100",
+        "tags": [
+          "voice_applications"
+        ],
+        "summary": "Find by voice application ID",
+        "description": "Returns a single voice application",
+        "operationId": "get_voice_application",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "voice_application_id",
+            "description": "Unique identifier for the voice application",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/voice_application"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "Voice application not found"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "voice_applications"
+        ],
+        "summary": "Update voice application",
+        "description": "",
+        "operationId": "update_voice_application",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "voice_application_id",
+            "description": "Unique identifier for the voice application",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+            }
+          }
+        ],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/voice_application"
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/voice_application"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "Voice application not found"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      }
+    },
+    "/search": {
+      "get": {
+        "tags": [
+          "voice_applications"
+        ],
+        "summary": "Search voice application by name",
+        "description": "",
+        "operationId": "search_voice_application",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "description": "Filter by name",
+            "required": true,
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "description": "Invocation name for the voice application",
+              "example": "patrick dessert"
+            }
+          },
+          {
+            "name": "include_alt_name",
+            "in": "query",
+            "description": "Filter by name and include filtering alternative names",
+            "schema": {
+              "type": "boolean",
+              "description": "",
+              "example": false,
+              "default": false
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/voice_application"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "Voice application not found"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      }
+    },
+    "/categories": {
+      "post": {
+        "x-success_http_code": "201",
+        "x-expected_tps": "100",
+        "tags": [
+          "voice_categories"
+        ],
+        "summary": "Create new category",
+        "description": "",
+        "operationId": "create_category",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/category"
+              }
+            }
+          },
+          "description": "Fields below are accepted for category"
+        },
+        "parameters": [
+          {
+            "name": "key",
+            "in": "query",
+            "description": "The consumer's valid API key.",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "201": {
+            "description": "Created successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "string",
+                  "items": {
+                    "$ref": "#/components/schemas/category"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad Request"
+          },
+          "401": {
+            "description": "Unauthorized"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      },
+      "get": {
+        "tags": [
+          "voice_categories"
+        ],
+        "summary": "Return one or more categories",
+        "description": "",
+        "operationId": "get_categories",
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "description": "Filter by name",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "description": "Category name",
+              "example": "retail"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/category"
+                  }
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "Category not found"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      }
+    },
+    "/categories/{id}": {
+      "put": {
+        "tags": [
+          "voice_categories"
+        ],
+        "summary": "Update categories",
+        "description": "",
+        "operationId": "update_category",
+        "parameters": [
+          {
+            "in": "path",
+            "name": "id",
+            "description": "Unique identifier for the category",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+            }
+          }
+        ],
+        "requestBody": {
+          "$ref": "#/components/requestBodies/category"
+        },
+        "responses": {
+          "200": {
+            "description": "Successful response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/category"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "Category not found"
+          },
+          "405": {
+            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
+          },
+          "500": {
+            "description": "Internal Server Error"
+          },
+          "503": {
+            "description": "Service Unavailable"
+          }
+        }
+      }
+    }
+  },
+  "externalDocs": {
+    "description": "Find out more about VRS",
+    "url": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md"
+  },
+  "servers": [
+    {
+      "url": "https://api.ovn.org/voice-registry-system/v1"
+    }
+  ],
+  "components": {
+    "requestBodies": {
+      "category": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/category"
+            }
+          }
+        },
+        "description": "Category hat needs to be updated",
+        "required": true
+      },
+      "voice_application": {
+        "content": {
+          "application/json": {
+            "schema": {
+              "$ref": "#/components/schemas/voice_application"
+            }
+          }
+        },
+        "description": "Voice application that needs to be updated",
+        "required": true
+      }
+    },
+    "schemas": {
+      "voice_application": {
+        "type": "object",
+        "description": "Voice Application object",
+        "properties": {
+          "voice_application_id": {
+            "type": "string",
+            "description": "Unique identifier for the voice application",
+            "format": "uuid",
+            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+          },
+          "name": {
+            "type": "string",
+            "description": "Invocation name for the voice application",
+            "example": "patrick dessert"
+          },
+          "alternative_names": {
+            "type": "array",
+            "description": "Alternative names or slang name for the voice application",
+            "items": {
+              "type": "string",
+              "example": "patrick d"
+            }
+          },
+          "registered_date": {
+            "type": "string",
+            "description": "voice application registration date",
+            "format": "date-time"
+          },
+          "expiration_date": {
+            "type": "string",
+            "description": "voice application expiration date",
+            "format": "date-time"
+          },
+          "status": {
+            "type": "string",
+            "description": "voice application validity status",
+            "enum": [
+              "registered",
+              "pending",
+              "cancelled",
+              "expired"
+            ]
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/voice_application_location"
+            }
+          },
+          "categories": {
+            "type": "array",
+            "description": "List of voice application categories.",
+            "items": {
+              "$ref": "#/components/schemas/category"
+            }
+          },
+          "conversation_platforms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/conversation_platform"
+            }
+          }
+        }
+      },
+      "create_voice_application": {
+        "type": "object",
+        "required": [
+          "name",
+          "categories",
+          "locations",
+          "conversation_platforms"
+        ],
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Invocation name for the voice application",
+            "example": "patrick dessert"
+          },
+          "alternative_names": {
+            "type": "array",
+            "description": "Alternative names or slang name for the voice application",
+            "items": {
+              "type": "string",
+              "example": "patrick d"
+            }
+          },
+          "status": {
+            "type": "string",
+            "description": "voice application validity status",
+            "enum": [
+              "registered",
+              "pending",
+              "cancelled",
+              "expired"
+            ]
+          },
+          "locations": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/voice_application_location"
+            }
+          },
+          "categories": {
+            "type": "array",
+            "description": "List of voice application categories.",
+            "items": {
+              "$ref": "#/components/schemas/category"
+            }
+          },
+          "conversation_platforms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/conversation_platform"
+            }
+          }
+        }
+      },
+      "voice_application_location": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the location id",
+            "format": "uuid",
+            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+          },
+          "neighborhood": {
+            "type": "string",
+            "description": "Neigborhood where voice application is located"
+          },
+          "city": {
+            "type": "string",
+            "description": "City where voice application is located"
+          },
+          "state": {
+            "type": "string",
+            "description": "State where voice application is located"
+          },
+          "country": {
+            "type": "string",
+            "description": "Country where voice application is located",
+            "enum": [
+              "United States of America",
+              "United Kingdom",
+              "Philippines",
+              "..."
+            ]
+          }
+        }
+      },
+      "category": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the category",
+            "format": "uuid",
+            "example": "ef7d274e-d5e5-11e7-9296-dad278b6b50a"
+          },
+          "name": {
+            "type": "string",
+            "description": "Category name",
+            "example": "retail"
+          },
+          "description": {
+            "type": "string",
+            "description": "Category description",
+            "example": "The sale of goods or commodities in small quantities directly to consumers."
+          }
+        }
+      },
+      "conversation_platform": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "Unique identifier for the conversation platform",
+            "format": "uuid",
+            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+          },
+          "name": {
+            "type": "string",
+            "description": "Conversation platform name",
+            "example": "retail"
+          },
+          "default": {
+            "type": "boolean",
+            "description": "The default conversation partner",
+            "example": true
+          },
+          "url": {
+            "type": "string",
+            "description": "Url of the conversational platform",
+            "example": "https://api.patrickdessert.com/conversation_platform/v1"
+          },
+          "type": {
+            "type": "string",
+            "description": "Conversation platform type whether it is owned or third-party",
+            "enum": [
+              "owned",
+              "third-party"
+            ]
+          }
+        }
+      },
+      "ApiResponse": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "type": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

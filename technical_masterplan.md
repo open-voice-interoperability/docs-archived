@@ -201,7 +201,7 @@ This general vocabulary section aims to define general words used when talking a
 - **Voice Application** - also known as skill, action, capsule or domain. This is the specific executable component that has association to multiple things such as invocation, collection of related intents and entities up to the configuration to your dialog manager.
 - **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
 - **Component interoperability** - A component of a platform may be replaced by another component from a different vendor.  I.e., replace the TTS by another TTS from a different vendor.
-- **Voice Application Interoperability” – a voice application involves another voice application
+- **Voice Application Interoperability** – a voice application involves another voice application
 
 
 ### Component Vocabulary
