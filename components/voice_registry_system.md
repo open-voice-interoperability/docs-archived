@@ -139,8 +139,7 @@ By following the SRP, we reduce the dependency of VRS on other voice components,
 Note: get more requirements from developers group.
 
 ### 1.0.5. Proposed Schema
-***Note:*** <br>
-The swagger is something what it can look like but by no means vetted out<br>
+***Note:*** The swagger is something what it can look like but by no means vetted out<br>
 [See voice-registry-system-v1 swagger.](https://github.com/open-voice-network/docs/blob/master/components/api_docs/voice-registry-system-v1.json)
 
 
@@ -154,6 +153,6 @@ The swagger is something what it can look like but by no means vetted out<br>
  1. Do we need central location for common words?
  2. Who is the decision maker whether user's utterance is explicit or implicit invocation?
  3. Is VRS only going to focus on explicit invocation?
- <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </br>
+ <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </The>
  
 
