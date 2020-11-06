@@ -1,3 +1,206 @@
+# 2020-10-30 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, I. Mez, S. Prayaga, R.Nathenson, C.Wuttke, O. Coleman, A. Dalloul, D. Attwater
+
+The meeting was brought to order at 9:02 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – M. Brinas-Dobrowski 
+
+### Milestone review –reminders and OVN process – J. Stine
+* Reminder to the workgroups on remit milestones 
+  * Privacy and Security – Tech Comm Report  10/30 – today 
+  * Architecture workgroup –Tech Comm Report   11/20
+  * VRS –Tech Comm Report 11/20 
+  * Plan for 25 minutes max including Q&A 
+* Special 90 minute Session on 11/20 to review work group reports from Architecture and Voice Registry System 
+* OVN’s maturing development process – Jon will share slide 
+
+
+### Report and recommendations from the Privacy-Security work group -  M.Frazzini & M. Lens-FitzGerald
+* Privacy Guidelines and Capabilities unique to voice –M. Frazzini 
+  * [link to Privacy Guidelines document( https://docs.google.com/document/d/19o7k00fvFqwd0XdPbacd6h-JOVMB13sEaruKZfi529E/edit#heading=h.9l4e2earpcv9)
+  * Overview of problem statement, process/methodology/references
+     * Voice technology has the power to change our lives, however with voice technology there comes a unique set of privacy risks. Identifying these risks, and minimizing their potential harms, is inherently linked to the successful adoption and use of voice technology.  The Open Voice Network seeks to provide guidance and standards for creating voice technology that respects privacy rights and earns the trust and use of consumers.
+  * Questions, discussion, roundtable 
+    * What was reviewed with regard to legality on privacy assertions- Reviewed GDPR, US laws, researching constitutional privacy laws in the US.   Need privacy attorney’s to provide additional insight  	
+    * The boundaries need to be grounded in the law of the geography 
+    * Legal compliance affects to architectural issues such as permission giving and archiving and ability to access data recorded against an individual
+    * Consent will and should not be similar to the cookie experience today as well as the experience of excepting user agreements before installing software 
+    * Need to define the RFC process for public feedback and interactions
+    * Great job team! 
+ * Comments on this process for review
+   * team did a great job and review was effective 
+   * Review the OVN process document to ensure it ties to this process 
+
+* Voice Security Capabilities Report  - M. Lens-FitzGerald  -review tabled until next meeting due to time 
+  * [link to Voice Security Capabilities Report]( https://docs.google.com/document/d/1vlpaPlw62SPpTjcaLtLlJrXqH1LOSnTyAnApOUlfvA8/edit)
+  
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Reviewed and validated decisions
+* [VRS meeting minutes to catch all of the details]( https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_meeting_notes.md)
+  
+### Report from the Architecture Work Group: – J.Larson
+* Identified additional components for review and will move to categories these components 
+
+Meeting adjourned at 9:57 CT (US)
+
+
+
+
+
+
+# 2020-10-16 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb,  A. Fyles, D. Rogers, I. Mez, S. Root, S. Prayaga, R.Nathenson
+
+The meeting was brought to order at 9:04 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – M.Brinas-Dobrowski
+
+### OVN organizational update:   sponsorship, participation, messaging  – J. Stine 
+* For workgroup updates: 
+  * Look for intersections between workgroups 
+  * Please start workgroup updates with status, level of confidence and share any changes needed 
+* 2 questions: 
+  * 1 year from now, what would you want to look back at with Pride?   
+  * 1 year from now, what would be the 1-3 OVN accomplishments that would be of greatest value to you and your organization? 
+  * Jon will post in slack –please provide your inputs 
+* For Community Moderators: 
+  * Jon shared a template for communications.  Jon will post in slack
+* Sponsorship Update 
+ * No changes in sponsorship commitments since the last meeting 
+
+### Milestone review reminders – J. Stine 
+* Reminder to the workgroups on remit milestones 
+  * Architecture workgroup –Tech Comm Report   11/20
+  * Privacy and Security – Tech Comm Report  10/30
+  * VRS –Tech Comm Report 11/20 
+* Plan for 25 minutes max including Q&A 
+* Jon will share slide in slack 
+
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Continued progress on: 
+  * Finalize the problems prioritization that VRS can solve
+    * They have organized the problems into 2 groups or buckets.  Of highest priority: 
+     * Provide a consistent experience across conversational platforms and/or entity’s conversational assistant
+     * The lack of central location for invocation availability 
+   * Other problems discussed: 
+     * Registry of  names 
+     * Ability to search for a name and connect to it 
+  * Architectural Principles 
+* Maria will share out details via slack 
+* If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+### Report from the Privacy-Security Work Group:  discussions, direction, next steps – M.Frazzini & M. Lens-FitzGerald
+* Group on track for 10/30 presentation 
+* Security Group Update: 
+  * Objective:  Identify, define, and prioritize capabilities 
+  * Current focus:  Voice system specific threats, vulnerabilities and actors 
+  * Have defined Voice Assistant Security (slightly adjusted from nist standards definition) 
+* Privacy update will be shared with the developer and experience group (M.Frazzini & J.Larson) 
+* Security update to same group will follow later in the month (M. Lens-FitzGerald & J.Larson) 
+    
+### Report from the Architecture Work Group:  discussions, direction, next steps – J.Larson
+* Looking to identify new components to add to existing voice /speech components 
+* Have examined several existing architectures  
+* Final review of existing architecture on Tuesday 10/20 and will shift to identifying new components 
+* See ppt slide that Jim posted to the #architecture channel in slack   
+
+### Review of actions, next steps, meeting tune ups  – M.Brinas-Dobrowski
+* Zoom meeting URL issues for today’s meeting so Jon will post the URL with the agenda 
+* Discussed value of pre-reads –consensus was not needed due to time constraints and additional context needed 
+
+Meeting adjourned at 10:01 CT (US)
+
+
+
+
+
+
+
+# 2020-10-02 Notes of the Technical Committee Meeting 
+
+Attendees: D. Cundiff (Chair), J. Larson, M. Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, M. Lens-FitzGerald, N. Myers, A. Dalloul, S. Prayaga, A. Fricke, J. Eisenzopf, L. Lin, S. Root. I. Mez. M.Saul 
+
+The meeting was brought to order at 9:01 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Meeting timing has changed to 60 minutes going forward in the interests of efficiency and with respect to participant time and efforts done in the working group sessions.   Some sessions may be extended due to content. 
+
+### Review of agenda and expectations for the meeting – D. Cundiff
+
+### OVN Positioning:  market transitions, future of voice assistance – J. Stine 
+* OMERS – Canadian public pension fund.  Published Four Plausible Futures for Voice Technology.   Jon will share the link to this in slack 
+  * Five big voices speak to billions.  Privacy a luxury, but superb digital assistance 
+  * Lost in translation.  Industry infighting leads to a standard set of protocols
+  * Open Voice.  Emergence of standards, use cases, innovation.  Brand voices
+  * Speak Easy.  An industry in decline.  Consumer back-lash to predatory technology 
+* Jon shared slide covering Voice current and future 2024-2025.  Jon will share out slides via slack 
+* Discussion: 
+  * Audience is perspective sponsors and press/analysts that are looking for our perspective on the future 
+  * May be too binary –likely will exist in a hybrid world for longer than the slide depicts 
+  * Stating that there are no industry standards today is misleading as we all comply with standards today 
+  * Assistant’s Architecture - Future of Local or Cloud –it may be both 
+  * Would be good to add more information on the value of OVN 
+  * Additional feedback can be added in the Technical Committee slack channel 
+
+### Milestone review-reminders – J. Stine 
+* Reminder to the workgroups on remit milestones 
+  * Architecture workgroup –components 11/20
+  * Privacy and Security – requirements 10/30
+  * VRS –requirements 11/20 
+* Jon will share slide in slack 
+
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Group continues to identify problems.  Have identified 9 so far- 3new: 
+  * Mispronunciation 
+  * There is hardly an explicit invocation is our personal and messy world 
+  * Conversation platforms vs voice apps 
+* Next meeting, will ratify the business value of the identified problems.   Also will identify if VRS owns the solution or if other components of OVN should own 
+* Problem prioritization will also be achieved
+* This will be brought back to the Technical Committee 
+* * If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+### Report from the Privacy-Security Work Group:  discussions, direction, next steps – M.Frazzini
+* Identified 8 interactions to privacy related to voice
+* Will define examples of how we might implement these standards related to voice 
+* Discussed how best for this group to share out this information.   Aligned that Github is the best direction to enable visibility and collaboration across work groups 
+* Considerations or Principles: 
+  * Aspirational vs reality of how tech works
+  * Accessibility compliance 
+  * Disclaimers or caveats need to be added 
+* M. Lens-FitzGerald will lead the Security component of this work group 
+* M. Frazzini will now lead the Privacy component of this work group 
+* Additional resources are needed so please let Mike and/or Martin know if interested  
+
+### Report from the Architecture Work Group:  discussions, direction, next steps – J.Larson
+* Group continues to examine various architectures 
+* [Link to Voice Tools spreadsheet](https://docs.google.com/spreadsheets/d/1Iw8hy_cyXD6rqBr7HXa1hRFduZSuNn3ELp2uqbYkhgo/edit?usp=sharing)
+* Work group requests Technical Committee to add tools to spreadsheet so can be consolidated.  Discussed posting this on the OVN website but there are concerns due to lack of strong anchoring to OVN and its mission.   Git may be a better alternative so team will take back to the developer community
+* Next meeting will work through a set of straw man components for discussion 
+###  Meeting adjourned at 10:00
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # 2020-09-18 Notes of the Technical Committee Meeting 
 
 Attendees: D. Cundiff (Chair), J. Larson, M.Frazzini, S. Baul, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb, A. Dalloul, J.Maas, N.Latwis, P. Bentsen, S.Prayaga, C.Wuttke

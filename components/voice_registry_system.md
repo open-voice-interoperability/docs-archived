@@ -10,12 +10,12 @@ VRS's goal is to provide and promote voice openness and transparency.
 See [OVN Terminologies](https://github.com/open-voice-network/docs/blob/master/terminologies.md)
 
 ### 1.0.3. Problem Context
-Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Whenever an "explicit invocation" is invoked by the user, each proprietary platforms have different standards (i.e., brand vocabulary, etc) and processes on how they are triggered or verified. 
+Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
 
-Entities are at the commiseration of every single conversational platform on how they're transactions are getting triggered on the conversational space.  
+In addition, the world of voice assistance is also in the midst of a major market transition.  In the near future, the role of cloud-centric platforms and third party entities will change, as third-party entities (especially enterprises) increasingly develop their own independent voice assistants.   This will -- at first, slowly, then rapidly --  push the industry from the current skills-on-platform model (similar to that of world of mobile apps) to what might be described as an internet model, where independent voice assistants (like web sites) connect interoperably across platforms and services providers.
 
-Per the OVN principles, the current situation today does not align with the policy we outlined:
-- Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
+Both the present and future situations are problematic for entities that wish to connect to their customers, patients, clients, and suppliers through voice assistance.
+
 
 Below are the **problems** identified in the current landscape.
 <br>
@@ -86,8 +86,6 @@ A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefe
 > Due to missing global standards, developers need to adhere to different conversational platforms guidelines. This results in complexity, heavy maintenance, and support for their voice application.
 
 </details>
-
-
 <br>
 <br>
 
@@ -117,13 +115,19 @@ As we continue to build the capability and solution of VRS, we are going to be g
 ![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
 ![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
 <br>
-In this architecture, we follow the Single Responsibility Principle, whereas the Conversational Platform or Voice Assistant will remain responsible for identifying the user's intent for their utterance. For initial phase,  Also, the translation of the user's utterance from audio to text is outside of VRS; therefore, the expected query input is a string datatype.
+In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Conversational Platform or Voice Assistant will remain responsible for identifying the user's intent for their utterance. For initial phase,  Also, the translation of the user's utterance from audio to text is outside of VRS; therefore, the expected query input is a string datatype.
+<br>
 <br>
 There are a couple of assumptions in the initial phase. CP's accountability extends to the decision-making of classifying, whether an invocation is implicit or explicit. 
 <br>
-The VRS core responsibility is to be a standard and platform-agnostic location for voice application. By identifyingg 
 <br>
-By following the SRP, we reduce the dependency of VRS on other voice components, decrease the extra hop that can create additional latency in the voice flow, and remove the unnecessary complexity for VRS.
+The VRS core responsibility is to be a standard and platform-agnostic location for voice application. 
+<br>
+<br>
+By following the SRP, we achieve the following: <br>
+ - Reduce the dependency of VRS on other voice components. <br>
+ - Decrease the extra hop that can create additional latency in the voice flow.<br>
+ - Remove the unnecessary complexity for VRS. <br>
 
 **Known Risk:**
 - Dependency on Conversational Platform's NLU integration.
@@ -136,7 +140,10 @@ By following the SRP, we reduce the dependency of VRS on other voice components,
  5. VRS will provide data administrations.
 
 <br>
-Note: get more requirements from developers group.
+//todo: #88 Note: get more requirements from developers group.
+<br>
+<br>
+
 
 ### 1.0.5. Proposed Schema
 ***Note:*** The swagger is something what it can look like but by no means vetted out<br>
@@ -155,4 +162,3 @@ Note: get more requirements from developers group.
  3. Is VRS only going to focus on explicit invocation?
  <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </The>
  
-
