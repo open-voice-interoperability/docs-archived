@@ -175,12 +175,12 @@ By following the SRP, we achieve the following: <br>
           },
           "registered_date": {
             "type": "string",
-            "description": "voice application registration date",
+            "description": "Voice application registration date",
             "format": "date-time"
           },
           "expiration_date": {
             "type": "string",
-            "description": "voice application expiration date",
+            "description": "Voice application expiration date",
             "format": "date-time"
           },
           "status": {
@@ -193,8 +193,15 @@ By following the SRP, we achieve the following: <br>
               "expired"
             ]
           },
+          "search_location": {
+            "type": "integer",
+            "description": "Default settings if search includes location. It means this voice application will show up within 20 miles.",
+            "format": "int32",
+            "example": 20
+          },
           "locations": {
             "type": "array",
+            "description": "voice application various location",
             "items": {
               "$ref": "#/components/schemas/voice_application_location"
             }

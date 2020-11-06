@@ -228,9 +228,64 @@
             }
           },
           {
+            "name": "location_zip_code",
+            "in": "query",
+            "description": "Filter by location zip code.",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "description": "",
+              "example": 55403
+            }
+          },
+          {
+            "name": "location_city",
+            "in": "query",
+            "description": "Filter by location city.",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "description": "",
+              "example": "Minneapolis"
+            }
+          },
+          {
+            "name": "location_state",
+            "in": "query",
+            "description": "Filter by location state.",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "description": "",
+              "example": "Minnesota"
+            }
+          },
+          {
+            "name": "location_country",
+            "in": "query",
+            "description": "Filter by location country.",
+            "explode": true,
+            "schema": {
+              "type": "string",
+              "description": "",
+              "example": "United States"
+            }
+          },
+          {
             "name": "include_alt_name",
             "in": "query",
             "description": "Filter by name and include filtering alternative names",
+            "schema": {
+              "type": "boolean",
+              "description": "",
+              "example": false,
+              "default": false
+            }
+          },
+          {
+            "name": "filter_by_config_radius",
+            "in": "query",
+            "description": "Filter by the default configuration radius if location query is supplied",
             "schema": {
               "type": "boolean",
               "description": "",
@@ -499,12 +554,12 @@
           },
           "registered_date": {
             "type": "string",
-            "description": "voice application registration date",
+            "description": "Voice application registration date",
             "format": "date-time"
           },
           "expiration_date": {
             "type": "string",
-            "description": "voice application expiration date",
+            "description": "Voice application expiration date",
             "format": "date-time"
           },
           "status": {
@@ -517,8 +572,15 @@
               "expired"
             ]
           },
+          "search_location": {
+            "type": "integer",
+            "description": "Default settings if search includes location. It means this voice application will show up within 20 miles.",
+            "format": "int32",
+            "example": 20
+          },
           "locations": {
             "type": "array",
+            "description": "voice application various location",
             "items": {
               "$ref": "#/components/schemas/voice_application_location"
             }
@@ -570,6 +632,12 @@
               "expired"
             ]
           },
+          "search_location": {
+            "type": "integer",
+            "description": "Default settings if search includes location. It means this voice application will show up within 20 miles.",
+            "format": "int32",
+            "example": 20
+          },
           "locations": {
             "type": "array",
             "items": {
@@ -612,6 +680,10 @@
             "type": "string",
             "description": "State where voice application is located"
           },
+          "zip_code": {
+            "type": "string",
+            "description": "Zip code where voice application is located"
+          },
           "country": {
             "type": "string",
             "description": "Country where voice application is located",
@@ -652,7 +724,7 @@
             "type": "string",
             "description": "Unique identifier for the conversation platform",
             "format": "uuid",
-            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+            "example": "gf7d274e-d5e5-11e7-9296-cec278b6b50a"
           },
           "name": {
             "type": "string",
@@ -676,21 +748,11 @@
               "owned",
               "third-party"
             ]
-          }
-        }
-      },
-      "ApiResponse": {
-        "type": "object",
-        "properties": {
-          "code": {
-            "type": "integer",
-            "format": "int32"
           },
-          "type": {
-            "type": "string"
-          },
-          "message": {
-            "type": "string"
+          "generate_response": {
+            "type": "boolean",
+            "description": "If set to true the conversational platform generate response.",
+            "example": true
           }
         }
       }
