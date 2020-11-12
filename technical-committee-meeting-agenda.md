@@ -144,6 +144,7 @@
 # 2020-11-13
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff 
+- Review of Work Group process, preview of 2020.11.20 meeting -- J. Stine (1 minute)
 - Follow-up: Next steps and recommendations, Privacy Team within Privacy-Security Work Group (5 minutes) -- M. Frazzini, O. Coleman
 - Report and Recommendations from the Security Team within the Privacy-Security Work Group (30 minutes) --  M. Lens-Fitzgerald
   - Overview of problem statement, process/methodology/references (2 minutes)
