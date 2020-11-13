@@ -1,3 +1,67 @@
+# 2020-11-13 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, S. Prayaga, R.Nathenson, O. Coleman, D. Cundiff, V. Hingorani, J. Sedivy, P. Bentsen
+
+The meeting was brought to order at 9:02 CT (US)
+
+### Antitrust statement and notice of recording – J. Stine 
+
+### Review of agenda and expectations for the meeting – D. Cundiff
+
+### Review of work group process, preview of 2020.11.20 meeting – J. Stine  
+* Special 90 minute Session on 11/20 to review work group reports from Architecture and Voice Registry System.  Calendar invites have been sent 
+* Process - Please place all documentation in Github.   This will be our central documentation repository to enable version control, pull requests, review & commentary 
+
+### Follow-up:  Next steps and recommendations, Privacy team within Privacy-Security Work Group – M. Frazzini, O. Coleman
+*  Next Steps added based upon feedback:
+   * Examples included 
+   * Reassessing guidelines 
+   * Add an action to invite industry participation, feedback and input 
+   * Added a note that this work be included in any RFC
+   * Inference model training –add a privacy guideline around the use of data for training (consent and transparency) 
+* [link to Privacy Guidelines document]( https://docs.google.com/document/d/19o7k00fvFqwd0XdPbacd6h-JOVMB13sEaruKZfi529E/edit#heading=h.9l4e2earpcv9)
+
+### Report and Recommendations from the Security Team within the Privacy-Security Work Group  -M. Lens-FitzGerald
+* Overview of problem statement, process/methodology/references
+ * Identify, define and prioritize capabilities of security in voice
+ * Define the ‘what’ not ‘how’ 
+* Recommended Next Steps 
+   * Review of this report by security experts, update where applicable
+   * Publish to inform and promote OVN work
+   * If validated form two project groups. One for the verification capabilities and one for the channel and content encryption
+* Questions, discussion, roundtable 
+   * The goal is to have 1 way to do standards across all platforms.  Ex.  Verification 
+   * Requested team to carefully review the Threats and Vulnerabilities Unique to Voice and provide feedback 
+   * VRS verified means that the user knows that they are talking to the right assistant 
+   * Who is doing the user verification?   Device?  Voice assistant system?  End point?   More work needed on how the verification should work
+   * The threats have not been ranked at this point 
+   * May want to add a capability for protecting Voice User Data 
+ * [link to Voice Security Capabilities Report]( https://docs.google.com/document/d/1vlpaPlw62SPpTjcaLtLlJrXqH1LOSnTyAnApOUlfvA8/edit)
+  
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Building out the VRS document in git –added a variety of content
+* Added good detail to the VRS Requirements and proposed schema (this is checked in in git so feel free to review) 
+* In prep for the meeting on 11/20- Please review the open questions/discussion section in the document
+* [VRS meeting minutes to catch all of the details]( https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_meeting_notes.md)
+* If you are interested in the VRS-please review the document and reach out to Maria and Jon to get involved
+*  [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+  
+### Report from the Architecture Work Group: – J. Larson
+* Voted to prioritize additional components 
+* Results –collection of basic speech recognition, NLU, Dialog manager were of the highest priorities 
+* Next Steps:  
+  * Discuss  how to make components future proof
+  * Discuss how to allow commercial innovation and differentiation with components 
+  * Discuss how to proceed with Minimal viable components, (ASR,  NLU, TTS,  Dialog manager) 
+  * Define what component should resolve search VRS
+
+Meeting adjourned at 10:01 CT (US)
+
+
+
+
+
+
 # 2020-10-30 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, J.Eisenzopf,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, I. Mez, S. Prayaga, R.Nathenson, C.Wuttke, O. Coleman, A. Dalloul, D. Attwater
