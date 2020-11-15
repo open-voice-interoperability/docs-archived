@@ -63,22 +63,22 @@ directed fund of The Linux Foundation.
 
 g. Responsibilities: The TSC will be responsible for all aspects of oversight relating
 to the Project, which may include:
-i. coordinating the technical direction of the Project;
-ii. approving project or system proposals (including, but not limited to,
+   i. coordinating the technical direction of the Project;
+  ii. approving project or system proposals (including, but not limited to,
 incubation, deprecation, and changes to a sub-project’s scope);
-iii. organizing sub-projects and removing sub-projects;
-iv. creating sub-committees or working groups to focus on cross-project
+  iii. organizing sub-projects and removing sub-projects;
+  iv. creating sub-committees or working groups to focus on cross-project
 technical issues and requirements;
-v. appointing representatives to work with other open source or open
+   v. appointing representatives to work with other open source or open
 standards communities;
-vi. establishing community norms, workflows, issuing releases, and security
+  vi. establishing community norms, workflows, issuing releases, and security
 issue reporting policies;
-vii. approving and implementing policies and processes for contributing (to be
+  vii. approving and implementing policies and processes for contributing (to be
 published in the CONTRIBUTING file) and coordinating with the series
 manager of the Project (as provided for in the Series Agreement, the
 “Series Manager”) to resolve matters or concerns that may arise as set
 forth in Section 7 of this Charter;
-viii. discussions, seeking consensus, and where necessary, voting on technical
+  viii. discussions, seeking consensus, and where necessary, voting on technical
 matters relating to the code base that affect multiple projects; and
 ix. coordinating any marketing, events, or communications regarding the
 Project.
@@ -152,11 +152,11 @@ purpose, as applicable, of LFP, Inc. or LF Projects, LLC.
 ### 6. General Rules and Operations.
 
 a. The Project will:
-i. engage in the work of the Project in a professional manner consistent with
+  i. engage in the work of the Project in a professional manner consistent with
 maintaining a cohesive community, while also maintaining the goodwill
 and esteem of LF Projects, LFP, Inc. and other partner organizations in the
 open source community; and
-ii. respect the rights of all trademark owners, including any branding and
+  ii. respect the rights of all trademark owners, including any branding and
 trademark usage guidelines.
 
 ### 7. Intellectual Property Policy 
@@ -167,22 +167,28 @@ Project.
 
 b. Except as described in Section 7.c., all contributions to the Project are subject to
 the following:
-i. If code is contributed to support the Project, all new inbound code
+
+  i. If code is contributed to support the Project, all new inbound code
 contributions to the Project must be made using the Apache License,
 Version 2.0, available at https://www.apache.org/licenses/LICENSE-2.0
 (the “Project License”).
-ii. All new inbound code contributions must also be accompanied by a
+
+  ii. All new inbound code contributions must also be accompanied by a
 Developer Certificate of Origin (http://developercertificate.org) sign-off in
 the source code system that is submitted through a TSC-approved
 contribution process which will bind the authorized contributor and, if not
 self-employed, their employer to the applicable license;
-iii. All outbound code will be made available under the Project License.
-iv. Specification and documentation will be received and made available by
+
+  iii. All outbound code will be made available under the Project License.
+
+  iv. Specification and documentation will be received and made available by
 the Project under the Creative Commons Attribution 4.0 International
 License (available at http://creativecommons.org/licenses/by/4.0/).
-v. To the extent a contribution includes or consists of data, any rights in such
+
+  v. To the extent a contribution includes or consists of data, any rights in such
 data shall be made available under the CDLA-Permissive 1.0 License.
-vi. The Project may seek to integrate and contribute back to other open source
+
+  vi. The Project may seek to integrate and contribute back to other open source
 projects (“Upstream Projects”). In such cases, the Project will conform to
 all license requirements of the Upstream Projects, including dependencies,
 leveraged by the Project. Upstream Project code contributions not stored
