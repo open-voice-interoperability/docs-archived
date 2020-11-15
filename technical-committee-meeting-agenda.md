@@ -154,3 +154,21 @@
 - Report from the VRS Work Group (5 minutes) - M. Brinas-Dobrowski
 - Report from the Architecture Work Group (5 minutes) - J. Larson
 - Review of actions, next steps (5 minutes) -- J. Stine
+
+# 2020-11-20
+- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff 
+- Review of Work Group processes:  ways of working, vocabulary review, Technical Charter -- J. Stine (5 minutes)
+- Follow-up: Next steps and recommendations, Security Team within Privacy-Security Work Group (5 minutes) -- M. Lens-Fitzgerald
+- Report and Recommendations from the Voice Registry System Work Group (30 minutes) --  M. Brinas-Dobrowski
+  - Overview of problem statement, process/methodology/references (2 minutes)
+  - Key Findings (10 minutes)
+  - Recommendations for Action-Adoption (10 minutes)
+  - Technical Committee Feedback:  Questions, Discussion, Recommendations for Next Steps (10 minutes)
+- Report and Recommendations from the Architecture Work Group (30 minutes) --  J. Larson
+  - Overview of problem statement, process/methodology/references (2 minutes)
+  - Key Findings (10 minutes)
+  - Recommendations for Action-Adoption (10 minutes)
+  - Technical Committee Feedback:  Questions, Discussion, Recommendations for Next Steps (10 minutes)
+- Summation Discussion:  Next Steps (10 minutes) -- D. Cundiff
+- Calendar Moving Forward  (5 minutes) -- J. Stine
