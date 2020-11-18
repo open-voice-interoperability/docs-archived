@@ -1,6 +1,3 @@
-17 November 2020
-Dahl, Larson, Eisenzopf, and Attwater
-
 ## EXISTING STANDARDS for VOICE
 ### That may guide and inform the work of the Open Voice Network 
 
@@ -35,42 +32,41 @@ The list below identifies existing voice standards that may guide the functional
 
 This list was assembled by Open Voice Network supporters and advisors Dr. Deborah Dahl, Dr. Jim Larson, David Attwater, and Jonathan Eisenzopf.  We are deeply grateful for their contributions and ongoing guidance.
 
-Component	Potentially related standards
-IPA Client	•	(X)HTML, specifies visual content and presentation of web pages
+### Component	Potentially related standards
+__IPA Client__	•	(X)HTML, specifies visual content and presentation of web pages
+__IPA Service__	none
+__Dialog Management__	•	_Voice Extensible Markup Language (VoiceXML_) 2.1 designed for creating audio dialogs that feature synthesized speech, digitized audio, recognition of spoken and DTMF key input, recording of spoken input, telephony, and mixed initiative conversations. Its major goal is to bring the advantages of Web-based development and content delivery to interactive voice response applications.
+•	_State Chart XML (SCXML)_  provides a generic state-machine based execution environment based on CCXML and Harel State Tables.  May be used to specify dialogs
+__TTS__	•	_Web Speech API_, a JavaScript API to enable web developers to incorporate speech recognition and synthesis into their web pages. It enables developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control.
+•	_Speech Synthesis Markup Language (SSML) Version 1.0_  a standard way to control presentation of speech such as pronunciation, volume, pitch, rate, etc. across different synthesis-capable platforms.
+•	_Pronunciation Lexicon Specification Version 1.0_  syntax for specifying pronunciation lexicons to be used by Automatic Speech Recognition and Speech Synthesis engines in voice browser applications.
+•	_Emotion Markup Language (EmotionML) 1.0_ as a "plug-in" language suitable for use in three different areas: (1) manual annotation of data; (2) automatic recognition of emotion-related states from user behavior; and (3) generation of emotion-related system behavior.
+•	_ToBI_, a set of conventions for transcribing and annotating the prosody  of speech
+__ASR__ 	•	_Web Speech API_ , a JavaScript API to enable web developers to incorporate speech recognition and synthesis into their web pages. It enables developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control.
+•	_Speech Recognition Grammar Specification Version 1.0_, syntax for representing grammars for use in speech recognition so that developers can specify the words and patterns of words to be listened for by a speech recognizer.
+•	_Pronunciation Lexicon Specification Version_ 1.0 syntax for specifying pronunciation lexicons to be used by Automatic Speech Recognition and Speech Synthesis engines in voice browser applications.
+•	_Semantic Interpretation for Speech Recognition (SISR)_ Version 1.0 process of Semantic Interpretation for Speech Recognition and the syntax and semantics of semantic interpretation tags that can be added to speech recognition grammars to compute information to return to an application on the basis of rules and tokens that were matched by the speech recognizer. In particular, it defines the syntax and semantics of the contents of Tags in the Speech Recognition Grammar Specification
+•	_International Phonetic Alphabet_ – maybe too much detail but often used to represent the sound of words in lexicons.
+__Core Dialog and Annotation__ 	•	_Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech Acts (DAMSL)_ a statistical approach for modeling dialogue acts in conversational speech
+•	_ISO 24617-2_  also known as DIT++ or DiAML and background can be found at http://www2.lpl-aix.fr/~otim/documents/OTIM_HarryBunt_Wshop24mai2011.pdf 
+•	_There are 4-5 primary ways dialog managers work, but there are no real standards yet._ Predominant methods are Answerset Logic (Q&A) and Finite State Machines with Slot filling (used in VoiceXML, Alexa, Google Assistant, Watson, …). Newer methods that will be introduced in the coming years are Information State Update (Traum et.al) and Incrementation Dialog Processing (Gabriel Skantze, David Schlangen).
+•	_The text encoding initiative - https://tei-c.org/ a set of guidelines regarding XML markup of human computer interaction data._  It covers many areas but those relevant to dialogs are : Metadata for language corpora, representing certainty and uncertainty, definition of underlying feature annotation structures (e.g. data structures representing the internal structure of a language feature including key value pairs, trees, graphs), orthographic regularization, transcribed speech, phrasal boundary notation, cross-reference, segmentation and alignment of text or other feature sequences facilitating multi-layered stand-off annotation.
+__Core Intent Set__ 	•	_Discourse.ai may contribute our JSON specification_
+__Dialog Registry__	•	_Discovery & Registration of Multimodal Modality Components_  a standardized way to build a web Application that can dynamically combine and control discovered components by querying a registry build based on the multimodal types of the modalities and their states.
+__Provider Selection Service__ 	•	_The Open Agent Architecture is not fully define but is used internally for Viv and Siri_
+__Accounts -Authentication__ 	•	_Web Authentication_ an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users
+•	_IDO Universal Authentication Framework WIth FIDO UAF_ , the user carries a device with a FIDO UAF stack installed. They can then register their device to the online service by selecting a local authentication mechanism such as swiping a finger, looking at the camera, speaking into the mic, entering a PIN, etc. The FIDO UAF protocol allows the service to select which mechanisms are presented to the user.
+•	_Oauth_ – this is what Amazon and Google use currently.
+•	_OpenID_ will likely replace Oauth and SAML in the future
 
-IPA Service	none
-Dialog Management	•	Voice Extensible Markup Language (VoiceXML) 2.1 designed for creating audio dialogs that feature synthesized speech, digitized audio, recognition of spoken and DTMF key input, recording of spoken input, telephony, and mixed initiative conversations. Its major goal is to bring the advantages of Web-based development and content delivery to interactive voice response applications.
-•	State Chart XML (SCXML)  provides a generic state-machine based execution environment based on CCXML and Harel State Tables.  May be used to specify dialogs
-TTS	•	Web Speech API, a JavaScript API to enable web developers to incorporate speech recognition and synthesis into their web pages. It enables developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control.
-•	Speech Synthesis Markup Language (SSML) Version 1.0 a standard way to control presentation of speech such as pronunciation, volume, pitch, rate, etc. across different synthesis-capable platforms.
-•	Pronunciation Lexicon Specification Version 1.0  syntax for specifying pronunciation lexicons to be used by Automatic Speech Recognition and Speech Synthesis engines in voice browser applications.
-•	Emotion Markup Language (EmotionML) 1.0 as a "plug-in" language suitable for use in three different areas: (1) manual annotation of data; (2) automatic recognition of emotion-related states from user behavior; and (3) generation of emotion-related system behavior.
-•	ToBI, a set of conventions for transcribing and annotating the prosody  of speech
-ASR	•	Web Speech API , a JavaScript API to enable web developers to incorporate speech recognition and synthesis into their web pages. It enables developers to use scripting to generate text-to-speech output and to use speech recognition as an input for forms, continuous dictation and control.
-•	Speech Recognition Grammar Specification Version 1.0, syntax for representing grammars for use in speech recognition so that developers can specify the words and patterns of words to be listened for by a speech recognizer.
-•	Pronunciation Lexicon Specification Version 1.0 syntax for specifying pronunciation lexicons to be used by Automatic Speech Recognition and Speech Synthesis engines in voice browser applications.
-•	Semantic Interpretation for Speech Recognition (SISR) Version 1.0 process of Semantic Interpretation for Speech Recognition and the syntax and semantics of semantic interpretation tags that can be added to speech recognition grammars to compute information to return to an application on the basis of rules and tokens that were matched by the speech recognizer. In particular, it defines the syntax and semantics of the contents of Tags in the Speech Recognition Grammar Specification
-•	International Phonetic Alphabet – maybe too much detail but often used to represent the sound of words in lexicons.
-Core Dialog and Annotation	•	Dialogue Act Modeling for Automatic Tagging and Recognition of Conversational Speech Acts (DAMSL) a statistical approach for modeling dialogue acts in conversational speech
-•	ISO 24617-2 also known as DIT++ or DiAML and background can be found at http://www2.lpl-aix.fr/~otim/documents/OTIM_HarryBunt_Wshop24mai2011.pdf 
-•	There are 4-5 primary ways dialog managers work, but there are no real standards yet. Predominant methods are Answerset Logic (Q&A) and Finite State Machines with Slot filling (used in VoiceXML, Alexa, Google Assistant, Watson, …). Newer methods that will be introduced in the coming years are Information State Update (Traum et.al) and Incrementation Dialog Processing (Gabriel Skantze, David Schlangen).
-•	The text encoding initiative - https://tei-c.org/ a set of guidelines regarding XML markup of human computer interaction data.  It covers many areas but those relevant to dialogs are : Metadata for language corpora, representing certainty and uncertainty, definition of underlying feature annotation structures (e.g. data structures representing the internal structure of a language feature including key value pairs, trees, graphs), orthographic regularization, transcribed speech, phrasal boundary notation, cross-reference, segmentation and alignment of text or other feature sequences facilitating multi-layered stand-off annotation.
-Core Intent Set	•	Discourse.ai may contribute our JSON specification
-Dialog Registry	•	Discovery & Registration of Multimodal Modality Components a standardized way to build a web Application that can dynamically combine and control discovered components by querying a registry build based on the multimodal types of the modalities and their states.
-Provider Selection Service	•	The Open Agent Architecture is not fully define but is used internally for Viv and Siri
-Accounts -Authentication	•	Web Authentication an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users
-•	IDO Universal Authentication Framework WIth FIDO UAF, the user carries a device with a FIDO UAF stack installed. They can then register their device to the online service by selecting a local authentication mechanism such as swiping a finger, looking at the camera, speaking into the mic, entering a PIN, etc. The FIDO UAF protocol allows the service to select which mechanisms are presented to the user.
-•	Oauth – this is what Amazon and Google use currently.
-•	OpenID will likely replace Oauth and SAML in the future
-
-Core NLU	•	EMMA: Extensible MultiModal Annotation markup language Version 2.0  set of specifications for multimodal systems providing details of an XML markup language for containing and annotating the interpretation of user input and production of system output.
-•	JSON Representation of Semantic Information a JSON format for representing the results of semantic processing
-•	Abstract Meaning Representation used for semantic representation language. Is a culmination of prior researchers and projects and could become how semantic meaning of utterances is represented in the future.
-•	ARPA N-Gram format a published format to portably represent language models in N-Gram format.
-World Knowledge	•	Web Ontology Language (OWL) a Semantic Web language designed to represent rich and complex knowledge about things, groups of things, and relations between things.
-•	Resource Description Framework (RDF)  a framework for representing information in the Web
-•	Schema.org, an OWL ontology used to organize all information on the web.
-Data Provider	none
+__Core NLU__	•	_EMMA: Extensible MultiModal Annotation markup language Version 2.0_  set of specifications for multimodal systems providing details of an XML markup language for containing and annotating the interpretation of user input and production of system output.
+•	_JSON Representation of Semantic Information a JSON format_ for representing the results of semantic processing
+•	_Abstract Meaning Representation_ used for semantic representation language. Is a culmination of prior researchers and projects and could become how semantic meaning of utterances is represented in the future.
+•	_ARPA N-Gram_ format a published format to portably represent language models in N-Gram format.
+__World Knowledge__ 	• _Web Ontology Language (OWL)_ a Semantic Web language designed to represent rich and complex knowledge about things, groups of things, and relations between things.
+•	_Resource Description Framework (RDF)_  a framework for representing information in the Web
+•	_Schema.org,_ an OWL ontology used to organize all information on the web.
+## Data Provider	none
 
 17 November 2020
-Dahl, Larson, Eisenzopf, and Attwater.  Stine (ed).
+Standards listing from Dahl, Larson, Eisenzopf, and Attwater.  Introductory text, Stine.
