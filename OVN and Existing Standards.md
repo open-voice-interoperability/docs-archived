@@ -5,17 +5,17 @@ The idea that machines could talk with and listen to humans is far from a 21st c
 The development of voice-based virtual assistants, often known as voicebots, reaches back at least to the 1960’s.  Research into machine-based speech recognition began to bear fruit in the 1950’s.  Exploration of speech synthesis – machines that could talk -- has been traced all the way back to the late 18th century.
 Given the lengthy and rich history of machines that can talk and listen – a phenomenon we may today describe as voice assistance – it is vitally important that any entity wishing today to work in this space must study and understand the current literature.
 
-In late 2016, a group of academics, technologists, and business consultants centered around the Massachusetts Institute of Technology (MIT) began exploration of a new, emerging world of voice assistance.
-This world took voice technologies developed for interactive voice response (IVR) applications used primarily in enterprise call centers, and advanced them in three critical ways, with the introductions of:  
+In late 2016, a group of academics, technologists, and business consultants began research into a new, emerging world of voice assistance. This world took voice technologies developed for interactive voice response (IVR) applications used primarily in enterprise call centers, and advanced them in three critical ways, with the introductions of:  
 •	consumer-owned voice recognition applications, first in 2011 with Apple’s Siri on the iPhone 4S, and then in 2014 by Amazon with the Alexa assistant on the Echo device.
 
 •	a new device – the in-home “smart speaker” that offered voice assistance in a simple-to-use package.   This new device became the fastest-selling consumer electronics item of all time.  Over the years, global annual wholesale shipments of smart speaker devices has grown from roughly 9 million units in 2016 to a projected 136.9 million units in 2020 – a 72.36% CAGR.  At the same time, the availability of voice assistance on smartphones has surpassed 500 million units on Android devices alone. 
  
 •	enterprise value propositions that extended well beyond call center/customer service, and into kitchens and smart homes, automobiles, factory management, and enterprise software.  
 
-The MIT research posited that this new world of voice assistance could – and, in time, would – irreparably change the relationship between an enterprise and its customers (be they shoppers, clients, or patients.)   It also suggested that this new world represented a migration from a set of technologies largely bound by a single purpose to the dawn of a new, global system of AI-enabled communication.
+The 2016-2017 research posited that this new world of voice assistance could – and, in time, would – irreparably change the relationship between an enterprise and its customers (be they shoppers, clients, or patients.)   It also suggested that this new world represented a major market transition, with voice evolving from technologies largely bound by a single purpose to a new, global system of AI-enabled interfaces and virtual communication.
 
-A new, global system of AI-enabled communication without broad governing standards that would enable openness, user choice, inclusivity, and the user trust so essential to the system’s growth and value.  A system in its current form that, upon study and reflection, resembled the “browser war” days of the early internet. 
+It was also apparent that this new, global system of AI-enabled communication was forming without broad governing standards of the type that would enable openness, user choice, inclusivity, and the user trust so essential to the system’s growth and value.  Indeed, it resembled the “browser war” days of the early internet.
+
 It was from this research that The Open Voice Network (OVN) was born.   The OVN is a non-profit industry association dedicated to the development of standards and ethical use guidelines for the new world of voice assistance.  It operates as a directed fund of the Linux Foundation, and was established in May, 2020.
 
 Why are new and additional voice standards needed?
