@@ -1,3 +1,54 @@
+# 2020-11-20 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, S. Prayaga, R.Nathenson, O. Coleman, D. Cundiff, A. Fricke, C. Wuttke, I. Mez, J. Eisenzopf, P. Bentsen
+
+### Antitrust statement and notice of recording – J. Stine 
+ 
+### Report from the Architecture Work Group: – J. Larson
+
+### Report from the VRS Work Group  – M.Brinas-Dobrowski
+* Goal – To make a decision if there is a market need/opportunity for a global platform voice registry 
+* Terminologies 
+* Problem
+  * Setup Mode 
+  * Runtime Mode 
+   * No consistent experience
+   * Lack of standards 
+   * No interoperability  
+   * No consistency or transparency on disambiguation 
+* Recommendations 
+  * Advocate to stand up a neutral and single decentralized registry for voice application –the Voice Registry System 
+* Architecture 
+  * Arch guiding principles 
+    * Single repository 
+    * Loose coupling 
+    * Event driven 
+    * Availability and partitioning eventual consistency 
+    * Interface segregation
+    * Automation (CICD, etc.) 
+* Roles & Responsibilities 
+  * Be neutral and single decentralized registry for voice application  
+  * Create voice application standards to provide a consistent experience 
+  * VRS is NOT responsible for the interpreting of the intent of the user 
+  * VRS can hold various attributes regarding the voice applications, such as name, alternative names, category, geolocation 
+  * VRS can receive inputs like the channels current location but is NOT responsible for storing its preference 
+  * VRS names can have synergies 
+* Summation: 
+  * Please review and add comments in git
+  * Next Steps:  Each work group decide how this impacts their work 
+* Discussion: 
+  * Disambiguation is at domain level 
+  * The Disambiguation problem will need to be broken down into multiple sub-problems 
+  * If VRS not responsible for interpreting intent, how will it get to the destination?   -Additional discussions in the Architecture Group
+  * Should we add the support of different languages?   This will be folded into the requirements 
+  * VRS should be considered an Explicit request registry 
+  * Where does disambiguation occur?  The conversation platform owns that with aid from VRS  
+* [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+
+Meeting adjourned at 10:27 CT 
+
+
+
 # 2020-11-13 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, S. Prayaga, R.Nathenson, O. Coleman, D. Cundiff, V. Hingorani, J. Sedivy, P. Bentsen
