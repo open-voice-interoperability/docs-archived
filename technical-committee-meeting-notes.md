@@ -2,9 +2,31 @@
 
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, S. Prayaga, R.Nathenson, O. Coleman, D. Cundiff, A. Fricke, C. Wuttke, I. Mez, J. Eisenzopf, P. Bentsen
 
+The meeting commenced at 09:03 Central Standard time (US). 
+
 ### Antitrust statement and notice of recording – J. Stine 
+
+### Review of the agenda -- D. Cundiff
+
+### Ways of Working and Steps Forward -- J. Stine
+
+J. Stine presented and spoke to an overview of the next steps that Work Groups may take.  Three key take-ways:  1) Work Groups will be asked to meet at least one more time to determine next steps.  2) Next steps could include a proposal to the Tech Comm (and then, potentially, the Steering Committee), or additional development work.  3)  The determining question of the Technical Committee (and the Steering Committee) will be this:  is this worthy of (and ready for) investment of time/personnel/monies en route to standardization?  
  
 ### Report from the Architecture Work Group: – J. Larson
+
+J. Larson presented a summation of the work to date of the Architecture Work Group.  
+* An important market transition is driving the need for this review:  current and anticipated growth of independent voice assistance.  
+* Problems to be resolved:  development complexity, inconsistent terminology, reusability of components, extensibility, and interoperability of assistants.
+* Ecosystem and business benefits of resolution:  speed, accelerate the creation of new and innovative speech applications; enable enterprises to build once and use many; create a standards-based foundation for commercial innovation, differentiation.
+* Architecture Work Group remit:  identify, define, and prioritize common voice assistant components for potential standardization.
+* A 1.0 definition of a reusable component was presented: defined by input and output, defined as a collection of related functionalities, defined as flexible, and able to be used in many configurations, defined as a building block for applications-assistant creation.
+* A generic template of a reusable component was shown.
+* In reaching this point, the Architecture Work Group (AWG) had reviewed a sampling of assistant architectures, and components within.  Those reviewed included that shown in the OVN Master Plan, and from the W3C Voice Interaction Community, David Attwater and Jonathan Eisenzopf, and from Dr. Monica Lam of the Stanford OVAL project.  The AWG had also discussed potential new components (per Voice Registry System conversations).
+* The Architecture Work Group presented its 1.0 roadmap for component assessment and standardization.  For a detailed review, please see https://github.com/open-voice-network/docs/blob/master/Architecture%20Work%20Group%20Working%20Draft%202020.11.18.md.
+* The AWG proposed two new components:  A "voice agent finder" for an anticipated Voice Registry System, and for purposes of user-managed rivacy and consent, an Access-Consent Control Guard, as inspired by the Stanford OVAL Almond architecture.
+* The AWG noted four major outstanding questions:  1) the component(s) that should resolve VRS-centric search; 2) how components may be made (or defined in a way to be) future proof; 3) how to proceed forward with minimal viable components (such as ASR, NLU, TTS, Dialog Manager); and 4) the choice of the next component to refine.
+* Going forward, the AWG suggested five next steps:  1) establishment of a 1.0 definition criteria, with an emphasis upon future-proofing; 2) integration of AWG work with that of the Privacy and Security and VRS Work Groups; 3) selection of first components for detailed definition; 4) initiation of outside review, and development of artefacts worthy of a RFC; 5) initiation of Q1 2021 planning for prototype-MVP testing. 
+
 
 ### Report from the VRS Work Group  – M.Brinas-Dobrowski
 * Goal – To make a decision if there is a market need/opportunity for a global platform voice registry 
