@@ -65,6 +65,7 @@ J. Larson presented a summation of the work to date of the Architecture Work Gro
   * Should we add the support of different languages?   This will be folded into the requirements 
   * VRS should be considered an Explicit request registry 
   * Where does disambiguation occur?  The conversation platform owns that with aid from VRS  
+* [Link to VRS Presentation](https://docs.google.com/presentation/d/16kVg-PkoaWQwX-lRskirioBXL5wXg9--doJFLE8jWI8/edit#slide=id.p)  
 * [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
 
 Meeting adjourned at 10:27 CT 
