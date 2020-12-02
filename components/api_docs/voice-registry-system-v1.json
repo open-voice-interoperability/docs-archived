@@ -226,17 +226,6 @@
               "description": "Invocation name for the record",
               "example": "patrick dessert"
             }
-          },
-          {
-            "name": "include_alt_name",
-            "in": "query",
-            "description": "Filter by name and include filtering alternative names",
-            "schema": {
-              "type": "boolean",
-              "description": "",
-              "example": false,
-              "default": false
-            }
           }
         ],
         "responses": {
@@ -445,7 +434,7 @@
   },
   "servers": [
     {
-      "url": "https://api.ovn.org/voice-registry-system/v1"
+      "url": "https://api.openvoicenetwork.org/voice-registry-system/v1"
     }
   ],
   "components": {
@@ -488,14 +477,6 @@
             "type": "string",
             "description": "Invocation name for the record",
             "example": "patrick dessert"
-          },
-          "alternative_names": {
-            "type": "array",
-            "description": "Alternative names or slang name for the record",
-            "items": {
-              "type": "string",
-              "example": "patrick d"
-            }
           },
           "registered_date": {
             "type": "string",
@@ -551,14 +532,6 @@
             "type": "string",
             "description": "Invocation name for the record",
             "example": "patrick dessert"
-          },
-          "alternative_names": {
-            "type": "array",
-            "description": "Alternative names or slang name for the record",
-            "items": {
-              "type": "string",
-              "example": "patrick d"
-            }
           },
           "status": {
             "type": "string",
