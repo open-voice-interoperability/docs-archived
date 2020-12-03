@@ -23,14 +23,6 @@
       }
     },
     {
-      "name": "voice_categories",
-      "description": "Manage everything about voice categories",
-      "externalDocs": {
-        "description": "Find out more",
-        "url": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md"
-      }
-    },
-    {
       "name": "locations",
       "description": "Manage everything about location",
       "externalDocs": {
@@ -259,173 +251,6 @@
           }
         }
       }
-    },
-    "/categories": {
-      "post": {
-        "x-success_http_code": "201",
-        "x-expected_tps": "100",
-        "tags": [
-          "voice_categories"
-        ],
-        "summary": "Create new category",
-        "description": "",
-        "operationId": "create_category",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/category"
-              }
-            }
-          },
-          "description": "Fields below are accepted for category"
-        },
-        "parameters": [
-          {
-            "name": "key",
-            "in": "query",
-            "description": "The consumer's valid API key.",
-            "required": true,
-            "schema": {
-              "type": "string"
-            }
-          }
-        ],
-        "responses": {
-          "201": {
-            "description": "Created successfully",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "string",
-                  "items": {
-                    "$ref": "#/components/schemas/category"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Bad Request"
-          },
-          "401": {
-            "description": "Unauthorized"
-          },
-          "405": {
-            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          },
-          "503": {
-            "description": "Service Unavailable"
-          }
-        }
-      },
-      "get": {
-        "tags": [
-          "voice_categories"
-        ],
-        "summary": "Return one or more categories",
-        "description": "",
-        "operationId": "get_categories",
-        "parameters": [
-          {
-            "name": "name",
-            "in": "query",
-            "description": "Filter by name",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "description": "Category name",
-              "example": "retail"
-            }
-          }
-        ],
-        "responses": {
-          "200": {
-            "description": "Successful response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "type": "array",
-                  "items": {
-                    "$ref": "#/components/schemas/category"
-                  }
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid ID supplied"
-          },
-          "404": {
-            "description": "Category not found"
-          },
-          "405": {
-            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          },
-          "503": {
-            "description": "Service Unavailable"
-          }
-        }
-      }
-    },
-    "/categories/{id}": {
-      "put": {
-        "tags": [
-          "voice_categories"
-        ],
-        "summary": "Update categories",
-        "description": "",
-        "operationId": "update_category",
-        "parameters": [
-          {
-            "in": "path",
-            "name": "id",
-            "description": "Unique identifier for the category",
-            "required": true,
-            "schema": {
-              "type": "string",
-              "format": "uuid",
-              "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
-            }
-          }
-        ],
-        "requestBody": {
-          "$ref": "#/components/requestBodies/category"
-        },
-        "responses": {
-          "200": {
-            "description": "Successful response",
-            "content": {
-              "application/json": {
-                "schema": {
-                  "$ref": "#/components/schemas/category"
-                }
-              }
-            }
-          },
-          "400": {
-            "description": "Invalid ID supplied"
-          },
-          "404": {
-            "description": "Category not found"
-          },
-          "405": {
-            "description": "Request made with incorrect method e.g. POST when only GET is allowed"
-          },
-          "500": {
-            "description": "Internal Server Error"
-          },
-          "503": {
-            "description": "Service Unavailable"
-          }
-        }
-      }
     }
   },
   "externalDocs": {
@@ -439,17 +264,6 @@
   ],
   "components": {
     "requestBodies": {
-      "category": {
-        "content": {
-          "application/json": {
-            "schema": {
-              "$ref": "#/components/schemas/category"
-            }
-          }
-        },
-        "description": "Category hat needs to be updated",
-        "required": true
-      },
       "record": {
         "content": {
           "application/json": {
@@ -504,13 +318,6 @@
               "$ref": "#/components/schemas/record_location"
             }
           },
-          "categories": {
-            "type": "array",
-            "description": "List of record categories.",
-            "items": {
-              "$ref": "#/components/schemas/category"
-            }
-          },
           "conversation_platforms": {
             "type": "array",
             "items": {
@@ -547,13 +354,6 @@
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/record_location"
-            }
-          },
-          "categories": {
-            "type": "array",
-            "description": "List of record categories.",
-            "items": {
-              "$ref": "#/components/schemas/category"
             }
           },
           "conversation_platforms": {
@@ -594,27 +394,6 @@
               "Philippines",
               "..."
             ]
-          }
-        }
-      },
-      "category": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "description": "Unique identifier for the category",
-            "format": "uuid",
-            "example": "ef7d274e-d5e5-11e7-9296-dad278b6b50a"
-          },
-          "name": {
-            "type": "string",
-            "description": "Category name",
-            "example": "retail"
-          },
-          "description": {
-            "type": "string",
-            "description": "Category description",
-            "example": "The sale of goods or commodities in small quantities directly to consumers."
           }
         }
       },
