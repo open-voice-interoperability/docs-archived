@@ -1,12 +1,12 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "description": "Voice Registry System (VRS) service to perform various operation in enabling the standard and platform-agnostic location for voice application.",
+    "description": "Voice Registry System (VRS) service to perform various operation in enabling the standard and platform-agnostic location for voice.",
     "version": "1.0.2",
     "title": "voice-registry-system-v1",
     "termsOfService": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_terms.md",
     "contact": {
-      "email": "vrsteam@ovn.org"
+      "email": "vrs-team@ovn.org"
     },
     "license": {
       "name": "Apache 2.0",
@@ -15,8 +15,8 @@
   },
   "tags": [
     {
-      "name": "voice_applications",
-      "description": "Manage everything about voice applications",
+      "name": "records",
+      "description": "Manage everything about records in VRS",
       "externalDocs": {
         "description": "Find out more",
         "url": "https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md"
@@ -45,20 +45,20 @@
         "x-success_http_code": "201",
         "x-expected_tps": "100",
         "tags": [
-          "voice_applications"
+          "records"
         ],
-        "summary": "Create new voice application",
-        "description": "Add or register a new voice application",
-        "operationId": "create_voice_application",
+        "summary": "Create new records",
+        "description": "Add or register in VRS",
+        "operationId": "create_record",
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/create_voice_application"
+                "$ref": "#/components/schemas/create_record"
               }
             }
           },
-          "description": "Fields below are accepted for voice application registry"
+          "description": "Fields below are accepted for registry"
         },
         "parameters": [
           {
@@ -79,7 +79,7 @@
                 "schema": {
                   "type": "string",
                   "items": {
-                    "$ref": "#/components/schemas/create_voice_application"
+                    "$ref": "#/components/schemas/create_record"
                   }
                 }
               }
@@ -103,21 +103,21 @@
         }
       }
     },
-    "/{voice_application_id}": {
+    "/{record_id}": {
       "get": {
         "x-success_http_code": "200",
         "x-expected_tps": "100",
         "tags": [
-          "voice_applications"
+          "records"
         ],
-        "summary": "Find by voice application ID",
-        "description": "Returns a single voice application",
-        "operationId": "get_voice_application",
+        "summary": "Find by record ID",
+        "description": "Returns a single record",
+        "operationId": "get_record",
         "parameters": [
           {
             "in": "path",
-            "name": "voice_application_id",
-            "description": "Unique identifier for the voice application",
+            "name": "record_id",
+            "description": "Unique identifier for the record",
             "required": true,
             "schema": {
               "type": "string",
@@ -132,7 +132,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/voice_application"
+                  "$ref": "#/components/schemas/record"
                 }
               }
             }
@@ -141,7 +141,7 @@
             "description": "Invalid ID supplied"
           },
           "404": {
-            "description": "Voice application not found"
+            "description": "Record not found"
           },
           "405": {
             "description": "Request made with incorrect method e.g. POST when only GET is allowed"
@@ -156,16 +156,16 @@
       },
       "put": {
         "tags": [
-          "voice_applications"
+          "records"
         ],
-        "summary": "Update voice application",
+        "summary": "Update record",
         "description": "",
-        "operationId": "update_voice_application",
+        "operationId": "update_record",
         "parameters": [
           {
             "in": "path",
-            "name": "voice_application_id",
-            "description": "Unique identifier for the voice application",
+            "name": "record_id",
+            "description": "Unique identifier for the record",
             "required": true,
             "schema": {
               "type": "string",
@@ -175,7 +175,7 @@
           }
         ],
         "requestBody": {
-          "$ref": "#/components/requestBodies/voice_application"
+          "$ref": "#/components/requestBodies/record"
         },
         "responses": {
           "200": {
@@ -183,7 +183,7 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/voice_application"
+                  "$ref": "#/components/schemas/record"
                 }
               }
             }
@@ -192,7 +192,7 @@
             "description": "Invalid ID supplied"
           },
           "404": {
-            "description": "Voice application not found"
+            "description": "Record not found"
           },
           "405": {
             "description": "Request made with incorrect method e.g. POST when only GET is allowed"
@@ -209,11 +209,11 @@
     "/search": {
       "get": {
         "tags": [
-          "voice_applications"
+          "records"
         ],
-        "summary": "Search voice application by name",
+        "summary": "Search record by name",
         "description": "",
-        "operationId": "search_voice_application",
+        "operationId": "search_record",
         "parameters": [
           {
             "name": "name",
@@ -223,69 +223,14 @@
             "explode": true,
             "schema": {
               "type": "string",
-              "description": "Invocation name for the voice application",
+              "description": "Invocation name for the record",
               "example": "patrick dessert"
-            }
-          },
-          {
-            "name": "location_zip_code",
-            "in": "query",
-            "description": "Filter by location zip code.",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "description": "",
-              "example": 55403
-            }
-          },
-          {
-            "name": "location_city",
-            "in": "query",
-            "description": "Filter by location city.",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "description": "",
-              "example": "Minneapolis"
-            }
-          },
-          {
-            "name": "location_state",
-            "in": "query",
-            "description": "Filter by location state.",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "description": "",
-              "example": "Minnesota"
-            }
-          },
-          {
-            "name": "location_country",
-            "in": "query",
-            "description": "Filter by location country.",
-            "explode": true,
-            "schema": {
-              "type": "string",
-              "description": "",
-              "example": "United States"
             }
           },
           {
             "name": "include_alt_name",
             "in": "query",
             "description": "Filter by name and include filtering alternative names",
-            "schema": {
-              "type": "boolean",
-              "description": "",
-              "example": false,
-              "default": false
-            }
-          },
-          {
-            "name": "filter_by_config_radius",
-            "in": "query",
-            "description": "Filter by the default configuration radius if location query is supplied",
             "schema": {
               "type": "boolean",
               "description": "",
@@ -302,7 +247,7 @@
                 "schema": {
                   "type": "array",
                   "items": {
-                    "$ref": "#/components/schemas/voice_application"
+                    "$ref": "#/components/schemas/record"
                   }
                 }
               }
@@ -312,7 +257,7 @@
             "description": "Invalid ID supplied"
           },
           "404": {
-            "description": "Voice application not found"
+            "description": "Record not found"
           },
           "405": {
             "description": "Request made with incorrect method e.g. POST when only GET is allowed"
@@ -516,37 +461,37 @@
         "description": "Category hat needs to be updated",
         "required": true
       },
-      "voice_application": {
+      "record": {
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/voice_application"
+              "$ref": "#/components/schemas/record"
             }
           }
         },
-        "description": "Voice application that needs to be updated",
+        "description": "Record that needs to be updated",
         "required": true
       }
     },
     "schemas": {
-      "voice_application": {
+      "record": {
         "type": "object",
-        "description": "Voice Application object",
+        "description": "Record object",
         "properties": {
-          "voice_application_id": {
+          "record_id": {
             "type": "string",
-            "description": "Unique identifier for the voice application",
+            "description": "Unique identifier for the record",
             "format": "uuid",
             "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
           },
           "name": {
             "type": "string",
-            "description": "Invocation name for the voice application",
+            "description": "Invocation name for the record",
             "example": "patrick dessert"
           },
           "alternative_names": {
             "type": "array",
-            "description": "Alternative names or slang name for the voice application",
+            "description": "Alternative names or slang name for the record",
             "items": {
               "type": "string",
               "example": "patrick d"
@@ -554,17 +499,17 @@
           },
           "registered_date": {
             "type": "string",
-            "description": "Voice application registration date",
+            "description": "Record registration date",
             "format": "date-time"
           },
           "expiration_date": {
             "type": "string",
-            "description": "Voice application expiration date",
+            "description": "Record expiration date",
             "format": "date-time"
           },
           "status": {
             "type": "string",
-            "description": "voice application validity status",
+            "description": "Record validity status",
             "enum": [
               "registered",
               "pending",
@@ -572,22 +517,15 @@
               "expired"
             ]
           },
-          "search_location": {
-            "type": "integer",
-            "description": "Default settings if search includes location. It means this voice application will show up within 20 miles.",
-            "format": "int32",
-            "example": 20
-          },
           "locations": {
             "type": "array",
-            "description": "voice application various location",
             "items": {
-              "$ref": "#/components/schemas/voice_application_location"
+              "$ref": "#/components/schemas/record_location"
             }
           },
           "categories": {
             "type": "array",
-            "description": "List of voice application categories.",
+            "description": "List of record categories.",
             "items": {
               "$ref": "#/components/schemas/category"
             }
@@ -600,7 +538,7 @@
           }
         }
       },
-      "create_voice_application": {
+      "create_record": {
         "type": "object",
         "required": [
           "name",
@@ -611,12 +549,12 @@
         "properties": {
           "name": {
             "type": "string",
-            "description": "Invocation name for the voice application",
+            "description": "Invocation name for the record",
             "example": "patrick dessert"
           },
           "alternative_names": {
             "type": "array",
-            "description": "Alternative names or slang name for the voice application",
+            "description": "Alternative names or slang name for the record",
             "items": {
               "type": "string",
               "example": "patrick d"
@@ -624,7 +562,7 @@
           },
           "status": {
             "type": "string",
-            "description": "voice application validity status",
+            "description": "Record validity status",
             "enum": [
               "registered",
               "pending",
@@ -632,21 +570,15 @@
               "expired"
             ]
           },
-          "search_location": {
-            "type": "integer",
-            "description": "Default settings if search includes location. It means this voice application will show up within 20 miles.",
-            "format": "int32",
-            "example": 20
-          },
           "locations": {
             "type": "array",
             "items": {
-              "$ref": "#/components/schemas/voice_application_location"
+              "$ref": "#/components/schemas/record_location"
             }
           },
           "categories": {
             "type": "array",
-            "description": "List of voice application categories.",
+            "description": "List of record categories.",
             "items": {
               "$ref": "#/components/schemas/category"
             }
@@ -659,7 +591,7 @@
           }
         }
       },
-      "voice_application_location": {
+      "record_location": {
         "type": "object",
         "properties": {
           "id": {
@@ -670,23 +602,19 @@
           },
           "neighborhood": {
             "type": "string",
-            "description": "Neigborhood where voice application is located"
+            "description": "Neigborhood where record is located"
           },
           "city": {
             "type": "string",
-            "description": "City where voice application is located"
+            "description": "City where record is located"
           },
           "state": {
             "type": "string",
-            "description": "State where voice application is located"
-          },
-          "zip_code": {
-            "type": "string",
-            "description": "Zip code where voice application is located"
+            "description": "State where record is located"
           },
           "country": {
             "type": "string",
-            "description": "Country where voice application is located",
+            "description": "Country where record is located",
             "enum": [
               "United States of America",
               "United Kingdom",
@@ -724,7 +652,7 @@
             "type": "string",
             "description": "Unique identifier for the conversation platform",
             "format": "uuid",
-            "example": "gf7d274e-d5e5-11e7-9296-cec278b6b50a"
+            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
           },
           "name": {
             "type": "string",
@@ -748,11 +676,21 @@
               "owned",
               "third-party"
             ]
+          }
+        }
+      },
+      "ApiResponse": {
+        "type": "object",
+        "properties": {
+          "code": {
+            "type": "integer",
+            "format": "int32"
           },
-          "generate_response": {
-            "type": "boolean",
-            "description": "If set to true the conversational platform generate response.",
-            "example": true
+          "type": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
           }
         }
       }
