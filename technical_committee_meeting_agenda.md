@@ -175,18 +175,17 @@
 
 # 2020-12-11
 # The 2020 Review; the 2021 View
-- Antitrust statement and notice of recording (1 minute) -- J. Stine
+- Antitrust statement and notice of recording (1 minute) -- O. Coleman
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff 
 - The YE 2020 Report
-  - organizational strength (J. Stine)
-  - reminders on process (J. Stine)
-  - where we stand year-end; expectations and goals for 2021  (D. Cundiff)
+  - Where we stand year-end; expectations and goals for 2021  (D. Cundiff)
   - Perspectives from the 2020.12.07 Steering Committee meeting (D. Cundiff)
 - Next Steps Report (5-minutes each):
+  - VRS Work Group
   - Privacy work-stream within the Privacy & Security Work Group 
   - Security work-stream within the Privacy & Security Work Group
-  - VRS Work Group
   - Architecture Work Group
   - Vocabulary Reconciliation Task Force
+- Organizational Review (5 minutes):  J. Stine
+- 2021 Calendar and Planning (J. Stine)
 - Summation (D. Cundiff)
-- Calendar Moving Forward  (5 minutes) -- J. Stine
