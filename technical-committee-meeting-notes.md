@@ -1,3 +1,66 @@
+# 2020-12-11 Notes of the Technical Committee Meeting - The 2020 Review; the 2021 View
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, S. Prayaga,  O. Coleman, D. Cundiff, A. Fricke, C. Wuttke, P. Bentsen, J. Croyle, J. Sedivy, S. Baul, D. Attwater 
+
+The meeting began at 9:01am CT
+
+### Antitrust statement and notice of recording  -- O. Coleman
+### Review of the agenda, purpose of and expectations for the meeting  -- D. Cundiff 
+### The YE 2020 Report
+  - Technical Committee 2020-2021 Standards Development Priorities 
+    - Enterprise Data Ownership
+    - Destination Registry:  A DNS for Voice 
+    - Open Voice:  Assistant Interoperability 
+    - Voice-Specific User Privacy and Security 
+ 
+### Next Steps Report:
+  - VRS Work Group
+    - Reacting to the feedback and take aways from the last review 
+    - Next step is to identify the integrating components of VRS
+    - Reorganizing working team into scrum style to allow for more participation 
+    - [Link to VRS git doc](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md)
+  - Privacy work-stream within the Privacy & Security Work Group    
+    - Near term next steps/in progress –internal reviews and iterations focusing on completing good examples of guideline points presented to the technical committee and then present to all of the workgroups for feedback
+    - Also working on converting google doc to MD and getting into git 
+    - Longer term goals for 2021:
+      - Industry group circulation for feedback and refinement with the goal of endorsement 
+      - Broader publication of voice privacy guidance 
+      - Stretch goal for 2021 –Development of real standards and draft certification for voice privacy.  Will need additional resources for this 
+  - Security work-stream within the Privacy & Security Work Group
+    - Group is updating the document with the feedback from last presentation and doing internal workgroup review
+    - Expectation is external review and presentation to follow 
+  - Architecture Work Group
+    - Push the 4 component-bucket framework forward to support interaction among voice apps 
+      - Define Voice Agent Finder 
+      - Review and refine the 4 component-bucket framework 
+      - Consider Voice log manager 
+      - Output will be documentation and then to determine next steps
+    - Work the core components 
+      - Define terms
+      - Determine roles and responsibilities for each 
+      - Define template for describing core components 
+      - Survey existing open source projects (to start with ) for potential core components –focusing on the inputs/outputs
+      - Publish for review
+      - Build a reference platform consisting of core components (this will take some additional discussion with the Technical Committee) 
+      - Define measures of success 
+  - Vocabulary Reconciliation Task Force
+    - Group met and reviewed integrated list of terms from the Master Plan, VRS document and other terms submitted 
+    - Discussed terms that are related or overlapped –about 50% way through the terms 
+    - Work will continue next week with the goal to have 1 single location to find terms (likely in the master plan) 
+
+### Organizational Review:  J. Stine
+   - Currently 4 sponsors 
+   - Discussions in progress with variety of potential sponsors 
+   - Working affiliations with many organizations 
+   - Developer/Designer communities established 
+   - Thank you! 
+
+### December 15, 2020 OVN Annual Meeting – Please attend if you can
+
+Meeting adjourned at 9:45am CT 
+
+
+
 # 2020-11-20 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski,  M.Lens-FitzGerald, N.Myers, J.Crabb, D. Rogers, S. Prayaga, R.Nathenson, O. Coleman, D. Cundiff, A. Fricke, C. Wuttke, I. Mez, J. Eisenzopf, P. Bentsen
