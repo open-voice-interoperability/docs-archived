@@ -1,12 +1,20 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
 
-## Meeting 12.03.2020
+## Meeting 12.15.2020
+<details>
+### Agenda:
+- Discuss the working style (GIT projects, GIT issues, Assigning work)
+- Prioritize the VRS GIT issues
+</details>
 
+## Meeting 12.03.2020
+<details>
 ### Agenda:
 - Shared the feedback from the presentation
 - Discuss the next steps (identifying requirements, dependencies)
 - Identify governance for the registry. Do we need one? What it would like?
+</details>
 
 ## Meeting 11.06.2020
 ### Action Items from 10.29.2020:
