@@ -1,5 +1,5 @@
 ## A
-- **Artificial Intelligence (AI)** - also known as machine intelligence, is a type of computer science focused on designing intelligent computer systems that exhibit characteristics of human behavior. AI is an academic discipline that has multiple sub-fields such as Natural Language Processing, Neural Networks, Robotics, Speech Processing, Machine Learning.
+- **Artificial Intelligence (AI)** - the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages (Oxford) 
 - **Automatic Speech Recognition** - is also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
 
 ## B
