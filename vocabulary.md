@@ -69,5 +69,5 @@
 ## Y
 ## Z
 
-
+These graphics will be used to instill the common OVN vocabulary across all the OVN Committees and Communities.  
 
