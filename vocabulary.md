@@ -20,7 +20,7 @@
 
 
 ## E
-- **Entity** - the OVN uses this term in two ways.  From a technology-data perspective, is a part of the structured machine translation. It is a custom level data type and considered a concrete value to associate a word in a query. This is also known as annotations.   The OVN 
+- **Entity** - the OVN uses this term in two ways.  From a technology-data perspective, is a part of the structured machine translation. It is a custom level data type and considered a concrete value to associate a word in a query. This is also known as annotations. 
 - **Entity** - the OVN uses this term in two ways.  From a business-systems perspective, it describes a person, organization, or enterprise that engages with a Dialogue System to achieve a desired outcome.  
 - **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
 
@@ -42,7 +42,7 @@
 
 ## O
 ## P
-- **Personage** - The characteristics of a Conversational Agenmt that enable it to be identified as a single actor in a conversation.  This will be signaled by attributes such as consistent vocal characteristics, continuity between dialog turns, the use of a name or first-personal singular pronouns, narrative voice, or consistent visual characteristics such as a face or body in a multi-modal solution. 
+- **Persona** - The characteristics of a Conversational Agenmt that enable it to be identified as a single actor in a conversation.  This will be signaled by attributes such as consistent vocal characteristics, continuity between dialog turns, the use of a name or first-personal singular pronouns, narrative voice, or consistent visual characteristics such as a face or body in a multi-modal solution. 
 - **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
 
 ## Q
@@ -64,7 +64,7 @@
 - **Voice Application** - also known as skill, action, capsule or domain. This is the specific executable component that has association to multiple things such as invocation, collection of related intents and entities up to the configuration to your dialog manager.
 - **Voice Application Interoperability** – a voice application involves another voice application.
 - **Voice Assistant System** A system where a user (primarily) uses his/her voice to interact with an automated conversational assistant for information or to control devices. 
-- **Voice Registry System (VRS)** - is a global, standards-based system that enables a singular, protected registration of an entity's name and its corresponding conversational agent(s), and directs explicit agent requests for that name to the corresponding agent.  It is comprised of globally-recognized database of names, agents, and critical attributes for disambiguation, and a selection of VRS-specific conversation processors.  In general intent and structure, it may be seen similar to the Domain Name System (DNS) of the internet. 
+- **Voice Registry System (VRS)** - is a global, standards-based system that enables a singular, protected registration of an entity's verbally-expressed name(s) and its corresponding conversational agent(s), and directs explicit agent requests for that name to the corresponding agent.  It is comprised of globally-recognized database of names, agents, and critical attributes for disambiguation, and a selection of VRS-specific conversation processors.  In general intent and structure, it may be seen similar to the Domain Name System (DNS) of the internet. 
 
 
 ## W
