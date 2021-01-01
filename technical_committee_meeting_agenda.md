@@ -189,3 +189,16 @@
 - Organizational Review (5 minutes):  J. Stine
 - 2021 Calendar and Planning (J. Stine)
 - Summation (D. Cundiff)
+
+# 2021-01-08
+# Planning 2021
+- Antritrust statement and notice of recording (1 minutes)
+- Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- J. Stine
+- Open Items/Issues to Review?  -- J. Stine
+- 2021 Current State and Plan
+  -- expectations overall
+  -- available resources for Tech Comm investment
+  -- Plans by Work Group
+- Open Items, questions, comments, criticisms
+- Summation and Next Steps -- J. Stine
+- 
