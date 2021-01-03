@@ -85,7 +85,7 @@ The Technical Advisory Council of The Open Voice Network is responsible for dete
 
 These aspirational topics are under discussion:
 
-# Standards to enhance user interactions and capabilities
+## Standards to enhance user interactions and capabilities
 
 Log-in procedures that are privacy-friendly, fast, and easy to use.
 Platform-independent discovery and invocation of voice applications and services.
