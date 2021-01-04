@@ -4,19 +4,19 @@
 
 The Open Voice Network is a non-profit industry association dedicated to the communal development and broad adoption of technical standards and ethical use guidelines for the emerging world of voice assistance.  It is a directed fund of the Linux Foundation, and independently funded and governed. 
 
-The Open Voice Network (OVN) Master Plan is a directional document with high-level design details that lays out the set of open standards needed to realize a trusted, open implementation for voice assistants and related services.
+The Open Voice Network (OVN) Master Plan is a directional document thas defines the initiative's scope of the work and describes the open standards needed to realize a trusted, open implementation for voice assistants and related services.
 
-The content of this document is used to define the scope of what the OVN aims to work on and the sections below can map to working groups who will be creating the standards, TCKs, reference implementations, etc.
+The sections below map to OVN working groups and anticipated proposals for standards, TCK's, reference implementations, and usage guidelines. 
 
 ### Why the Open Voice Network?
 
 The Open Voice Network was founded on these beliefs:  
-- **We are in the early days of voice assistance.**  We believe the future of voice assistance is **expansive** -- a world of innumerable enterprise conversational agents operating across multiple platforms, accessed through multiple types of devices, accompanied by multiple modalities, and contextually integrated.  
+- **We are in the early days of voice assistance.**  We believe the future of voice assistance is **"multi"** -- a world of innumerable enterprise conversational agents operating across multiple platforms, accessed through multiple types of devices, accompanied by multiple modalities, and contextually integrated.  Today, the world of voice assistance is dominated by proprietary, cloud-centric platforms (and related devices) that deliver services using closed implementations.  While closed systems can create value for stakeholders and selected partners, a lack of standards-based interoperability and governance restricts the growth (and economic value) of a larger voice ecosystem. 
 - **A broad lack of user trust inhibits investment and innovation in voice.**  A significant barrier to the realization of user value in voice assistance is the lack of trust that users (from consumers to patients to enterprise decision-makers) have in current voice processes and providers.  
-- **Standards can only emerge from an open, neutral perspective.** Proposed standards will gain the greatest support (and eventual adoption) when such standards are developed through the leadership of an open, neutral, third party -- one dedicated to the best for the most.  The name "Open Voice Network" speaks to two core operating principles.  The first is that The OVN is "open" -- transparent in its work, and neutral in its interests.  The second is that The OVN is a network of voice user communities -- inclusive of aspirations and concerns from enterprises to voice developers and designers, data analysts and ethicists, marketers and media, and voice platforms worldwide.
+- **Standards can only emerge from an open, neutral, and communal perspective.** Proposed standards will gain the greatest support (and eventual adoption) when such standards are developed through the leadership of an open, neutral, third party -- one dedicated to the best for the most.  The name "Open Voice Network" speaks to two core operating principles.  The first is that The OVN is "open" -- transparent in its work, and neutral in its interests.  The second is that The OVN is a network of voice user communities -- inclusive of aspirations and concerns from enterprises to voice developers and designers, data analysts and ethicists, marketers and media, and voice platforms worldwide.
 - **Standards create trust and unlock value.** The introduction of communally-developed and broadly adopted standards and guidelines is essential to the creation of trust -- and in turn, the realization of the technology's full societal value.  
 
-###  the Scope of Open Voice
+###  The Open Voice Network is _Voice First_.
 
 The Open Voice Network is **Voice First.**  We are language-centric, conversationally-focused, and cognizant of the variety and richness voice data.  We are also user-centric, inclusive (believing that voice is for all), and desirous of voice being a tool for societal good.
 
@@ -29,7 +29,7 @@ The idea that machines could talk with and listen to humans is far from a 21st c
 
 The development of voice-based virtual assistants, often known as voicebots, reaches back at least to the 1960’s. Research into machine-based speech recognition began to bear fruit in the 1950’s. Exploration of speech synthesis – machines that could talk -- has been traced all the way back to the late 18th century. 
 
-Given the lengthy and rich history of machines that can talk and listen – a phenomenon we may today describe as voice assistance – it is vitally important that any entity wishing today to work in this space must study and understand prior research and existing standards.
+Given the lengthy and rich history of machines that can talk _and_ listen – a phenomenon we may today describe as voice assistance – it is vitally important that any entity wishing today to work in this space must study and understand prior research and existing standards.
 
 Prior to second decade of this century, voicebots most often served  in interactive voice response (IVR) applications for telephony-based services, primarily in enterprise call centers.  Numerous technical standards for voice recognition and speech synthesis were developed and broadly adopted during this time.
 
@@ -47,7 +47,7 @@ Despite this remarkable growth over the past decade in capabilities, availabilit
 
 • **Significant advances in voice assistant capabilities.**  The user experience of voice assistance will be transformed in multiple ways.  Of most importance will be the shift from today’s command-and-question interaction to contextually-aware human-to-machine conversation.  In practice, this will enable conversation akin to that with a friend, where shared history, time, place, sentiment, and personal preferences are brought seamlessly into the flow of a discussion.   A voice assistant will not only understand what is said, but the context in which it is said and the emotion with which it is said -- and be able to respond, recommend, and remember.  Voice will also be combined with visual elements, to provide what experts term “multi-modal” conversation.  This could range from information shown on screens to the recognition of gestures and facial behaviors. 
 
--**Ubiquitous voice interfaces and conversational agents.** Voice will become available nearly everywhere -- the ubiquitous interface to the digital world. Voice assistance will be integrated not only into devices of all types, but into places (homes, stores, banks, medical facilities, museums, stadiums) and systems for monitoring environments and processes, from factories to farms.   Analysts predict active voice assistant use on more than two billion smartphones by 2023¹, and some 8.4 billion voice assistant users worldwide by 2024².   Users will search for and speak to websites (more than 1.7 billion worldwide today³), and smart, connected objects (some 41 billion worldwide by 2025⁴.)  Futurists see a world in which voice is the normative interface for all artificial intelligence; indeed, it is predicted that all artificial intelligence will be conversational.⁵
+-**Voice interfaces and conversational agents everywhere.** Voice will become ubiquitous -- the ever-device, everywhere interface to the digital world. Voice assistance will be integrated not only into devices of all types, but into places (homes, stores, banks, medical facilities, museums, stadiums) and systems for monitoring environments and processes, from factories to farms.   Analysts predict active voice assistant use on more than two billion smartphones by 2023¹, and some 8.4 billion voice assistant users worldwide by 2024².   Users will search for and speak to websites (more than 1.7 billion worldwide today³), and smart, connected objects (some 41 billion worldwide by 2025⁴.)  Futurists see a world in which voice is the normative interface for all artificial intelligence; indeed, it is predicted that all artificial intelligence will be conversational.⁵
 
 • **Market transitions in the AI-enabled voice ecosystem and value chain.**  A unique industry is now being created by world-leading technology firms through voice assistance.  Voice is increasingly the entry point of a data-consuming engine of technology and economic growth.  Hundreds of thousands (and in time, millions) of independently-developed and purpose-built  enterprise and organizational voice assistants will emerge , each speaking and listening to constituents through a multitude of voice channels.   This will reflect an important market transition, as voice shifts from a world bounded by platform-based skills and actions to one akin to today's internet, with independent sites connecting to users across multiple global platforms.
 
@@ -59,15 +59,32 @@ In the summer of 2016, a team of academic researchers, consultants, and technolo
 
 It was also apparent that this new, global system of AI-enabled communication was beginning to form without broad governing standards.  Especially standards (and protocols) that would enable the openness, user choice, inclusivity, and user trust so essential to the system’s growth and value.  Broadly stated, the current state of voice resembled the early, pre-standards “browser war” days of the internet.
 
-### Vision of the Open Voice Network ###
+### Vision of the Open Voice Network
 
-**Develop and drive adoption of the technical standards and usage guidelines that will make _voice assistance worthy of user trust_.** 
+**To develop and drive adoption of the technical standards and usage guidelines that will make _voice assistance worthy of user trust_.** 
 
 Voice assistance is in its earliest days.  It is rapidly moving toward a global future that will be multi-assistant, multi-platform, multi-device,  multi-modal, and found in every industry.  It promises significant value not only to voice providers, but to its users -- the enterprises, marketers and communicators, operational managers, developers and designers, and billions of individuals worldwide.
 
 To realize its potential, conversational AI must be open and worthy of user trust.  It must be open for development and innovation.  It must be trust-worthy in its ease and reliability use, in its direct and unfiltered access to desired destinations, in its commercial and data usage and privacy, in its cross-platform interoperability, in lack of bias, in its development languages and protocols.  
 
 Through the centuries, the development and adoption of standards has repeatedly sparked ever-advancing use, innovation, ecosystem development, and economic growth for new technologies.  We, the sponsors and supporters of The Open Voice Network, believe that now -- at the dawn of conversational AI's multi-platform future -- is the time to communally develop and drive toward adoption the conversational AI standards that will enable user trust.  
+
+The history of the World Wide Web (WWW) is instructive for the Open Voice Network and the future of voice assistance.  In the early days of the World Wide Web, user experience was shackled by closed implementations (e.g., AOL, etc).  Thankfully, open standards such as the Domain Name System (DNS) and industry-wide bodies such as the World Wide Web Consortium (W3C) unleashed the potential of the web, and it became the extraordinarily valuable and innovative ecosystem we know today. 
+
+We believe that voice-enabled devices and services will exponentially expand in use and value when provided a set of open standards.  Development and adoption of such standards will prevent users from re-creating basic functionalities, and enable providers, innovators, and enterprises to focus their investments on innovation and usage differentiation.  
+
+In addition, a voice ecosystem that is open, inclusive, and trust-worthy may also need new governance systems and capabilities, such as:
+- a Voice Registry Service (VRS)
+- Dialog Brokers, Dialog Managers, and other new components
+- Privacy controls and standard ways to communicate and disclose this to users. 
+
+Furthermore, like the open standards that made the World Wide Web successful, these standards would aim to have these traits:
+
+- Open development from and through a community of regional, language, and gender diversity;
+- Open management by an open committee with a neutral governing entity
+- Can have an open-source reference implementation
+- Can be implemented as open-source and/or closed source products and services
+- Abstracted at the right level as to not too deeply specify particular technologies used to implement them
 
 ### The Guiding Values of the Open Voice Network 
 
@@ -83,55 +100,56 @@ Inclusivity is about everyone having a voice, and in every situation.  It is voi
 
 Openness enables interoperability among assistants and providers.  At its core is the identification and definition of standardized development building blocks.  Such blocks serve as a foundation for commercial differentiation and value; they can be assembled according to purpose, and in completely open, completely proprietary, or mixed (or hybrid) implementations. 
 
-## The OVN's ways of working are based upon our core values.
+### The OVN's Ways of Working are Based Upon Our Core Values.
 
 - We are neutral and inclusive, welcoming to participation and sponsorship all members of the conversational AI industry – from independent developers and designers to enterprise users to technology firms and platform providers.
+- We seek broad participation and communal development.  No one company or person will set the direction of Open Voice Network proposed standards or usage guidelines.
 - We work collaboratively with standards bodies and existing industry organizations.
-- We adhere to an **open** standard: due process, broad consensus, transparency, balance, and openness.  No one company or person sets the direction of these open standards.
+- We adhere to an **open** process: collaborative, communal, balanced development; broad consensus in decision-making; transparency in decisions and documentation. 
+- We seek technological solutions that 
+	- can have an open-source reference implementation
+	- can be implemented through open source and/or proprietary-source products and services
+	- are abstracted at the right level, as to not too deeply specify particular technologies or providers
+	- provide commercial providers and entrepreneurs the room necessary for innovation and differention. 
+	
 
-
-## Standards and Usage Guidelines: An Aspirational List.##
+### Standards and Usage Guidelines: An Aspirational List.
 
 The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines. It reports to the Open Voice Network Steering Committee.
 
-These aspirational topics are in exploration:
+These topics are in exploration:
 
 ## Standards to enhance user interactions and capabilities#
 
-Log-in procedures that are privacy-friendly, fast, and easy to use.
-Platform-independent discovery and invocation of voice applications and services.
-Platform-independent and dependable destination accessibility.
-Seamless invocation of voice applications across platforms.
-User interfaces that are consistent across human languages, dialects, and platforms.
-User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices.
+These could include:
+- Log-in procedures that are privacy-friendly, fast, and easy to use.
+- Platform-independent discovery and invocation of voice applications and services.
+- Independent and dependable destination accessibility.
+- Seamless invocation of voice applications across platforms.
+- User interfaces that are consistent across human languages, dialects, and platforms.
+- User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices.
+- Platform and device interoperability.
+- Implementation sharing, reuse, and open improvement. 
+- Back-end service choice. 
 
 ## Standards that provide privacy, safety, and security.#
 
-User identification and authentication that is multifactor and platform independent.
-Intentional and consent-based individual and commercial privacy.
-Object control language used to specify who may perform what function with which destination, and when.
+These could include:
+- User identification and authentication that is multifactor and platform independent.
+- Intentional and consent-based individual and commercial privacy.
+- Object control language used to specify who may perform what function with which destination, and when.
 
 ## Usage guidelines that protect privacy and enhance inclusivity.#
 
-Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
-Transparent, intentional, and consent-based data usage.
+- Accurate natural language recognition across languages, dialects, gender, and age. 
+- Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
+- Transparent, intentional, and consent-based data usage.
 
-
-Today, this world of voice assistance is dominated by proprietary, cloud-centric platforms (and related devices) that deliver services using closed implementations.  While closed systems can create value for stakeholders and selected partners, a lack of standards-based interoperability and governance restricts the growth (and economic value) of a larger voice ecosystem.   
-
-Key issues include:
-
-- Deterministic privacy
-- Platform and device interoperability
-- Backend service choice
-- Implementation sharing, reuse, and open improvement
-- Enabling the consumer’s preference for the desired experience.
 
 There are numerous other issues which, unless addressed through standards, will continue to inhibit the trust in and use of AI-enabled voice assistance, especially as the industry evolves toward its multi-platform future.   These include:
 - system architecture as it relates to the analysis and storage of data
 - platform-agnostic user identification and authentication
-- the lack of common voice commands for common, non-differentiating business processes (such as transaction and payment)
-- user inclusivity across languages, dialects, gender, and age.
+- the lack of common voice commands for common, non-differentiating business processes (such as transaction and payment).
 
 
 ### Example Use Case(s) for Resolution
@@ -148,44 +166,103 @@ Customers will transact with this retailer using a wide range of payment options
 
 The retailer considers all data within its customer interactions and transactions to be proprietary.   
 
-### Solution
+### 1.0 Project Definition and Intellectual Property Licensing
 
-In the early days of the World Wide Web, user experience was shackled by closed implementations (e.g., AOL, etc).  Thankfully, open standards such as the Domain Name System (DNS) and industry-wide bodies such as the World Wide Web Consortium (W3C) unleashed the potential of the web, and it became the extraordinarily valuable and innovative ecosystem we know of today. So too can the future of voice-enabled devices and services also thrive from a set of open-standards that aim to improve privacy, interoperability, and backend choice -- all things that can unlock innovation, suitable for both users and providers.
+Since its incorporation in May 2020, the Open Voice Network Technical Committee has operated within a Linux Foundation-chartered Project entitled **PROJECT 1.0: VOCABULARY AND DEFINITION.**
 
-Open standards should ideally cover all areas, wherein the absence of standards, an implementer would find themselves reinventing the wheel for things like (but not limited to):
-Wake word implementations
+The stated remit of Project 1.0 is to name, operationally define, and prioritize the potential areas for standards development within the realm of artificial intelligence-enabled voice assistance in a manner that is mutually exclusive and collectively exhaustive (MECE), and for OVN Steering Committee review. 
 
-- Different implementations understanding and handling conversations
-- Dialog orchestration for dynamic responses
-- Lack of privacy controls
-- Registering voice assistants, operating them, and interoperability between them
-- Commands for common business processes
-- platform-agnostic identification and authentication- 
+The purpose of Project 1.0 is to establish a foundational floor of guidance for Technical Committee organization, talent recruitment, and resourcing.
 
-Also, there are new concepts needed to implement this in a way that's open, consistent and global:
-Voice Registry Service (VRS)
-
-- Dialog Brokers, Dialog Managers, and other new components
-- Privacy controls and standard ways to communicate and disclose this to users
-- 
-
-Furthermore, like the open standards that made the WWW successful, these standards would aim to have these traits:
-
-- Open development from and through a community of regional, language, and gender diversity;
-- Open management by an open committee with a neutral governing entity
-- Can have an open-source reference implementation
-- Can be implemented as open-source and/or closed source products and services
-- Abstracted at the right level as to not too deeply specify particular technologies used to implement them
-
-## Principles
+Project 1.0 operates according to a Creative Commons (CC) Attribution 4.0 license.
 
 
-- Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
-- No one company or person sets the direction of these open standards
-- Has the ability to protect the user's privacy and security, and the user can know where their privacy is protected or not
-- Can be implemented as an open-source or closed source; implementations can be provided for free or not free
-- Make voice inclusive and accessible by everyone
-- Can be applied as low as localhost, a private network, or as big as globally provided
+### Initial Areas of OVN Standards and Usage Research
+
+### Voice Registry System
+
+One of the most important standards that gave rise to the World Wide Web (WWW) is the Domain Name System (DNS), the hierarchial and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.  Since its initial implementation in 1985, the DNS has translated readily memorized domain names to the numerical internet protocol addresses needed for locating and identifying computer services and devices.
+
+The need for a DNS-like system for voice, one that could connect explicit requests for specific destinations to a third-party conversational agent or voice application, has been part of OVN participant conversations since 2017. 
+
+Soon after the incorporation of the Open Voice Network in May 2020, a Work Group was formed by the OVN Technical Committee, and tasked with evaluation of "the market/need opportunity for a global, platform-agnostic voice destination registry."  If such an opportunity was found, the Work Group was asked to "identify and define the capabilities of such a registry in preparation for the formation of an OVN Project."
+
+**Introduction to the VRS.**
+
+Voice Registry System (VRS) is the new concept that is part of the open-voice standards. VRS is a new global entity and, therefore, part of the pre-processing identification in the NLP. Once the NLP identifies @vrs, it passes the information to the VRS server.
+
+The job of the VRS is to resolve the query by trying to resolve first in the root server. If not found, it is smart enough to point to the next name server, and this process continues until the request is resolved, or determined that the requested @vrs is not registered.
+
+If VRS server is able to resolve the query, it returns a JSON response of:
+
+```
+{
+  "vrs_id": UUID,
+  "query": "add milk to my shopping list at biggrocery",
+  "vrs_name_lookup": "biggrocery",
+  "is_registered": "true",
+  "locations": [
+    {
+      "country": "USA",
+      "state": "",
+      "city": "",
+      "neighborhood":"",
+      "dialog_manager": {
+        "dialog_manager_id": UUID,
+        "url": "biggrocery.com/dialog_manager"
+      },
+      "nlps": [
+        {
+          "nlp_id": UUID,
+          "url": "biggrocery.com/nlp"
+        }
+      ],
+      "dialog_broker":  {
+        "dialog_broker_id": UUID,
+        "url": "biggrocery.com/dialog_broker"
+      }
+    }
+  ]
+}
+```
+
+If not found, it returns a JSON response of:
+
+```
+{
+  "vrs_id": UUID,
+  "query": "add milk to my shopping list at biggrocery",
+  "vrs_name_lookup": "biggrocery",
+  "is_registered": "false",
+  "locations": []
+}
+```
+
+_There are several previously-developed and broadly adopted standards which may be of value to the creation of a Voice Registry System.  OVN research in Q4 2020 suggests the following:  **Dialog Registry:** Discovery & Registration of Multimodal Modality Components (a standardized way to build a web Application that can dynamically combine and control discovered components by querying a registry build based on the multimodal types of the modalities and their states); **Provider Selection Service:** The Open Agent Architecture (not yet fully defined, but currently in use for Viv and Siri); **Accounts and Authentication:** Web Authentication (an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users); IDO Universal Authentication Framework (With FIDO UAF, the user carries a device with a FIDO UAF stack installed. They can then register their device to the online service by selecting a local authentication mechanism such as swiping a finger, looking at the camera, speaking into the mic, entering a PIN, etc. The FIDO UAF protocol allows the service to select which mechanisms are presented to the user); Oauth (what Amazon and Google use currently); OpenID (most likely will replace Oauth and SAML in the future)._
+
+### Voice-Specific Privacy and Security
+
+Concerns regarding the privacy of voice assistant conversations (and the subsequent use of conversational data) has been repeatedly identified by user research and voice industry analysts as a major issue inhibiting voice use at individual and enterprise levels.  (See _Kinsella; add details here_)  In early, summer 2020 meetings of the OVN Technical Committee, it was decided to form a Work Group to _"identify, defined, and prioritze the capabilities that the OVN must 'design in' to its other work in regards to individual privacy and data security."_
+
+In addition to its advisory role to the VRS and Architecture Work Groups, it was also determined in subsequent meetings that a Privacy and Security Work Group could bring benefit to the OVN and the industry at large by developing neutral, platform-agnostic guidelines for the protection of legislated and regulated privacy rights, and the promotion of widely-held privacy values.  
+
+To meet this broad remit, the OVN Privacy and Security Work Group began its work in Q3 2020 with the study of the critical legislation and regulation that now governs individual privacy, as well as highly-cited third party privacy guidelines and those of leading voice assistant providers.  (A list of references follows.)  
+
+_additional content as of 2021.01.03 to be added here_.
+
+
+
+### Component Definition and Interface Interoperability
+
+The interoperability of voice assistance platforms and conversational agents -- one with the ease of use of today's multi-browser internet -- is at the heart of the OVN's vision of an open, accessible voice ecosystem that is worthy of user trust. 
+
+With this in mind, the OVN Technical Committee formed in the Summer of 2020 an Architecture Work Group, tasked to _"identify, define, and prioritize common voice assistant components for potential standardization"._
+
+The Architecture Work Group began its efforts by studying the architectures and components of several independent voice assistant concepts, including those of the the W3C Voice Interaction Community and the Stanford Open Voice Assistant Lab (OVAL), seeking to identify and define the common "building block" components of voice assistance.   
+
+_additional information added here_  
+
+
 
 ## Design
 
@@ -393,58 +470,6 @@ _Previously-developed and broadly-adopted standards that have shaped Automatic S
 _Previously-developed and broadly-adopted standards that have shaped Core Natural Language Understanding implementations to date include EMMA: Extensible MultiModal Annotation markup language Version 2.0  (a set of specifications for multimodal systems providing details of an XML markup language for containing and annotating the interpretation of user input and production of system output), JSON Representation of Semantic Information (a JSON format for representing the results of semantic processing), Abstract Meaning Representation (used for semantic representation language. Is a culmination of prior researchers and projects and could become how semantic meaning of utterances is represented in the future); and ARPA N-Gram format (a published format to portably represent language models in N-Gram format.)_
 
 
-### Voice Registry System
-
-Voice Registry System (VRS) is the new concept that is part of the open-voice standards. VRS is a new global entity and, therefore, part of the pre-processing identification in the NLP. Once the NLP identifies @vrs, it passes the information to the VRS server.
-
-The job of the VRS is to resolve the query by trying to resolve first in the root server. If not found, it is smart enough to point to the next name server, and this process continues until the request is resolved, or determined that the requested @vrs is not registered.
-
-If VRS server is able to resolve the query, it returns a JSON response of:
-
-```
-{
-  "vrs_id": UUID,
-  "query": "add milk to my shopping list at biggrocery",
-  "vrs_name_lookup": "biggrocery",
-  "is_registered": "true",
-  "locations": [
-    {
-      "country": "USA",
-      "state": "",
-      "city": "",
-      "neighborhood":"",
-      "dialog_manager": {
-        "dialog_manager_id": UUID,
-        "url": "biggrocery.com/dialog_manager"
-      },
-      "nlps": [
-        {
-          "nlp_id": UUID,
-          "url": "biggrocery.com/nlp"
-        }
-      ],
-      "dialog_broker":  {
-        "dialog_broker_id": UUID,
-        "url": "biggrocery.com/dialog_broker"
-      }
-    }
-  ]
-}
-```
-
-If not found, it returns a JSON response of:
-
-```
-{
-  "vrs_id": UUID,
-  "query": "add milk to my shopping list at biggrocery",
-  "vrs_name_lookup": "biggrocery",
-  "is_registered": "false",
-  "locations": []
-}
-```
-
-_There are several previously-developed and broadly adopted standards which may be of value to the creation of a Voice Registry System.  OVN research in Q4 2020 suggests the following:  **Dialog Registry:** Discovery & Registration of Multimodal Modality Components (a standardized way to build a web Application that can dynamically combine and control discovered components by querying a registry build based on the multimodal types of the modalities and their states); **Provider Selection Service:** The Open Agent Architecture (not yet fully defined, but currently in use for Viv and Siri); **Accounts and Authentication:** Web Authentication (an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users); IDO Universal Authentication Framework (With FIDO UAF, the user carries a device with a FIDO UAF stack installed. They can then register their device to the online service by selecting a local authentication mechanism such as swiping a finger, looking at the camera, speaking into the mic, entering a PIN, etc. The FIDO UAF protocol allows the service to select which mechanisms are presented to the user); Oauth (what Amazon and Google use currently); OpenID (most likely will replace Oauth and SAML in the future)._
 
 
 ### Dialog Broker
