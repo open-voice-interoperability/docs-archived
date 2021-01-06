@@ -200,129 +200,92 @@ For each of the five system components defined in the simplified Voice Assistant
 
 1. **Person \
 **The person or user initiates a conversation with a VAS entity through the endpoint.
-    1. Threats
-        1. **_Misdirection due to a malicious entity operating a VAS with synthetic Voice. _**
-        2. Misdirection: getting people to enable harm by unauthorized access, use,  disclosure, disruption, modification, or destruction
-    2. Vulnerabilities
-        3. People's gullibility
-        4. Accidentally overhearing proprietary information
+    Threats
+        **_Misdirection due to a malicious entity operating a VAS with synthetic Voice. _**
+        Misdirection: getting people to enable harm by unauthorized access, use,  disclosure, disruption, modification, or destruction
+    Vulnerabilities
+        People's gullibility
+        Accidentally overhearing proprietary information
 2. **Channel and endpoint devices**
-
     The user talks through a smart speaker, a smart device, a mobile app, a website, a phone, or otherwise to the Voice Assistant system.
-
-    3. Threats
-        5. **_Unauthorized channel and endpoint device access to do harm. For example someone accessing the contents of the conversation to capture private information like bank details. _**
-        6. Disruption or destruction by a a malicious entity (for instance someone unplugging or breaking a device)
-    4. Vulnerabilities
-        7. Security processes of  the channel operators (wifi operators and telecom providers for example)  and the endpoint devices (hardware, software and edge part of the VAS) 
+    Threats
+        **_Unauthorized channel and endpoint device access to do harm. For example someone accessing the contents of the conversation to capture private information like bank details. _**
+        Disruption or destruction by a a malicious entity (for instance someone unplugging or breaking a device)
+    Vulnerabilities
+        Security processes of  the channel operators (wifi operators and telecom providers for example)  and the endpoint devices (hardware, software and edge part of the VAS) 
 3. **Voice Assistant System** \
 The system of components that make up a Voice Assistant System.
-    5. Threats
-        8. Harm to all subsystems, **_especially ID system, and speech generation. _**For example in the case of hacking the VAS ID system, a VAS is fooled by someone to think they are dealing with a specific user when this isn't so. In mobile such hacks are done by spoofing a sim card. An example of hacking a VAS speech generation, is a VAS operated by malicious entities sounding like your bank assistant and getting you to send over money. This is similar to phishing emails or whatsapp messages. 
-        9. **_User Voice impersonation._** The example here is that a malicious entity has the ability to fool the VAS system by impersonating the user's voice. This is similar to deep fake video’s or synthetic voice generation.
-    6. Vulnerabilities
-        10. Security processes of VAS operators.
+    Threats
+        Harm to all subsystems, **_especially ID system, and speech generation. _**For example in the case of hacking the VAS ID system, a VAS is fooled by someone to think they are dealing with a specific user when this isn't so. In mobile such hacks are done by spoofing a sim card. An example of hacking a VAS speech generation, is a VAS operated by malicious entities sounding like your bank assistant and getting you to send over money. This is similar to phishing emails or whatsapp messages. 
+        **_User Voice impersonation._** The example here is that a malicious entity has the ability to fool the VAS system by impersonating the user's voice. This is similar to deep fake video’s or synthetic voice generation.
+    Vulnerabilities
+        Security processes of VAS operators.
 4. **Internal back end services and devices**
-
-    The VAS owner entity exposes internal back end services and/or devices to the VAS so users can access these. For example, the Alexa Microwave or Amazons shopping skill on Alexa. 
-
-    7. Threats
-        11. Misuse with the intent to harm internal services and devices.
-    8. Vulnerabilities
-        12. Security processes of overarching entity and internal VAS operators as well as service and device operators.
+The VAS owner entity exposes internal back end services and/or devices to the VAS so users can access these. For example, the Alexa Microwave or Amazons shopping skill on Alexa. 
+    Threats
+        Misuse with the intent to harm internal services and devices.
+    Vulnerabilities
+        Security processes of overarching entity and internal VAS operators as well as service and device operators.
 5. **External services and devices \
 **Access to services and devices by parties other than the VAS owner and operator. For example, Target using Amazon Alexa’s skill voice apps.
-    9. Threats
-        13. Misuse with the intent to harm external entities’ services and devices
-    10. Vulnerabilities
-        14. Security processes of VAS entity and external entity
-        15. **_Does an external entity trust or atest ID process and other verification and security steps of the VAS operators?_**
-
-
-
+    Threats
+        Misuse with the intent to harm external entities’ services and devices
+    Vulnerabilities
+        Security processes of VAS entity and external entity
+        **_Does an external entity trust or atest ID process and other verification and security steps of the VAS operators?_**
 
 ## **Security Capabilities Unique to Voice**
 
 **Summary**
-
 To assist in clarifying the scope of security capabilities that are unique to voice the Privacy & Security Workgroup has developed a working overview that demonstrates the flow of voice-specific data between actors. This overview here is a simplified version that illustrates one possible arrangement of actors and security capabilities involved in a typical conversation between a user and a Voice Assistant System (VAS). 
 
 **Overview**
-
+[Security Capabilities unique to Voice.png]
 
 *Please refer to figure above
 
-
-
 1. **Person**
-    1. The “Person” or user initiates a conversation with a VAS entity.
-        1. The user is verified to prove who they say they are via account authentication, a biometrics signature, or a unique verbal PIN/ID.
+    The “Person” or user initiates a conversation with a VAS entity.
+        The user is verified to prove who they say they are via account authentication, a biometrics signature, or a unique verbal PIN/ID.
 2. **Channel & Content Encryption**
-
     Note that endpoint devices such as smart speakers, mobile apps, or otherwise are in this overview seen as part of the channel.
-
-    2. As the “Person” or user issues their request their voice communication (unique voice data) is sent to the VAS entity through an encrypted channel using the [Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (AES) with 256-bit keys or the newer [NaCl Networking and Cryptography](https://nacl.cr.yp.to/features.html) Library to ensure that communication between the person and the VAS entity is secure.
+        As the “Person” or user issues their request their voice communication (unique voice data) is sent to the VAS entity through an encrypted channel using the [Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (AES) with 256-bit keys or the newer [NaCl Networking and Cryptography](https://nacl.cr.yp.to/features.html) Library to ensure that communication between the person and the VAS entity is secure.
 3. **Voice Assistant System/Entity**
-    3. The voice communication is sent via the encrypted channel to the VAS entity. This can be a command like “Alexa, lights on” or a request: “Google, ask Rabobank how much money I have”.
-        2. The VAS entity is verified to confirm that the VAS is what it says it is including external services. This verification can be achieved through a unique ID for the VAS entity.
-    4. Once verified the voice communication is passed through a connection to external services and devices. This inter-cloud or system connection is not in scope for this voice specific security analysis as it falls under standard security operating procedures.
+    The voice communication is sent via the encrypted channel to the VAS entity. This can be a command like “Alexa, lights on” or a request: “Google, ask Rabobank how much money I have”.
+        The VAS entity is verified to confirm that the VAS is what it says it is including external services. This verification can be achieved through a unique ID for the VAS entity.
+    Once verified the voice communication is passed through a connection to external services and devices. This inter-cloud or system connection is not in scope for this voice specific security analysis as it falls under standard security operating procedures.
 4. **External Services and Devices**
-    5. The communication is sent via a normally operated connection to the external services and devices. These can be Hue Lights, connected vacuum cleaners, or the connection to your bank which serves up how much is in your account. 
-        3. Once the communication resolves to an external service or device these services and devices are verified to confirm security along the entire process. Voice communications that are sent to external services and devices can be verified using a VRS system or some other type of unique registration ID to confirm security.
-
-
-## 
-
+    The communication is sent via a normally operated connection to the external services and devices. These can be Hue Lights, connected vacuum cleaners, or the connection to your bank which serves up how much is in your account. 
+        Once the communication resolves to an external service or device these services and devices are verified to confirm security along the entire process. Voice communications that are sent to external services and devices can be verified using a VRS system or some other type of unique registration ID to confirm security.
 
 ## The Four Voice Security Capabilities
-
 The security capabilities of Voice Assistant Systems as shown in the aforementioned analysis comes down to the following four:
 
-
-
-5. **Verification of the user:** The users is who he/she says she is
-6. **Verification of the Voice Assistant System: **The VAS is what it says it is
-7. **Verification of the process for the end service or device: **The user, the content & channel, and the VAS are verified and were encrypted.
-8. **Content and channel encryption **between the person’s input device and the VAS.
+1. **Verification of the user:** The users is who he/she says she is
+2. **Verification of the Voice Assistant System: **The VAS is what it says it is
+3. **Verification of the process for the end service or device: **The user, the content & channel, and the VAS are verified and were encrypted.
+4. **Content and channel encryption **between the person’s input device and the VAS.
 
 These capabilities as well as the analysis work running up to this, is the start for the next steps.
 
 
-## 
-
-
 ## **Recommended next steps**
-
-
-
-1. Review of this report by security experts, update where applicable.
+1. Review of this report by 1 OVN members, 2: close security experts, and 3) leading security experts. Wpdate where applicable.
 2. Publish to inform and promote OVN work.
 3. If validated form two project groups. One for the verification capabilities and one for the channel and content encryption.
-
 
 
 **Remarks as negated in Tech committee presentation november 2020**
 
 what voice specific questions must we express
-
 what design issues/guidelines should we expect to follow
-
 specific use cases (understand inside and out)
-
 manipulation / persuasion
-
 make security language so people can IMPLEMENT
-
 protection data and identity PERSONAL
-
 TRUST LINK
-
 Security Level indication
-
 authentication
-
 project functions
-
 auditability
-
 national cyber security
