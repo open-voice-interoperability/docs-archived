@@ -202,3 +202,18 @@
 - Open Items, questions, comments, criticisms
 - Summation and Next Steps -- J. Stine
 - 
+
+# 2021-01-22
+- Antrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2-minutes) -- D. Cundiff
+- Plan 2021 Overview, OVN -- J. Stine 
+- Plan 2021, Technical Committee -- D. Cundiff
+- Plan 2021, by Tech Comm Work Group: Deliverables, Milestones, Dependencies-Intersections, Resources  -- O. Coleman
+  - VRS: M. Brinas-Dobrowski
+  - Architecture:  J. Larson
+  - Privacy-Security: M. Frazzini, M. Lens-Fitzgerald
+- Work Groups: Strategic Questions for Tech Comm review-opinion
+- Summation and Next Steps
+
+
+  
