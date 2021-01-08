@@ -16,6 +16,15 @@ If you are new to the group, please review the terminology alignment section in 
 - For any question or discussion outside of the meeting time, we leverage [Slack](https://openvoicenetwork.slack.com). Our channel is the #voice-registry-system.
 - The meeting minutes and decision are captured in this [document](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_meeting_notes.md)
 
+## VRS Member ideal skills and background
+- Experience in designing, building voice-assistant assistance applications in the various ecosystem.
+- Great understanding with voice architecture components such as NLU, TTS, STT, etc.
+- Experience in building and implementing multiple protocols (HTTP/SIP, SSL/TLS, TCP/UDP etc.) in a high-scalable environment.
+- Experience creating open standards such as IETF, RFCs.
+- Understand the architecture principles: CAP, SOLID
+- Understand and comfortable with making some trade-offs.
+- Programming language polyglot (not required)
+- Always curious!
 
 ## Contributing to the VRS document
 - There are multiple ways to start with this:
