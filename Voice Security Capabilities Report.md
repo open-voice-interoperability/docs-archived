@@ -1,6 +1,6 @@
 ## Voice Security Capabilities Report
 
-### Open Voice Network, Privacy & Security Workgroup \
+### Open Voice Network, Privacy & Security Workgroup 
 Maarten Lens-FitzGerald et al,  \
 Origin: Version 1, October 30th 2020
 
@@ -15,9 +15,9 @@ Security of Voice Assistant Systems (VAS) is uncharted territory and needs more 
 The security capabilities that the Privacy and Security Workgroup recommended to scrutinize and develop are:
 
 1. **Verification of the user:** The user is who he/she says she is.
-2. **Verification of the Voice Assistant System: **The VAS is what it says it is.
-3. **Verification of the process for the end service or device: **The user, the content & channel, and the VAS are verified and were encrypted.
-4. **Content and channel encryption **between the person’s input device and the VAS.
+2. **Verification of the Voice Assistant System:** The VAS is what it says it is.
+3. **Verification of the process for the end service or device:** The user, the content & channel, and the VAS are verified and were encrypted.
+4. **Content and channel encryption* *between the person’s input device and the VAS.
 
 Recommended next steps are ingternal and external review round to come to a validated result tyo determine next steps on.
 
@@ -49,7 +49,7 @@ Security is no easy subject matter. To grasp the material these 3 quotes from th
 “Everything about this problem [security ] is complex: the technology, the policy, the interaction of technology and policy. Also the politics, the economics, and the sociology. They’re complex in many dimensions, and their complexity is increasing over time. Internet+ security is what is known as a“wicked problem” —which doesn’t mean that it’s evil, but rather that it’s difficult or impossible to solve because it’s so hard to even define the problem and requirements, let alone create a useful solution.”
 
 
-## **Computer Security **
+## **Computer Security**
 
 What is computer security? [For this, we turn to the Encyclopedia Britannica](https://www.britannica.com/technology/computer-security): 
 
@@ -74,17 +74,17 @@ Computer security has become increasingly important since the late 1960s when mo
 
 To make the security assessment, a shared view of what a Voice Assistant System (VAS) is needed. This description is the general and descriptive version. A system overview is described later in this report.
 
-_Voice assistant system: A system where a user (primarily) uses his/her voice to interact with an automated conversational assistant for information or to control devices. _
+_Voice assistant system: A system where a user (primarily) uses his/her voice to interact with an automated conversational assistant for information or to control devices._
 
-_The assistant responds to the user using verbal interaction, occasionally enhanced with visuals and visual interaction. The assistant system is controlled by an entity (any type of organization).  Typical components are: _
+_The assistant responds to the user using verbal interaction, occasionally enhanced with visuals and visual interaction. The assistant system is controlled by an entity (any type of organization).  Typical components are:_
 
-1. _Channel endpoints like a smart speaker or a mobile application. _
-2. _Wake word detection to activate the system. _
-3. _An ID system to identify the user. _
-4. _Automatic Speech Recognition to convert the user’s spoken words into written words. _
-5. _Natural Language Understanding to extract intents and meaning from these words. _
-6. _A back end to enable input and output, provide answers, or control the devices. _
-7. _Dialog Management to manage the conversation. _
+1. _Channel endpoints like a smart speaker or a mobile application._
+2. _Wake word detection to activate the system._
+3. _An ID system to identify the user._
+4. _Automatic Speech Recognition to convert the user’s spoken words into written words._
+5. _Natural Language Understanding to extract intents and meaning from these words._
+6. _A back end to enable input and output, provide answers, or control the devices._
+7. _Dialog Management to manage the conversation._
 8. _Text to Speech and Voice Generation to respond._
 
 ## **Voice Assistant Security Definition**
@@ -93,12 +93,12 @@ What is security in the realm of voice assistant systems? This definition covers
 
 _Voice assistant Security Definition: Protecting voice assistant systems, information, and channels from unauthorized access, use, disclosure, disruption, modification, or destruction in order to provide:_
 
-_(A) integrity, which means guarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity; _
-_(B) confidentiality, which means preserving authorized restrictions on access and disclosure, including means for protecting personal privacy and proprietary information;  _
+_(A) integrity, which means guarding against improper information modification or destruction, and includes ensuring information non-repudiation and authenticity;_
+_(B) confidentiality, which means preserving authorized restrictions on access and disclosure, including means for protecting personal privacy and proprietary information;_
 _(C) availability, which means ensuring timely and reliable access to and use of information; and_
-_(D) safety, which means ensuring human safety of the devices that are under the control of the automated assistant system. _
+_(D) safety, which means ensuring human safety of the devices that are under the control of the automated assistant system._
 
-## Voice Assistant System Overview
+## **Voice Assistant System Overview**
 [this section needs to be synced with the terms and definition workgroup results]
 
 **Summary**
@@ -198,10 +198,10 @@ For each of the five system components defined in the simplified Voice Assistant
 
 [Threats & Vulnerabilities unique to Voice.png]
 
-1. **Person \
-**The person or user initiates a conversation with a VAS entity through the endpoint.
+1. **Person** \
+**The person or user initiates a conversation with a VAS entity through the endpoint.**
     Threats
-        **_Misdirection due to a malicious entity operating a VAS with synthetic Voice. _**
+        **_Misdirection due to a malicious entity operating a VAS with synthetic Voice._**
         Misdirection: getting people to enable harm by unauthorized access, use,  disclosure, disruption, modification, or destruction
     Vulnerabilities
         People's gullibility
@@ -209,14 +209,15 @@ For each of the five system components defined in the simplified Voice Assistant
 2. **Channel and endpoint devices**
     The user talks through a smart speaker, a smart device, a mobile app, a website, a phone, or otherwise to the Voice Assistant system.
     Threats
-        **_Unauthorized channel and endpoint device access to do harm. For example someone accessing the contents of the conversation to capture private information like bank details. _**
+        **_Unauthorized channel and endpoint device access to do harm. For example someone accessing the contents of the conversation to capture private information like bank details._**
         Disruption or destruction by a a malicious entity (for instance someone unplugging or breaking a device)
     Vulnerabilities
         Security processes of  the channel operators (wifi operators and telecom providers for example)  and the endpoint devices (hardware, software and edge part of the VAS) 
 3. **Voice Assistant System** \
 The system of components that make up a Voice Assistant System.
     Threats
-        Harm to all subsystems, **_especially ID system, and speech generation. _**For example in the case of hacking the VAS ID system, a VAS is fooled by someone to think they are dealing with a specific user when this isn't so. In mobile such hacks are done by spoofing a sim card. An example of hacking a VAS speech generation, is a VAS operated by malicious entities sounding like your bank assistant and getting you to send over money. This is similar to phishing emails or whatsapp messages. 
+        Harm to all subsystems, **_especially ID system, and speech generation._** 
+        For example in the case of hacking the VAS ID system, a VAS is fooled by someone to think they are dealing with a specific user when this isn't so. In mobile such hacks are done by spoofing a sim card. An example of hacking a VAS speech generation, is a VAS operated by malicious entities sounding like your bank assistant and getting you to send over money. This is similar to phishing emails or whatsapp messages. 
         **_User Voice impersonation._** The example here is that a malicious entity has the ability to fool the VAS system by impersonating the user's voice. This is similar to deep fake video’s or synthetic voice generation.
     Vulnerabilities
         Security processes of VAS operators.
@@ -226,8 +227,8 @@ The VAS owner entity exposes internal back end services and/or devices to the VA
         Misuse with the intent to harm internal services and devices.
     Vulnerabilities
         Security processes of overarching entity and internal VAS operators as well as service and device operators.
-5. **External services and devices \
-**Access to services and devices by parties other than the VAS owner and operator. For example, Target using Amazon Alexa’s skill voice apps.
+5. **External services and devices** \
+**Access to services and devices by parties other than the VAS owner and operator.** For example, Target using Amazon Alexa’s skill voice apps.
     Threats
         Misuse with the intent to harm external entities’ services and devices
     Vulnerabilities
@@ -258,13 +259,13 @@ To assist in clarifying the scope of security capabilities that are unique to vo
     The communication is sent via a normally operated connection to the external services and devices. These can be Hue Lights, connected vacuum cleaners, or the connection to your bank which serves up how much is in your account. 
         Once the communication resolves to an external service or device these services and devices are verified to confirm security along the entire process. Voice communications that are sent to external services and devices can be verified using a VRS system or some other type of unique registration ID to confirm security.
 
-## The Four Voice Security Capabilities
+## **The Four Voice Security Capabilities**
 The security capabilities of Voice Assistant Systems as shown in the aforementioned analysis comes down to the following four:
 
 1. **Verification of the user:** The users is who he/she says she is
-2. **Verification of the Voice Assistant System: **The VAS is what it says it is
-3. **Verification of the process for the end service or device: **The user, the content & channel, and the VAS are verified and were encrypted.
-4. **Content and channel encryption **between the person’s input device and the VAS.
+2. **Verification of the Voice Assistant System:** The VAS is what it says it is
+3. **Verification of the process for the end service or device:** The user, the content & channel, and the VAS are verified and were encrypted.
+4. **Content and channel encryption** between the person’s input device and the VAS.
 
 These capabilities as well as the analysis work running up to this, is the start for the next steps.
 
