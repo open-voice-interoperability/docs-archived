@@ -30,7 +30,7 @@ Although Tomorrow, AI-enabled voice Although our definition of AI-enabled voice 
 
 ### Problem Statement 
 
-### Why This Work Is Important ###
+### Why This Work Is Important 
 
 As we enter the third decade of this century, the ability to direct digital devices and systems through speech is increasingly common.
 We speak (and listen) to voice assistants in purpose-built devices, smartphones, automobiles, televisions and home appliances, manufacturing systems, and enterprise software.   
@@ -46,7 +46,7 @@ All told, we are today in the early days of the artificial intelligence-enabled 
 
 We – the sponsoring members and supporters of the Open Voice Network – believe that this glimpse of value is at risk of remaining faint and unfulfilled.   Standing before the growth of conversational AI in usage and economic value are four broad issues:
 
-## Trust, choice, inclusivity, and openness.##
+### Trust, choice, inclusivity, and openness.
 
 Trust opens the door to personal and enterprise adoption, and to ever-more complex usage by all users – from individuals to developers and designers to enterprise decision-makers.  The foundation of user trust is a “rule of law” which best emerges from the neutral, industry-driven development of standards and standards-based systems.   It is also built through the standards-based  protection of privacy, guidance for data use (both personal and commercial), inclusivity and accessibility, and system governance.  The Open Voice Network’s stated mission is to make voice worthy of user trust. 
 
@@ -57,7 +57,7 @@ Inclusivity is about everyone having a voice, and in every situation.  It is voi
 Openness enables interoperability among assistants and providers.  At its core is the identification and definition of standardized development building blocks.  Such blocks serve as a foundation for commercial differentiation and value; they can be assembled according to purpose, and in completely open, completely proprietary, or mixed (or hybrid) implementations. 
 
 
-## The time to act is now.##
+### The time to act is now.
 
 Artificial intelligence-enabled voice is now entering its next phase.
 
@@ -67,7 +67,7 @@ Trust-worthy?  Choice-enabled?  Inclusive?  Open?
 
 A realm of remarkable innovation, enterprise adoption, and economic growth that welcomes all on equal footing?  
 
-## Introducing Open Voice Network.##
+### Introducing Open Voice Network.
 
 The Open Voice Network is a non-profit industry association, operating as a Directed Fund of the Linux Foundation, dedicated to researching and proposing the technical standards and usage guidelines that will bring the critical benefits of choice and trust to conversational AI.
 
@@ -79,13 +79,13 @@ We work collaboratively with standards bodies and existing industry organization
 
 We operate within a governance model pf checks and balances, one that demands accountability.
 
-## Standards and Usage Guidelines: An Aspirational List.##
+### Standards and Usage Guidelines: An Aspirational List.
 
 The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines. It reports to the Open Voice Network Steering Committee.
 
 These aspirational topics are under discussion:
 
-# Standards to enhance user interactions and capabilities#
+### Standards to enhance user interactions and capabilities
 
 Log-in procedures that are privacy-friendly, fast, and easy to use.
 Platform-independent discovery and invocation of voice applications and services.
@@ -93,11 +93,11 @@ Platform-independent and dependable destination accessibility.
 Seamless invocation of voice applications across platforms.
 User interfaces that are consistent across human languages, dialects, and platforms.
 User interfaces that effectively use the capabilities (microphones, speakers, displays, cameras, etc.) of end point devices.
-## Standards that provide privacy, safety, and security.#
+### Standards that provide privacy, safety, and security.
 User identification and authentication that is multifactor and platform independent.
 Intentional and consent-based individual and commercial privacy.
 Object control language used to specify who may perform what function with which destination, and when.
-## Usage guidelines that protect privacy and enhance inclusivity.#
+### Usage guidelines that protect privacy and enhance inclusivity.
 Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
 Transparent, intentional, and consent-based data usage.
 
@@ -175,7 +175,7 @@ Furthermore, like the open standards that made the WWW successful, these standar
 - Can be implemented as open-source and/or closed source products and services
 - Abstracted at the right level as to not too deeply specify particular technologies used to implement them
 
-## Principles
+### Principles
 
 
 - Adhere to an open standard: due process, broad consensus, transparency, balance, and openness
@@ -185,7 +185,7 @@ Furthermore, like the open standards that made the WWW successful, these standar
 - Make voice inclusive and accessible by everyone
 - Can be applied as low as localhost, a private network, or as big as globally provided
 
-## Design
+### Design
 
 ### General Vocabulary
 
@@ -218,7 +218,7 @@ This component vocabulary section aims to briefly define the components involved
 - **Dialog Broker (DB)** - is responsible for providing the fulfillable intents available for a resolved VRS record (e.g. where resolved VRS record "BigGrocery", it’s fulfillable intents might be "order product, check order status, add to shopping list". These fulfillable intents can execute remotely on the DM or download locally on the device.
 - **Dialog Manager (DM)** - handles the dynamic response of the conversation. It provides a more personalized response based on the action provided by the NLP to send back to the user.
 
-## Examples
+### Examples
 
 Several examples that are useful to explain all the concepts required in the design:
 
@@ -234,13 +234,13 @@ Several examples that are useful to explain all the concepts required in the des
 - intent: addShoppingList
 - entities: milk = @product
 
-## Component Architecture
+### Component Architecture
 
 ![](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
 
 Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
 
-## Component Flow
+### Component Flow
 
 This component flow section aims to describe the general steps that happen in and between each component.
 
@@ -280,7 +280,7 @@ This component flow section aims to describe the general steps that happen in an
 
 6. If VRS returns the Dialog Manager endpoint, NLP will call the Dialog Manager to have a better dynamic response for the vendor.
 
-## Component Details
+### Component Details
 
 This component details section aims to further define the individual components in more detail.
 

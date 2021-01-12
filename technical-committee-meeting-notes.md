@@ -1,3 +1,69 @@
+# 2021-01-08 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, J. Sedivy, D. Ryder,  M. Kanagarajanramakrishnan
+
+The meeting began at 9:02am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+* Today’s purpose:  Reacquaint, Realign, Set the agenda for Q1
+
+### Open Items/Issues to Review – J. Stine 
+* No issues reported 
+
+### 2021 Current State and Plan –expectations overall – available resource for Tech Comm investment 
+* Plan 2021 work group deliverables –due January 15th 
+  * Deliverables 
+  * Milestones and dates 
+  * Dependencies 
+  * Resource requirements 
+* Budget 2021: work group resourcing 
+  * Think about where your work group could be accelerated with contracted resources 
+  * Process:  workgroup to tech committee to steering committee for endorsement (Prioritization will be required) 
+* Process 2021 GitHub-centric development an issue management 
+  * Ensure that we have a single record of OVN truth 
+  * Enable easy review and comment 
+  * Industry standard 
+  * 2 classes setup next week –See Jon to get included (sessions will be recorded) 
+
+* One Year from Now:  the Open Voice Network in December 2021
+  * OVN Growth, fiscal strength
+  * Industry 0decosyste recognition 
+  * Material results in the 12 months
+    * Publication of initial proposals
+    * VRS reference implementation(s)
+    * Test-reference implementations of proposed OVN phase 1 standardized interfaces 
+    * Commercial data ownership –test reference implementation 
+    * Test –reference implementations of technical implications of proposed OVN privacy and security guidelines 
+    * OVN enterprise guide to privacy in voice technology completes first round of industry association and legal review 
+
+### January-early February agendas by Work Group 
+* VRS work group 
+   * Finishing Q4 work and fully using GitHub
+   * Finalizing the integration of VRS with other components – version 1.0 of VRS swagger and problem statement 
+
+* Architecture work group 
+  * Working with VRS work group to identify missing components for VRS to be successful 
+  * Component artifact –what data is shared and by what components and format of the data 
+  * Shifting to weekly meetings vs bi-weekly 
+
+* Privacy and Security work groups 
+   * Reviewing and revising initial privacy guidance –including examples 
+   * Reviewing privacy diagrams and models from the architecture work group 
+   * Reviewing common baseline of privacy and security guidance 
+   * Leveraging GitHub 
+   * Start to circulate and get feedback from OVN workgroup and some external resources 
+   * Privacy and Security workgroups considering merging some guidance due to commonality 
+
+### Open Items, questions, comments, criticisms
+*  Status of OVN’s interaction with Voice Lunch group?  
+   * The interaction model is being defined yet.  Is on the Outreach committee’s task list for January
+
+Meeting adjourned at 9:47am CT
+
+
+
 # 2020-12-11 Notes of the Technical Committee Meeting - The 2020 Review; the 2021 View
 
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, S. Prayaga,  O. Coleman, D. Cundiff, A. Fricke, C. Wuttke, P. Bentsen, J. Croyle, J. Sedivy, S. Baul, D. Attwater 

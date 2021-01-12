@@ -1,6 +1,6 @@
 ## A
-- **Artificial Intelligence (AI)** - the theory and development of computer systems able to perform tasks that normally require human intelligence, such as visual perception, speech recognition, decision-making, and translation between languages (Oxford) 
-- **Automatic Speech Recognition** - is also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
+- **Artificial Intelligence (AI)** - also known as machine intelligence. A type of computer science focused on designing intelligent computer systems that exhibit characteristics of human behavior. AI is an academic discipline that has multiplesub-fields such as Natural Language Processing, Neural Networks, Robotics, Speech Processing, Machine Learning. Conversational AI - is the set of technologies to enable automated communication between computers and humans. This communication can be speech and text. Conversational AI recognizes speech and text, understands intent, decipher various languages, and responds where it mimics human conversation. In some cases, it is also known as Natural Language Processing. Utterance - spoken or typed phrases.
+- **Automatic Speech Recognition** - also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
 
 ## B
 
