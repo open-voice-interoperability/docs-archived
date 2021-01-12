@@ -260,7 +260,7 @@ With this in mind, the OVN Technical Committee formed in the Summer of 2020 an A
 
 The Architecture Work Group began its efforts by studying the architectures and components of several independent voice assistant concepts, including those of the the W3C Voice Interaction Community and the Stanford Open Voice Assistant Lab (OVAL), seeking to identify and define the common "building block" components of voice assistance.   
 
-_additional information added here_  
+_additional information added here_ Jim will add edits here.  
 
 
 
