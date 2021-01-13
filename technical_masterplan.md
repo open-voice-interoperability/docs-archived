@@ -119,6 +119,7 @@ The Technical Advisory Council of The Open Voice Network is responsible for dete
 
 These topics are in exploration:
 
+
 ## Standards to enhance user interactions and capabilities#
 
 These could include:
@@ -139,12 +140,10 @@ These could include:
 - Intentional and consent-based individual and commercial privacy.
 - Object control language used to specify who may perform what function with which destination, and when.
 
-## Usage guidelines that protect privacy and enhance inclusivity.#
-
-- Accurate natural language recognition across languages, dialects, gender, and age. 
+### Usage guidelines that protect privacy and enhance inclusivity.
 - Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
 - Transparent, intentional, and consent-based data usage.
-
+- Accurate natural language recognition across languages, dialects, gender, and age. 
 
 There are numerous other issues which, unless addressed through standards, will continue to inhibit the trust in and use of AI-enabled voice assistance, especially as the industry evolves toward its multi-platform future.   These include:
 - system architecture as it relates to the analysis and storage of data
@@ -250,8 +249,6 @@ To meet this broad remit, the OVN Privacy and Security Work Group began its work
 
 _additional content as of 2021.01.03 to be added here_.
 
-
-
 ### Component Definition and Interface Interoperability
 
 The interoperability of voice assistance platforms and conversational agents -- one with the ease of use of today's multi-browser internet -- is at the heart of the OVN's vision of an open, accessible voice ecosystem that is worthy of user trust. 
@@ -264,7 +261,7 @@ _additional information added here_ Jim will add edits here.
 
 
 
-## Design
+### Design
 
 ### General Vocabulary
 
@@ -297,7 +294,7 @@ This component vocabulary section aims to briefly define the components involved
 - **Dialog Broker (DB)** - is responsible for providing the fulfillable intents available for a resolved VRS record (e.g. where resolved VRS record "BigGrocery", it’s fulfillable intents might be "order product, check order status, add to shopping list". These fulfillable intents can execute remotely on the DM or download locally on the device.
 - **Dialog Manager (DM)** - handles the dynamic response of the conversation. It provides a more personalized response based on the action provided by the NLP to send back to the user.
 
-## Examples
+### Examples
 
 Several examples that are useful to explain all the concepts required in the design:
 
@@ -313,13 +310,13 @@ Several examples that are useful to explain all the concepts required in the des
 - intent: addShoppingList
 - entities: milk = @product
 
-## Component Architecture
+### Component Architecture
 
 ![](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
 
 Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
 
-## Component Flow
+### Component Flow
 
 This component flow section aims to describe the general steps that happen in and between each component.
 
@@ -359,7 +356,7 @@ This component flow section aims to describe the general steps that happen in an
 
 6. If VRS returns the Dialog Manager endpoint, NLP will call the Dialog Manager to have a better dynamic response for the vendor.
 
-## Component Details
+### Component Details
 
 This component details section aims to further define the individual components in more detail.
 
