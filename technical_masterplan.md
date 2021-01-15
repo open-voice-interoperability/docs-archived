@@ -257,7 +257,130 @@ With this in mind, the OVN Technical Committee formed in the Summer of 2020 an A
 
 The Architecture Work Group began its efforts by studying the architectures and components of several independent voice assistant concepts, including those of the the W3C Voice Interaction Community and the Stanford Open Voice Assistant Lab (OVAL), seeking to identify and define the common "building block" components of voice assistance.   
 
-_additional information added here_ Jim will add edits here.  
+
+# Components and Artifacts
+Each voice agent contains several components such as those illustrated in Figure C1.  Each component consumes artifacts from previous components and produces artifacts for use by later components.  For example, the TTS component will accept text artifacts as input and produce speech artifacts as output.  Each component should have a standard format for its input and output artifacts so component can be easily replaced or reused. 
+
+### Flexibility
+We will define the formats for artifacts (but not the algorithms that convert consume and produce artifacts). By standardizing artifact formats, we enable the replacement of components by other components that process input artifacts and product output artifacts faster, more efficiently, or more accurately.  For example, a speech recognition component algorithm based on the hidden Markov model can be replaced by a neural network model.  
+
+Every voice agent contains components that consume and manipulate artifacts.  If components in different voice agents produce and consume artifacts in standard formats, artifacts can be shared across voice agents.  
+
+We will define the formats for input and output artifacts of voice processing components such as ASR (Automatic Speech Recognition which converts speech to text), NLP (used to extract semantics from text produced by ASR), DM (dialog manager which processes the semantics), and TTS (which converts text to spech).  Note that we do not specify the algorithms inside each component; technology vendors compete by providing alternative algorithms for components.    
+Voice agent developers can select components from multiple vendors that fill the developers specific needs, and connect the selected components together because they communicate with each other using standardized artifacts.   
+Here are some examples:
+- In a smart home environment, it may be desirable to combine insert an ASR into a microphone and add encoding software. (Figure C2)  The microphone converts speech to digital text which is then encoded for security purposes before transmission to a network hub for further processing.  Because text is more compact than speech, this approach saves transmission bandwidth.  
+TTSs are often designed to perform well with a specific national language (North American English, German, etc.) 
+- Figure C3 illustrates the replacement of an North American English TTS by a German TTS which pronounces German better than the English TTS
+- In order to accommodate a handicapped person who can not speak or hear well, the microphone and speaker are replaced by a keyboard and display in Figure C4.
+
+### Interoperability
+Interoperability enables one voice agent to use the data and functions of another voice agent.  For example, a shopping agent collects user account information and then invokes a second agent, the validity agent.  Information collected during the shopping agent needs to be copied to the validity agent in order to avoid having the validity agent solicit same information from the user again.
+
+In a more detailed example, Figure C5 illustrates the intents for an airline reservation voice agent and a hotel reservation voice agents and the resulting user dialogs.  Note that the redundant turns (denoted in colors) in the user dialogs.  The redundant turns can be removed from the user dialogs by copying slot values from the airline reservation voice agent to slots within the hotel reservation voice agent.  
+### Component Framework
+
+In order to manage the big task of identifying and recommending standard formats for artifacts, we partition components into four baskegts inspired by the advent and progress of automotive transportation.  High-level descriptions of these four backets and their possible components follows. (Figure C6)
+
+1. Macadam Road “Foundational” Component Basket (Core functionality)  Named after the 18th century Scottish engineer who invented the hard-surface, reliable road.  This basket of components provides the basic infrastructure needed by voice agents.  speech). 
+- ASR, Automatic Speech Recognition
+    Purpose: Convert speech to text 
+Input: audio
+Output: text
+May interact with: Context Manager
+May interact with: Knowledge Manager
+- NLU, Natural Language Understanding (Intent Etraction)
+    Purpose: extract meaning from text
+Input: text
+Output: semantic representation of text
+Note 1: known as semantic interpretation in VoiceXML
+Note 2: ASR + NLU often combined into a combo component 
+May interact with: Context Manager
+May interact with: Knowledge Manager
+
+- Dialog Manager
+Purpose: respond to request
+Input: semantic interpretation of text
+May interact with: Context Manager
+May interact with: Knowledge Manager
+Interacts with: Locator Service (VRS) to obtain link to voice agent
+Interacts with: Fulfillment (Dialog) Broker to obtain links to backend apps
+Interacts with: backend apps to obtain fulfillment
+Interacts with: NLG Generator to formulate text response
+
+- TTS, Text To Speech
+Purpose: Convert text to speech 
+Input: text (possibly with hints for pronunciation)
+Output: audio
+
+
+2. Ford Model T “Foundational” Component Basket (Core functionality + OVN unique value)  Named after the Model T, a  practical, affordable transportation for the common man which quickly became prized for its low cost, durability, versatility, and ease of maintenance.  This basket of components provides core functionality and OVN unique value. 
+- VRS Locator Service
+Purpose 1:  Maintain links to speech agents
+Input: pronunciation of speech agent name
+Output: link to speech agent
+Purpose 2:  Register speech agent name
+- Intent (Dialog) Broker
+Input: pronunciation of speech agent name & information
+Output: Success or failure
+- Fulfillment Broker
+Purpose:  Select backend app for processing request
+Input: request
+Output: fulfillment info  
+Note: previously called Dialog Broker
+- Context Manager
+Purpose: Maintains history and context of the conversation
+Input: TBD
+Output: TBD
+
+
+
+3. ’57 Chevy  “Desirable” Component Basket:  enhanced functionality, safety, UX design”  Named after the '57 Chevy, a popular and fun car that was easy and cheap to work on. This phase provides enhanced functionality and safety.  Example components include Human speaker ID and Natural Language Result Generation of text for results and warning messages.
+
+- Human speaker identification 
+Purpose: Identify human speaker by using voice prints
+Input: audio
+Output: speaker identification
+Note: This component is frequently combined with ASR to form a combo-component
+Note: other components including ARS, NLU, Dialog manager, NLG may access the contents of this component.  The persistence of this component it TBD
+- Knowledge Manager 
+Purpose: maintains real world knowledge and common knowledge in the form of ontologies and other data structures TBD
+Input: TBD
+Output: TBD
+Note: other components including ARS, NLU, Dialog manager, NLG may access the contents of this component.  
+Note: This is a new component suggested by Jonathan but not discussed on 10/21
+- NLG result generator
+Purpose: Generate text and error/warning 
+Input: semantic information
+Output: text
+Note: may interact with personalization information (part of the user session manager) to personalize messages to the user
+Note: may be extended to support language translation
+- Access Control Guard
+Purpose: controls access to data and functions
+Input: access control constraints (Boolean expression involving the functions and parameters of an API to an object (such as a backend app, a voice agent, etc.), and system parameters (date, time, etc.)
+Output: permission granted (or not) to access data and/or functions
+Note: inspired by the Almond access control mechanism
+
+- User Session Manager
+Purpose Establish and maintain environment parameters (national language preference, recording options, wake-up words, personal NLP and other profiles information TBD.
+Input TBD
+Output TBD
+Note:  ON 10/21 Dan suggested “profile” which fits in this component
+4. Tesla “Visionary Component Basket” redefinition and technology advancement”
+Named after Tesla that demonstrates the electric vehicles can be better, quicker and more fun to drive than gasoline cars.  This basket of components hprovides new technologies and capabilities.  
+- Emotion detection 
+Purpose: extract a human user’s emotion from their voice 
+Input: voice
+Output: one or more emotions with a rating for each emotion indicating its strength
+Note: There is a second technology for emotion: analysis of wording and phrasing of text.  This may be performed in the NLU component.
+
+- Plan Generator
+Purpose: Convert a high level request into a plan (a sequence of invocations of agents needed to complete the request
+Input: high-level user request
+Output:  Plan involving multiple agents
+Note: there are several strategies for developing plans.  Venders will differentiate themselves by implementing difference strategies for different situations.  
+- Result Generator on steroids
+Purpose: extend the NGL result generator to include multi-modal, multi-media conversations
 
 
 
