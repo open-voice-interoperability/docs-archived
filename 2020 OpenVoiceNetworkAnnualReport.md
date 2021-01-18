@@ -27,9 +27,9 @@ The founding charter of the Open Voice Network specifies four standing committee
 ### Technical Committee
 
 The first meeting of what became the Technical Committee of the Open Voice Network was held  on 6 March 2020.   The Open Voice Network Technical Committee was officially formed upon adoption of the OVN Charter on 1 June 2020.   As of 31 December 2020, the Technical Committee had formed and successfully launched three Work Groups, each tasked to research the market need and opportunity, envision and propose an approach to standardization or industry-wide guidelines, and recommend next steps.  The Work Groups were in these in three broadly-defined areas of potential standards development: 
-- A destination registry for voice.  This was titled the #Voice Registry System Work Group.# 
-- Voice-specific privacy and security for voice assistance.  This was titled the #Privacy and Security Work Group.#
-- The definition – and potential standardization – of the core components of conversational agents.  This was titled the #Architecture Work Group.#
+- A destination registry for voice.  This was titled the **Voice Registry System Work Group** 
+- Voice-specific privacy and security for voice assistance.  This was titled the **Privacy and Security Work Group.**
+- The definition – and potential standardization – of the core components of conversational agents.  This was titled the **Architecture Work Group.**
 In addition, the Technical Committee also researched – and then established – a common vocabulary for the work of the Open Voice Network.
 
 ### Outreach Committee
