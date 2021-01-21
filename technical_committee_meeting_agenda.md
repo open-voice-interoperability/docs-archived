@@ -204,7 +204,7 @@
 - 
 
 # 2021-01-22
-- Antrust statement and notice of recording (1 minute)
+- Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2-minutes) -- D. Cundiff
 - Plan 2021 Overview, OVN -- J. Stine 
 - Plan 2021: OVN Process
