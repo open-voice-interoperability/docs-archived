@@ -196,6 +196,52 @@
             "description": "Service Unavailable"
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "records"
+        ],
+        "summary": "Deletes a record",
+        "description": "",
+        "operationId": "delete_record",
+        "parameters": [
+          {
+            "name": "api_key",
+            "in": "header",
+            "required": false,
+            "schema": {
+              "type": "string",
+              "example": "SJHDSJHJN-JSHDJHSD-AISK12"
+            }
+          },
+          {
+            "in": "path",
+            "name": "record_id",
+            "description": "Unique identifier for the record",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid",
+              "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+            }
+          }
+        ],
+        "responses": {
+          "400": {
+            "description": "Invalid ID supplied"
+          },
+          "404": {
+            "description": "Record not found"
+          }
+        },
+        "security": [
+          {
+            "vrs_record_auth": [
+              "write:records",
+              "read:records"
+            ]
+          }
+        ]
       }
     },
     "/search": {
@@ -364,6 +410,29 @@
           }
         }
       },
+      "delete_record": {
+        "type": "object",
+        "required": [
+          "name",
+          "categories",
+          "locations",
+          "conversation_platforms"
+        ],
+        "properties": {
+          "record_id": {
+            "type": "string",
+            "description": "Unique identifier for the record",
+            "format": "uuid",
+            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+          },
+          "conversation_platforms": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/conversation_platform"
+            }
+          }
+        }
+      },
       "record_location": {
         "type": "object",
         "properties": {
@@ -446,6 +515,22 @@
           }
         }
       }
+    }
+  },
+  "securityDefinitions": {
+    "vrs_record_auth": {
+      "type": "oauth2",
+      "authorizationUrl": "http://api.openvoicenetwork.org/voice-registry-system/oauth",
+      "flow": "implicit",
+      "scopes": {
+        "write:records": "update records",
+        "read:records": "read records"
+      }
+    },
+    "api_key": {
+      "type": "apiKey",
+      "name": "api_key",
+      "in": "header"
     }
   }
 }
