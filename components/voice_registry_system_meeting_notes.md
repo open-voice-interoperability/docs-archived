@@ -1,6 +1,13 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
 
+## Meeting 01.21.2021
+<details>    
+
+### Agenda:
+- Prioritize the VRS GIT issues
+</details>
+
 ## Meeting 12.15.2020
 <details>    
 
