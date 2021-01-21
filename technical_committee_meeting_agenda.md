@@ -207,12 +207,14 @@
 - Antrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2-minutes) -- D. Cundiff
 - Plan 2021 Overview, OVN -- J. Stine 
-- Plan 2021, Technical Committee -- D. Cundiff
-- Plan 2021, by Tech Comm Work Group: Deliverables, Milestones, Dependencies-Intersections, Resources  -- O. Coleman
-  - VRS: M. Brinas-Dobrowski
-  - Architecture:  J. Larson
-  - Privacy-Security: M. Frazzini, M. Lens-Fitzgerald
-- Work Groups: Strategic Questions for Tech Comm review-opinion
+- Plan 2021: OVN Process
+- Plan 2021, Technical Committee: thoughts and observations -- D. Cundiff
+- Plan 2021, by Tech Comm Work Group: 
+    -- introductioin to POR development process -- O. Coleman
+    -- Plan 2021 Work Group intersections: _where will your WG need others?_
+      - VRS: M. Brinas-Dobrowski
+      - Architecture:  J. Larson
+      - Privacy-Security: M. Frazzini, M. Lens-Fitzgerald, N. Myers
 - Summation and Next Steps
 
 
