@@ -210,7 +210,7 @@
 - Plan 2021: OVN Process
 - Plan 2021, Technical Committee: thoughts and observations -- D. Cundiff
 - Plan 2021, by Tech Comm Work Group: 
-    -- introductioin to POR development process -- O. Coleman
+    -- introduction to POR development process -- O. Coleman
     -- Plan 2021 Work Group intersections: _where will your WG need others?_
       - VRS: M. Brinas-Dobrowski
       - Architecture:  J. Larson
