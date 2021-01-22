@@ -6,6 +6,13 @@ This document is meant to capture the meeting notes and decision.
 
 ### Agenda:
 - Prioritize the VRS GIT issues
+
+### Discussion:
+- The team prioritized some git issues based on need and deliveries.
+- Discussed the standard in creating the GIT issue. Identify the problem and definition of done. 
+- Decided to follow an architecture decision log whenever some critical decisions need to be ratified and vetted. The architecture decision logs are still stored in the git repo.
+- We discussed the OVN Pull Request process. 
+
 </details>
 
 ## Meeting 12.15.2020
