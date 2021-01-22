@@ -1,3 +1,90 @@
+# 2021-01-22 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, M.Lens-FitzGerald, C. Wuttke, A. Fricke, S. Baul, S. Prayaga, D. Cundiff
+	
+The meeting began at 9:03 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+
+### Plan 2021 Overview, OVN – J. Stine 
+OVN Growth, fiscal strength
+  * Industry 0decosyste recognition 
+  * Material results in the 12 months
+    * Publication of initial proposals
+    * VRS reference implementation(s)
+    * Test-reference implementations of proposed OVN phase 1 standardized interfaces 
+    * Commercial data ownership –test reference implementation 
+    * Test –reference implementations of technical implications of proposed OVN privacy and security guidelines 
+    * OVN enterprise guide to privacy in voice technology completes first round of industry association and legal review 
+
+### Plan 2021:  OVN Process 
+* Technical committee and work group management:   Will be Github centric in 2021 
+* All work groups issue and milestone management will work within the Tech Comm Backlog project – one version of work to be done 
+* Recommended best practices: 
+     * Begin meetings with review of outstanding issues and prioritization
+     * Close meetings with documentation of outstanding issues 
+     * Invite asynchronous individual or small team work on specific issues or review of specific documents 
+
+### Plan 2021, Technical Committee:  thoughts and observations – D. Cundiff 
+ * We will need an onboarding process for new participants where we walk them through the backlog and understand where and how they want to participate   
+ * Will need to share working group overviews and where they need help and solicit participation 
+ * Following git best practices is of utmost importance 
+ * VRS working group is setting good examples and best practices with regard to process and focusing on the things that matter 
+ * There are many things that the OVN teams could care about, standardize, and work on.    It is important that we stay focused on the essential things that have strategic value on what we need to accomplish.    We are making process in this space and the discussions at the last Architecture meeting are good examples  
+
+### Plan 2021, by Tech Comm Work Group: Introduction to POR development process – O. Coleman 
+* Oita worked with the leads of the workgroups to create a plan of record (POR) 
+* POR identifies the monthly and quarterly deliverables for each workgroup that will be put into git as milestones for tracking purposes 
+  
+ * VRS goals: 
+     * Publish schema 1.0 
+     * Implement agile practices
+     * Grow VRS participants –See Maria if you want to join
+     * Define 1.0 user scenarios with interface to other components
+     * Create VRs VMP by EOQ3
+     * Research for VRS
+  * VRS Intersections: 
+     * Architecture group
+     * Intent broker 
+
+  * Architecture Work Group Goals:  
+     * How to share artifacts among voice assistants
+     * Intent Manager requirements definition 
+     * Enforcement mechanisms for privacy guidelines 
+  * Architecture Work Group Intersections: 
+    * VRS workgroup -Intent broker
+    * Privacy/Security workgroup –privacy guidelines enforcement 
+
+  * Privacy Work Group Goals: 
+    * Voice Privacy Guidelines 1.0 published for review 
+    * Present Voice Privacy Guidelines to OVN workgroups and committees 
+    * By Q1 –March 2021, Voice Privacy Guidelines 1.0 completes first round of review with “friends & family” 
+    * Github integration 
+    * Voice Privacy Guidelines 1.0 circulated to 2-3 industry groups 
+    * Voice Privacy Guidelines 1.0 published for external review 
+  * Privacy Work Group Intersections: 
+    * VRS and Architectures review of/input to Voice Privacy Guidelines 
+
+  * Privacy and Security Research 
+    * Create high level overview of privacy and security policies 
+    * Publish draft of high level overview
+    * Stretch goal:   development of standard certification for voice privacy and security
+    * Research, define and prototype access control mechanism by Q3 end 
+
+  * Security Work Group Goals:  
+    *  Voice Privacy Guidelines 1.0 proposal for review
+    *  Present voice security guidelines 1.0 to OVN workgroups 
+    *  By Q1 March 2021 Voice Security Guidelines 1.0 completes first round of review with “friends and family” 
+
+### Summation and Next Steps 
+  * Reminder that pull request reviews do take some time and we now have a backlog –we will work through that now and the feedback will speed up 
+
+Meeting adjourned at 9:56 am CT
+
+
+
 # 2021-01-08 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, J. Sedivy, D. Ryder,  M. Kanagarajanramakrishnan
