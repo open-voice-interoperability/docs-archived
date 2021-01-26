@@ -109,7 +109,7 @@ _(D) safety, which means ensuring human safety of the devices that are under the
 
 To provide context as to what the Privacy & Security Workgroup defines as a Voice Assistant System (VAS) the following diagram has been prepared that defines the specific actors, modalities, channels, components, and services/devices that make up a VAS. This diagram is one possible arrangement that illustrates a complete VAS as data flows from the user through a VAS and back to the user (depending on the type of interaction or request that is elicited from the user).
 
-![Voice Assistant System Overview](/GitHub/docs/Voice Security Capabilities Report.assets/Voice Assistant System Overview.png)
+![Voice Assistant System Overview](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Voice%20Assistant%20System%20Overview.png)
 
 _*Please refer to figure above_
 
@@ -135,7 +135,7 @@ _*Please refer to figure above_
 
 To perform a risk assessment of a voice system overview the primary actors and assets are to be defined. For this, a simplified overview is made of the VAS. Each step lists the primary actors and assets as viewed through a security lens. An actor is a person or entity that is most active and or relevant (from a security standpoint) in that step. Also, the primary assets are listed for each step. An asset is an important component or a valuable ‘thing’ to protect or maybe under threat. 
 
-![](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Actors and Assets.png)
+![](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Actors%20and%20Assets.png)
 
 **1.  Person** 
 The person or user initiates a conversation with a VAS entity through the endpoint. 
@@ -223,7 +223,7 @@ Access to services and devices by parties other than the VAS owner and operator.
 **Summary** 
 For each of the five system components defined in the simplified Voice Assistant System overview, the threats and vulnerabilities unique to voice are ascertained. Three threats are highlighted as well as one vulnerability as they are seen as extra important in the analysis. 
 
-![](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Threats & Vulnerabilities unique to Voice.png)
+![](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Threats%20%26%20Vulnerabilities%20unique%20to%20Voice.png)
 
 
 
@@ -296,7 +296,7 @@ To assist in clarifying the scope of security capabilities that are unique to vo
 
 **Overview** 
 
-![](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Security Capabilities unique to Voice.png)
+![](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Voice%20Assistant%20System%20Overview.png)
 
 *Please refer to figure above 
 
