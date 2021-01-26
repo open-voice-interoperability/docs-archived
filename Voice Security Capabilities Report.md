@@ -135,7 +135,7 @@ _*Please refer to figure above_
 
 To perform a risk assessment of a voice system overview the primary actors and assets are to be defined. For this, a simplified overview is made of the VAS. Each step lists the primary actors and assets as viewed through a security lens. An actor is a person or entity that is most active and or relevant (from a security standpoint) in that step. Also, the primary assets are listed for each step. An asset is an important component or a valuable ‘thing’ to protect or maybe under threat. 
 
-[actors and assets.png]
+![](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Actors and Assets.png)
 
 **1.  Person** 
 The person or user initiates a conversation with a VAS entity through the endpoint. 
@@ -223,7 +223,9 @@ Access to services and devices by parties other than the VAS owner and operator.
 **Summary** 
 For each of the five system components defined in the simplified Voice Assistant System overview, the threats and vulnerabilities unique to voice are ascertained. Three threats are highlighted as well as one vulnerability as they are seen as extra important in the analysis. 
 
-![Threats & Vulnerabilities unique to Voice](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Threats & Vulnerabilities unique to Voice.png)
+![](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Threats & Vulnerabilities unique to Voice.png)
+
+
 
 **1. Person** 
 The person or user initiates a conversation with a VAS entity through the endpoint. 
@@ -293,7 +295,8 @@ _Access to services and devices by parties other than the VAS owner and operator
 To assist in clarifying the scope of security capabilities that are unique to voice the Privacy & Security Workgroup has developed a working overview that demonstrates the flow of voice-specific data between actors. This overview here is a simplified version that illustrates one possible arrangement of actors and security capabilities involved in a typical conversation between a user and a Voice Assistant System (VAS).  \
 
 **Overview** 
-![Security Capabilities unique to Voice ](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Security Capabilities unique to Voice .png)
+
+![](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Security Capabilities unique to Voice.png)
 
 *Please refer to figure above 
 
