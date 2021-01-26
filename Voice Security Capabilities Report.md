@@ -109,7 +109,7 @@ _(D) safety, which means ensuring human safety of the devices that are under the
 
 To provide context as to what the Privacy & Security Workgroup defines as a Voice Assistant System (VAS) the following diagram has been prepared that defines the specific actors, modalities, channels, components, and services/devices that make up a VAS. This diagram is one possible arrangement that illustrates a complete VAS as data flows from the user through a VAS and back to the user (depending on the type of interaction or request that is elicited from the user).
 
-![Voice Assistant System Overview](/Users/Maarten/Documents/GitHub/docs/Voice Security Capabilities Report.assets/Voice Assistant System Overview.png)
+![Voice Assistant System Overview](/GitHub/docs/Voice Security Capabilities Report.assets/Voice Assistant System Overview.png)
 
 _*Please refer to figure above_
 
