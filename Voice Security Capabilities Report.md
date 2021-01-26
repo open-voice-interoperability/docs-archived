@@ -312,7 +312,7 @@ To assist in clarifying the scope of security capabilities that are unique to vo
    Once verified the voice communication is passed through a connection to external services and devices. This inter-cloud or system connection is not in scope for this voice specific security analysis as it falls under standard security operating procedures. 
 4. **External Services and Devices**
    The communication is sent via a normally operated connection to the external services and devices. These can be Hue Lights, connected vacuum cleaners, or the connection to your bank which serves up how much is in your account. 
-   Once the communication resolves to an external service or device these services and devices are verified to confirm security along the entire process. Voice communications that are sent to external services and devices can be verified using a VRS system or some other type of unique registration ID to confirm security. \
+   Once the communication resolves to an external service or device these services and devices are verified to confirm security along the entire process. Voice communications that are sent to external services and devices can be verified using a VRS system or some other type of unique registration ID to confirm security. 
 
 ## **The Four Voice Security Capabilities**
 
@@ -328,9 +328,9 @@ These capabilities as well as the analysis work running up to this, is the start
 
 ## **Recommended next steps**
 
-1. Review of this report by 1 OVN members, 2: close security experts, and 3) leading security experts. Wpdate where applicable.
+1. Review of this report by 1 OVN members, 2: close security experts, and 3) leading security experts. Update where applicable.
 2. Publish to inform and promote OVN work.
-3. If validated form two project groups. One for the verification capabilities and one for the channel and content encryption.
+3. Work on _how_ these capabilities could be created
 
 **Remarks as noted in Tech committee presentation november 2020** 
 
