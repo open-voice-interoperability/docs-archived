@@ -296,7 +296,7 @@ To assist in clarifying the scope of security capabilities that are unique to vo
 
 **Overview** 
 
-![](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Voice%20Assistant%20System%20Overview.png)
+![](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Security%20Capabilities%20unique%20to%20Voice.png)
 
 *Please refer to figure above 
 
