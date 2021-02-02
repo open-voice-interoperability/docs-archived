@@ -219,7 +219,7 @@ Access to services and devices by parties other than the VAS owner and operator.
 - Devices. Not just Hue lights but also heart pumps or cars. This asset has been marked as high risk. 
 
 ## **Threats & Vulnerabilities unique to Voice**
-
+<<Generally speaking, a vulnerability is a weakness in a system, and a threat is is when some agent utilizes a vulnerability with the result being a violation of security policy (not always intentionally).  Because of that dependence, I found myself reading those sections in the paper backwards ( because the threat is listed first, then the vulnerability). >>
 **Summary** 
 For each of the five system components defined in the simplified Voice Assistant System overview, the threats and vulnerabilities unique to voice are ascertained. Three threats are highlighted as well as one vulnerability as they are seen as extra important in the analysis. 
 
