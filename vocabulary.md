@@ -40,7 +40,7 @@
 - **Natural Language Processing (NLP)** - a service and a branch of artificial intelligence that helps computers communicate with humans in their language and scales other language-related tasks. NLP helps structure highly complicated, unstructured human utterance and vice-versa. Natural Language Understanding is a subset of NLP that is responsible for understanding the meaning of the user's utterance and classifying it into proper intents.
 
 ## O
-_ **Organization** -  describes a body of people with a particular purpose, especially a business, society, association, etc. that engages with a Dialogue System to achieve a desired outcome.  
+_ **Organization** - Describes a body of people with a particular purpose, especially a business, society, association, etc. that engages with a Dialogue System to achieve a desired outcome.  
 ## P
 - **Persona** - The characteristics of a Conversational Agenmt that enable it to be identified as a single actor in a conversation.  This will be signaled by attributes such as consistent vocal characteristics, continuity between dialog turns, the use of a name or first-personal singular pronouns, narrative voice, or consistent visual characteristics such as a face or body in a multi-modal solution. 
 - **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
