@@ -217,5 +217,15 @@
       - Privacy-Security: M. Frazzini, M. Lens-Fitzgerald, N. Myers
 - Summation and Next Steps
 
+# 2021-02-5
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2-minutes) -- D. Cundiff
+- Proposed Change:  Technical Committee Agenda going forward  
+- Reminder: Q1 Milestones
+- Progress Reports by Tech Comm Work Group: 
+      - VRS: M. Brinas-Dobrowski
+      - Architecture-Components:  J. Larson
+      - Privacy-Security: M. Frazzini, M. Lens-Fitzgerald, N. Myers
+- Summation and Next Steps
 
   
