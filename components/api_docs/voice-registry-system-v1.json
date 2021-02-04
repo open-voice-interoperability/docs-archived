@@ -282,10 +282,7 @@
                 }
               }
             }
-          },
-          "204": {
-            "description": "Deleted successfully"
-          },
+          }
           "404": {
             "description": "Record not found"
           },
