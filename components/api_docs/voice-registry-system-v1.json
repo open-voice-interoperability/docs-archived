@@ -170,7 +170,7 @@
           "$ref": "#/components/requestBodies/record"
         },
         "responses": {
-          "204": {
+          "200": {
             "description": "Successful response",
             "content": {
               "application/json": {
@@ -341,6 +341,11 @@
             "description": "Invocation name for the record",
             "example": "patrick dessert"
           },
+          "url": {
+            "type": "string",
+            "description": "URL voice record",
+            "example": "voice://patrickdessert.com/voice_assistant/"
+          },
           "registered_date": {
             "type": "string",
             "description": "Record registration date",
@@ -388,6 +393,11 @@
             "type": "string",
             "description": "Invocation name for the record",
             "example": "patrick dessert"
+          },
+          "url": {
+            "type": "string",
+            "description": "URL voice record",
+            "example": "voice://patrickdessert.com/voice_assistant/"
           },
           "status": {
             "type": "string",
@@ -500,21 +510,6 @@
               "owned",
               "third-party"
             ]
-          }
-        }
-      },
-      "ApiResponse": {
-        "type": "object",
-        "properties": {
-          "code": {
-            "type": "integer",
-            "format": "int32"
-          },
-          "type": {
-            "type": "string"
-          },
-          "message": {
-            "type": "string"
           }
         }
       }
