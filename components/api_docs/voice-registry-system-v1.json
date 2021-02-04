@@ -170,7 +170,7 @@
           "$ref": "#/components/requestBodies/record"
         },
         "responses": {
-          "200": {
+          "204": {
             "description": "Successful response",
             "content": {
               "application/json": {
@@ -227,6 +227,9 @@
           }
         ],
         "responses": {
+          "204": {
+            "description": "Deleted successfully"
+          },
           "400": {
             "description": "Invalid ID supplied"
           },
@@ -280,8 +283,8 @@
               }
             }
           },
-          "400": {
-            "description": "Invalid ID supplied"
+          "204": {
+            "description": "Deleted successfully"
           },
           "404": {
             "description": "Record not found"
