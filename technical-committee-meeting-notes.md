@@ -1,5 +1,107 @@
 # 2021-01-22 Notes of the Technical Committee Meeting 
 
+Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, M.Lens-FitzGerald, C. Wuttke, S. Baul, S. Prayaga, D. Cundiff, P. Gopal 
+	
+The meeting began at 9:02 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+
+### Proposed Change: Technical Committee Agenda Going Forward –J. Stine 
+ * Shift in Tech Comm Agendas starting 19 February 2021
+ * Continue to meet every 2 weeks 
+ * Workgroups will report progress against published quarterly milestones with Green, Yellow or Red 
+ * One Workgroup will be asked to provide a 30 minute “deep dive” 
+    * Artifacts for which they wish review and comment 
+    * Key WG strategic questions of definition, architecture, scope
+    * Implications for other work groups or OVN at large
+    * Resource requirements:  bring proposals 
+    * New discoveries, insights or items that don’t fit work group scope and needs discussion 
+       * Dan to create a new slack channel to track these types of items 
+ * 19 February -  Security Section:  Privacy and Security Work Group
+ * 5 March -  The components of VRS:  VRS Work Group
+ * 12 March - Privacy Section:  Privacy and Security Work Group
+ * 26 March - How agents share dialogues:  Architecture Work Group 
+
+### Reminder:  Q1 Milestones
+* VRS goals: 
+   * Publish schema 1.0 
+   * Implement agile practices
+   * Grow VRS participants –See Maria if you want to join
+   * Define 1.0 user scenarios with interface to other components
+   * Create VRs VMP by EOQ3
+   * Research for VRS
+
+* Architecture Work Group Goals:  
+   * How to share artifacts among voice assistants
+   * Intent Manager requirements definition 
+   * Enforcement mechanisms for privacy guidelines 
+
+* Privacy Work Group Goals: 
+   * Voice Privacy Guidelines 1.0 published for review 
+   * Present Voice Privacy Guidelines to OVN workgroups and committees 
+   * By Q1 –March 2021, Voice Privacy Guidelines 1.0 completes first round of review with “friends & family” 
+   * Github integration 
+   * Voice Privacy Guidelines 1.0 circulated to 2-3 industry groups 
+   * Voice Privacy Guidelines 1.0 published for external review 
+   
+* Privacy and Security Research Goals: 
+   * Create high level overview of privacy and security policies 
+   * Publish draft of high level overview
+   * Stretch goal:   development of standard certification for voice privacy and security
+   * Research, define and prototype access control mechanism by Q3 end 
+
+ * Security Work Group Goals:  
+   *  Voice Privacy Guidelines 1.0 proposal for review
+   *  Present voice security guidelines 1.0 to OVN workgroups 
+   *  By Q1 March 2021 Voice Security Guidelines 1.0 completes first round of review with “friends and family” 
+
+### Progress Reports by Tech Comm Work Groups: 
+ * VRS –M. Brinas-Dobrowski 
+   *  Finalizing first schema and swagger 
+   *  Practicing good processes for review and feedback and git issue management
+   *  Creating an architecture decision log to enable debate, ratification and tracking 
+
+ *  Architecture Components – J. Larson
+    * Intent broker and VRS 
+      * met to resolve questions/problem intent broker to solve, and how intent broker relates to VRS
+      * Recommendation:  use Suzanne scenario to walk through VRS related components interact 
+    * Created ‘play pen’ architecture (working architecture) 
+    * Will create scenarios for handing off control among voice apps 
+    * Will assess the 4 important layers of artifact/packets exchanged among components
+
+ * Privacy –Security- M. Frazzini, M. Lens-Fitxgerald, N. Myers
+   * Security:  
+     * Document in git and is being reviewed and getting some comments 
+     * Will be assessing threat analysis based upon feedback 
+     * Vocabulary synchronization in progress 
+     * Version 2.0 of the document in progress 
+
+   * Privacy: 
+     * Complete guidelines and capabilities diagram 
+     * Github document formatting progress  
+     * Circulate for feedback 
+
+   * Privacy and Security Research: 
+     * Planning out research to enable completion by end of February 5, 2021
+     * Start on high level overview in March 
+     * Research on OVN template for privacy policy that can be used as guidance for voice industry 
+ 
+### New Insights: 
+  *  Apple launching new AR glasses and have a lot of control the mobile app space.  Good food for thought  -do we want apple to control the AR industry? 
+  *  Apple creating its own search engine to be a layer over the web with Siri
+  *  Article in Insiders newsletter about the slowing down of voice market (skills, apps).  Implication is on the enterprise side
+
+### Summation and Next Steps: 
+*  Reminder –new rules in git to prohibit pushing to master without a PR 
+
+Meeting adjourned at 9:52 ct
+
+
+
+# 2021-01-22 Notes of the Technical Committee Meeting 
+
 Attendees:  J. Larson, M.Frazzini, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, M.Lens-FitzGerald, C. Wuttke, A. Fricke, S. Baul, S. Prayaga, D. Cundiff
 	
 The meeting began at 9:03 am CT
