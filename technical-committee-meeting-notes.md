@@ -1,4 +1,4 @@
-# 2021-01-22 Notes of the Technical Committee Meeting 
+# 2021-02-05 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, M.Lens-FitzGerald, C. Wuttke, S. Baul, S. Prayaga, D. Cundiff, P. Gopal 
 	
