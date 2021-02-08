@@ -53,11 +53,21 @@ Despite this remarkable growth over the past decade in capabilities, availabilit
 
 • **The emergence of platform-independent voice assistants.**  This calls into question platform and assistant interoperability, in which an enterprise-owned independent assistant can speak with all others, regardless of platform or channel.  It suggests a standardization of components, the building blocks of voice assistants – components that have emerged from many of the standards listed below. 
 
-• **Growing legislative and regulatory interest in voice.**  Numerous questions, on topics such as privacy, data ownership, data use, and so-called platform economics, are now being raised by western law-makers and regulators.     
+• **Growing legislative and regulatory interest in voice.**  Numerous questions, on topics such as privacy, data ownership, data use, and so-called platform economics, are now being raised by western law-makers and regulators. 
 
 In the summer of 2016, a team of academic researchers, consultants, and technology executives came together to explore the implications of this new world of voice.   The 2016-2017 research posited that this new world of voice assistance could – and, in time, would – re-shape the relationship between an enterprise and its constituents (be they shoppers, clients, or patients.) It also suggested that this new world of user-centric voice assistance represented a significant market realignment, with voice evolving from a limited-purpose technology to the interface of a new, global system of AI-enabled virtual communication.
 
-It was also apparent that this new, global system of AI-enabled communication was beginning to form without broad governing standards.  Especially standards (and protocols) that would enable the openness, user choice, inclusivity, and user trust so essential to the system’s growth and value.  Broadly stated, the current state of voice resembled the early, pre-standards “browser war” days of the internet.
+This team was encouraged in this vision -- then, as it is now -- by the continued advancements in the technologies and linguistic research that enable voice assistance. However, it was quickly recognized that technology and linguistic innovation alone would _not_ drive voice assistance to broad enterprise acceptance and substantial market growth.  At least three other high-level dependencies were identified:
+
+- **Enterprise trust in a level playing field:**  a widely-accepted belief that voice is a technology through which all players could benefit, and that a communally-developed "rule of law" governs the interplay between members of the voice ecosystem.   
+	
+- **Confidence in enterprise value creation, capture, and delivery:**  a widely-accepted belief -- one based upon demonstrations and documentation of use cases -- that voice assistance can and will provide a significant return on an enterprise investment.  
+
+- **An open technology ecosystem and architecture:** the enabler of choice -- the ability to select best-of-breed technologies with the confidence of interoperability.  
+
+These dependencies begged (then and now) for broad governing standards.  Especially standards (and protocols) that would enable the openness, user choice, inclusivity, and user trust so essential to the system’s growth and value.  
+
+To a large degree, the state of voice assistance resembled the early, pre-standards “browser war” days of the internet.
 
 ### Vision of the Open Voice Network
 
