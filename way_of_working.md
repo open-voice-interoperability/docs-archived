@@ -26,7 +26,7 @@ Technical Committee Work Groups formed:
   * formed in 6/26/20 Technical Committee meeting 
 * **Privacy & Security Work Group** 
   * formed in 6/26/20 Technical Committee meeting 
-  **Voice Registry System (VCS) Work Group
+* **Voice Registry System (VCS) Work Group**
   
 # Work Group Decision-Making
 
