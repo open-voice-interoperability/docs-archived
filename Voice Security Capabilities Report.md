@@ -21,7 +21,7 @@ The security capabilities that the Privacy and Security Workgroup recommended to
 3. **Verification of the process for the end service or device:** The user, the content & channel, and the VAS are verified and were encrypted.
 4. **Content and channel encryption** between the person’s input device and the VAS.
 
-Recommended next steps are ingternal and external review round to come to a validated result tyo determine next steps on.
+Recommended next steps are internal and external review round to come to a validated result tyo determine next steps on.
 
 ## **Introduction**
 
