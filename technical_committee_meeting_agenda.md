@@ -228,4 +228,17 @@
       - Privacy-Security: M. Frazzini, M. Lens-Fitzgerald, N. Myers
 - Summation and Next Steps
 
-  
+# 2021-02-19
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Quarterly milestones review (10 minutes)
+    - Q1 milestones: Green-yellow-red report
+    - In order: VRS, Architecture, Privacy and Security
+- Work Group Deep Dive:  **Security section of Privacy and Security** (30 minutes) M. Lens-Fitzgerald
+    - potential topics: 
+        - review of central artifacts
+        - key Work Group questions of strategic direction, definition
+        - implications to other OVN Work Groups or general OVN strategy
+        - resource requirements
+- News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
+- Adjourn
