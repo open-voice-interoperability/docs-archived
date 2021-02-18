@@ -31,7 +31,6 @@ _ **Conversational Endpoint** - agents conduct conversations using conversationa
 
 ## E
 - **Entity** - is a part of the structured machine translation. It is a custom level data type and considered a concrete value to associate a word in a query. This is also known as annotations.
-- **Entity** -  government or private/public company that provides certain businesses or services.
 - **Explicit Invocation** - an invocation type where the user invokes the channel, and it is explicitly stating a direct command to accomplish a specific task. The direct authority is to communicate directly to a registered voice application.
 
 ## F
@@ -50,6 +49,7 @@ _ **Conversational Endpoint** - agents conduct conversations using conversationa
 - **Natural Language Processing (NLP)** - a service and a branch of artificial intelligence that helps computers communicate with humans in their language and scales other language-related tasks. NLP helps structure highly complicated, unstructured human utterance and vice-versa. Natural Language Understanding is a subset of NLP that is responsible for understanding the meaning of the user's utterance and classifying it into proper intents.
 
 ## O
+- **Organization** - a group of individuals brought together for a specific purpose, including the creation, transaction, and delivery of products or services.  Examples would include a for-profit business, a not-for-profit group, or government agency.  
 ## P
 - **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
 
