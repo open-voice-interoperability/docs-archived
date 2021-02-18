@@ -324,7 +324,7 @@ Purpose 2:  Register speech agent name
 Input: pronunciation of speech agent name & information
 Output: Success or failure
 - Fulfillment Broker
-Purpose:  Select backend app for processing request
+Purpose:  Provide a list of fulfillable intests
 Input: request
 Output: fulfillment info  
 Note: previously called Dialog Broker
