@@ -157,8 +157,8 @@ By following the SRP, we achieve the following: <br>
           "voice_application_id": {
             "type": "string",
             "description": "Unique identifier for the voice application",
-            "format": "uuid",
-            "example": "ef7d274e-d5e5-11e7-9296-cec278b6b50a"
+            "format": "url",
+            "example": "www.voice_app_name.com"
           },
           "name": {
             "type": "string",
