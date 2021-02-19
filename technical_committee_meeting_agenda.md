@@ -237,3 +237,15 @@
     - In order: VRS, Architecture, Privacy and Security
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
+
+# 2021-03-05
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Quarterly milestones review (10 minutes)
+    - Q1 milestones: Green-yellow-red report
+    - In order: VRS, Architecture, Privacy and Security
+- 2021.03.05 DEEP DIVE:  Privacy, of the Privacy & Security Work Group (M. Frazzini)
+  - _reminder of "Deep Dive" schedule: 19 March -- VRS; 2 April -- Security; 16 April -- Architecture_
+- News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
+- Adjourn
+
