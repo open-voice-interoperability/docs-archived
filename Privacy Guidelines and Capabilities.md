@@ -1,7 +1,10 @@
 # **Privacy Guidelines and Capabilities Unique to Voice**
 
+## Open Voice Network, Privacy & Security Workgroup 
 
-## Introduction
+Origin: Version 1, October 30th 2020, converted to markdown January 19th 2021
+
+## **Introduction**
 
 The issue of privacy is a human right and is central to The Open Voice Network (OVN). Privacy is foundational to trust, and trust is crucial for the adoption and success of voice technology.  
 
@@ -19,7 +22,7 @@ The following diagram illustrates at-a-glance, the framework for OVN scope, deli
 ![OVN Privacy Scope Diagram](/components/privacy_scope_diagram.png)
 
 
-## OVN Privacy Problem Statement
+## **OVN Privacy Problem Statement**
 
 Voice technology has the power to change our lives, however, with voice technology there comes a unique set of privacy risks. Identifying these risks, and minimizing their potential harms, is inherently linked to the successful adoption and use of voice technology.
 
@@ -39,45 +42,35 @@ Mike Frazzini headed up the workgroup and worked together with the workgroup mem
 The results reported in this document were made possible by Jon Stine, Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, and others.
 
 
-## Voice Assistant System Overview
+## **Voice Assistant System Overview**
+
+[this section needs to be synced with the terms and definition workgroup results]
+
+**Summary**
 
 To provide context as to what the Privacy & Security Workgroup defines as a Voice Assistant System (VAS) the following diagram has been prepared that defines the specific actors, modalities, channels, components, and services/devices that make up a VAS. This diagram is one possible arrangement that illustrates a complete VAS as data flows from the user through a VAS and back to the user (depending on the type of interaction or request that is elicited from the user).
 
-![Voice Assistant System Overview](/components/voice_assistant_system_overview.png)
+![Voice Assistant System Overview](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Voice%20Assistant%20System%20Overview.png)
 
+_*Please refer to figure above_
 
 1. **Person**
-
-    1.1 The “Person” or user initiates a conversation with a VAS entity.
-
+   The “Person” or user initiates a conversation with a VAS entity.
 2. **Modality**
-
-    2.1 The voice communication is sent to the appropriate channel via a modality-like voice alone or a mix of graphical elements and voice (otherwise known as multimodal). The type of voice communication modality is dependent upon the channel the voice communication is being sent through and user preference.
-
+   The voice communication is sent to the appropriate channel via a modality like voice alone or a mix of graphical elements and voice (otherwise known as multimodal). The type of voice communication modality is dependent upon the channel the voice communication is being sent through and user preference.
 3. **Channel**
-
-   3.1 The channel receives the voice communication in preparation to forward the data onto the VAS for interpretation.
-   
-       3.1.1 Channels can include smart devices (smart speakers and voicified devices), mobile apps with conversational features, and other messaging platforms that allow voice communications to be sent in lieu of a text message (i.e. iMessage, WhatsApp, web chats, POTS, and IVR).
-
+   The channel receives the voice communication in preparation to forward the data onto the VAS for interpretation.
+   Channels can include smart devices (smart speakers and voicified devices), mobile apps with conversational features, and other messaging platforms that allow voice communications to be sent in lieu of a text message (i.e. iMessage, WhatsApp, web chats, POTS, and IVR)
 4. **Voice Assistant System**
-
-    4.1 The voice communication is passed from the channel to a VAS entity for interpretation.
-    
-        4.1.1 A VAS contains a User ID, Context Data Management, Automated Speech Recognizer (ASR), Natural Language Understanding (NLU), Text to Speech (TTS), Dialog Management, Voice Generation, and other internal/external services as provided by the VAS. Examples of VAS entities include Amazon Alexa, Google Assistant, Erica from Bank of America, and Magenta from Deutsche Telecom. \
-
-        Note that it may be possible for people to listen in or pass the conversation on to a human agent. As this is an internal non-primary process it won't be visualized in the overview.
-
+   The voice communication is passed from the channel to a VAS entity for interpretation.
+   A VAS contains User ID, Context Data Management, Automated Speech Recognizer (ASR), Natural Language Understanding (NLU), Text to Speech (TTS), Dialog Management, Voice Generation, and other internal/external services as provided by the VAS. Examples of VAS entities include Amazon Alexa, Google Assistant, Erica from Bank of America, and Magenta from Deutsche Telecom. Note that it may be possible for people to listen in or pass the conversation on to a human agent. As this is an internal non-primary process it won't be visualized in the overview.
 5. **Services & Devices**
-
-    5.1 Once the VAS interprets the voice communication the data is sent to the appropriate service or device to fulfill the user’s request.
-
-        5.1.1 External services consist of a backend such as a voice application from an external party or a third party device that integrates with the VAS.
-
-        5.1.2 Internal services consist of entity-owned services with a platform provider-specific backend that funnels voice communications to platform-specific devices (i.e. Ring doorbells, smart bulbs, smart microwaves, Nest thermostats, etc.)
+   Once the VAS interprets the voice communication the data is sent to the appropriate service or device to fulfill the user’s request.
+   External services consist of a backend such as a voice application from an external party or a third party device that integrates with the VAS.
+   Internal services consist of entity owned services with a platform provider-specific backend that funnels voice communications to platform-specific devices (i.e. Ring doorbells, smart bulbs, smart microwaves, Nest thermostats, etc.)
 
 
-## Privacy Risks and Related Interactions Unique to Voice
+## **Privacy Risks and Related Interactions Unique to Voice**
 
 *Privacy Risk:  Personal and sensitive data is collected without consent and is used and/or shared in ways that may cause harm to the user.*
 
@@ -100,52 +93,51 @@ To provide context as to what the Privacy & Security Workgroup defines as a Voic
 8) Voice technology involves voice device responses for confirmation and playback.
 
 
-## Values, Guidelines, and Technical Capabilities to Address Privacy Risks Unique to Voice
+## **Values, Guidelines, and Technical Capabilities to Address Privacy Risks Unique to Voice**
 
-**1. Consent**
+**1. Transparency**
 
-1.1 Data subjects must be allowed to give explicit, unambiguous consent before the collection and processing of personal data.
-
- _Example: With the initial use of any voice assistant, the voice assistant proactively communicates the privacy policy notification, addressing the collection and processing of personal data, and then audibly captures user consent prior to any collection and processing of personal data._
-
-1.2 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of accepting explicit consent for data collection, usage, and sharing policies.
-
-_Example: A standard invocation phrase and application service is available on a voice assistant, and when invoked, the privacy policy notification is communicated to the user, and user consent is audibly obtained.  (e.g. User: “**OK Service**, what is your **privacy policy?**” Voice Assistant: “Privacy policy is . . .  Do you consent to this policy? User: “Yes”)._
-
-1.3 When there is an explicit third-party provider request (i.e. a request naming a specific party other than the platform provider), data subjects must be allowed to give explicit, unambiguous consent before the collection and processing of personal data by the third party.
-
-_Example: User: “**OK Service**, please connect me to **XYZ company service provider** to service a request.” Voice Assistant: “Privacy policy of **XYZ company** is . . .  Do you consent to this policy? User: “Yes”_ 
-
-
-1.4 Data must not be used for voice inference training without permission.
- 
-_Example: Upon initial use the voice assistant asks for voice training for invocation words and commands, and explicitly notifies the user it is in training mode and asks for permission for using the data captures for training.  All other interactions that may be used for training are treated similarly with explicit notification and an ask for permission before data is retained and/or used for training._
-
-**2. Limited Collection**
-
-2.1 Collected raw data must be securely deleted immediately post-processing and post inference. 
-
-_Example: As the voice assistant is continuously performing raw audio capture and running the captures through an Automated Speech Recognition module (ASR), a second process is deleting the raw audio capture data (once it has successfully been passed to the ASR module)._
-
-**3. Control**
-
-3.1 Any data that is not deleted must be accessible by the consumer with the ability to review, correct, or securely delete their data.
-
-_Example: The voice technology platform has an interface that allows the user to review all collected and stored data, providing capabilities for the user to review, correct, or securely delete their data._
-
-3.2 Voice confirmation and playback routines should only include information provided in a related request; if additional information is necessary, explicit prompting and explicit affirmation must occur before confirmation and playback of this information.
- 
-_Example: A user provides information to a voice assistant to refill a prescription with a reference to a prescription number, the voice assistant application confirms the request but does not playback (TTS) the name or description of the prescription medicine unless explicitly requested to._
-
-**4. Transparency**
-
-4.1 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of providing user notification of data collection practices, general data usage, and data sharing policies.
+1.1 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of providing user notification of data collection practices, general data usage, and data sharing policies.
  
 _Example: A standard invocation phrase and application service is available on a voice assistant, and when invoked, the privacy policy notification is communicated to the user, and user consent is audibly obtained.  (e.g. User: “**OK Service**, what is your **privacy policy?**” Device: “Privacy policy is . . .  Do you consent to this policy? User: “Yes”)._
 
-4.2 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of providing user notification of general data processing and AI inference routines (for example, if there is an AI inference routine for emotion, this should be disclosed in the notification).
+1.2 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of providing user notification of general data processing and AI inference routines (for example, if there is an AI inference routine for emotion, this should be disclosed in the notification).
  
 _Example: As a subroutine of the privacy policy notification, a voice assistant asks if the user would like to know what inference routines are utilized.  The User responds, “yes,” and the voice assistant notifies the User of the voice inference routines being used (i.e. “voice speech-to-text only.” But if the voice assistant is also doing sentiment analysis, the response would be “voice speech-to-text and voice sentiment analysis.”)_
+
+**2. Consent**
+
+2.1 Data subjects must be allowed to give explicit, unambiguous consent before the collection and processing of personal data.
+
+ _Example: With the initial use of any voice assistant, the voice assistant proactively communicates the privacy policy notification, addressing the collection and processing of personal data, and then audibly captures user consent prior to any collection and processing of personal data._
+
+2.2 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of accepting explicit consent for data collection, usage, and sharing policies.
+
+_Example: A standard invocation phrase and application service is available on a voice assistant, and when invoked, the privacy policy notification is communicated to the user, and user consent is audibly obtained.  (e.g. User: “**OK Service**, what is your **privacy policy?**” Voice Assistant: “Privacy policy is . . .  Do you consent to this policy? User: “Yes”)._
+
+2.3 When there is an explicit third-party provider request (i.e. a request naming a specific party other than the platform provider), data subjects must be allowed to give explicit, unambiguous consent before the collection and processing of personal data by the third party.
+
+_Example: User: “**OK Service**, please connect me to **XYZ company service provider** to service a request.” Voice Assistant: “Privacy policy of **XYZ company** is . . .  Do you consent to this policy? User: “Yes”_ 
+
+2.4 Data must not be used for voice inference training without permission.
+ 
+_Example: Upon initial use the voice assistant asks for voice training for invocation words and commands, and explicitly notifies the user it is in training mode and asks for permission for using the data captures for training.  All other interactions that may be used for training are treated similarly with explicit notification and an ask for permission before data is retained and/or used for training._
+
+**3. Limited Collection**
+
+3.1 Collected raw data must be securely deleted immediately post-processing and post inference. 
+
+_Example: As the voice assistant is continuously performing raw audio capture and running the captures through an Automated Speech Recognition module (ASR), a second process is deleting the raw audio capture data (once it has successfully been passed to the ASR module)._
+
+**4. Control**
+
+4.1 Any data that is not deleted must be accessible by the consumer with the ability to review, correct, or securely delete their data.
+
+_Example: The voice technology platform has an interface that allows the user to review all collected and stored data, providing capabilities for the user to review, correct, or securely delete their data._
+
+4.2 Voice confirmation and playback routines should only include information provided in a related request; if additional information is necessary, explicit prompting and explicit affirmation must occur before confirmation and playback of this information.
+ 
+_Example: A user provides information to a voice assistant to refill a prescription with a reference to a prescription number, the voice assistant application confirms the request but does not playback (TTS) the name or description of the prescription medicine unless explicitly requested to._
 
 
 ## 
