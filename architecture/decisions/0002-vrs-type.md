@@ -118,18 +118,18 @@ participant VRS as OVN VRS
 participant SS as SmallGrocery Server
 
 
-C ->> SR: Audio: "hey bigtincan, add milk to my shopping cart at small grocery"
-SR ->>+ NLU: Text: "hey bigtincan, add milk to my shopping cart at small grocery" 
-NLU ->> SM: 
-SM ->> VRS: {"lookup": "add milk to my shopping cart at small grocery"}
+C --> SR: Audio: "hey bigtincan, add milk to my shopping cart at small grocery"
+SR --> NLU: Text: "hey bigtincan, add milk to my shopping cart at small grocery" 
+NLU --> SM: 
+SM --> VRS: {"lookup": "add milk to my shopping cart at small grocery"}
 Note right of VRS: OPTION 3. VRS identifies the VRS in the utterance 
-VRS ->> DM: {"vrs":"small grocery"<br>"nlu":"https://smallgrocery.com/dialogmanager/smallgrocery_bigtincan/"}
-DM ->> NLU: {...}
-NLU ->> DM: {"intent":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context":{"utterances:[{"add milk to my shopping..."}]}<br>}
-DM ->> SS: {"action":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context": {"userid":[linked], <br> "utterances": [{...}]}}
-SS ->> DM: {"response_code": {201}}
-DM ->> TTS: {"response_text": "milk added to the shopping cart" <br> "context":{...}}
-TTS ->> C: Audio: "milk added to the shopping cart"
+VRS --> DM: {"vrs":"small grocery"<br>"nlu":"https://smallgrocery.com/dialogmanager/smallgrocery_bigtincan/"}
+DM --> NLU: {...}
+NLU --> DM: {"intent":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context":{"utterances:[{"add milk to my shopping..."}]}<br>}
+DM --> SS: {"action":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context": {"userid":[linked], <br> "utterances": [{...}]}}
+SS --> DM: {"response_code": {201}}
+DM --> TTS: {"response_text": "milk added to the shopping cart" <br> "context":{...}}
+TTS --> C: Audio: "milk added to the shopping cart"
 
 ```
 </details>   
