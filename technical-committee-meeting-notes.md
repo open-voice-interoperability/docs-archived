@@ -1,3 +1,58 @@
+# 2021-02-19 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski,  J.Crabb, O. Coleman, M.Lens-FitzGerald, C. Wuttke,  S. Prayaga, D. Cundiff,  M. Frazzini, M. Aretoulaki, R. Nathenson
+
+The meeting began at 9:02 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+
+### Introductions of new participants 
+* Maria Aretoulaki – Voice AI Consultancy 
+
+### OVN Vocabulary Document 
+* 1.0 Vocabulary document available at this [link](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
+* Workgroup moderators and communities need to incorporate this vocabulary into their documents by end of March in the Q1 deliverables
+* Reminder – if you have desired changes to this document, please follow the pull request process 
+
+### Reminder:  Work Group Deep Dives begin March 5
+* March 5 – Privacy
+* March 19 - VRS
+* April 2 – Security 
+* April 16 – Architecture 
+
+### Quarterly milestone review – Q1 Red, Yellow, Green
+* VRS
+    * Publish schema 1.0 – RED
+         * need to determine if have full scope of decisions 
+    * Process – GREEN 
+* Architecture 
+    * Define extensible strategy for evolving components –YELLOW
+* Privacy
+    * Voice privacy guidelines 1.0 – GREEN
+    * Working with workgroups and communities - GREEN
+* Security
+    * Voice Security Guidelines 1.0 – GREEN
+    * Working with workgroups and communities – YELLOW 
+    * Friends and Family Review –shift to Q2 
+* Privacy and Security Research 
+    * High Level Overview –GREEN
+
+### News and New Items – Trends, thought-provokers, core questions 
+* Phil Archer presentation in VRS workgroup meeting was very useful.  The recording is in the google workspace 
+* Our response to the question of “Is OVN a standards organization” needs some clarification.    
+    * It’s a bit open at this point
+    * Some things that we may create may become standards such as standards around VRS
+    * OVN may end up becoming a standards body and if that becomes reality, we’ll have to evolve to that    
+    * The Linux Foundation will play a role in this as well 
+    * Our defined process for publishing standards has been reviewed by the Steering Committee and will be brought back to an upcoming Technical Committee meeting for transparency 
+* Electronic Frontier Association proposal that seems to benefit all parties on how to reset the controls that large voice organizations have.  We may benefit from understanding this.  Jon will share it out on slack
+
+Meeting adjourned at 9:52 ct
+
+
+
 # 2021-02-05 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, M.Lens-FitzGerald, C. Wuttke, S. Baul, S. Prayaga, D. Cundiff, P. Gopal 
