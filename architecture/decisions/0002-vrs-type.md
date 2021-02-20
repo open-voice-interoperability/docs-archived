@@ -42,7 +42,6 @@ Our goal is to identify who is responsible for determining the VRS in the uttera
   
 ```mermaid
 sequenceDiagram
-autonumber
 participant C as Channel
 participant SR as Speech Recognizer
 participant TTS as Text To Speech
