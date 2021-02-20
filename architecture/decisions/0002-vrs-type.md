@@ -105,7 +105,6 @@ TTS ->> C: Audio: "milk added to the shopping cart"
   
 ```mermaid
 sequenceDiagram
-autonumber
 participant C as Channel
 participant SR as Speech Recognizer
 participant TTS as Text To Speech
@@ -134,9 +133,6 @@ TTS --> C: Audio: "milk added to the shopping cart"
   
 
 ## Decision
-
-  
-
 //to-do
 
   
