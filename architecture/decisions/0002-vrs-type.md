@@ -59,10 +59,10 @@ NLU ->> SM:
 SM ->> VRS: {"vrs": "small grocery"}
 VRS ->> DM: {"nlu":"https://smallgrocery.com/dialogmanager/smallgrocery_bigtincan/"}
 DM ->> NLU: {...}
-NLU ->> DM: {"intent":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context":{"utterances:[{"add milk to my shopping..."}]}<br>}
-DM ->> SS: {"action":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context": {"userid":[linked], <br> "utterances": [{...}]}}
+NLU ->> DM: {"intent":"addtocart", "product":"milk", "qty":"1",  "context":{"utterances:[{"add milk to my shopping..."}]}}
+DM ->> SS: {"action":"addtocart","product":"milk",  "qty":"1",  "context": {"userid":[linked], "utterances": [{...}]}}
 SS ->> DM: {"response_code": {201}}
-DM ->> TTS: {"response_text": "milk added to the shopping cart" <br> "context":{...}}
+DM ->> TTS: {"response_text": "milk added to the shopping cart", "context":{...}}
 TTS ->> C: Audio: "milk added to the shopping cart"
 
 ```
@@ -74,7 +74,6 @@ TTS ->> C: Audio: "milk added to the shopping cart"
   
 ```mermaid
 sequenceDiagram
-autonumber
 participant C as Channel
 participant SR as Speech Recognizer
 participant TTS as Text To Speech
@@ -92,10 +91,10 @@ DM ->> SM:
 SM ->> VRS: {"vrs": "small grocery"}
 VRS ->> DM: {"nlu":"https://smallgrocery.com/dialogmanager/smallgrocery_bigtincan/"}
 DM ->> NLU: {...}
-NLU ->> DM: {"intent":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context":{"utterances:[{"add milk to my shopping..."}]}<br>}
-DM ->> SS: {"action":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context": {"userid":[linked], <br> "utterances": [{...}]}}
+NLU ->> DM: {"intent":"addtocart", "product":"milk", "qty":"1","context":{"utterances:[{"add milk to my shopping..."}]}}
+DM ->> SS: {"action":"addtocart", "product":"milk", "qty":"1", "context": {"userid":[linked],  "utterances": [{...}]}}
 SS ->> DM: {"response_code": {201}}
-DM ->> TTS: {"response_text": "milk added to the shopping cart" <br> "context":{...}}
+DM ->> TTS: {"response_text": "milk added to the shopping cart", "context":{...}}
 TTS ->> C: Audio: "milk added to the shopping cart"
 
 ```
@@ -124,10 +123,10 @@ SM --> VRS: {"lookup": "add milk to my shopping cart at small grocery"}
 Note right of VRS: OPTION 3. VRS identifies the VRS in the utterance 
 VRS --> DM: {"vrs":"small grocery"<br>"nlu":"https://smallgrocery.com/dialogmanager/smallgrocery_bigtincan/"}
 DM --> NLU: {...}
-NLU --> DM: {"intent":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context":{"utterances:[{"add milk to my shopping..."}]}<br>}
-DM --> SS: {"action":"addtocart", <br> "product":"milk", <br> "qty":"1", <br> "context": {"userid":[linked], <br> "utterances": [{...}]}}
+NLU --> DM: {"intent":"addtocart",  "product":"milk","qty":"1", "context":{"utterances:[{"add milk to my shopping..."}]}}
+DM --> SS: {"action":"addtocart", "product":"milk", "qty":"1", "context": {"userid":[linked], "utterances": [{...}]}}
 SS --> DM: {"response_code": {201}}
-DM --> TTS: {"response_text": "milk added to the shopping cart" <br> "context":{...}}
+DM --> TTS: {"response_text": "milk added to the shopping cart", "context":{...}}
 TTS --> C: Audio: "milk added to the shopping cart"
 
 ```
