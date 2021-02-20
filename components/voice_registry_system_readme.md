@@ -5,7 +5,7 @@ The [Voice Registry System](https://github.com/open-voice-network/docs/blob/mast
 ## Terminology Alignment
 For the working group that is as diverse as us from different countries, companies, industries, specialties, and backgrounds, we **must define each word similarly and meant the same way**. To use an analogy of a car, a wheel alignment is critical because this is one necessary factor that can significantly affect how the vehicle will run and allay any accidents. The goal is to save time, remove confusion, and be concise with our discussion. In short, we should be speaking the same language as a cohesive team.
 
-If you are new to the group, please review the terminology alignment section in the VRS document.
+If you are new to the group, please review the [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
 
 
 ## Working Style

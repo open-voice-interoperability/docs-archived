@@ -7,7 +7,7 @@ Voice Registry System (VRS) is one of the components  in the
 VRS's goal is to provide and promote voice openness and transparency. 
 
 ### 1.0.2. Terminology Alignment
-See [OVN Terminologies](https://github.com/open-voice-network/docs/blob/master/terminologies.md)
+See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
 
 ### 1.0.3. Problem Context
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
@@ -97,7 +97,7 @@ The primary role and responsibilities of the VRS are the following:
  1. Be a standard and platform-agnostic location for voice application.
  2. Provide a consistent experience across conversational platforms and entity's conversational assistant.
  3. VRS is not responsible for the interpretation of the intent of the user.
- 4. VRS can hold various attributes regarding the voice application, such as name, alternative names, category, geolocation.
+ 4. VRS can hold various attributes regarding the voice application, such as name, nlu etc.
  5. VRS can receive inputs like the user's current location but is not responsible for storing its preference. 
  6. VRS names can have synergies.
 
