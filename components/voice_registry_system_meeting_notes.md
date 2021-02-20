@@ -1,6 +1,30 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
 
+## Meeting 03.04.2021
+<details>    
+
+### Agenda:
+- Discuss the PR#159 VRS Type.
+- Discuss the other issues open. 
+
+
+### Discussion:
+- 
+
+</details>
+
+## Meeting 02.18.2021
+<details>    
+
+### Agenda:
+- GS1 Phil Archer guest presenter
+
+### Discussion:
+- He presented his [thought](https://drive.google.com/drive/folders/1b4liMvkl6Xv9P8U0Cw09IHi7E4b9PE2t) on VRS.
+
+</details>
+
 ## Meeting 01.21.2021
 <details>    
 
