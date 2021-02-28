@@ -6,6 +6,19 @@ Origin: Version 1, October 30th 2020, converted to markdown January 19th 2021
 
 ## **Introduction**
 
+The growth of the digital economy -- and its use of data as a fuel and guide for value creation -- has led in recent years to the introduction of numerous regulations, laws, and guidelines regarding data use and consumer data protection.
+
+According to the United Nations Conference on Trade and Development, 128 nations have in place today legislation to secure the privacy of online personal information, with draft data privacy legislation before another 10 percent of the U.N.'s 194 member nations.  (The latter includes the United States, where four draft federal data privacy bills have been introduced in the U.S. Senate since 2019, and where a quilt of topic-specific privacy laws protect the rights of consumers, patients, and minors.)  
+
+Within this long list of consumer data protection legislation and regulation, legal analysts point to two as most important to current European and North American practice: the General Data Protection Regulation (GDPR) of the European Union, which took effect in May 2018, and the GDPR-inspired California Consumer Protection Act (CCPA) of 2018, with follow-on amendments in the California Privacy Rights Act (CPRA) of 2020.  Both declare privacy to be a human right; both approach data use and privacy from a consumer's point of view; both delineate the consumer's rights in regard to data acquisition, use, storage, sale, and transparency.  
+
+Voice assistance began to emerge as an important consumer technology at the same time GDPR and CCPA were in their initial development.  Although GDPR and CCPA (and other national and local legislation and regulation) are directly relevant to the use of this technology, voice assistance brings with it a number new privacy and consumer data use issues.  Voice assistance is also beginning an evolution from its current paradigm -- one of platform-based, consumer-centric applications -- to a new paradigm of independent, enterprise-owned and -developed conversational agents.  This will dramatically expand the universe of voice assistance data and data managers.
+
+For these reasons, the Technical Committee of the Open Voice Network, a neutral non-profit industry association dedicated to standards development for voice assistance, formed in 2020 a Work Group chartered to develop, in accord with current regulation and legislation, privacy guidelines specific to voice assistance. 
+
+**The Open Voice Network**
+**Voice-Specific Privacy Guidelines**
+
 The issue of privacy is a human right and is central to The Open Voice Network (OVN). Privacy is foundational to trust, and trust is crucial for the adoption and success of voice technology.  
 
 In its development of technical capabilities and ethical use guidelines, privacy is addressed from two critical perspectives within an understanding of the technologies and systems of today’s and tomorrow’s voice applications and conversational AI: \
