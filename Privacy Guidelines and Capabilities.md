@@ -230,3 +230,11 @@ _Example: A user provides information to a voice assistant to refill a prescript
 7. Final work product publication (after the RFC process).
 
 8. Outreach to established privacy doctrine, policy, regulation, and law setting entities to encourage adoption of voice specific privacy guidelines and technical capabilities.
+
+
+Introductory citations:
+
+- Schuler, Karen: "Federal data privacy regulation is on the way -- That's a good thing," International Association of Privacy Professionals, 22 January 2021
+- "Data Protection and Privacy Legislation Worldwide," United Nations Conference on Trade and Development, February 2021.
+- Kimbol, Anne:  "Emerging Trends: What to Expect From Privacy Laws in 2020," CPO Magazine, 29 January 2020
+- Brumfield, Cynthia: "12 new privacy and security laws explained: is your business ready?" CSOonline.com, February 2021. 
