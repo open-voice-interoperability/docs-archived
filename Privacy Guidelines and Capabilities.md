@@ -152,7 +152,7 @@ _Example: The voice technology platform has an interface that allows the user to
  
 _Example: A user provides information to a voice assistant to refill a prescription with a reference to a prescription number, the voice assistant application confirms the request but does not playback (TTS) the name or description of the prescription medicine unless explicitly requested to._
 
-
+![OVN Privacy Values, Guidelines, and Capabilities Diagram](/components/Privacy_Values_Guidelines_Diagram.png)
 ## 
 
 
