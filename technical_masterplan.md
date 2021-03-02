@@ -192,50 +192,9 @@ Voice Registry System (VRS) is the new concept that is part of the open-voice st
 
 The job of the VRS is to resolve the query by trying to resolve first in the root server. If not found, it is smart enough to point to the next name server, and this process continues until the request is resolved, or determined that the requested @vrs is not registered.
 
-If VRS server is able to resolve the query, it returns a JSON response of:
+For more information and details about VRS, please go to this [document](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md).
 
-```
-{
-  "vrs_id": UUID,
-  "query": "add milk to my shopping list at biggrocery",
-  "vrs_name_lookup": "biggrocery",
-  "is_registered": "true",
-  "locations": [
-    {
-      "country": "USA",
-      "state": "",
-      "city": "",
-      "neighborhood":"",
-      "dialog_manager": {
-        "dialog_manager_id": UUID,
-        "url": "biggrocery.com/dialog_manager"
-      },
-      "nlps": [
-        {
-          "nlp_id": UUID,
-          "url": "biggrocery.com/nlp"
-        }
-      ],
-      "dialog_broker":  {
-        "dialog_broker_id": UUID,
-        "url": "biggrocery.com/dialog_broker"
-      }
-    }
-  ]
-}
-```
 
-If not found, it returns a JSON response of:
-
-```
-{
-  "vrs_id": UUID,
-  "query": "add milk to my shopping list at biggrocery",
-  "vrs_name_lookup": "biggrocery",
-  "is_registered": "false",
-  "locations": []
-}
-```
 
 _There are several previously-developed and broadly adopted standards which may be of value to the creation of a Voice Registry System.  OVN research in Q4 2020 suggests the following:  **Dialog Registry:** Discovery & Registration of Multimodal Modality Components (a standardized way to build a web Application that can dynamically combine and control discovered components by querying a registry build based on the multimodal types of the modalities and their states); **Provider Selection Service:** The Open Agent Architecture (not yet fully defined, but currently in use for Viv and Siri); **Accounts and Authentication:** Web Authentication (an API enabling the creation and use of strong, attested, scoped, public key-based credentials by web applications, for the purpose of strongly authenticating users); IDO Universal Authentication Framework (With FIDO UAF, the user carries a device with a FIDO UAF stack installed. They can then register their device to the online service by selecting a local authentication mechanism such as swiping a finger, looking at the camera, speaking into the mic, entering a PIN, etc. The FIDO UAF protocol allows the service to select which mechanisms are presented to the user); Oauth (what Amazon and Google use currently); OpenID (most likely will replace Oauth and SAML in the future)._
 
@@ -386,36 +345,8 @@ Purpose: extend the NGL result generator to include multi-modal, multi-media con
 
 ### Design
 
-### General Vocabulary
-
-This general vocabulary section aims to define general words used when talking about the use or design of voice assistants.
-
-- **Artificial Intelligence (AI)** - also known as machine intelligence, is a type of computer science focused on designing intelligent computer systems that exhibit characteristics of human behavior. AI is an academic discipline that has multiple sub-fields such as Natural Language Processing, Neural Networks, Robotics, Speech Processing, Machine Learning.
-- **Conversational AI** - is the set of technologies to enable automated communication between computers and humans. This communication can be speech and text. Conversational AI recognizes speech and text, understands intent, decipher various languages, and responds where it mimics human conversation. In some cases, it is also known as Natural Language Processing.
-- **Utterance** - spoken or typed phrases.
-- **Wake Word** - a specific word that will catch the attention of the channel.
-- **Query** - user’s word requesting for specific function and expecting a particular response.
-- **Automatic Speech Recognition** - is also known as Speech-To-Text or computer speech recognition. It is an interdisciplinary subfield of computer science and computational linguistics that enables the recognition and translation of auditory utterance to text.
-- **Invocation** - is part of the construct of the user's utterance during a conversation with a channel. An invocation describes a specific function that the guest wants and expecting a particular response.
-- **Voice Application** - also known as skill, action, capsule or domain. This is the specific executable component that has association to multiple things such as invocation, collection of related intents and entities up to the configuration to your dialog manager.
-- **Platform** - The collection of components (the environment) needed to execute a voice application.  Examples of platforms include the Amazon and Google platforms that execute voice applications.
-- **Component interoperability** - A component of a platform may be replaced by another component from a different vendor.  I.e., replace the TTS by another TTS from a different vendor.
-- **Voice Application Interoperability** – a voice application involves another voice application
-
-
-### Component Vocabulary
-
-This component vocabulary section aims to briefly define the components involved with the design this paper proposes (see below in the document for more detailed explanations of each component).
-
-- **Channel** - an interface and origin of communication. It is where the utterances are received. Examples: voice assistance devices, mobile phones, web sites, etc.
-- **Text-To-Speech (TTS)** - is a text converting to audio. Also known as Automatic Speech Recognition. It includes customized models to overcome common speech recognition barriers, such as unique vocabularies, speaking styles, or background noise.
-- **Natural Language Processing (NLP)** - a service and a branch of artificial intelligence that helps computers communicate with humans in their language and scales other language-related tasks. NLP helps structure highly complicated, unstructured human utterance and vice-versa. Natural Language Understanding is a subset of NLP that is responsible for understanding the meaning of the user's utterance and classifying it into proper intents.
-- **Intent** - is a part of the structured machine translation. It is the identified action that the machine interprets based on the user's query. This is also known as classifiers.
-- **Entity** - is a part of the structured machine translation. It is a custom level data type and considered a concrete value to associate a word in a query. This is also known as annotations.
-- **Speech-To-Text (STT)** - is converting the response from an audio to a text.
-- **Voice Registry System (VRS)** - is a global entity type in OVN and considered one of the most central components. It is a registry system with similarities to Domain Name System (DNS), but for voice. VRS resolves requests to dialog management endpoints, NLP providers, and the dialog broker. VRS serves consistently regardless of the NLP.
-- **Dialog Broker (DB)** - is responsible for providing the fulfillable intents available for a resolved VRS record (e.g. where resolved VRS record "BigGrocery", it’s fulfillable intents might be "order product, check order status, add to shopping list". These fulfillable intents can execute remotely on the DM or download locally on the device.
-- **Dialog Manager (DM)** - handles the dynamic response of the conversation. It provides a more personalized response based on the action provided by the NLP to send back to the user.
+###  Vocabulary
+See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
 
 ### Examples
 
@@ -532,7 +463,7 @@ The global identity solves the interoperability aspect of NLPs. For example, the
 
 NLP schema is another place where OVN can influence the standard. Different NLPs have their own set of schema that leads to the different implementation of standards. Some NLPs understand the concept of entity, but some do not. Some understand the intent, and some have different flavors of it and call it "action." Because of the closed implementations, each business has to orchestrate this separately or build their abstracted implementation version to be able to adapt to different NLP standards. OVN is proposing to set a standard schema for all NLP to follow:
 
-TODO: below is WIP / invalid JSON
+
 
 ```
 {
