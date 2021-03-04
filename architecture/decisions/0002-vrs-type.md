@@ -33,7 +33,7 @@ Our goal is to identify who is responsible for determining the VRS in the uttera
 |--|--|--|
 | Option 1. Create a VRS entity and VRS type in NLU. | - easier for slot to identify. <br>- align in the role of NLU  | - risk of inconsistency in understanding VRS type   |
 | Option 2. Dialog Manager identifies when utterance is explicit |  | - creating a separation of understanding the utterance <br> - risk of inconsistency in understanding VRS type |
-| Option 3. VRS will decide the vrs type in the utterance | - consistent logic for vrs identification across different VRS  | - VRS will have to receive the whole utterance. <br> - VRS will need to deal with privacy issue  |
+| Option 3. VRS will decide the vrs type in the utterance | - consistent logic for vrs identification across different VRS  | - VRS will have to receive the whole utterance. <br> - VRS will need to deal with privacy issue  <br> - adds significant complexity to the VRS. VRS will require to have its own NLU. <br> - VRS will have to care about privacy <br> |
 
 ### Sequence Diagrams
 
