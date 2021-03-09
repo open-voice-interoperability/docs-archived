@@ -10,6 +10,15 @@ This repository contains the published and work in progress artifacts, docs, sch
     - **api_docs** - contains component level swagger
   - **technical_masterplan_assets** - contains images used in the `technical_masterplan.d` document
 
+## Install
+-   To record important architecture decision, we use  [adr-tools](https://github.com/npryce/adr-tools "https://github.com/npryce/adr-tools"). To install, type the following in the terminal command. 
+
+    >    ``` brew install adr-tools ```
+
+- To view the diagrams, please install the [github-mermaid](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) chrome extension.
+- To learn more about mermaid, click [here](https://github.com/mermaid-js/mermaid).
+
+
 ## OVN way of working
 If you are interested to see our working style, see this [link](https://github.com/open-voice-network/docs/blob/master/way_of_working.md).
 
