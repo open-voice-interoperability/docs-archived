@@ -18,6 +18,10 @@ This repository contains the published and work in progress artifacts, docs, sch
 - To view the diagrams, please install the [github-mermaid](https://chrome.google.com/webstore/detail/github-%2B-mermaid/goiiopgdnkogdbjmncgedmgpoajilohe) chrome extension.
 - To learn more about mermaid, click [here](https://github.com/mermaid-js/mermaid).
 
+## Creating Key Architecture Decision
+- To support an inclusive ratification of ideas, we use architecture decision tool. To create new AD.
+
+>   ``` adr new -s 2 vrs-integration  ```
 
 ## OVN way of working
 If you are interested to see our working style, see this [link](https://github.com/open-voice-network/docs/blob/master/way_of_working.md).

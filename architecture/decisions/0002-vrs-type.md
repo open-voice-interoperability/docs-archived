@@ -19,6 +19,8 @@ Supercedes [1. Record architecture decisions](0001-record-architecture-decisions
 
   
 
+Superceded by [3. vrs-integration](0003-vrs-integration.md)
+
 ## Context
 
 The Voice Assistance Platform's job is to identify if the call is implicit or an explicit utterance. If explicit, then it will engage and call VRS.
