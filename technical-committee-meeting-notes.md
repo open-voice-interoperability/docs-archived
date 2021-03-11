@@ -1,3 +1,70 @@
+# 2021-03-05 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, O. Coleman, M.Lens-FitzGerald, S. Prayaga,  M. Frazzini, R. Nathenson, N. Myers, D. Rogers, S. Baul, J. Eisenzopf, D. Attwater, D. Ryder
+
+The meeting began at 9:04 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+
+### Comment/review:  Adam Cheyer presentation of 2021.03.04
+* Good discovery algorithm will be complicated to define and put in place 
+* Model interoperability is the focus of Adam’s work and was thought provoking 
+* Loose coupling is a correlation with the OVN work so far 
+* Key philosophical decision –really strong framework needed and we will need to be clear on the problems that we are trying to solve 
+* Adam finds out work valuable but he feels we should be going beyond standards
+* Would love to learn more about Adam’s learnings and gain better understanding of his POV
+* Loved how he thinks and is true to his role 
+* We need to assess if the big players are ready for standards
+* Voice assistance lack the back button like on the browser –no consistent approach for this with voice and might be an opportunity for OVN 
+
+### Quarterly milestone review – Q1 Blue (fka Red), Yellow, Green
+VRS
+  * Publish schema 1.0 – BLUE
+        * need an engineering resource 
+  * Process – GREEN
+         
+Architecture 
+   * Define extensible strategy for evolving components –BLUE
+
+Privacy
+   * Voice privacy guidelines 1.0 – GREEN
+   * Working with workgroups and communities – GREEN
+   * Friends and Family Feedback - GREEN
+
+Security
+   * Voice Security Guidelines 1.0 – GREEN-COMPLETE
+   * Working with workgroups and communities – GREEN
+   * Friends and Family Review –shift to Q2 
+
+Privacy and Security Research 
+   * High Level Overview –GREEN
+   * Publishing an high level draft overview – GREEN
+
+### Deep Dive:  Privacy (M.Fazzini) 
+  * [link to doc]( https://github.com/open-voice-network/docs/blob/master/Privacy%20Guidelines%20and%20Capabilities.md)
+  * Issues and Risks Discussion: 
+      * Focus on information rather than identity –is the risk to biometric identity adequately addressed?   Team to evaluate if additional focus necessary
+  * Values, Guidelines and Technical Capabilities Discussion:  
+      * Transparency 
+         * How will the privacy policy be presented verbally?    Envision that the voice assistant could actually read the policy or point to a website for full policy detail.     Some concern that this goal may not be achievable 
+         * The consumer has been in a position where the onus of data protection falls with them.   Time is now for producers of technology to share that responsibility (meaning that implicit consent goes away)
+      * Consent 
+          * Is the present status of consent implicit today with current voice providers?  Currently is implied and we are pushing for explicit 
+          * What is the process of the user disagrees with the consent? 
+          * How do we qualify this with respect to the law?  
+          * Guidelines need more teeth in order to be enforced.  Also need to define the boundaries for enforcement  
+      * Limited Collection 
+      * Control 
+      * Recommended Next Steps
+
+* Reminder:   VRS Deep Dive scheduled for March 19,  Security April 2, Architecture April 16
+
+Meeting adjourned at 10:00 ct
+
+
+
 # 2021-02-19 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski,  J.Crabb, O. Coleman, M.Lens-FitzGerald, C. Wuttke,  S. Prayaga, D. Cundiff,  M. Frazzini, M. Aretoulaki, R. Nathenson
