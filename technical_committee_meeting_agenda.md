@@ -249,3 +249,14 @@
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
 
+# 2021-03-19
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Update: the OVN and the European Data Protection Board Version 1.0 on Virtual Voice Assistants (5 minutes) -- J. Stine, O. Coleman
+- Quarterly milestones review (5 minutes)
+    - Q1 milestones: Green-yellow-red report
+    - In order: VRS, Architecture, Privacy and Security
+- 2021.03.05 DEEP DIVE:  Voice Registry System (VRS) -- M. Brinas-Dobrowski 
+  - _reminder of "Deep Dive" schedule: 2 April -- Security; 16 April -- Architecture_
+- News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
+- Adjourn
