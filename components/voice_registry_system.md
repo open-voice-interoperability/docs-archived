@@ -115,7 +115,9 @@ As we continue to build the capability and solution of VRS, we are going to be g
 ![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
 ![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
 <br>
-In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Conversational Platform or Voice Assistant will remain responsible for identifying the user's intent for their utterance. For initial phase,  Also, the translation of the user's utterance from audio to text is outside of VRS; therefore, the expected query input is a string datatype.
+In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Voice Assistant Platform will remain responsible for identifying the user's intent for their utterance. In addition, classifying the VRS type in an utterance is outside of the VRS responsibilities but rather falls into the Voice Assistant Platform space. See [AD-002(architecture/decisions/002-vrs-type.md")
+
+
 <br>
 <br>
 There are a couple of assumptions in the initial phase. CP's accountability extends to the decision-making of classifying, whether an invocation is implicit or explicit. 
