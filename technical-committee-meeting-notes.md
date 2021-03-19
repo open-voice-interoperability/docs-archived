@@ -4,7 +4,7 @@ Attendees: J. Stine, O. Coleman, N. Myers, D. Cundiff, A. Fricke, M. Frazzini, M
 
 Meeting commenced at 9:02 a.m. Central Daylight Time (US).
 
-### Welcome, Antitrust statement, and notification of recording -- J. Stine
+### Welcome, antitrust statement, and notification of recording 
 
 ### Introductions: No new attendees
 
