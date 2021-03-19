@@ -1,3 +1,76 @@
+# 2021-03-19 Notes of the Technical Committee Meeting 
+
+Attendees: J. Stine, O. Coleman, N. Myers, D. Cundiff, A. Fricke, M. Frazzini, M. Brinas-Dobrowski, R. Nathenson, D. Rogers, S. Prayaga, P. Gopal, S. Baul.
+
+### Meeting commenced at 9:02 a.m. Central Daylight Time (US).
+
+### Welcome, Antitrust statement, and notification of recording -- J. Stine
+
+### Introductions: No new attendees
+
+### Announcements:
+•	Jim Larson unable to attend today.
+•	OVN and EDPB Board VVA Guidelines out for “call for feedback”.  GDPR applied to the virtual voice assistance.  It is the new benchmark.  Encouraged our work aligns nicely with the EDPB guidelines.
+o	Observations: focuses on current state of the major platform duopology.
+o	Doesn’t anticipate the hybrid ecosystem of the independent enterprise virtual assistants.
+o	Doesn’t deal with a non-cloud infrastructure.
+o	Doesn’t focus on the future of interoperability – the sharing of dialogues.
+o	Doesn’t include any work related to biomarkers or other advanced voice data analysis.
+o	OVN Privacy & Security Workgroup 
+•	Q1 Deliverables: Two weeks remaining.  Where are we? Defined by March 31, 2021
+o	Q2 Deliverables: defined by March 31, 2021
+o	Vocabulary Reconciliation: Six Weeks remaining – end of April 30, 2021
+
+
+Q1 Milestone Deliverables / Updates
+
+VRS
+•	Green -- publish schema 1.0
+•	Green -- agile practices
+•	Green -- job descriptions
+Two independent development companies have raised their hands to help build out the VRS MVP.
+
+Architecture
+•	Blue – Deliver extensible foolproof strategy for sharing components by EOQ1
+
+Privacy & Security
+Privacy
+•	EDPB: review underway by the team.
+•	Privacy Guidelines 1.0 – publishing the pull request to address items discussed in the Technical Committee “deep dive”.  Will be incorporated this weekend.  
+o	Add legal disclaimer to document
+o	More language for “opt in” by default
+o	Mike will take first pass at the vocabulary also with this pull request
+•	“Friends and families” – NRF, FMI, Ecommerce Europe, AVIOS conference, OVN Ethical Use are suggested candidates to review the document.
+
+Security
+•	Threat Modelling exercise should be wrapped by end of April.
+•	Doug: Threat Modelling output should be leveraged by the development teams of the VRS MVP implementation work.  Maria: work slated for July.
+•	Incorporate the scenarios from the Architecture group as the next round of threat modelling exercise.  
+
+Privacy Policy
+•	Green: Q1 work on track.
+•	Research work completed by end of March.
+•	Plan to have the summary for Tuesday’s Privacy & Security workgroup meeting.  
+•	Will be prepared to give a high-level overview of the summary in the next Technical Committee meeting.
+
+
+VRS Deep Dive
+•	Doug:  Provided this guidance on semantic versioning: https://semver.org/
+•	Jon: CNSA potential for adopting the VRS implementation
+•	Shyamala: process questions around self-service
+
+
+News/Notes:
+•	Doug: Former Mozilla team formed startup that we could possibly leverage for development work.
+
+
+
+
+
+
+
+
+
 # 2021-03-05 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, O. Coleman, M.Lens-FitzGerald, S. Prayaga,  M. Frazzini, R. Nathenson, N. Myers, D. Rogers, S. Baul, J. Eisenzopf, D. Attwater, D. Ryder
