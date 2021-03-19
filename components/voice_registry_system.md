@@ -115,7 +115,7 @@ As we continue to build the capability and solution of VRS, we are going to be g
 ![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
 ![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
 <br>
-In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Voice Assistant Platform will remain responsible for identifying the user's intent for their utterance. In addition, classifying the VRS type in an utterance is outside of the VRS responsibilities but rather falls into the Voice Assistant Platform space. See [AD-002(architecture/decisions/002-vrs-type.md")
+In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Voice Assistant Platform will remain responsible for identifying the user's intent for their utterance. In addition, classifying the VRS type in an utterance is outside of the VRS responsibilities but rather falls into the Voice Assistant Platform space. See [AD-002](architecture/decisions/002-vrs-type.md").
 
 
 <br>
