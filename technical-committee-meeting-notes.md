@@ -2,7 +2,7 @@
 
 Attendees: J. Stine, O. Coleman, N. Myers, D. Cundiff, A. Fricke, M. Frazzini, M. Brinas-Dobrowski, R. Nathenson, D. Rogers, S. Prayaga, P. Gopal, S. Baul.
 
-### Meeting commenced at 9:02 a.m. Central Daylight Time (US).
+Meeting commenced at 9:02 a.m. Central Daylight Time (US).
 
 ### Welcome, Antitrust statement, and notification of recording -- J. Stine
 
@@ -58,6 +58,8 @@ VRS Deep Dive
 •	D. Cundiff noted formation of Croqui, start-up of former Mozilla team.  May offer opportunities for OVN development work. 
 
 ### Meeting adjourned at 9:58 CDT. 
+
+
 
 
 
