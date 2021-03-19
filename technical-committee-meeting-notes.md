@@ -9,20 +9,14 @@ Attendees: J. Stine, O. Coleman, N. Myers, D. Cundiff, A. Fricke, M. Frazzini, M
 ### Introductions: No new attendees
 
 ### Announcements:
-•	Jim Larson unable to attend today.
-•	OVN and EDPB Board VVA Guidelines out for “call for feedback”.  GDPR applied to the virtual voice assistance.  It is the new benchmark.  Encouraged our work aligns nicely with the EDPB guidelines.
-o	Observations: focuses on current state of the major platform duopology.
-o	Doesn’t anticipate the hybrid ecosystem of the independent enterprise virtual assistants.
-o	Doesn’t deal with a non-cloud infrastructure.
-o	Doesn’t focus on the future of interoperability – the sharing of dialogues.
-o	Doesn’t include any work related to biomarkers or other advanced voice data analysis.
-o	OVN Privacy & Security Workgroup 
-•	Q1 Deliverables: Two weeks remaining.  Where are we? Defined by March 31, 2021
-o	Q2 Deliverables: defined by March 31, 2021
-o	Vocabulary Reconciliation: Six Weeks remaining – end of April 30, 2021
+•	J. Larson unable to attend today.
+•	European Data Protection Board (EDPB) released "1.0 Guidelines for Virtual Voice Assistants."  General observations: applies GDPR to virtual voice assistance; is now the benchmark for the voice industry; current OVN privacy ork aligns nicely with the EDPB guidelines.
+o	Other observations: EDPB guidelines focus on current state of the major platform duopology; does not anticipate the hybrid ecosystem of the independent enterprise virtual assistant; does not address a non-cloud architecture; does not address the future of interoperability – the sharing of dialogues; does not address issues related to voice data analysis, including biomarkers or other advanced voice data analysis.
 
+### Work Group Progress Toward Quarterly Milestones 
+J. Stine reminded Work Groups in re: Q1 Deliverables (two weeks remaining) and Q2 Deliverables, to be defined by March 31, 2021.  Also: an expectation that existing and in-work documents will be reconciled to the official OVN vocabulary by end of April 30, 2021
 
-Q1 Milestone Deliverables / Updates
+### Q1 Milestone Deliverables / Updates
 
 VRS
 •	Green -- publish schema 1.0
@@ -31,7 +25,8 @@ VRS
 Two independent development companies have raised their hands to help build out the VRS MVP.
 
 Architecture
-•	Blue – Deliver extensible foolproof strategy for sharing components by EOQ1
+•	Blue – Deliver extensible foolproof strategy for sharing components by EOQ1.  
+Architecture Work Group reported a pivot in strategy; from a standardization of components to research/study into what is required to share dialogues (and context, control, and privacy-security) between conversational agents.   A five-step process documented, described for moving forward. 
 
 Privacy & Security
 Privacy
@@ -47,7 +42,7 @@ Security
 •	Doug: Threat Modelling output should be leveraged by the development teams of the VRS MVP implementation work.  Maria: work slated for July.
 •	Incorporate the scenarios from the Architecture group as the next round of threat modelling exercise.  
 
-Privacy Policy
+Privacy Policies Comparison, Analysis
 •	Green: Q1 work on track.
 •	Research work completed by end of March.
 •	Plan to have the summary for Tuesday’s Privacy & Security workgroup meeting.  
@@ -55,19 +50,14 @@ Privacy Policy
 
 
 VRS Deep Dive
-•	Doug:  Provided this guidance on semantic versioning: https://semver.org/
-•	Jon: CNSA potential for adopting the VRS implementation
-•	Shyamala: process questions around self-service
+•	M. Brinas-Dobrowski provided a detailed overview of VRS process and decisions to date.  Discussed at length the options and decision-making in re: the role of NLU in VRS identification and routing; noted clear preference to pursue simplicity -- VRS to have a singular function.  Also reviewed initial data schema for VRS registration/recognition.  S. Prayaga noted need to determine, document registration processes; agreement that such work was still TBD.  
+	D. Rogers povided this guidance on semantic versioning: https://semver.org/
+	J. Stine noted interest from China Netcasting Services Association (CNSA) to engage, potentially adopt a VRS system from OVN. 
+	
+### News/Notes:
+•	D. Cundiff noted formation of Croqui, start-up of former Mozilla team.  May offer opportunities for OVN development work. 
 
-
-News/Notes:
-•	Doug: Former Mozilla team formed startup that we could possibly leverage for development work.
-
-
-
-
-
-
+### Meeting adjourned at 9:58 CDT. 
 
 
 
