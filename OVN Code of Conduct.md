@@ -1,4 +1,4 @@
-### THE COMMUNITIES OF THE OPEN VOICE NETWORK
+## THE COMMUNITIES OF THE OPEN VOICE NETWORK
 Remit, Governance, Culture, and Code of Conduct
 As approved 2020.07.13 by the Steering Committee of the Open Voice Network. 
 
