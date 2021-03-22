@@ -1,8 +1,8 @@
-## THE COMMUNITIES OF THE OPEN VOICE NETWORK
-Remit, Governance, Culture, and Code of Conduct
+## THE COMMUNITIES OF THE OPEN VOICE NETWORK:  REMIT, GOVERNANCE, CULTURE AND CODE OF CONDUCT
+
 As approved 2020.07.13 by the Steering Committee of the Open Voice Network. 
 
-INTRODUCTION
+### INTRODUCTION
 The Open Voice Network (OVN) is dedicated to making voice assistance worthy of user trust, and doing so through the development, proposal, and adoption of technical standards and ethical use guidelines.
 
 History teaches that broad and deep, communal involvement in the development of standards and usage guidelines is a key to widespread adoption and implementation.   For that reason, it is essential that The Open Voice Network develop and nurture a wide range of actively-engaged user communities.   
