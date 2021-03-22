@@ -54,6 +54,9 @@ Mike Frazzini headed up the workgroup and worked together with the workgroup mem
 
 The results reported in this document were made possible by Jon Stine, Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, and others.
 
+## Legal Disclaimer
+
+The Privay Privacy & Security Workgroup of the Open Voice Network has produced this document as a reference for understainding and addressing privacy risks, values, guidelines, and capabilities unique to voice technologies. Please note that privacy laws and regulations differ throughout the world, and in no way do we represent this reference to comply with applicable laws and regulations. All guidelines and capabilities presented in this document should be limited to the extent that the lawa allows, and legal review and consultation is recommended for any specific implematation of privacy policies and capabilities to ensure they are compliant with applicable laws and regulations.
 
 ## **Voice Assistant System Overview**
 
@@ -101,9 +104,11 @@ _*Please refer to figure above_
 
 7) Voice technology involves multiple devices in the same environment; potentially listening to, interacting with, and/or controlling each other, and/or controlling all manner of sensitive devices (i.e. car, insulin pump, environmental systems, etc).
 
-*Privacy Risk:  Personal and sensitive data is inadvertently revealed to others during confirmation and playback, and shared and used in ways that may cause harm to the consumer.*
+8) Complex privacy polices and practices are difficult to communicate and clarify over voice technology and text-to-speech playback.
 
-8) Voice technology involves voice device responses for confirmation and playback.
+*Privacy Risk:  Personal and sensitive data is inadvertently revealed to others during confirmation and text-to-speech playback, and shared and used in ways that may cause harm to the consumer.*
+
+9) Voice technology involves voice device responses for confirmation and text-to-speech playback.
 
 
 ## **Values, Guidelines, and Technical Capabilities to Address Privacy Risks Unique to Voice**
@@ -117,6 +122,10 @@ _Example: A standard invocation phrase and application service is available on a
 1.2 A voice initiated user interface must be made easily accessible and readily available to the consumer for the purpose of providing user notification of general data processing and AI inference routines (for example, if there is an AI inference routine for emotion, this should be disclosed in the notification).
  
 _Example: As a subroutine of the privacy policy notification, a voice assistant asks if the user would like to know what inference routines are utilized.  The User responds, “yes,” and the voice assistant notifies the User of the voice inference routines being used (i.e. “voice speech-to-text only.” But if the voice assistant is also doing sentiment analysis, the response would be “voice speech-to-text and voice sentiment analysis.”)_
+
+1.3 Pivacy policy and practice notification should be tailored for text-to-speech playback, as well as available in other modes such as online and text links to phone.
+
+_Example: When a voice assistant is asked "what is your privacy policy?" the response should be tailored to text-to-speech playback, including menuing and smaller segments delivered interactively; Device: "Our privacy policy has multiple sections; 1.) Information collected; 2.) Information usage; 3.) Information sharing; 4.) How to review and request changes to your information; ... Please choose which option you would like to hear the details about."_ 
 
 **2. Consent**
 
@@ -148,7 +157,7 @@ _Example: As the voice assistant is continuously performing raw audio capture an
 
 _Example: The voice technology platform has an interface that allows the user to review all collected and stored data, providing capabilities for the user to review, correct, or securely delete their data._
 
-4.2 Voice confirmation and playback routines should only include information provided in a related request; if additional information is necessary, explicit prompting and explicit affirmation must occur before confirmation and playback of this information.
+4.2 Voice confirmation and text-to-speech playback routines should only include information provided in a related request; if additional information is necessary, explicit prompting and explicit affirmation must occur before confirmation and playback of this information.
  
 _Example: A user provides information to a voice assistant to refill a prescription with a reference to a prescription number, the voice assistant application confirms the request but does not playback (TTS) the name or description of the prescription medicine unless explicitly requested to._
 
