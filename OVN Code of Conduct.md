@@ -1,4 +1,5 @@
-## THE COMMUNITIES OF THE OPEN VOICE NETWORK:  REMIT, GOVERNANCE, CULTURE AND CODE OF CONDUCT
+## THE COMMUNITIES OF THE OPEN VOICE NETWORK:  
+## REMIT, GOVERNANCE, CULTURE AND CODE OF CONDUCT
 
 As approved 2020.07.13 by the Steering Committee of the Open Voice Network. 
 
@@ -17,20 +18,16 @@ Interested parties may join (and participate in) as many OVN Communities as time
 
 Community members will participate through the Slack instant-messaging and document-sharing tool, through cloud-based document development and storage drives, and when appropriate on the OVN GitHub repository.  Questions and documents will be posted for comment and community discussion.  On occasion, conference calls will be scheduled to provide information and updates.  
 
+### OPEN VOICE NETWORK COMMUNITIES: REMIT, GOVERNANCE, AND CULTURE
 
-
-
-OPEN VOICE NETWORK COMMUNITIES:
-REMIT, GOVERNANCE, AND CULTURE
-1
-The Remit of the OVN Communities.
+**1  The Remit of the OVN Communities.**
 
 All OVN Communities are responsible for the following:
 
 •	To inform and advise the work of The OVN as it addresses:
-o	Technical standards definition, research, prioritization, and development
-o	Enterprise industry value proposition and use case research, documentation, and development.
-o	Ethical use.
+o 	* Technical standards definition, research, prioritization, and development
+o	  * Enterprise industry value proposition and use case research, documentation, and development.
+o	  * Ethical use.
 
 •	To lift the knowledge, proficiency, and market value of all OVN Community members through the sharing of information and rich dialogue.
 
@@ -44,14 +41,14 @@ It is expected that the objectives of each OVN Community will be pursued through
 •	in a safe environment, one in which ideas can explored without fear
 •	on behalf of the OVN with the broader voice world. 
 
-In addition:
+**In addition:regarding the use of OVN Communities for personal gain:**
 
-a)	The use of the OVN Communities for sales or personal financial gain Is not permitted.  Participants in OVN Communities are welcome to share blog posts, conferences, invitations to seminars, job postings, and other resources which may be relevant to the remit of the OVN Communities and of value to Community members.  However, we will not welcome – and will ask members to remove – notices that serve to promote products or services for personal financial gain.   
+a)	The use of the OVN Communities for sales or personal financial gain Is not permitted.  Participants in OVN Communities are welcome to share blog posts, conferences, invitations to seminars, job postings, and other resources which may be relevant to the remit of the OVN Communities and of value to Community members.  However, we will not accept – and will ask members to remove – notices that serve to promote products or services for personal financial gain.   
 
 b)	Unsolicited sales or product pitches to OVN sponsoring enterprises by OVN Community members are not permitted. 
 
-2
-The Governance of the OVN Communities.
+**2 The Governance of the OVN Communities.** 
+
 OVN Communities can be formed by any self-identifying (expertise, geography, industry, or ethical use) group of individuals who share the vision and support the strategy of The Open Voice Network.   Community formation will first be recognized by the OVN Executive Director, and then affirmed by The Steering Committee.  The establishment of Slack Channels and Slack access will be managed by The Executive Director. 
 
 All OVN Communities will be led by OVN Community Moderators.  These individuals will be volunteers, and members of the Communities that they serve.
@@ -73,24 +70,20 @@ In real-time meetings or online discussions, moderators will be expected to
 •	Encourage discussion but discourage arguments ("Take it off-line" often enables discussions to get back on course);
 •	Demonstrate polite professionalism, and insist on tolerance to all ideas.
 Moderators are expected to work with the executive director to establish meeting dates (up to 3 months in advance), agendas, and meeting logistics.
-3
-The Culture of the OVN Communities.
+
+**3 The Culture of the OVN Communities.**
 
 We believe the following: 
 
 1.	Ideas can grow to standards when they 1) emerge from a community of diversity and depth, and 2) are adopted (to economic benefit) by leading users.
-
 2.	A community can create the optimum value for the most when it is diverse in intellectual perspective, regional affiliation, gender, age, and ethnicity.  
-
 3.	Robust disagreement has the power to accelerate knowledge most productively when pursued through careful listening and civil discourse. 
-
 4.	Standards for conversational AI must be pursued with a student’s humility, which includes respect for precedent, a searching and questioning mind, and a thirst for new knowledge. 
-
 5.	While we will applaud hard work, we recognize that what matters most is the fulfillment of milestone promises, at-or-above expectations, and on time.  
 
 
-OPEN VOICE NETWORK COMMUNITIES:
-CONTRIBUTOR CODE OF CONDUCT
+### OPEN VOICE NETWORK COMMUNITIES:
+### CODE OF CONDUCT
 
 Our Pledge:
 
@@ -98,7 +91,7 @@ We as members, contributors, and leaders pledge to make participation in our com
 
 We pledge to act and interact in ways that contribute to an open, welcoming, diverse, inclusive, and healthy community.
 
-Our Standards
+**Our Standards**
 
 Examples of behavior that contributes to a positive environment for our community include:
 
@@ -116,26 +109,26 @@ Examples of unacceptable behavior include:
 •	Publishing others’ private information, such as a physical or email address, without their explicit permission
 •	Other conduct which could reasonably be considered inappropriate in a professional setting
 
-Enforcement Responsibilities
+**Enforcement Responsibilities**
 
 Community leaders are responsible for clarifying and enforcing our standards of acceptable behavior and will take appropriate and fair corrective action in response to any behavior that they deem inappropriate, threatening, offensive, or harmful.
 
 Community leaders have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct, and will communicate reasons for moderation decisions when appropriate.
 
-Scope
+**Scope**
 
 This Code of Conduct applies within all community spaces, and also applies when an individual is officially representing the community in public spaces.  Examples of representing our community include 
 •	using an official e-mail address,
 •	posting via an official social media account, or acting as an appointed
 •	representative at an online or offline event.
 
-Enforcement
+**Enforcement**
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be reported to the OVN Executive Director and/or any member of the OVN Steering Committee via written or verbal means.  
 
 All complaints will be reviewed and investigated promptly and fairly.  All community leaders are obligated to respect the privacy and security of the reporter of any incident.
 
-Enforcement Guidelines
+**Enforcement Guidelines**
 
 Community leaders will follow these Community Impact Guidelines in determining the consequences for any action they deem in violation of this Code of Conduct:
 
@@ -158,7 +151,8 @@ Violating these terms may lead to a permanent ban.
 Community Impact: Demonstrating a pattern of violation of community standards, including sustained inappropriate behavior,  harassment of an individual, or aggression toward or disparagement of classes of individuals.
 Consequence: A permanent ban from any sort of public interaction within the community.
 
-Attribution
+**Attribution** 
+
 This Code of Conduct is adapted from the Contributor Covenant, version 2.0, available at 
 https://www.contributor-covenant.org/version/2/0/code_of_conduct.html.
 Community Impact Guidelines were inspired by Mozilla’s code of conduct enforcement ladder.
@@ -168,5 +162,5 @@ https://www.contributor-covenant.org/translations.
 
 ##
 2020.06.22 
-Approved Open Voice Steering Committee 2020.07.13  
+**Approved Open Voice Steering Committee 2020.07.13**  
 
