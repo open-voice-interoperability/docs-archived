@@ -41,7 +41,7 @@ It is expected that the objectives of each OVN Community will be pursued through
 •	in a safe environment, one in which ideas can explored without fear
 •	on behalf of the OVN with the broader voice world. 
 
-**In addition:regarding the use of OVN Communities for personal gain:**
+**Regarding the use of OVN Communities for personal gain:**
 
 a)	The use of the OVN Communities for sales or personal financial gain Is not permitted.  Participants in OVN Communities are welcome to share blog posts, conferences, invitations to seminars, job postings, and other resources which may be relevant to the remit of the OVN Communities and of value to Community members.  However, we will not accept – and will ask members to remove – notices that serve to promote products or services for personal financial gain.   
 
