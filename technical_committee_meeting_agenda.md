@@ -260,3 +260,14 @@
   - _reminder of "Deep Dive" schedule: 2 April -- Security; 16 April -- Architecture_
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
+
+2021-04-02
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Q2 Milestones (5 minutes)
+-   - thoughts on our progress -- Jon 
+    - Q2 milestones: In order: VRS, Architecture, Privacy and Security
+- 2021.03.05 DEEP DIVE:  Security -- M. Lens-Fitzgerald
+  - _reminder of "Deep Dive" schedule: 16 April -- Architecture_
+- News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
+- Adjourn
