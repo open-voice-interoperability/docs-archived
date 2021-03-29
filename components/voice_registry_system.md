@@ -10,11 +10,24 @@ VRS's goal is to provide and promote voice openness and transparency.
 See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
 
 ### 1.0.3. Problem Context
+The task of the Open Voice Network Voice Registry Work Group is to develop and propose standards-based solutions to the broad issue of voice application *__discoverability__*.  It is a problem for individual users and content creators today; if unaddressed, it will choke the realization of value in tomorrow's world of both general purpose platforms and independent voice assistants.
+
+We believe, broadly, that discoverability is about three critical capabilities: 
+* the ability of individual users to **find** a voice application of choice;
+* the ability of providers of voice applications **to be found**;  and,
+* the ability of providers of voice applications to **fully deliver** a desired voice experience.
+* 
+As noted above, discoverability is a problem for individual users and content creators in today's voice world, one that is currently dominated by general purpose proprietary platforms.  Each proprietary platform has a different method (i.e., brand vocabulary) and process for verification and connection to a user's desired destination.  In addition, the number of total voice applications (often referred to as "skills" or "actions") on a given platform can total 100,000 or more; finding a specific application (or, being _found_) becomes increasingly difficult in such a forest of choices.  
+
+The challenge of finding and being found will be amplified in the hybrid voice ecosystem that is now emerging worldwide.  independently-developed and -managed voice assistants will operate next to the proprietary voice platforms.  In this hybrid world -- without discoverability solutions -- consumers will be tasked with searching for desired destinations across both platforms and the expanding voice application universe, and enterprises and organizations will be tasked with developing and managing multiple applications across multiple platforms.
+
+The issue of experience delivery is also an important part of discoverability.  We see that enterprise and organization brand managers will want to control (and deliver) a voice experience that uniquely delivers on the brand promise, as well as protect user and commercial data.  Enterprises and organizations will wish to guide individual users to specific destination.  
+
+For these reasons (and many more) we propose the development of a decentralized, global destination registry for voice applications -- a **Voice Registry System.**
+
+### Situation Analysis: Today's Voice Ecosystem
+
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
-
-In addition, the world of voice assistance is also in the midst of a major market transition.  In the near future, the role of cloud-centric platforms and third party entities will change, as third-party entities (especially enterprises) increasingly develop their own independent voice assistants.   This will -- at first, slowly, then rapidly --  push the industry from the current skills-on-platform model (similar to that of world of mobile apps) to what might be described as an internet model, where independent voice assistants (like web sites) connect interoperably across platforms and services providers.
-
-Both the present and future situations are problematic for entities that wish to connect to their customers, patients, clients, and suppliers through voice assistance.
 
 
 Below are the **problems** identified in the current landscape.
