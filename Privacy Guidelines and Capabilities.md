@@ -56,7 +56,7 @@ The results reported in this document were made possible by Jim Larson, Peter Be
 
 ## Legal Disclaimer
 
-The Privacy & Security Work Group of the Open Voice Network has developed this document as a guide for understanding and addressing privacy risks, values, guidelines, and capabilities unique to voice technologies.  We respect, however, that privacy legislation and regulation may differ by country and locale; guidelines and capabilities recommended in this document may be superseded by prevailing law and custom.  The Open Voice Network recommends that legal review and consultation precede any specific implematation of privacy policies and capabilities recommended in this document.
+The Privacy & Security Work Group of the Open Voice Network has developed this document as a guide for understanding and addressing privacy risks, values, guidelines, and capabilities unique to voice technologies.  We respect, however, that privacy legislation and regulation may differ by country and locale; guidelines and capabilities recommended in this document may be superseded by prevailing law and custom.  The Open Voice Network recommends that legal review and consultation precede any specific implementation of privacy policies and capabilities recommended in this document.
 
 ## **Voice Assistant System Overview**
 
