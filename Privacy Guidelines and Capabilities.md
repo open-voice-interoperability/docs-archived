@@ -12,14 +12,14 @@ According to the United Nations Conference on Trade and Development, 128 nations
 
 Within this long list of consumer data protection legislation and regulation, legal analysts point to two as most important to current European and North American practice: the General Data Protection Regulation (GDPR) of the European Union, which took effect in May 2018, and the GDPR-inspired California Consumer Protection Act (CCPA) of 2018, with follow-on amendments in the California Privacy Rights Act (CPRA) of 2020.  Both declare privacy to be a human right; both approach data use and privacy from a consumer's point of view; both delineate the consumer's rights in regard to data acquisition, use, storage, sale, and transparency.  
 
-Voice assistance began to emerge as an important consumer technology at the same time GDPR and CCPA were in their initial development.  Although GDPR and CCPA (and other national and local legislation and regulation) are directly relevant to the use of this technology, voice assistance brings with it a number new privacy and consumer data use issues.  Voice assistance is also beginning an evolution from its current paradigm -- one of platform-based, consumer-centric applications -- to a new paradigm of independent, enterprise-owned and -developed conversational agents.  This will dramatically expand the universe of voice assistance data and data managers.
+Voice assistance began to emerge as an important consumer technology at the same time GDPR and CCPA were in their initial development.  Although GDPR and CCPA (and other national and local legislation and regulation) are directly relevant to the use of this technology, voice assistance brings with it a number new privacy and consumer data use issues.  Many of these issues were addressed by the European Data Protection Board (EDPB) March 2021 publication of a 1.0 guideline that applied GDPR to the current world of voice assistance.  However, voice assistance is now evolving from its current paradigm -- one of platform-based, consumer-centric applications -- to a new, hybrid ecosystem of both platform-based general purpose voice assistants and independent, organizationally-owned and -developed assistants.  This will dramatically expand the universe of voice assistance data and data managers.
 
 For these reasons, the Technical Committee of the Open Voice Network, a neutral non-profit industry association dedicated to standards development for voice assistance, formed in 2020 a Work Group chartered to develop, in accord with current regulation and legislation, privacy guidelines specific to voice assistance. 
 
 **The Open Voice Network**
 **Voice-Specific Privacy Guidelines**
 
-The issue of privacy is a human right and is central to The Open Voice Network (OVN). Privacy is foundational to trust, and trust is crucial for the adoption and success of voice technology.  
+Privacy is a human right.  The issue of privacy within voice assistance is of central concern to the The Open Voice Network (OVN) because user privacy is foundational element in the establishment and maintenance of trust.  And trust is crucial for the adoption and success of voice technology.  
 
 In its development of technical capabilities and ethical use guidelines, privacy is addressed from two critical perspectives within an understanding of the technologies and systems of today’s and tomorrow’s voice applications and conversational AI: \
 
@@ -52,7 +52,7 @@ Mike Frazzini headed up the workgroup and worked together with the workgroup mem
 *   Privacy risks unique to voice were enumerated and challenged.
 *   Privacy values, guidelines, and technical capabilities enumerated and challenged to address privacy risks unique to voice.
 
-The results reported in this document were made possible by Jon Stine, Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, and others.
+The results reported in this document were made possible by Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, Jon Stine, and others.
 
 
 ## **Voice Assistant System Overview**
