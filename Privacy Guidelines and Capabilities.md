@@ -52,11 +52,11 @@ Mike Frazzini headed up the workgroup and worked together with the workgroup mem
 *   Privacy risks unique to voice were enumerated and challenged.
 *   Privacy values, guidelines, and technical capabilities enumerated and challenged to address privacy risks unique to voice.
 
-The results reported in this document were made possible by Jon Stine, Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, and others.
+The results reported in this document were made possible by Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, Jon Stine, and others.
 
 ## Legal Disclaimer
 
-The Privay Privacy & Security Workgroup of the Open Voice Network has produced this document as a reference for understainding and addressing privacy risks, values, guidelines, and capabilities unique to voice technologies. Please note that privacy laws and regulations differ throughout the world, and in no way do we represent this reference to comply with applicable laws and regulations. All guidelines and capabilities presented in this document should be limited to the extent that the lawa allows, and legal review and consultation is recommended for any specific implematation of privacy policies and capabilities to ensure they are compliant with applicable laws and regulations.
+The Privacy & Security Work Group of the Open Voice Network has developed this document as a guide for understanding and addressing privacy risks, values, guidelines, and capabilities unique to voice technologies.  We respect, however, that privacy legislation and regulation may differ by country and locale; guidelines and capabilities recommended in this document may be superseded by prevailing law and custom.  The Open Voice Network recommends that legal review and consultation precede any specific implementation of privacy policies and capabilities recommended in this document.
 
 ## **Voice Assistant System Overview**
 
