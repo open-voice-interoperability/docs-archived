@@ -2,7 +2,8 @@
 
 ## Open Voice Network, Privacy & Security Workgroup 
 
-Origin: Version 1, October 30th 2020, converted to markdown January 19th 2021
+Initial version published for internal development 1 October 2020.  
+Version 1.0 for public comment published 30 March 2021.
 
 ## **Introduction**
 
@@ -44,15 +45,17 @@ The Open Voice Network seeks to provide guidance and standards for creating voic
 
 ## Approach
 
-Mike Frazzini headed up the workgroup and worked together with the workgroup members to deliver the results as reported here using this approach:
+The Privacy and Security Work Group of the Technical Committee of the Open Voice Network was formed in June, 2020 by an action of the OVN Technical Committee.  The Privacy and Security Work Group met for the first time on 7 July 2020; Work Group participants selected Mike Frazzini, Iterate.ai, and Maarten Lens-Fitzgerald, voice evangelist and strategist, to moderate Work Group meetings.  As the work proceeded, Mike Frazzini assumed leadership of the privacy work; Lens-Fitzgerald, the security work.
 
-*   Privacy doctrine, principles, policy, regulations, and laws were researched and reviewed.
-*   Privacy risks and harms were evaluated.
-*   Voice technology interactions were explored to determine privacy concerns and risks unique to voice.
-*   Privacy risks unique to voice were enumerated and challenged.
-*   Privacy values, guidelines, and technical capabilities enumerated and challenged to address privacy risks unique to voice.
+On the topic of user privacy, the Work Group pursued this five-step development process:
 
-The results reported in this document were made possible by Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, Jon Stine, and others.
+*   Research and review of current and leading privacy doctrines, principles, policies, regulations, and laws;  
+*   Evaluation, using proven models, of voice-specific user privacy risks and harms; 
+*   Exploration of voice-specific interactions determine privacy concerns and risks unique to voice.
+*   Definition, discussion, and prioritization of privacy risks unique to voice.
+*   Identification and discussion of privacy values, guidelines, and required technical capabilities in regards to privacy risks unique to voice.
+
+The results reported in this document were made possible by Jim Larson, Peter Bentsen, Jonathan Eisenzopf, Doug Rogers, John Iwasz, Lawrence Lin, Maarten Lens-FitzGerald, Nick Myers, Shyamala Prayaga, Oita Coleman, Maria Brinas-Dobrowski, Ali Dalloul, Jon Stine, and many others.
 
 
 ## **Voice Assistant System Overview**
