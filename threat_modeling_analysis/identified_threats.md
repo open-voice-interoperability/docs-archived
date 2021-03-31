@@ -1,10 +1,16 @@
-Using the [STRIDE framework](https://en.wikipedia.org/wiki/STRIDE_(security)), the following are identified threats.
+# Identified Threats in Voice Systems
 
-## Assumptions
+Using the [STRIDE framework](https://en.wikipedia.org/wiki/STRIDE_(security)), the following are identified threats. This is intenteded to be a living document. As more use-cases are discussed, this document should be updated to catalog the threats.
+
+## [Assumptions]
   * The focus of this exercise was to identify threats specific to Voice Networks.  As such, threats that would be common to any other application will not be studdied (for example: the threat of information disclosure of REST API calls over HTTP connections is not specific to Voice Networks, and as such will not be called out)
 
+ ## [Definitions]
+ 
+  * Vulnerability: A flaw or weakness in a system's design, implementation, or operation
+  * Theat: A possible danger that might exploit a vulnerability
 
-## STRIDE Matrix
+## [STRIDE]
 
 | Category                   | Definition |
 | -------------------------- | ---------- |
@@ -15,7 +21,7 @@ Using the [STRIDE framework](https://en.wikipedia.org/wiki/STRIDE_(security)), t
 | **D**enial of Service      | Stopping something from working or responding |
 | **E**levation of Privllege | Upgrading from user to admin |
 
-## Entities
+## [Entities]
 
 Systems:
  * Home Voice Assistant - An in-home voice assistant, such as Google Home, Alexa, etc. 
@@ -32,7 +38,14 @@ _Note: Names are taken from [fictional charaters](https://en.wikipedia.org/wiki/
  * Eve - an unauthorized participant 
  * Oscar - an outside individual, not intentioanlly trying to interact with the system.
 
+## [Threats]
+
 | # | Threat | Assumptions | Category |
 |---|---|---|---|
-| 1 | Eve records Alice interacting with the Home Voice Assistant where Alice orders mayonnaise for delivery.  Eve then replays the interaction later to cause Alice to pay for a large amount of unexpected mayonnaise. | Alice has already configured the Home Voice Assistant to allow ordering, complete with payment and shipping information. | S, R |
-|  | 
+
+| 1 | Eve records Alice interacting with the Home Voice Assistant where Alice orders mayonnaise for delivery.  Eve then replays the interaction later to cause Alice to pay for a large amount of unexpected mayonnaise. | Alice has already configured the Home Voice Assistant to allow ordering, complete with payment and shipping information. | [S](#stride "Spoofing"), [R](#stride "Repudiation") |
+
+
+|  | Alice is in her car with an In-Vehicle Voice Assistant, stopped in a parking lot with the windows down.  Oscar is in a car next to Alice, and speaks in a way that Alice's voice assistant can hear.  Oscar says "Next Song", then Alice's car begins playing "Piilotan mun kyyneleet"	by Haloo Helsinki, interupting the podcast she was listening to. | | [R](#stride "Repudiation") |
+
+
