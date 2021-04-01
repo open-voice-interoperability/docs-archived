@@ -123,7 +123,7 @@ _Example: A standard invocation phrase and application service is available on a
  
 _Example: As a subroutine of the privacy policy notification, a voice assistant asks if the user would like to know what inference routines are utilized.  The User responds, “yes,” and the voice assistant notifies the User of the voice inference routines being used (i.e. “voice speech-to-text only.” But if the voice assistant is also doing sentiment analysis, the response would be “voice speech-to-text and voice sentiment analysis.”)_
 
-1.3 Pivacy policy notifications should be adapted for text-to-speech playback, as well as made available in other modes that are accessible and adapted to the users and devices involved.
+1.3 Privacy policy notifications should be adapted for text-to-speech playback, as well as made available in other modes that are accessible and adapted to the users and devices involved.
 
 _Example: When a voice assistant is asked "what is your privacy policy?" the response should be tailored to text-to-speech playback, including menuing and smaller segments delivered interactively; Device: "Our privacy policy has multiple sections; 1.) Information collected; 2.) Information usage; 3.) Information sharing; 4.) How to review and request changes to your information; ... Please choose which option you would like to hear the details about."_ 
 
