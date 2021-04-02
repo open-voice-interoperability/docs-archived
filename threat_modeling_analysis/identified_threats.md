@@ -36,6 +36,7 @@ _Note: Names are taken from [fictional charaters](https://en.wikipedia.org/wiki/
  * Bob - a secondary user of the voice sytem.  In systems where authorization is required, Bob is an authorized secondary user
  * Chuck - a secondary user of the voice system. In systems where authorization is required, Chuck has limited authorization
  * Eve - an unauthorized participant 
+ * Grace - A law enfocement officer
  * Oscar - an outside individual, not intentioanlly trying to interact with the system.
 
 ## Threats
@@ -43,6 +44,10 @@ _Note: Names are taken from [fictional charaters](https://en.wikipedia.org/wiki/
 | # | Threat | Assumptions | Category |
 |---|---|---|---|
 | 1 | Eve records Alice interacting with the Home Voice Assistant where Alice orders mayonnaise for delivery.  Eve then replays the interaction later to cause Alice to pay for a large amount of unexpected mayonnaise. | Alice has already configured the Home Voice Assistant to allow ordering, complete with payment and shipping information. | [S](#stride "Spoofing"), [R](#stride "Repudiation") |
-|  | Alice is in her car with an In-Vehicle Voice Assistant, stopped in a parking lot with the windows down.  Oscar is in a car next to Alice, and speaks in a way that Alice's voice assistant can hear.  Oscar says "Next Song", then Alice's car begins playing "Piilotan mun kyyneleet"	by Haloo Helsinki, interupting the podcast she was listening to. | | [R](#stride "Repudiation") |
-
-
+| 2 | Alice is in her car with an In-Vehicle Voice Assistant, stopped in a parking lot with the windows down.  Oscar is in a car next to Alice, and speaks in a way that Alice's voice assistant can hear.  Oscar says "Next Song", then Alice's car begins playing "Piilotan mun kyyneleet"	by Haloo Helsinki, interupting the podcast she was listening to. | | [R](#stride "Repudiation") |
+| 3 | Alice is at home when a television advertisment for a new tea kettle emporium says "Hey Voice Assistant, remind me to come to Trudy's Trusty Tea Emporium tomorrow at 9am", and Alice's Hom Voice Assistant honors the command and indeed verbalizes a reminder the next morning. | | [R](#stride "Repudiation") |
+| 4 | Alice's neighbor, Chuck, keeps a White Bellbird named Frank, as a pet.  Alice tries to ask her Home Voice Assistant for the weather forcast while Frank begins signing. Frank is so loud, the Voice Assistant cannot hear or understand Alice. | | [D](#stride "Denial of Service")
+| 5 | Oscar comes to visit Alice.  Oscar knows that Alice needs to use her Home Voice Assistant to .... To prevent Alice from doing so, Oscar keeps asking the voice assistant for sports jokes. | Obviously Oscar cannot occupy the voice assistant indefinitely, so the assumption is Alice needs to ... in a specific time frame. | [D](#stride "Denial of Service") |
+| 6 | Alice decides to go for a walk outside when it is -40° outside.  She puts on a very warm parka and scarf, placing her smartphone in the parka pocket. While on her walk, she thinks she sees Noomi Rapace.  Because of the cold, she does not want to take her mittens off, and asks her Smart Phone Voice Assistant "Is Noomi Rapace filming in Tromsø right now?".  However, due to the thick parka and scarf, the voice assistant does not hear Alice. | | [D](#stride "Denial of Service") |
+| 7 | Chuck spends hours learning how to mimic Alice's voice so that he can order a new electric tuba on the Home Voice Assistant. | Alice did not want, nor authorize, the purchase of an electric tuba. | [S](#stride "Spoofing"),[R](#stride "Repudiation") |
+| 8 | Officer Grace performs a traffic stop, and asks Alice to step outside the vehicle. While Alice is outside the vehicle, Grace asks the In-Vehicle Voice Assistant for the location history of the vehicle. | Grace has not been given explicit permission to interact with the asistant. | [I](#stride "Information Disclosure") |
