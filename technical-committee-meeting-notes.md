@@ -1,3 +1,70 @@
+# 2021-04-02 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M.Lens-FitzGerald, M. Frazzini,  N. Myers, S. Baul, D.Cundiff
+
+The meeting began at 9:02 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- D. Cundiff
+
+###  Open Interoperability Workshop – J. Larson, J. Stine 
+*  OVN hosting an Open Interoperability workshop  June 15-17, 2021
+*  Details on www.openvoicenetwork.org 
+
+### OVN Vocabulary Alignment 
+*  From our vocabulary, discussed the following to ensure alignment and evangelization in our documentation: 
+   * Conversational Agent 
+   * Virtual assistant system 
+   * Conversation processor
+   * Conversational endpoint  *endpoints are sometimes referred to as a channel*
+   * Organizations  *not enterprises or entities* 
+* Suggestion that we should introduce the vocabulary at the June Open Interoperability Workshop and to post on the OVN website 
+
+### Deep Dive:  Voice-specific Security (M. Lens-Fitzgerald)
+* Activity up to now
+   * Workgroup started July 5th, 2020
+   * Voice Security Capabilities report published October 2020
+   * 2nd round:  threat scenario analysis started March 2021 
+* Threat Scenario Analysis
+   * Used STRIDE framework to identify categories of threat.  Ex. Spoofing, tampering, repudiation…
+   * Vulnerability is a key focus area
+   * Systems to analyze :  Home speaker assistant, Phone assistant, Car assistant, *In-store assistant*
+   * Using the “Alice and Bob fictional character” set commonly used in security 
+   * Creating threat scenarios 
+* Deliverables 
+   * Delivery Exercise –Security & Voice Assistants Needs: 
+        * Group provided many examples of needs- A lot of really great examples shared!   
+          * Consulting firm:  a maturity model on the topic of security in voice that reflects both best practices for the known current state and educated projections for the next-phase future state.  A lifespan of 18-24 months.  Can be used as a discussion tool with clients, a model practice development, a soft/general overall industry compliance model
+          * Industry-specific guidance on voice data (i.e., healthcare, commerce, etc.)
+          * Voice-specific guidance on proper data handling and protection on top of existing data security guidance and practices
+          * Guidance on voice-specific security as it relates to existing regulations (i.e., HIPPA)               * Guidance on voice-specific security breaches
+          * Areas of threat based on use cases
+          * A deep dive guideline with examples, what specific design, architecture and code-based preventative steps should a company take based on that
+          * How do security measures interoperate - what qualifies as something another company can trust when an interaction is handed off to another
+          *otep
+          *standards or best practices on how to indicate what security is applied
+          * use for OWASP 10 or SANS assessments
+          * threat modeling to prioritize enterprise risks
+          * product management create security-related use cases
+          * Conversational Agent (User) – An OVN security certification and summary of what protection standards and benefits are provided        
+          * VAS Designer - Guidelines and Capabilities for ensuring adequate confidentiality, integrity, and availability of Virtual Assistant Systems
+          * VAS Marketer - An OVN security certification and program for compliance.
+          * Home telephone:  call filter to screen telephone calls, black list of calls not to accept, Eaves dropper to detect possible fraud
+* Next Steps 
+   * Write up scenarios
+   * Publish scenarios 
+   * Create and publish something 
+   * Explore security capability analysis test 
+   * Participate in Cyber Security Month
+
+* Reminder of Deep Dive Scheduled for 16 April:  Architecture 
+
+Meeting adjourned at 9:59 ct
+
+
+
+
 # 2021-03-19 Notes of the Technical Committee Meeting 
 
 Attendees: J. Stine, O. Coleman, N. Myers, D. Cundiff, A. Fricke, M. Frazzini, M. Brinas-Dobrowski, R. Nathenson, D. Rogers, S. Prayaga, P. Gopal, S. Baul.
