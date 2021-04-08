@@ -10,20 +10,21 @@ VRS's goal is to provide and promote voice openness and transparency.
 See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
 
 ### 1.0.3. Problem Context
-The task of the Open Voice Network Voice Registry Work Group is to develop and propose standards-based solutions to the broad issue of voice application *__discoverability__*.  It is a problem for individual users and content creators today; if unaddressed, it will choke the realization of value in tomorrow's world of both general purpose platforms and independent voice assistants.
+The task of the Open Voice Network Voice Registry System (VRS) Work Group is to develop standards-based solutions for how _verbalized, explicitly-requested conversational agent destinations_ will,by another conversational agent, **be uniquely identified and connected.**
 
-We believe, broadly, that discoverability is about three critical capabilities: 
-* the ability of individual users to **find** a voice application of choice;
-* the ability of providers of voice applications **to be found**;  and,
-* the ability of providers of voice applications to **fully deliver** a desired voice experience.
-* 
-As noted above, discoverability is a problem for individual users and content creators in today's voice world, one that is currently dominated by general purpose proprietary platforms.  Each proprietary platform has a different method (i.e., brand vocabulary) and process for verification and connection to a user's desired destination.  In addition, the number of total voice applications (often referred to as "skills" or "actions") on a given platform can total 100,000 or more; finding a specific application (or, being _found_) becomes increasingly difficult in such a forest of choices.  
+This issue anticipates the continued growth of voice assistant systems that are independent of major platform technologies, and the emergence of a hybrid voice assistant ecosystem consisting of both general-purpose platform-based conversational agents and independent systems, most often managed and operated by enterprises. 
 
-The challenge of finding and being found will be amplified in the hybrid voice ecosystem that is now emerging worldwide.  independently-developed and -managed voice assistants will operate next to the proprietary voice platforms.  In this hybrid world -- without discoverability solutions -- consumers will be tasked with searching for desired destinations across both platforms and the expanding voice application universe, and enterprises and organizations will be tasked with developing and managing multiple applications across multiple platforms.
+The VRS will provide value to voice assistant system providers and operators, and to consumers. It will provide
 
-The issue of experience delivery is also an important part of discoverability.  We see that enterprise and organization brand managers will want to control (and deliver) a voice experience that uniquely delivers on the brand promise, as well as protect user and commercial data.  Enterprises and organizations will wish to guide individual users to specific destination.  
+- a global, decentralized, standard place for an organization or brand to register their conversational agent(s) and the associated names for them;
+- a global, standardized service that will confirm is a verbalized term or name is registered by a specific conversational agent; 
+- a global service that will provide a standard set of technologies and processes that will allow term or name confirmation regardless across all voice assistant systems
+- a global, standardized aid in disambiguation if and when there are multiple conversational agents associated with a registered name or term. 
 
-For these reasons (and many more) we propose the development of a decentralized, global destination registry for voice applications -- a **Voice Registry System.**
+Broadly, this is about the ability of individual users to **find** a conversational agent of choice, and the ability of providers of conversational agents **to be found.**
+
+For these reasons,  propose the development of a decentralized, standardized global destination registry for conversational agents and related voice assistant systems: **the Voice Registry System.**
+
 
 ### Situation Analysis: Today's Voice Ecosystem
 
