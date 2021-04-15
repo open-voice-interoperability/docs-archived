@@ -31,6 +31,8 @@ Components that will call the VRS are the following:
 
 ![](component_assets/vrs_003_01.png?raw=true "Fig. 1 - VRS Integrations")
 
+In summary, VRS will always have a system-to-system integration and not directly to the user. These integrations are in alignment with our architecture guiding principle about VRS.
+
 ## Consequences
 
-//TODO
+There is no imminent consequence at the moment outside of the amount of work that needs to happen. 
