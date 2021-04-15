@@ -271,3 +271,14 @@
   - _reminder of "Deep Dive" schedule: 16 April -- Architecture_
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
+
+
+2021-04-16
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Ways of working:  OVN programming language; hosting OVN POC's -- D. Cundiff 
+- OVN vocabulary: key words, phrases (5 minutes)
+- Q2 Milestones -- to be identified in Git as of 30 April (5 minutes)
+- 2021.04.16 DEEP DIVE:  Architecture -- J. Larson (30 minutes)
+- News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
+- Adjourn
