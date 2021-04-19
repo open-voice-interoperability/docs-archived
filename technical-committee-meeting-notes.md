@@ -1,3 +1,75 @@
+# 2021-04-16 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Frazzini,  N. Myers,  D.Cundiff, M. Brinas-Dobrowski, J. Kline, Y. Martinez, D. Rogers, J. Crabb, C. Wuttke, D. Dahl
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- D. Cundiff
+* Intro of new attendees 
+  * Yaser Martinez – Deutsche Telekom
+
+### OVN Vocabulary:  key words, phrases 
+* Conversational Context – info extracted from n prior utterances of the current conversation
+* Conversational AI – Tech that enables automated communication between computers and humans.  Could be speech or text
+* Explicit Invocation- Where the user invokes the channel, and it explicitly stating a direct command to accomplish a specific task
+* Implicit invocation- where the user invokes the channel and uses the most common words or indirectly saying the explicit invocation 
+
+### European Data Protection Board VVA Guidelines –requesting comments –due 4/23/21 
+* OVN Privacy & Security Work Group developing a formal response.   Draft is out to OVN Steering Committee and TLF legal counsel for review & comments 
+
+### Q2 Milestones – to be identified in Git as of 30 April 16, 2021
+
+### Ways of working:  OVN programming language; hosting OVN POC’s  -- D. Cundiff
+* OVN Programming Language – Rust 
+  * “Rust is every bit as important as a revolution as C”  - Bryan Cantrill 
+  * Strengths:   safety, rich std library but can opt out, linux kernel, jobs
+  * Discussion:  
+     * Is Rust acceptable to our constituents – yes.  Any APIs created will be independent of Rust itself
+     * Rust may not be a fit for all – ex. Web dev so we will likely have more than 1 language
+     * Should we survey our customers to see what they would accept?    This should not be an issue as there is a front end API in front of it
+     * We can use our POCs to prove out the decision 
+     * Does Rust support http, etc. type protocols?   Yes 
+     * Support for a standard language –some concern with regard to Rust knowledgeable resources to perform the coding 
+  * Agreed to finalize decision in next Tech Comm mtg 30 April
+  * [webrtc:]( https://github.com/webrtc-rs/webrtc) 
+  * [Git issue for this:]( https://github.com/open-voice-network/docs/issues/196)
+
+* OVN POC Hosting 
+  * We will need hosting and should use a cloud service – and since Microsoft is an OVN member, recommend that we use their Azure solution 
+  * Discussion: 
+     * benefits of selecting 1 cloud provider over another? We aren’t at the point yet where we have specific requirements 
+     * general support for Azure and decision agreed to 
+  * [Git issue for this:]( https://github.com/open-voice-network/docs/issues/198)
+
+### Deep Dive:  Architecture – J. Larson
+* Workshop on Interoperability 
+   * Workshop on 15-17 June 2021 (2 hours per day)
+   * Goal to present current perspectives and gain feedback and other thoughts 
+   * If you have invitee suggestions, please send to jim42@larson-tech.com
+* Scenarios
+   * Team is gathering interoperability scenarios 
+   * Describes how user interacts with conversational agents 
+   * Describes how conversational agents act when switching platforms 
+   * Drives our specification of interoperability requirements 
+   * Scenario sourcing in meeting: 
+      * User wants to talk to Etsy using Google Assistant. User does not have an account with Etsy so she created an account by linking her Google account
+      * User is therefore ready to pay but wants to pay using the PayPal action in Google Assistant
+      * Guest wants to return Target product –initiated with Alexa and wants to connect with Target call center voice system and keep identity
+      * User wants to check in to flight and periodically check flight status.  Also would like to interface with airport parking to expedite parking
+      * User receives an at-home diagnostic test. The test provider has a voice app for Alexa and Google Assistant to help them complete the test. The user activates the voice app and needs to authenticate in order to complete the test. Once the user is authenticated they use the voice app to complete the test and are prompted to complete follow up survey. The survey becomes anonymized and is then sent back to the provider for review. (Hopefully this was a good scenario)
+     * In the store and need to find Gluten Free Pizza.  Shopper says: Wegmans, where is the Pizza located that is on my list?  Response: Which Pizza do you want?  Wegmans Gluten Free Pizza or Celeste's Pepperoni Pizza?  Shopper says: Wegmans Pizza? Response: It is located in the Health Foods Freezer located near aisle #1.  Do you want this item marked off your list?  Shopper says: Yes.
+      * Scenario: User wants to refill a prescription:  User: “Hey platform, I need to refill a prescription.”
+Platform Agent: “OK, I need to verify you and find an agent to handle your request.”
+Platform Agent: “Please provide verification” (verification routine) Platform Agent: “Do you have a service in mind to refill your prescription?” User: “Yes, its XYZ provider” Platform Agent: “OK, I am contacting XYZ provider.  Do you provide consent for verification and exchange of account information with XYZ provider?”
+User: “Yes” XYZ Provider Agent: “Hello, this is XYZ Provider Agent.  You have been verified with consent to exchange information and I am ready to handle your request to refill your prescription . . .”
+* Requirements Document 
+  * Due to time , discussion will continue at next meeting 
+
+Meeting adjourned at 9:59 ct
+
+
 # 2021-04-02 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M.Lens-FitzGerald, M. Frazzini,  N. Myers, S. Baul, D.Cundiff
