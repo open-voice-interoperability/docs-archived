@@ -294,8 +294,7 @@
 -   Open Voice Network EDPB response: --  O. Coleman
 -   Open Voice Network Voice Agent Interoperability Workshop -- J. Larson
 - Continuation from last Technical Committee meeting:  Architecture Work Group (20 minutes) -- J. Larson, D. Attwater, D. Dahl
--   Deep Dive into three scenarios: the identification and documentation of requirements
--     process to date and examples
+-   Deep Dive into three scenarios: the identification and documentation of requirements - process to date and examples
 - Outstanding items, news, and events of note
 - Adjournment
-- 
+
