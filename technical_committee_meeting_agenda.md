@@ -282,3 +282,20 @@
 - 2021.04.16 DEEP DIVE:  Architecture -- J. Larson (30 minutes)
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
+
+2021-04-30
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Outstanding issue:  OVN programming language (15 minutes) -- D. Cundiff
+-   issue recap -- bringing all parties to a common understanding -- D. Cundiff
+-   expression of opinions and proposals for adoption
+- OVN vocabulary: key words, phrases (5 minutes) - O. Coleman
+- Updates (5 minutes)
+-   Open Voice Network EDPB response: --  O. Coleman
+-   Open Voice Network Voice Agent Interoperability Workshop -- J. Larson
+- Continuation from last Technical Committee meeting:  Architecture Work Group (20 minutes) -- J. Larson, D. Attwater, D. Dahl
+-   Deep Dive into three scenarios: the identification and documentation of requirements
+-     process to date and examples
+- Outstanding items, news, and events of note
+- Adjournment
+- 
