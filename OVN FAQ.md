@@ -1,5 +1,6 @@
 # FREQUENTLY ASKED QUESTIONS
 Open Voice Network Launch Q2 2021
+2021.04.25
 
 **What is the OVN and what challenge is it answering?**
 
