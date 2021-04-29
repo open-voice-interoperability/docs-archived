@@ -1,5 +1,32 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
+## Meeting 04.29.2021
+<details>    
+
+### Agenda:
+- Discuss the PR#102 VRS integration type with Roger and PRadeep
+- Git issue #96
+- Git issue #86
+
+
+
+### Discussion:
+- We had a low attendance today due to the Indian holiday and the COVID vaccine effect. The team focuses the discussions on the #102 issue. The feedback are captured in the git issue. 
+
+</details>
+
+## Meeting 04.15.2021
+<details>    
+
+### Agenda:
+- Discuss the PR#102 VRS integration type.
+
+
+
+### Discussion:
+- We had a low attendance today due to the Indian holiday and the COVID vaccine effect. The team focuses the discussions on the #102 issue. The feedback are captured in the git issue. 
+
+</details>
 
 ## Meeting 03.04.2021
 <details>    
