@@ -29,7 +29,9 @@ Components that will call the VRS are the following:
 ### 3. Local VRS resolver (Internet Of Things)
 - Search for registered names (GET)
 
-![](component_assets/vrs_003_01.png?raw=true "Fig. 1 - VRS Integrations")
+> ![](components/component_assets/vrs_003_01.png?raw=true "Fig. 1 - VRS Integrations")
+
+Local implementation of VRS is a requirement to highlight the importance of privacy and enterprise-level implementation.
 
 In summary, VRS will always have a system-to-system integration and not directly to the user. These integrations are in alignment with our architecture guiding principle about VRS.
 
