@@ -1,3 +1,45 @@
+# 2021.04.30 Notes of the Technical Committee Meeting
+
+Attendees: O. Coleman, D.Cundiff, S. Prayaga, J. Larson, J. Crabb, N. Myers, S. Baul, D. Rogers, D. Attwater, C. Wuttke, P. Gopal. J. Stine
+
+### Ways of Working - D. Cundiff will document the new process in GitHub as a pull request. 
+• Decisions that need to be made should be entered as a Git issue.  
+• If decision can be resolved in the issue, we will do so.
+• If it needs further discussion, bring to Technical Committee.  Standing agenda topic.
+• Decisions will be documented in a markdown document for tracking purposes.
+• If decisions can’t be made in Technical Committee, can be escalated to the Steering Committee.
+
+### Selection of programming language for OVN
+• Git issue #196
+• See issue for benefits of selecting single language.
+• Rust is particularly attractive.
+• Facebook wrote blog post yesterday about their adoption of the Rust.
+• Attract new set of talent to this organization.
+• Interfaces should be agnostic of the underlying language.  
+• Shyamala: Whatever language we use, we have to account for all operating systems — QNX especially for autonomous vehicles.
+• Use the verbiage “primary/preference” as we describe.
+• Dan will document via pull requests.
+
+### Vocabulary Alignment
+• Prefer the term conversation processor rather than component.
+• Prefer conversational agent rather than voice application.
+• Refer to Zoom recording for David A’s description.
+• Dan: vocabulary alignment exercise has highlighted the need for examples for use of the terms, as well as refinement of the term definitions.
+• The vocabulary is “ever green” — not written in stone and can be adjusted as we learn more.
+
+### Update:  Privacy and Security Work Group Update
+- O. Coleman noted the on-time, 22 April 2021 submission of the OVN Privacy and Security Work Group response to the European Data Protection Board's publication of its 1.0 Guidance for Virtual Voice Assistants.  OVN-drafted response was submitted on behalf of the Linux Foundation.
+
+### Update:  Voice Agent Interoperability Workshop, Architecture Work Group
+- J. Larson noted the receipt of five proposals for presentations at the OVN Voice Interoperability Workshop.  J. Stine noted expectation of several more.
+
+### Architecture Work Group: continuation of Tech Comm deep dive 
+• J. Larson presented an overview of The Architecture Work Group's current work:  continued development of a scenario library, development of initial requirements leading to interoperability.   
+- Meeting activity: meeting participants submitted "interruption" scenarios; discussion of S. Prayaga's verbalized scenario.
+
+### Meeting adjourned at 10:01 Central Daylight Time (US). 
+
+
 # 2021-04-16 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Frazzini,  N. Myers,  D.Cundiff, M. Brinas-Dobrowski, J. Kline, Y. Martinez, D. Rogers, J. Crabb, C. Wuttke, D. Dahl
