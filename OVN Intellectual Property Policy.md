@@ -41,7 +41,7 @@ within the Project’s main code repository will comply with the
 contribution process and license terms for the applicable Upstream 
 Project.
 
-c. The TSC may approve the use of an alternative license or licenses for inbound or 
+c. The TSC (Technical Committee) may approve the use of an alternative license or licenses for inbound or 
 outbound contributions on an exception basis. To request an exception, please 
 describe the contribution, the alternative open source license(s), and the 
 justification for using an alternative open source license for the Project. License 
