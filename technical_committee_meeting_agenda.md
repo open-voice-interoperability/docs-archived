@@ -298,3 +298,12 @@
 - Outstanding items, news, and events of note
 - Adjournment
 
+# 2021-05-14
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- OVN News -- J. Stine
+- OVN vocabulary: key words, phrases (5 minutes) - J. Stine
+- IP Licensing: next steps for OVN Technical Committee Work Groups (10 minutes) -- J. Stine, D. Cundiff 
+- Review of 2021 Tech Comm deliverables, and progress to date  (20 minutes) -- M. Lens-Fitzgerald, O. Coleman, J. Larson, S. Prayaga, M. Brinas-Dobrowski
+- Outstanding items, news, and events of note
+- Adjournment
