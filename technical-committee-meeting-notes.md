@@ -1,3 +1,58 @@
+# 2021-05-14 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, D.Cundiff, M. Brinas-Dobrowski, J. Crabb, C. Wuttke, M. Lens-FitzGerald, S. Prayaga
+
+The meeting began at 9:02 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- D. Cundiff
+
+### OVN News  --J. Stine 
+* 5th and 6th financial sponsors anticipated by end of May 
+* With additional sponsors, R&D budget anticipated to grow for workgroup investment as approved by Tech Comm and Steering 
+* Planned PR launch currently planned for June 8
+* With the growth in financial sponsorship, Network Now an “open-source community” of The Linux Foundation enabling more cross Linus Foundation community collaboration 
+* OVN communication growth:  K-12 Education & Commerce.  Media, Healthcare and Manufacturing in progress
+* Network affiliations growing as well
+
+### OVN Vocabulary:  key words, phrases – J. Stine 
+* It’s the Open Voice Network –not the OVN (acronym owned by other and OVN will need to be replaced in our documentation by Open Voice Network)
+* We’re an open-source association of the Linux Foundation (also a 503-c-6 non-profit industry association under US law)
+* It’s a conversational facilitator – it coordinates communication between two or more dialogue systems and/or processing during the source of one or more sessions
+* It’s Interoperability  (interoperability is not in our vocab doc currently)  - Discussion: 
+   * Creating standards for operational agents to share data and functions 
+   * Should we separate and define separately hardware interoperability and software interoperability? 
+      * sounds logical but there are very different views 
+      * doubles the work 
+      * agreed to assign this to the Architecture Workgroup and bring back a working definition to the next tech comm meeting and there will be some additional discussion first with regard to need to define this 
+
+### IP Licensing: next steps for OVN Technical Committee Work Groups – J. Stine, D. Cundiff
+*  Specification and documentation will be received and made available by the project under the creative commons attribution 4.0 international license
+*  If code is contributed to support the project, all new inbound code contributions to the project must be made using the Apache License, Version 2.0
+* All new inbound code contributions must also be accompanied by a developer certificate of origin [here](http://developercertifcate.org) sign off in the source code system that is submitted through a technical committee approved contribution process which will bind the authorized contributor and, if not self-employed, their employer to the applicable license
+
+### Voice Agent Interoperability Workshop 
+*  More information to come via slack 
+
+### Review of 2021 Technical Committee deliverables and progress-to-date – M. Lens-Fitzgerald, O. Coleman, J. Larson, S. Prayaga, M. Brinas-Dobrowski 
+* Privacy & Security Work Group
+  * reviewed deliverables to date and work in progress
+  * additional resources needed in this workgroup! 
+* Architecture Work Group 
+  * reviewed deliverables to date and work in progress
+* VRS Work Group
+  * reviewed deliverables to date and work in progress
+  * VRS MVP review at October 1 Tech Comm meeting 
+
+### Outstanding items, news and events of note
+* Project Silver – NGO with mission to make life better for older adults leveraging voice – M. Lens-FitzGerald
+* Veritone offering to take celebrity voices for certain voice applications 
+* Person behind Alexis’ voice was revealed this week 
+
+Meeting adjourned at 9:59 ct
+
+
 # 2021.04.30 Notes of the Technical Committee Meeting
 
 Attendees: O. Coleman, D.Cundiff, S. Prayaga, J. Larson, J. Crabb, N. Myers, S. Baul, D. Rogers, D. Attwater, C. Wuttke, P. Gopal. J. Stine
