@@ -313,13 +313,9 @@ No meeting.
 
 # 2021-06-11
 - Antitrust statement and notice of recording (1 minute)
-- Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Review of the agenda; purpose and expectations for the meeting (2 minutes) -- J. Stine 
 - Open Voice Network News -- J. Stine
-- Open Voice Network vocabulary: key words, phrases (5 minutes) - J. Stine
-- Open Voice Network R&D Investment first thoughts: _to accomplish this deliverable in 2021, we will probably need ________ 
--   Privacy and Security Work Group
--   Architecture Work Group
--   Voice Registry System Work Group
+- Open Voice Network: R&D Investment expectations, process, templates 
 - Voice Agent Interoperability Workshop 15-17 June -- Workshop Program Committee
 -   Agenda/program/speakers
 -   Adjournment
