@@ -1,3 +1,42 @@
+# 2021-06-11 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Crabb,  J. Trammell, Nick Myers,  S. Baul, D. Cundiff, M. Lens-FitzGerald 
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Open Voice Network News  --J. Stine 
+* Open Voice Network is celebrating 1 year anniversary 
+* Dan Cundiff is no longer with Target and is now at The Gap but will remain the Tech Comm Chair through August
+* Deutsche Telekom, Veritone now Open Voice Network sponsors.  Public announcement scheduled for 22 June
+* OVNet 2021 budget for Tech Comm approved.   R&D now >$160k 
+
+### Investment of 2021 Open Voice Network Research & Development Funds
+* Open Voice Network Tech Comm is now at the point of hiring resources to create & accelerate work group deliverables 
+* Open Voice Network R&D budget $162k.  Process: 
+  * Direction (25 June)
+  * Propose-> Technical Committee  approval -> Steering Committee approval 
+  * SOW
+* Keep in mind IP Implications
+  * Will execution require a new or broader community? 
+  * Will this require more than a CC4 license?  Might there be patentable content?  Code?  
+  * May require a Community Specification license
+* Jon has a form for investment requests and Jon will share out via slack
+* Discussed how to recognize the volunteers that have /are working on Open Voice Network 
+  
+### Voice Agent Interoperability Workshop 15-17 June – Workshop Program Committee 
+* Agenda posted on the Open Voice Network Website –[link to site]( https://openvoicenetwork.org/voice_interoperability_form/)
+* 3 days of presentations followed by Q&A
+* Goals include getting more ideas on interoperability and recruiting additional resources 
+  
+Meeting adjourned at 9:58 ct
+
+
+
+
 # 2021-05-14 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, D.Cundiff, M. Brinas-Dobrowski, J. Crabb, C. Wuttke, M. Lens-FitzGerald, S. Prayaga
