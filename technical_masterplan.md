@@ -45,15 +45,15 @@ Despite this remarkable growth over the past decade in capabilities, availabilit
 
 **Voice experts suggest that we will soon see:**
 
-• **Significant advances in voice assistant capabilities.**  The user experience of voice assistance will be transformed in multiple ways.  Of most importance will be the shift from today’s command-and-question interaction to contextually-aware human-to-machine conversation.  In practice, this will enable conversation akin to that with a friend, where shared history, time, place, sentiment, and personal preferences are brought seamlessly into the flow of a discussion.   A voice assistant will not only understand what is said, but the context in which it is said and the emotion with which it is said -- and be able to respond, recommend, and remember.  Voice will also be combined with visual elements, to provide what experts term “multi-modal” conversation.  This could range from information shown on screens to the recognition of gestures and facial behaviors. 
+- ***Significant advances in voice assistant capabilities.**  The user experience of voice assistance will be transformed in multiple ways.  Of most importance will be the shift from today’s command-and-question interaction to contextually-aware human-to-machine conversation.  In practice, this will enable conversation akin to that with a friend, where shared history, time, place, sentiment, and personal preferences are brought seamlessly into the flow of a discussion.   A voice assistant will not only understand what is said, but the context in which it is said and the emotion with which it is said -- and be able to respond, recommend, and remember.  Voice will also be combined with visual elements, to provide what experts term “multi-modal” conversation.  This could range from information shown on screens to the recognition of gestures and facial behaviors. 
 
--**Voice interfaces and conversational agents everywhere.** Voice will become ubiquitous -- the ever-device, everywhere interface to the digital world. Voice assistance will be integrated not only into devices of all types, but into places (homes, stores, banks, medical facilities, museums, stadiums) and systems for monitoring environments and processes, from factories to farms.   Analysts predict active voice assistant use on more than two billion smartphones by 2023¹, and some 8.4 billion voice assistant users worldwide by 2024².   Users will search for and speak to websites (more than 1.7 billion worldwide today³), and smart, connected objects (some 41 billion worldwide by 2025⁴.)  Futurists see a world in which voice is the normative interface for all artificial intelligence; indeed, it is predicted that all artificial intelligence will be conversational.⁵
+- ***Voice interfaces and conversational agents everywhere.** Voice will become ubiquitous -- the ever-device, everywhere interface to the digital world. Voice assistance will be integrated not only into devices of all types, but into places (homes, stores, banks, medical facilities, museums, stadiums) and systems for monitoring environments and processes, from factories to farms.   Analysts predict active voice assistant use on more than two billion smartphones by 2023¹, and some 8.4 billion voice assistant users worldwide by 2024².   Users will search for and speak to websites (more than 1.7 billion worldwide today³), and smart, connected objects (some 41 billion worldwide by 2025⁴.)  Futurists see a world in which voice is the normative interface for all artificial intelligence; indeed, it is predicted that all artificial intelligence will be conversational.⁵
 
-• **Market transitions in the AI-enabled voice ecosystem and value chain.**  A unique industry is now being created by world-leading technology firms through voice assistance.  Voice is increasingly the entry point of a data-consuming engine of technology and economic growth.  Hundreds of thousands (and in time, millions) of independently-developed and purpose-built  enterprise and organizational voice assistants will emerge , each speaking and listening to constituents through a multitude of voice channels.   This will reflect an important market transition, as voice shifts from a world bounded by platform-based skills and actions to one akin to today's internet, with independent sites connecting to users across multiple global platforms.
+- ***Market transitions in the AI-enabled voice ecosystem and value chain.**  A unique industry is now being created by world-leading technology firms through voice assistance.  Voice is increasingly the entry point of a data-consuming engine of technology and economic growth.  Hundreds of thousands (and in time, millions) of independently-developed and purpose-built  enterprise and organizational voice assistants will emerge , each speaking and listening to constituents through a multitude of voice channels.   This will reflect an important market transition, as voice shifts from a world bounded by platform-based skills and actions to one akin to today's internet, with independent sites connecting to users across multiple global platforms.
 
-• **The emergence of platform-independent voice assistants.**  This calls into question platform and assistant interoperability, in which an enterprise-owned independent assistant can speak with all others, regardless of platform or channel.  It suggests a standardization of components, the building blocks of voice assistants – components that have emerged from many of the standards listed below. 
+- ***The emergence of platform-independent voice assistants.**  This calls into question platform and assistant interoperability, in which an enterprise-owned independent assistant can speak with all others, regardless of platform or channel.  It suggests a standardization of components, the building blocks of voice assistants – components that have emerged from many of the standards listed below. 
 
-• **Growing legislative and regulatory interest in voice.**  Numerous questions, on topics such as privacy, data ownership, data use, and so-called platform economics, are now being raised by western law-makers and regulators. 
+- **Growing legislative and regulatory interest in voice.**  Numerous questions, on topics such as privacy, data ownership, data use, and so-called platform economics, are now being raised by western law-makers and regulators.     
 
 In the summer of 2016, a team of academic researchers, consultants, and technology executives came together to explore the implications of this new world of voice.   The 2016-2017 research posited that this new world of voice assistance could – and, in time, would – re-shape the relationship between an enterprise and its constituents (be they shoppers, clients, or patients.) It also suggested that this new world of user-centric voice assistance represented a significant market realignment, with voice evolving from a limited-purpose technology to the interface of a new, global system of AI-enabled virtual communication.
 
@@ -84,6 +84,7 @@ The history of the World Wide Web (WWW) is instructive for the Open Voice Networ
 We believe that voice-enabled devices and services will exponentially expand in use and value when provided a set of open standards.  Development and adoption of such standards will prevent users from re-creating basic functionalities, and enable providers, innovators, and enterprises to focus their investments on innovation and usage differentiation.  
 
 In addition, a voice ecosystem that is open, inclusive, and trust-worthy may also need new governance systems and capabilities, such as:
+
 - a Voice Registry Service (VRS)
 - Dialog Brokers, Dialog Managers, and other new components
 - Privacy controls and standard ways to communicate and disclose this to users. 
@@ -120,19 +121,19 @@ Openness enables interoperability among assistants and providers.  At its core i
 	- can have an open-source reference implementation
 	- can be implemented through open source and/or proprietary-source products and services
 	- are abstracted at the right level, as to not too deeply specify particular technologies or providers
-	- provide commercial providers and entrepreneurs the room necessary for innovation and differention. 
-	
+	- provide commercial providers and entrepreneurs the room necessary for innovation and differention.
 
-### Standards and Usage Guidelines: An Aspirational List.
+### Standards and Usage Guidelines: An Aspirational List
 
 The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines. It reports to the Open Voice Network Steering Committee.
 
 These topics are in exploration:
 
 
-## Standards to enhance user interactions and capabilities#
+## Standards to enhance user interactions and capabilities
 
 These could include:
+
 - Log-in procedures that are privacy-friendly, fast, and easy to use.
 - Platform-independent discovery and invocation of voice applications and services.
 - Independent and dependable destination accessibility.
@@ -143,19 +144,22 @@ These could include:
 - Implementation sharing, reuse, and open improvement. 
 - Back-end service choice. 
 
-## Standards that provide privacy, safety, and security.#
+## Standards that provide privacy, safety, and security
 
 These could include:
+
 - User identification and authentication that is multifactor and platform independent.
 - Intentional and consent-based individual and commercial privacy.
 - Object control language used to specify who may perform what function with which destination, and when.
 
-### Usage guidelines that protect privacy and enhance inclusivity.
+### Usage guidelines that protect privacy and enhance inclusivity
+
 - Access that is unbiased, inclusive, and does not institutionalize racism, sexism, or ageism.
 - Transparent, intentional, and consent-based data usage.
 - Accurate natural language recognition across languages, dialects, gender, and age. 
 
 There are numerous other issues which, unless addressed through standards, will continue to inhibit the trust in and use of AI-enabled voice assistance, especially as the industry evolves toward its multi-platform future.   These include:
+
 - system architecture as it relates to the analysis and storage of data
 - platform-agnostic user identification and authentication
 - the lack of common voice commands for common, non-differentiating business processes (such as transaction and payment).
@@ -202,7 +206,7 @@ Voice Registry System (VRS) is the new concept that is part of the open-voice st
 
 The job of the VRS is to resolve the query by trying to resolve first in the root server. If not found, it is smart enough to point to the next name server, and this process continues until the request is resolved, or determined that the requested @vrs is not registered.
 
-For more information and details about VRS, please go to this [document](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md).
+For more information and details about VRS, please go to [this document](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md).
 
 ### Voice-Specific Privacy and Security
 
@@ -224,28 +228,34 @@ The Architecture Work Group began its efforts by studying the architectures and 
 
 
 # Components and Artifacts
+
 Each voice agent contains several components such as those illustrated in Figure C1.  Each component consumes artifacts from previous components and produces artifacts for use by later components.  For example, the TTS component will accept text artifacts as input and produce speech artifacts as output.  Each component should have a standard format for its input and output artifacts so component can be easily replaced or reused. 
 
 ### Flexibility
-We will define the formats for artifacts (but not the algorithms that convert consume and produce artifacts). By standardizing artifact formats, we enable the replacement of components by other components that process input artifacts and product output artifacts faster, more efficiently, or more accurately.  For example, a speech recognition component algorithm based on the hidden Markov model can be replaced by a neural network model.  
 
-Every voice agent contains components that consume and manipulate artifacts.  If components in different voice agents produce and consume artifacts in standard formats, artifacts can be shared across voice agents.  
+We will define the formats for artifacts (but not the algorithms that convert consume and produce artifacts). By standardizing artifact formats, we enable the replacement of components by other components that process input artifacts and product output artifacts faster, more efficiently, or more accurately.  For example, a speech recognition component algorithm based on the hidden Markov model can be replaced by a neural network model.
+
+Every voice agent contains components that consume and manipulate artifacts.  If components in different voice agents produce and consume artifacts in standard formats, artifacts can be shared across voice agents.
 
 We will define the formats for input and output artifacts of voice processing components such as ASR (Automatic Speech Recognition which converts speech to text), NLP (used to extract semantics from text produced by ASR), DM (dialog manager which processes the semantics), and TTS (which converts text to spech).  Note that we do not specify the algorithms inside each component; technology vendors compete by providing alternative algorithms for components.    
-Voice agent developers can select components from multiple vendors that fill the developers specific needs, and connect the selected components together because they communicate with each other using standardized artifacts.   
+Voice agent developers can select components from multiple vendors that fill the developers specific needs, and connect the selected components together because they communicate with each other using standardized artifacts.
+
 Here are some examples:
+
 - In a smart home environment, it may be desirable to combine insert an ASR into a microphone and add encoding software. (Figure C2)  The microphone converts speech to digital text which is then encoded for security purposes before transmission to a network hub for further processing.  Because text is more compact than speech, this approach saves transmission bandwidth.  
 TTSs are often designed to perform well with a specific national language (North American English, German, etc.) 
 - Figure C3 illustrates the replacement of an North American English TTS by a German TTS which pronounces German better than the English TTS
 - In order to accommodate a handicapped person who can not speak or hear well, the microphone and speaker are replaced by a keyboard and display in Figure C4.
 
 ### Interoperability
+
 Interoperability enables one voice agent to use the data and functions of another voice agent.  For example, a shopping agent collects user account information and then invokes a second agent, the validity agent.  Information collected during the shopping agent needs to be copied to the validity agent in order to avoid having the validity agent solicit same information from the user again.
 
 In a more detailed example, Figure C5 illustrates the intents for an airline reservation voice agent and a hotel reservation voice agents and the resulting user dialogs.  Note that the redundant turns (denoted in colors) in the user dialogs.  The redundant turns can be removed from the user dialogs by copying slot values from the airline reservation voice agent to slots within the hotel reservation voice agent.  
+
 ### Component Framework
 
-In order to manage the big task of identifying and recommending standard formats for artifacts, we partition components into four baskegts inspired by the advent and progress of automotive transportation.  High-level descriptions of these four backets and their possible components follows. (Figure C6)
+In order to manage the big task of identifying and recommending standard formats for artifacts, we partition components into four baskets inspired by the advent and progress of automotive transportation.  High-level descriptions of these four backets and their possible components follows. (Figure C6)
 
 1. Macadam Road “Foundational” Component Basket (Core functionality)  Named after the 18th century Scottish engineer who invented the hard-surface, reliable road.  This basket of components provides the basic infrastructure needed by voice agents.  speech). 
 - ASR, Automatic Speech Recognition
@@ -351,7 +361,8 @@ Purpose: extend the NGL result generator to include multi-modal, multi-media con
 
 ### Design
 
-###  Vocabulary
+### Vocabulary
+
 See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
 
 ### Examples
@@ -372,20 +383,20 @@ Several examples that are useful to explain all the concepts required in the des
 
 ### Component Architecture
 
-![](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
+![Component Architecture](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
 
-Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
+> Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
 
 ### Component Flow
 
 This component flow section aims to describe the general steps that happen in and between each component.
 
-![](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_flow_sequence_diagram.png?token=AABSWQX53UKQK2Y3A557URK6UIA4A "Fig. 2 - Component Flow Sequence Diagram")
+![Sequence Diagram](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_flow_sequence_diagram.png?token=AABSWQX53UKQK2Y3A557URK6UIA4A "Fig. 2 - Component Flow Sequence Diagram")
 
 1. "{wake word}, add milk to my shopping list at BigGrocery."
 2. NLP calls VRS and passes the query. NLP sends in the query its location and what it thinks the VRS name lookup should resolve for (in the case below it understands that "biggrocery" is what the VRS lookup is for). See Figure 1.0.
 
-```
+```json
 {
   "query": "add milk to my shopping list at biggrocery",
   "vrs_name_lookups": [
@@ -404,7 +415,7 @@ This component flow section aims to describe the general steps that happen in an
 4. NLP will call the Dialog Broker based on the endpoint it receives from the VRS. See Figure 3.0
 5. NLP identifies the intent and entities. If identified intent is not part of the fulfillable intents, NLP will do a default fail response.
 
-```
+```json
 {
   "intent": "addShoppingList",
   "entities": [
@@ -463,15 +474,13 @@ _Previously-developed and broadly-adopted standards that have shaped STT and TTS
 
 ### NLP
 
-As we enter the era of human-machine conversation, the crown jewel component of it is Natural Language Processing. The problem we are facing today is the lack of standards from different NLP providers. In the world of open-standard, we are introducing the concept of a global entity, i.e., @vrsname. It is not about primitive data types that individual NLP understands but a smart object that all NLP providers understand. In the pre-processing stage of NLP, it is evaluating the query as a whole and identifying if any global identity exists in the query. The identified global entity is submitted to the VRS.
+As we enter the era of human-machine conversation, the crown jewel component of it is Natural Language Processing. The problem we are facing today is the lack of standards from different NLP providers. In the world of open-standard, we are introducing the concept of a global entity, i.e., `@vrsname`. It is not about primitive data types that individual NLP understands but a smart object that all NLP providers understand. In the pre-processing stage of NLP, it is evaluating the query as a whole and identifying if any global identity exists in the query. The identified global entity is submitted to the VRS.
 
 The global identity solves the interoperability aspect of NLPs. For example, the word "BigGrocery" in Amazon NLP is going to be treated the same way in Microsoft Luis or Einstein. Like domain names, this gives businesses the flexibility to be handled identically in the world of the human-machine conversation regardless of the NLP provider they choose.
 
 NLP schema is another place where OVN can influence the standard. Different NLPs have their own set of schema that leads to the different implementation of standards. Some NLPs understand the concept of entity, but some do not. Some understand the intent, and some have different flavors of it and call it "action." Because of the closed implementations, each business has to orchestrate this separately or build their abstracted implementation version to be able to adapt to different NLP standards. OVN is proposing to set a standard schema for all NLP to follow:
 
-
-
-```
+```json
 {
   "response_id": UUID,
   "query": "add one milk to my shopping list at biggrocery", // raw version of the user inquiry
@@ -533,7 +542,7 @@ _Previously-developed and broadly-adopted standards that have shaped Core Natura
 
 The Dialog Broker provides a list of fulfillable intents.
 
-```
+```json
 {
   "dialog_broker_id": UUID,
   "url": "biggrocery.com/dialog_broker",
@@ -552,7 +561,7 @@ TODO: add more details here
 
 Manages the actual context of the conversation. It is responsible for choosing the best action to perform the conversation.
 
-```
+```json
 {
   "response_id": UUID,
   "query_result": {
@@ -560,8 +569,8 @@ Manages the actual context of the conversation. It is responsible for choosing t
    }
 }
 ```
-_There are several previously-developed and broadly adopted standards which may be of relevance to the Dialog Manager development. OVN research in Q4 2020 suggests the following: Voice Extensible Markup Language (VoiceXML) 2.1 (designed for creating audio dialogs that feature synthesized speech, digitized audio, recognition of spoken and DTMF key input, recording of spoken input, telephony, and mixed initiative conversations. Its major goal is to bring the advantages of Web-based development and content delivery to interactive voice response applications), and State Chart XML (SCXML) (which provides a generic state-machine based execution environment based on CCXML and Harel State Tables.)
 
+_There are several previously-developed and broadly adopted standards which may be of relevance to the Dialog Manager development. OVN research in Q4 2020 suggests the following: Voice Extensible Markup Language (VoiceXML) 2.1 (designed for creating audio dialogs that feature synthesized speech, digitized audio, recognition of spoken and DTMF key input, recording of spoken input, telephony, and mixed initiative conversations. Its major goal is to bring the advantages of Web-based development and content delivery to interactive voice response applications), and State Chart XML (SCXML) (which provides a generic state-machine based execution environment based on CCXML and Harel State Tables.)
 
 ### Channel Registry
 
@@ -578,17 +587,21 @@ TODO: clean up this bulleted list; it’s just a placeholder of things to consid
 - SST engine to be used by the channel
 
 ## Vertical Dependencies
+
 Items in the vertical dependencies need to be addressed in each architectural component.
 
 # Privacy
+
 Part of the principles of OVN is privacy. Below are the guidelines to focus on:
+
 - Always end-users interest first. This is essential, especially for end-users who are marginalized or vulnerable sectors of the society who may not be aware of how their data are being collected, used, or shared. 
 - Always ask. Get an informed acknowledgment from the end-user, before collecting, sharing, or using the data.
 - Provide an audit trail for personal or sensitive information captured.
 - Always communicate to the end-user the data being collected and informed the purpose of the collection of data.
 
 # Security
-Add
+
+FIXME
 
 # Context
 
