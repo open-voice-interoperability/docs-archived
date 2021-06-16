@@ -10,11 +10,25 @@ VRS's goal is to provide and promote voice openness and transparency.
 See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
 
 ### 1.0.3. Problem Context
+The task of the Open Voice Network Voice Registry System (VRS) Work Group is to develop standards-based solutions for how _verbalized, explicitly-requested conversational agent destinations_ will,by another conversational agent, **be uniquely identified and connected.**
+
+This issue anticipates the continued growth of voice assistant systems that are independent of major platform technologies, and the emergence of a hybrid voice assistant ecosystem consisting of both general-purpose platform-based conversational agents and independent systems, most often managed and operated by enterprises. 
+
+The VRS will provide value to voice assistant system providers and operators, and to consumers. It will provide
+
+- a global, decentralized, standard place for an organization or brand to register their conversational agent(s) and the associated names for them;
+- a global, standardized service that will confirm is a verbalized term or name is registered by a specific conversational agent; 
+- a global service that will provide a standard set of technologies and processes that will allow term or name confirmation regardless across all voice assistant systems
+- a global, standardized aid in disambiguation if and when there are multiple conversational agents associated with a registered name or term. 
+
+Broadly, this is about the ability of individual users to **find** a conversational agent of choice, and the ability of providers of conversational agents **to be found.**
+
+For these reasons,  propose the development of a decentralized, standardized global destination registry for conversational agents and related voice assistant systems: **the Voice Registry System.**
+
+
+### Situation Analysis: Today's Voice Ecosystem
+
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
-
-In addition, the world of voice assistance is also in the midst of a major market transition.  In the near future, the role of cloud-centric platforms and third party entities will change, as third-party entities (especially enterprises) increasingly develop their own independent voice assistants.   This will -- at first, slowly, then rapidly --  push the industry from the current skills-on-platform model (similar to that of world of mobile apps) to what might be described as an internet model, where independent voice assistants (like web sites) connect interoperably across platforms and services providers.
-
-Both the present and future situations are problematic for entities that wish to connect to their customers, patients, clients, and suppliers through voice assistance.
 
 
 Below are the **problems** identified in the current landscape.
