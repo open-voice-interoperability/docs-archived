@@ -12,7 +12,7 @@ Origin: Version 1, October 30th 2020, converted to markdown January 21th 2021
 
 ## **Summary**
 
-Security of Voice Assistant Systems (VAS) is uncharted territory and needs more work than done for this report. What is done here is a good start and shows why the Open Voice Network (OVN) needs to play its independent and guiding role in the new channel of voice and the voice industry. The complete scope of voice security, from the person using it, the smart speaker, the connection, to the Voice Assistant System and subsequent connected internal or external systems is large. The conclusion of the analysis done for this report is short and tangible.
+Security of Voice Assistant Systems (VAS) is uncharted territory and needs more work than done for this report. What is done here is a good start and shows why the Open Voice Network (OVN) needs to play its independent and guiding role in the new channel of voice and the voice industry. The complete scope of voice security, from the person using it, the smart speaker, the connection to the Voice Assistant System and subsequent connected internal or external systems is large. The conclusion of the analysis done for this report is short and tangible.
 
 The security capabilities that the Privacy and Security Workgroup recommended to scrutinize and develop are:
 
