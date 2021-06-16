@@ -1,5 +1,51 @@
 # Voice Registry System Meeting Minutes
 This document is meant to capture the meeting notes and decision.
+
+
+## Meeting 06.18.2021
+<details>    
+
+### Agenda:
+- Issue #86
+- Issue #217
+
+
+</details>
+ 
+## Meeting 06.10.2021
+<details>    
+
+### Agenda:
+- PR#102 VRS integration type 
+- New repo [VRS](https://github.com/open-voice-network/vrs) for source code of referenced implementation.
+- Next steps
+
+
+### Discussion:
+- Discussed and closed the PR#102 VRS integration type 
+- Discussed the PR#183, @jcstine will close and merge.
+- Discussed the MVP
+  Phase 1
+    1. Swagger 1.0 (specifications)
+    2. API (CRUD)
+      a. POST
+      b. GET
+      c. PUT
+      d. DELETE
+    3. Authentication (security)
+    4. Test
+  Phase 2
+   1. Database
+   2. Align all the APIs
+ 
+  Phase 3
+   - web
+ 
+ - @maridob will clean up the project and repositories
+
+
+</details>
+
 ## Meeting 04.29.2021
 <details>    
 
