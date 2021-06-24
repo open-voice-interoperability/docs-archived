@@ -323,3 +323,15 @@ No meeting.
 - Voice Agent Interoperability Workshop 15-17 June -- Workshop Program Committee
 -   Agenda/program/speakers
 -   Adjournment
+
+# 2021-06-25
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
+- Open Voice Network News -- J. Stine
+- Open Voice Network Voice Agent Interoperability Workshop: lessons learned, next steps 
+- Mid-Year Review: Deliverables, Opportunities
+- Open Voice Network R&D Investment first thoughts: _to accomplish these deliverables in 2021, we will probably need ________ 
+-   Privacy and Security Work Group
+-   Architecture Work Group
+-   Voice Registry System Work Group
+- Adjournment
