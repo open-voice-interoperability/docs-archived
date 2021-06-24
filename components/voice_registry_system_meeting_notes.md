@@ -6,8 +6,8 @@ This document is meant to capture the meeting notes and decision.
 <details>    
 
 ### Agenda:
-- Issue #86
-- Issue #217
+- [Issue #86](https://github.com/open-voice-network/docs/issues/86)
+- [Issue #217](https://github.com/open-voice-network/docs/issues/217)
 
 
 </details>
