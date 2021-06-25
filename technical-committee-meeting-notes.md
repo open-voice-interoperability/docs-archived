@@ -1,3 +1,63 @@
+# 2021-06-25 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Crabb,  J. Trammell, Nick Myers,  D. Cundiff, M. Lens-FitzGerald 
+
+The meeting began at 9:04 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine  
+
+### Alignment:  Vocabulary and Ways of Working --J. Stine 
+* It’s the Open Voice Network and NOT the OVN (the OVN acronym is owned by another organization) 
+  * We are an Open-source association of the Linux Foundation 
+  * We are also a 503-c-6 non-profit industry association 
+* Reminder : GitHub for issue and Milestone Management.   Git is our source of truth of current and future tasks and registration of milestones, deliverables and dates 
+
+### Alignment: Open Voice Network News  --J. Stine 
+* Official press and PR launch occurred on Tuesday 22 June !
+  * Special thanks to Jon for leading the way!
+* Voice Agenda Interoperability Workshop took place 15-17 June 
+  * More than 20 consistent attendandees across 5 countries 
+  * Recordings and documents stored in Open Voice Network Google space 
+
+### Open Voice Network Voice Agent Interoperability Workshop:  Lessons learned, next steps  - J. Larson
+* Attendees covered many countries and industries 
+* Included presentation on the Amazon Voice Interoperability Initiative, W3C Intelligent Personal Assistant Architecture 
+* Immediate Benefits: 
+  * Made new connections 
+  * Got good advice
+  * Learned about new ideas and thoughts
+* Long Term Benefits:
+  * Midcourse corrections
+  * Better results 
+  * Wider influence 
+
+### Mid-Year Review:  Deliverables, Opportunities 
+* Publish and Pilot – Green 
+* Grow Participation – Yellow 
+* Process:  Standardize Ways of Working – Green (light green)  
+* Reviewed deliverables from each work group –delivered and future 
+
+### Open Voice Network R&D Investment first thoughts:  Investment of 2021 Open Voice Network Research & Development Funds
+* Process: 
+  * Work Groups identifies and creates a SOW and brings to the Technical Committee
+  * Technical Committee approves (or denies) 
+  * Goes to the Steering Committee for approval  
+* Privacy and Security Work Group
+  * Need of a Technical Writer to improve the quality of the Privacy Guidelines v 2.0.  Estimate is $3k (40 hours) 
+  * Need of legal review assistance to improve the Privacy Guidelines v 2.0.  Estimate is $5250 (35 hours) 
+* Architecture Work Group
+  * Need of programmer to work on prototypes to:  invoke/pause/resume on voice agents; route data from voice agents to a module;  share parameter values between agents.     Estimate is 2 person months
+  * Discussed goals and value of the prototypes and if other firms have already proven 
+  * Discussed that working on interoperable general assistants (alexa x GA x bixby x siri) may not be useful as making a general assistant work with an independent one
+* Voice Registry System Work Group 
+  * Need Senior/Lead Engineer to build features to scale the VRS platform.  Estimate is 3 person months initially.  
+* Discussed need for infrastructure work as a potential gap.   VRS is expecting a full stack developer that might be able to do this or Target resources might be able to cover 
+
+Meeting adjourned at 10:01 CT
+
+
 # 2021-06-11 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Crabb,  J. Trammell, Nick Myers,  S. Baul, D. Cundiff, M. Lens-FitzGerald 
