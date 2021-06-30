@@ -29,14 +29,14 @@ In its development of technical capabilities and ethical use guidelines, privacy
 
 The Open Voice Network Technical Committee asked the Privacy and Security Workgroup to identify, define, and prioritize capabilities of privacy in voice assistant systems. 
 
-The goal of the OVN privacy and security workgroup is to explore, deliberate, and issue recommended guidelines and capabilities for protecting privacy rights, with a scope that is specific to voice technologies.  Consistent with this goal is the understanding that there is already well-established doctrine in the public domain that addresses privacy in technology; principles, policy guidance, capabilities, standards, regulations, and laws.  While this doctrine is in scope in determining the best guidelines and capabilities specific to voice technologies, it is beyond the scope of this workgroup to recommend privacy guidelines and capabilities that are not specific to voice.
+The goal of the Open Voice Network privacy and security workgroup is to explore, deliberate, and issue recommended guidelines and capabilities for protecting privacy rights, with a scope that is specific to voice technologies.  Consistent with this goal is the understanding that there is already well-established doctrine in the public domain that addresses privacy in technology; principles, policy guidance, capabilities, standards, regulations, and laws.  While this doctrine is in scope in determining the best guidelines and capabilities specific to voice technologies, it is beyond the scope of this workgroup to recommend privacy guidelines and capabilities that are not specific to voice.
 
-The following diagram illustrates at-a-glance, the framework for OVN scope, deliberation, and decision making with respect to privacy:
+The following diagram illustrates at-a-glance, the framework for Open Voice Network scope, deliberation, and decision making with respect to privacy:
 
 ![OVN Privacy Scope Diagram](/components/privacy_scope_diagram.png)
 
 
-## **OVN Privacy Problem Statement**
+## **Open Voice Network Privacy Problem Statement**
 
 Voice technology has the power to change our lives, however, with voice technology there comes a unique set of privacy risks. Identifying these risks, and minimizing their potential harms, is inherently linked to the successful adoption and use of voice technology.
 
@@ -45,7 +45,7 @@ The Open Voice Network seeks to provide guidance and standards for creating voic
 
 ## Approach
 
-The Privacy and Security Work Group of the Technical Committee of the Open Voice Network was formed in June, 2020 by an action of the OVN Technical Committee.  The Privacy and Security Work Group met for the first time on 7 July 2020; Work Group participants selected Mike Frazzini, Iterate.ai, and Maarten Lens-Fitzgerald, voice evangelist and strategist, to moderate Work Group meetings.  As the work proceeded, Mike Frazzini assumed leadership of the privacy work; Lens-Fitzgerald, the security work.
+The Privacy and Security Work Group of the Technical Committee of the Open Voice Network was formed in June, 2020 by an action of the Open Voice Network Technical Committee.  The Privacy and Security Work Group met for the first time on 7 July 2020; Work Group participants selected Mike Frazzini, Iterate.ai, and Maarten Lens-Fitzgerald, voice evangelist and strategist, to moderate Work Group meetings.  As the work proceeded, Mike Frazzini assumed leadership of the privacy work; Lens-Fitzgerald, the security work.
 
 On the topic of user privacy, the Work Group pursued this five-step development process:
 
@@ -225,17 +225,17 @@ _Example: A user provides information to a voice assistant to refill a prescript
 
 
 
-1. Presentation and review of this report to the OVN Technical Committee, with iteration for any feedback and recommended changes by the Committee.
+1. Presentation and review of this report to the Open Voice Network Technical Committee, with iteration for any feedback and recommended changes by the Committee.
 
 2. Provide an example of an implementation that meets the guidelines and capabilities, and reassess the guidelines and capabilities to achieve more precision and alignment with the examples.
 
-3. Presentation of this report to other OVN and voice technology technical workgroups with support for the technical implementation of recommended guidelines and capabilities.
+3. Presentation of this report to other Open Voice Network and voice technology technical workgroups with support for the technical implementation of recommended guidelines and capabilities.
 
 4. Review of this report by privacy experts/attorneys, update where applicable.
 
 5. Invite industry and academia participation and feedback, update where applicable.
 
-6. Include this report in the RFC process for all OVN guidelines and capabilities, with updates as applicable.
+6. Include this report in the RFC process for all Open Voice Network guidelines and capabilities, with updates as applicable.
 
 7. Final work product publication (after the RFC process).
 
