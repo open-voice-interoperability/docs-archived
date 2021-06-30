@@ -282,7 +282,7 @@
                 }
               }
             }
-          }
+          },
           "404": {
             "description": "Record not found"
           },
@@ -510,22 +510,24 @@
           }
         }
       }
+    },
+    "securitySchemes": {
+      "vrs_record_auth": {
+        "description": "This API uses OAuth 2 with implicit grant flow.",
+        "type": "oauth2",
+        "flows": {
+          "implicit": {
+              "authorizationUrl": "https://api.openvoicenetwork.org/vrs/oauth2",
+              "scopes": {
+                "write:records": "update records",
+                "read:records": "read records"
+              } 
+          }
+        }
+      }
     }
   },
-  "securityDefinitions": {
-    "vrs_record_auth": {
-      "type": "oauth2",
-      "authorizationUrl": "http://api.openvoicenetwork.org/voice-registry-system/oauth",
-      "flow": "implicit",
-      "scopes": {
-        "write:records": "update records",
-        "read:records": "read records"
-      }
-    },
-    "api_key": {
-      "type": "apiKey",
-      "name": "api_key",
-      "in": "header"
-    }
-  }
+  "security": [
+    { "vrs_record_auth": ["write:records", "read:records"] }
+  ]
 }
