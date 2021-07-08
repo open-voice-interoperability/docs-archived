@@ -16,6 +16,7 @@ If you are new to the group, please review the [OVN vocabularies](https://github
 - The working group leverages the [github issue](https://github.com/open-voice-network/docs/issues) for any great discussion that we need to track. For easy filtering, please make sure to label the issue with VRS properly. 
 - For any question or discussion outside of the meeting time, we leverage [Slack](https://openvoicenetwork.slack.com). Our channel is the #voice-registry-system.
 - The meeting minutes and decision are captured in this [document](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system_meeting_notes.md)
+- The VRS code is the [VRS repo](https://github.com/open-voice-network/vrs)
 
 ## VRS member ideal skills and background
 
