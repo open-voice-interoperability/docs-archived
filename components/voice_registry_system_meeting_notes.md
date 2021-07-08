@@ -23,6 +23,7 @@ This document is meant to capture the meeting notes and decision.
 Next meeting, we will pick the #190 issue, which is the hierarchical structure of VRS, and the remaining we will spend time doing post-mortem or lessons learned. 
 
 
+
 </details>
  
 ## Meeting 06.10.2021

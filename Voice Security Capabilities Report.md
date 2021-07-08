@@ -21,13 +21,13 @@ The security capabilities that the Privacy and Security Workgroup recommended to
 3. **Verification of the process for the end service or device:** The user, the content & channel, and the VAS are verified and were encrypted.
 4. **Content and channel encryption** between the person’s input device and the VAS.
 
-Recommended next steps are internal and external review round to come to a validated result to determine next steps on.
+Recommended next steps are internal and external review rounds to come to a validated result to determine next steps.
 
 ## **Introduction**
 
 The Open Voice Network Technical Committee asked the Privacy and Security Workgroup to identify, define, and prioritize capabilities of security in voice assistant systems. 
 
-Maarten Lens-FitzGerald headed up the workgroup sprint together with the workgroup members to deliver the results as reported here. This work was done Spetember to November 2020.
+Maarten Lens-FitzGerald headed up the workgroup sprint together with the workgroup members to deliver the results as reported here. This work was done September to November 2020.
 
 The approach and way of working of the workgroup were to define important concepts like security, voice assistant system, voice security etc. And then analyze these with a security perspective. This report is the result of this work.
 
@@ -41,14 +41,17 @@ Security is no easy subject matter. To grasp the material these 3 quotes from th
 
 ### Three quotes
 
-**Scope** 
+**Scope**
+
 “We need a name for this new system of systems. It’s more than the Internet, more than the Internet of Things. It’s really the Internet + Things. More accurately, the Internet + Things + Us. Or, for short, the Internet+ .”
 
 **Trust** 
+
 “Although we often don’t think about it, trust is critical to society’s functioning at all levels. On the internet, trust is everywhere. We trust the computers, software, and internet services we use. We trust the parts of the network we can’t see, and the manufacturing process of the devices we use. How we maintain this trust, and how it is undermined, are also critical to understanding security on the Internet+.”
 
 **Complexity** 
-“Everything about this problem [security ] is complex: the technology, the policy, the interaction of technology and policy. Also the politics, the economics, and the sociology. They’re complex in many dimensions, and their complexity is increasing over time. Internet+ security is what is known as a“wicked problem” —which doesn’t mean that it’s evil, but rather that it’s difficult or impossible to solve because it’s so hard to even define the problem and requirements, let alone create a useful solution.”
+
+“Everything about this problem [security] is complex: the technology, the policy, the interaction of technology and policy. Also the politics, the economics, and the sociology. They’re complex in many dimensions, and their complexity is increasing over time. Internet+ security is what is known as a “wicked problem”-—which doesn’t mean that it’s evil, but rather that it’s difficult or impossible to solve because it’s so hard to even define the problem and requirements, let alone create a useful solution.”
 
 
 ## **Computer Security**
@@ -59,10 +62,10 @@ What is computer security? [For this, we turn to the Encyclopedia Britannica](ht
 
 The security precautions related to computer information and access address four major threats: 
 
-(1) theft of data, such as that of military secrets from government computers; 
-(2) vandalism, including the destruction of data by a computer virus; 
-(3) fraud, such as employees at a bank channeling funds into their own accounts; and 
-(4) invasion of privacy, such as the illegal accessing of protected personal financial or medical data from a large database
+1. theft of data, such as that of military secrets from government computers; 
+2. vandalism, including the destruction of data by a computer virus; 
+3. fraud, such as employees at a bank channeling funds into their own accounts; and 
+4. invasion of privacy, such as the illegal accessing of protected personal financial or medical data from a large database
 
 The most basic means of protecting a computer system against theft, vandalism, invasion of privacy, and other irresponsible behaviors is to electronically track and record the access to, and activities of, the various users of a computer system. This is commonly done by assigning an individual password to each person who has access to a system. 
 
@@ -219,7 +222,13 @@ Access to services and devices by parties other than the VAS owner and operator.
 - Devices. Not just Hue lights but also heart pumps or cars. This asset has been marked as high risk. 
 
 ## **Threats & Vulnerabilities unique to Voice**
-<<Generally speaking, a vulnerability is a weakness in a system, and a threat is is when some agent utilizes a vulnerability with the result being a violation of security policy (not always intentionally).  Because of that dependence, I found myself reading those sections in the paper backwards ( because the threat is listed first, then the vulnerability). >>
+
+>> Generally speaking, a vulnerability is a weakness in a system, and a threat is is when
+>> some agent utilizes a vulnerability with the result being a violation of security policy
+>> (not always intentionally). Because of that dependence, I found myself reading those
+>> sections in the paper backwards ( because the threat is listed first, then the
+>> vulnerability).
+
 **Summary** 
 For each of the five system components defined in the simplified Voice Assistant System overview, the threats and vulnerabilities unique to voice are ascertained. Three threats are highlighted as well as one vulnerability as they are seen as extra important in the analysis. 
 
