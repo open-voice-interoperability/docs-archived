@@ -1,6 +1,6 @@
 # Voice Registry System ReadMe
 
-The [Voice Registry System](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md) document will provide the scope, requirements, terminology alignment, architectural design, and implementation guidelines.
+The [Voice Registry System](https://github.com/open-voice-network/docs/blob/master/components/voice_registry_system.md) document will provide the scope, requirements, terminology alignment, architectural design, and implementation guidelines. 
 
 The code and implementation of the VRS is in the [VRS code](https://github.com/open-voice-network/vrs).
 
