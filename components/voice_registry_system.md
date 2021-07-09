@@ -126,24 +126,28 @@ As we continue to build the capability and solution of VRS, we are going to be g
 - Automation (CICD, DevOps, Containerization, Service Mesh, Observability, etc.)
 
 #### 1.0.4.3 Architecture
+
 ![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
 ![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
-<br>
-In this architecture, we follow the Single Responsibility Principle(SRP), whereas the Voice Assistant Platform will remain responsible for identifying the user's intent for their utterance. In addition, classifying the VRS type in an utterance is outside of the VRS responsibilities but rather falls into the Voice Assistant Platform space. See [AD-002](architecture/decisions/002-vrs-type.md").
 
+In this architecture, we follow the Single Responsibility Principle (SRP), in that the Voice Assistant Platform
+will remain responsible for:
 
-<br>
-<br>
-There are a couple of assumptions in the initial phase. CP's accountability extends to the decision-making of classifying, whether an invocation is implicit or explicit. 
-<br>
-<br>
+1. identifying the user's intent for their utterance
+2. classifying the VRS type in an utterance
+ 
+See [AD-002](architecture/decisions/002-vrs-type.md").
+
+There are a couple of assumptions in the initial phase. The accountablity of the Conversation Platform (CP) extends to
+the decision-making of classifying whether an invocation is _implicit_ or _explicit_. 
+
 The VRS core responsibility is to be a standard and platform-agnostic location for voice application. 
-<br>
-<br>
-By following the SRP, we achieve the following: <br>
- - Reduce the dependency of VRS on other voice components. <br>
- - Decrease the extra hop that can create additional latency in the voice flow.<br>
- - Remove the unnecessary complexity for VRS. <br>
+
+By following the SRP, we achieve the following:
+
+- Reduced dependency of VRS on other voice components.
+- Decrease the extra hop that can create additional latency in the voice flow.
+- Reduce complexity for VRS.
 
 **Known Risk:**
 - Dependency on Conversational Platform's NLU integration.
