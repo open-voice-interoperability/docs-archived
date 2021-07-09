@@ -26,7 +26,7 @@ Broadly, this is about the ability of individual users to **find** a conversatio
 For these reasons,  propose the development of a decentralized, standardized global destination registry for conversational agents and related voice assistant systems: **the Voice Registry System.**
 
 
-### Situation Analysis: Today's Voice Ecosystem
+### 1.0.3.1 Situation Analysis: Today's Voice Ecosystem
 
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
 
@@ -102,6 +102,20 @@ A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefe
 </details>
 <br>
 <br>
+
+### 1.0.3.2  Situation Analysis: Tomorrow's Voice Ecosystem
+Voice industry analysts currently see (mid-year 2021) and predict the emergence of a "hybrid" conversational agent (or voice application) ecosystem, one made up of general purpose conversational platforms (with agents) and organization-owned and -operated conversational agents built independently or with third-party tools.  This market transition is being accelerated by the growing enterprise perception of voice assistance as a means to customer service, customer development, and operational efficiencies; the emergence is also spurred by the growth in capabilities of third-party independent voice developers.
+
+As enterprises perceive voice as a business of value, three issues come to the forefront: 1) the ability of an owner of a conversational destination to own the name of that destination; 2) the ability of an individual voice user to find and connect directly to a voice destination of choice, regardless of its platform; and, 3) the ability of a conversational agent destination (nmost often an organization) to own and control the development and delivery of its voice experience.  A Voice Registry System -- a destination registry that enables platform-agnostic connection -- is intended to enable all three needs.
+
+Within tomorrow's voice ecosystem there will be three primary actors connected to and affected by a Voice Registry System:  1) the individual user, who seeks direct, unimpeded access to a destination of choice; 2) the original conversational agent of the user, which would use the Voice Registry System to identify possible destinations and connect to a destination of choice, and 3) the owners of the destination conversational agent, who will use the Voice Registry System to uniquely own its name or brand and to own and execute a unique, destination-specific voice experience. 
+
+
+
+
+
+
+
 
 ### 1.0.4. Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
