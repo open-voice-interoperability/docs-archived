@@ -104,17 +104,25 @@ A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefe
 <br>
 
 ### 1.0.3.2  Situation Analysis: Tomorrow's Voice Ecosystem
+
 Voice industry analysts currently see (mid-year 2021) and predict the emergence of a "hybrid" conversational agent (or voice application) ecosystem, one made up of general purpose conversational platforms (with agents) and organization-owned and -operated conversational agents built independently or with third-party tools.  This market transition is being accelerated by the growing enterprise perception of voice assistance as a means to customer service, customer development, and operational efficiencies; the emergence is also spurred by the growth in capabilities of third-party independent voice developers.
 
-As enterprises perceive voice as a business of value, three issues come to the forefront: 1) the ability of an owner of a conversational destination to own the name of that destination; 2) the ability of an individual voice user to find and connect directly to a voice destination of choice, regardless of its platform; and, 3) the ability of a conversational agent destination (nmost often an organization) to own and control the development and delivery of its voice experience.  A Voice Registry System -- a destination registry that enables platform-agnostic connection -- is intended to enable all three needs.
+As enterprises perceive voice as a business of value, three issues come to the forefront:
 
-Within tomorrow's voice ecosystem there will be three primary actors connected to and affected by a Voice Registry System:  1) the individual user, who seeks direct, unimpeded access to a destination of choice; 2) the original conversational agent of the user, which would use the Voice Registry System to identify possible destinations and connect to a destination of choice, and 3) the owners of the destination conversational agent, who will use the Voice Registry System to uniquely own its name or brand and to own and execute a unique, destination-specific voice experience. 
+  1. the ability of an owner of a conversational destination to own the name of that destination;
+  2. the ability of an individual voice user to find and connect directly to a voice destination of choice, regardless of its platform; and,
+  3. the ability of a conversational agent destination (most often an organization) to own and control the development
+     and delivery of its voice experience.
+   
+A Voice Registry System -- a destination registry that enables platform-agnostic connection -- is intended to enable all three needs.
 
+Within tomorrow's voice ecosystem there will be three primary actors connected to and affected by a Voice Registry System:
 
-
-
-
-
+  1. the individual user, who seeks direct, unimpeded access to a destination of choice;
+  2. the original conversational agent of the user, which would use the Voice Registry System to identify
+     possible destinations and connect to a destination of choice, and
+  3. the owners of the destination conversational agent, who will use the Voice Registry System to uniquely
+     own its name or brand and to own and execute a unique, destination-specific voice experience. 
 
 
 ### 1.0.4. Voice Registry System
