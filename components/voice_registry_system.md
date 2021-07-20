@@ -246,16 +246,29 @@ By following the SRP, we achieve the following: <br>
 #### 1.0.6.1 Do we need central location for common words?
 //todo: #85
 #### 1.0.6.2 Who is the decision maker whether user's utterance is explicit or implicit invocation?
-The voice assistant system will decide if a user's utterance is explicit or implicit. For the initial release, VRS will only handle explicit invocations and the voice assistant system will disambiguate implicit invocations.  
+The voice assistant system will decide if a user's utterance is explicit or implicit. For the initial release, VRS will only handle explicit invocations and the voice assistant system will handle and disambiguate implicit invocations.
 
-**Explicit Invocation Definition:** An invocation of a voice application where the name of the application is part of the invocation utterance. For example:
+Note: The name of a voice application is different than the wake word. A wake word is the user's word(s) used to get a voice assistant to start listening. For instance, "Alexa", "Hey Google" and "Hi Bixby" are wake words. If a user says:
+``` Alexa, ask Target to add milk to my shopping list ``` then  
+``` Alexa``` is the wake word and ```Target``` is the name of the voice application
+
+**Explicit Invocation Definition:** An invocation of a voice application where the name of the application is part of the invocation utterance. For example (omitting the wake word):
 - ```Ask Target, to add milk to my shopping list```  
 - ```Open Target```  
 - ```Talk to Target```  
 - ```Ask Target, what’s on sale```  
 - ```Add milk to my Target shopping list```  
 
-In each of the above utterances, the user has explicitly identified ```Target``` as the name of the voice application they wish to use.  
+In each of the above utterances, the user has explicitly identified ```Target``` as the name of the voice application they wish to use.
+
+There will be instances where there is more than one voice application with the same name. For example:
+- ```Ask John's Bakery, when do you open```
+  
+There may be more than one voice application named *John's Bakery*. Indeed, there may be many different *John's Bakery* voice applications. If a user's explicit invocation results in multiple VRS matches, VRS will return all of the matching records. Included in the records will be the address and other metadata about the voice applications. The voice assistant will then use this information and other user information to disambiguate. Possible ways to disambiguate the above example include:
+- Using the address to find the nearest *John's Bakery*
+- Using the last launched *John's Bakery* application
+- Asking the user which *John's Bakery* to use (and likely store this in user preferences for future use)
+- Some other AI based algorithm to find the best option for the user
 
 **Implicit Invocation Definition:** An invocation of a voice application where the utterance has a meaning (action, question, etc) but the name of the voice application is not in the utterance. For example:
 - ```Add milk to my shopping list``` *(which shopping list?)*
@@ -263,14 +276,14 @@ In each of the above utterances, the user has explicitly identified ```Target```
 - ```Get me a car to the airport``` *(using which provider?)*
 - ```What’s the weather``` *(using which provider?)*  
 
-In these implicit examples, there is an ambiguity as to which voice application to use to satisfy the request. The voice assistant system must resolve this ambiguity by either:
+In these implicit examples, there is an ambiguity as to which voice application should be used to satisfy the request. The voice assistant system must resolve this ambiguity by either:
 1. Using an algorithm to determine the best voice application for the user
 2. Look up a user’s preference for that particular utterance/group of utterances and their preferred voice application
 3. Ask the user which voice application to use
 
-As mentioned above, in the initial phase, VRS would not be involved in the implicit decision - this would be up to the voice assistant system. The system may use VRS in this decision process but the scope of VRS does not include resolving implicit utterances.
+As mentioned above, in the initial phase, VRS would not be involved in the implicit disambiguation - this would be up to the voice assistant system. The system may use VRS data in this decision process but the scope of VRS does not include resolving implicit utterances.
 
-A future version of VRS may add additional functionality to include implicit utterance resolution.
+A future version of VRS may add additional functionality to include or futher aid implicit utterance resolution.
 
 ### 1.0.7. Discussions
  1. Do we need central location for common words?
@@ -278,3 +291,4 @@ A future version of VRS may add additional functionality to include implicit utt
  3. Is VRS only going to focus on explicit invocation?
  <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </The>
  
+{"mode":"full","isActive":false}
