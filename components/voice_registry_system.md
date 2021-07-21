@@ -1,29 +1,39 @@
 # 1. Voice Registry System
 
-### 1.0.1. Overview
+## 1.1. Overview
+
 Voice Registry System (VRS) is one of the components  in the
 [Technical Masterplan](https://github.com/open-voice-network/docs/blob/master/technical_masterplan.md). This document aims to address the current problem of the existing voice architecture landscape.
 
 VRS's goal is to provide and promote voice openness and transparency. 
 
-### 1.0.2. Terminology Alignment
-See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
+### 1.1.1. Terminology Alignment
 
-### 1.0.3. Problem Context
-The task of the Open Voice Network Voice Registry System (VRS) Work Group is to develop standards-based solutions for how _verbalized, explicitly-requested conversational agent destinations_ will,by another conversational agent, **be uniquely identified and connected.**
+[vocab]: https://github.com/open-voice-network/docs/blob/master/vocabulary.md
+
+See [OVN vocabularies][vocab]
+
+### 1.1.2. Problem Context
+
+The task of the Open Voice Network Voice Registry System (VRS) Work Group is to
+develop standards-based solutions for how verbalized, explicitly-requested
+conversational agent destinations will be identified and connected to by another
+conversational agent.
 
 This issue anticipates the continued growth of voice assistant systems that are independent of major platform technologies, and the emergence of a hybrid voice assistant ecosystem consisting of both general-purpose platform-based conversational agents and independent systems, most often managed and operated by enterprises. 
 
 The VRS will provide value to voice assistant system providers and operators, and to consumers. It will provide
 
-- a global, decentralized, standard place for an organization or brand to register their conversational agent(s) and the associated names for them;
-- a global, standardized service that will confirm is a verbalized term or name is registered by a specific conversational agent; 
+- a global, decentralized, standard place for an organization or brand to
+  register their conversational agent(s) and the associated names for them;
+- a global, standardized service that will confirm is a verbalized term or name
+  is registered by a specific conversational agent;
 - a global service that will provide a standard set of technologies and processes that will allow term or name confirmation regardless across all voice assistant systems
 - a global, standardized aid in disambiguation if and when there are multiple conversational agents associated with a registered name or term. 
 
 Broadly, this is about the ability of individual users to **find** a conversational agent of choice, and the ability of providers of conversational agents **to be found.**
 
-For these reasons,  propose the development of a decentralized, standardized global destination registry for conversational agents and related voice assistant systems: **the Voice Registry System.**
+For these reasons, we propose the development of a decentralized, standardized global destination registry for conversational agents and related voice assistant systems: **the Voice Registry System.**
 
 
 ### Situation Analysis: Today's Voice Ecosystem
@@ -104,19 +114,25 @@ A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefe
 <br>
 
 ### 1.0.4. Voice Registry System
+
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
 
 #### 1.0.4.1 Roles and Responsibilities
+
 The primary role and responsibilities of the VRS are the following:
- 1. Be a standard and platform-agnostic location for voice application.
- 2. Provide a consistent experience across conversational platforms and entity's conversational assistant.
- 3. VRS is not responsible for the interpretation of the intent of the user.
- 4. VRS can hold various attributes regarding the voice application, such as name, nlu etc.
- 5. VRS can receive inputs like the user's current location but is not responsible for storing its preference. 
- 6. VRS names can have synergies.
+
+1. Be a standard and platform-agnostic location for voice application.
+2. Provide a consistent experience across conversational platforms and entity's conversational assistant.
+3. VRS is not responsible for the interpretation of the intent of the user.
+4. VRS can hold various attributes regarding the voice application, such as name, nlu etc.
+5. VRS can receive inputs like the user's current location but is not responsible for storing its preference. 
+6. VRS names can have synergies.
 
 #### 1.0.4.2 Architecture Principles
-As we continue to build the capability and solution of VRS, we are going to be guided by these principles.
+
+As we continue to build the capability and solution of VRS, we are going to be
+guided by these principles:
+
 - Single Responsibility
 - Loose Coupling
 - Event-Driven
@@ -127,11 +143,11 @@ As we continue to build the capability and solution of VRS, we are going to be g
 
 #### 1.0.4.3 Architecture
 
-![](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
-![](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
+![architecture setup](component_assets/vrs_proposed_architecture_setup.png?raw=true "Fig. 1 - Proposed Architecture - Setup")
+![architecture runtime](component_assets/vrs_proposed_architecture_runtime.png?raw=true "Fig. 2 - Proposed Architecture - Runtime")
 
-In this architecture, we follow the Single Responsibility Principle (SRP), in that the Voice Assistant Platform
-will remain responsible for:
+In this architecture, we follow the Single Responsibility Principle (SRP), in
+that the Voice Assistant Platform will remain responsible for:
 
 1. identifying the user's intent for their utterance
 2. classifying the VRS type in an utterance
@@ -150,20 +166,19 @@ By following the SRP, we achieve the following:
 - Reduce complexity for VRS.
 
 **Known Risk:**
+
 - Dependency on Conversational Platform's NLU integration.
 
 #### 1.0.4.4 VRS Requirements
+
  1. Registry for voice application regardless of Conversational Platform. 
  2. To promote the OVN principle, VRS will support to run locally and globally at scale.
  3. VRS will store and identify attributes for voice application.
  4. VRS will provide search functionality for voice application.
  5. VRS will provide data administrations.
 
-<br>
-//todo: #88 Note: get more requirements from developers group.
-<br>
-<br>
 
+> todo: #88 Note: get more requirements from developers group.
 
 ### 1.0.5. Proposed Schema
 ***Note:*** The swagger is something what it can look like but by no means vetted out<br>
