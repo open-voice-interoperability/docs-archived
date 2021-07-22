@@ -36,14 +36,18 @@ This document is meant to capture VRS meeting notes and decisions.
 - Issue [#190](https://github.com/open-voice-network/docs/issues/190) - 30 mins
 - Postmortem - 30 mins
 
-
-
 </details>
 
 ## Meeting 06.24.2021
 <details>    
 
 ### Agenda:
+- Issue #86
+
+### Discussion:
+- We discussed PR issue #221, about the implicit and explicit. We talked about some other examples to clarify the implicit and explicit definitions. There are few comments on the PR, and Roger will make those changes and make the changes. 
+
+Next meeting, we will pick the #190 issue, which is the hierarchical structure of VRS, and the remaining we will spend time doing post-mortem or lessons learned. 
 
 - Issue #86
 
