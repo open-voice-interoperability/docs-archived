@@ -8,6 +8,8 @@ This document is meant to capture VRS meeting notes and decisions.
 
 ### Agenda
 
+* Discussion of Entity/Relationship diagram - next steps 
+
 #### Open PRs
 
 * [Update voice_registry_system.md - issue 86](https://github.com/open-voice-network/docs/pull/221)
