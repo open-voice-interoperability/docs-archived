@@ -1,3 +1,68 @@
+# 2021-07-23 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Trammell, N Myers,  A Paik, D Rogers,  S Austin, S. Baul
+
+The meeting began at 9:03 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- D. Cundiff 
+
+### Alignment: Open Voice Network News, Vocabulary Updates  --J. Stine 
+* OVON vacation first 2 weeks of August –enjoy! 
+* The new acronym for Open Voice Network is OVON.  We ask the spelling out as O-V-O-N
+* We are an Open-Source association of the Linux Foundation 
+* Per Linux Foundation, Jon has initiated the process of creating 2 new technical projects for VRS and Architecture work group 
+* Investment of OVON R&D Funds
+  * Do need a formal write up.   Verbal reviews done at prior technical committee meetings do not suffice
+  * Jon Stine will share out a template for resource requests
+  * Please then send to Jon Stine
+  * Will leverage technical resources of TLF as a first source, else other sources as needed 
+  * Keep in mind IP implications
+* OVON was presented to the EU on 7/21/21.  This will also be shared with the Steering Committee meeting.  Jon will post slides & white papers in slack 
+ 
+## The OVON Technical Committee Workgroups –the plan through year end:  
+## AWG
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 	
+* Update on deliverables 
+   * Requirements Document  
+   * Draft Framework 
+   * Data Sharing Project 
+   * Arbitration Project 
+   * Timing and Roadmap will be created later in August for review in September.   First Demo likely available in early 2022 
+ * Update on investment plans
+   * Will have needs but specifics to be determined 
+
+## Privacy &Security Workgroup 
+Privacy 
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 
+  * Phases and phases to be completed this year 
+    * OVON Privacy guidelines review on 2021.8.25.  11am central time 
+    * Privacy Guidelines & Capabilities v2.0  Due 2021.10.30
+    * Privacy Standards, OVON “privacy certification” v1.0 due 2021.12.31
+* Update on deliverables 
+  * Privacy Guidelines and capabilities v2.0 - completed 
+  * Enterprise privacy policy assessment – in progress 
+  * Privacy policy template- not started 
+* Update on investment plans
+  * Will need a technical writer and some legal counsel (Separate funding available for legal needs).  Specifics to be determined 
+
+Security 
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 
+* Update on deliverables 
+    * Finalize document outline by August 
+    * First Draft by October 2021
+* Update on investment plans
+  * will need a security expert –specifics to be determined.   Will work with Doug Rogers on potential resources there 
+
+## VRS
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 
+  * Vision in 5 years – global usage of VRS, Voice assistant platforms are using VRS, scaled and modularized 
+* Update on investment plans
+  * Will need software engineers.  Specifics being documented for submission 
+
+Meeting adjourned at 10:00am CT
+
 # 2021-06-25 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Crabb,  J. Trammell, Nick Myers,  D. Cundiff, M. Lens-FitzGerald 
