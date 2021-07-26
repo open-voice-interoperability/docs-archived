@@ -2,11 +2,11 @@
 
 ## Abstract
 
-The Open Voice Network is a non-profit industry association dedicated to the communal development and broad adoption of technical standards and ethical use guidelines for the emerging world of voice assistance.  It is a directed fund of the Linux Foundation, and independently funded and governed. 
+The Open Voice Network (OVON) is a non-profit industry association dedicated to the communal development and broad adoption of technical standards and ethical use guidelines for the emerging world of voice assistance.  It is a directed fund of the Linux Foundation, and independently funded and governed. 
 
-The Open Voice Network (OVN) Master Plan is a directional document thas defines the initiative's scope of the work and describes the open standards needed to realize a trusted, open implementation for voice assistants and related services.
+The OVON Master Plan is a directional document thas defines the initiative's scope of the work and describes the open standards needed to realize a trusted, open implementation for voice assistants and related services.
 
-The sections below map to OVN working groups and anticipated proposals for standards, TCK's, reference implementations, and usage guidelines. 
+The sections below map to OVON working groups and anticipated proposals for standards, TCK's, reference implementations, and usage guidelines. 
 
 ## Why the Open Voice Network?
 
@@ -14,7 +14,7 @@ The Open Voice Network was founded on these beliefs:
 
 - **We are in the early days of voice assistance.**  We believe the future of voice assistance is **"multi"** -- a world of innumerable enterprise conversational agents operating across multiple platforms, accessed through multiple types of devices, accompanied by multiple modalities, and contextually integrated.  Today, the world of voice assistance is dominated by proprietary, cloud-centric platforms (and related devices) that deliver services using closed implementations.  While closed systems can create value for stakeholders and selected partners, a lack of standards-based interoperability and governance restricts the growth (and economic value) of a larger voice ecosystem. 
 - **A broad lack of user trust inhibits investment and innovation in voice.**  A significant barrier to the realization of user value in voice assistance is the lack of trust that users (from consumers to patients to enterprise decision-makers) have in current voice processes and providers.  
-- **Standards can only emerge from an open, neutral, and communal perspective.** Proposed standards will gain the greatest support (and eventual adoption) when such standards are developed through the leadership of an open, neutral, third party -- one dedicated to the best for the most.  The name "Open Voice Network" speaks to two core operating principles.  The first is that The OVN is "open" -- transparent in its work, and neutral in its interests.  The second is that The OVN is a network of voice user communities -- inclusive of aspirations and concerns from enterprises to voice developers and designers, data analysts and ethicists, marketers and media, and voice platforms worldwide.
+- **Standards can only emerge from an open, neutral, and communal perspective.** Proposed standards will gain the greatest support (and eventual adoption) when such standards are developed through the leadership of an open, neutral, third party -- one dedicated to the best for the most.  The name "Open Voice Network" speaks to two core operating principles.  The first is that OVON is "open" -- transparent in its work, and neutral in its interests.  The second is that OVON is a network of voice user communities -- inclusive of aspirations and concerns from enterprises to voice developers and designers, data analysts and ethicists, marketers and media, and voice platforms worldwide.
 - **Standards create trust and unlock value.** The introduction of communally-developed and broadly adopted standards and guidelines is essential to the creation of trust -- and in turn, the realization of the technology's full societal value.  
 
 ### The Open Voice Network is _Voice First_
@@ -112,7 +112,7 @@ Standing before the growth of conversational AI in usage and economic value are 
 
 **Openness** enables interoperability among assistants and providers.  At its core is the identification and definition of standardized development building blocks.  Such blocks serve as a foundation for commercial differentiation and value; they can be assembled according to purpose, and in completely open, completely proprietary, or mixed (or hybrid) implementations. 
 
-### The OVN's Ways of Working are Based Upon Our Core Values
+### OVON's Ways of Working are Based Upon Our Core Values
 
 - We are neutral and inclusive, welcoming to participation and sponsorship all members of the conversational AI industry – from independent developers and designers to enterprise users to technology firms and platform providers.
 - We seek broad participation and communal development.  No one company or person will set the direction of Open Voice Network proposed standards or usage guidelines.
@@ -126,7 +126,7 @@ Standing before the growth of conversational AI in usage and economic value are 
 
 ### Standards and Usage Guidelines: An Aspirational List
 
-The Technical Advisory Council of The Open Voice Network is responsible for determining the OVN’s research and development of technical standards and usage guidelines. It reports to the Open Voice Network Steering Committee.
+The Technical Advisory Council of The Open Voice Network is responsible for determining OVON’s research and development of technical standards and usage guidelines. It reports to the Open Voice Network Steering Committee.
 
 These topics are in exploration:
 
@@ -184,22 +184,22 @@ The retailer considers all data within its customer interactions and transaction
 
 Since its incorporation in May 2020, the Open Voice Network Technical Committee has operated within a Linux Foundation-chartered Project entitled **PROJECT 1.0: VOCABULARY AND DEFINITION.**
 
-The stated remit of Project 1.0 is to name, operationally define, and prioritize the potential areas for standards development within the realm of artificial intelligence-enabled voice assistance in a manner that is mutually exclusive and collectively exhaustive (MECE), and for OVN Steering Committee review. 
+The stated remit of Project 1.0 is to name, operationally define, and prioritize the potential areas for standards development within the realm of artificial intelligence-enabled voice assistance in a manner that is mutually exclusive and collectively exhaustive (MECE), and for OVON Steering Committee review. 
 
 The purpose of Project 1.0 is to establish a foundational floor of guidance for Technical Committee organization, talent recruitment, and resourcing.
 
 Project 1.0 operates according to a Creative Commons (CC) Attribution 4.0 license.
 
 
-### Initial Areas of OVN Standards and Usage Research
+### Initial Areas of OVON Standards and Usage Research
 
 ### Voice Registry System
 
 One of the most important standards that gave rise to the World Wide Web (WWW) is the Domain Name System (DNS), the hierarchial and decentralized naming system for computers, services, or other resources connected to the Internet or a private network.  Since its initial implementation in 1985, the DNS has translated readily memorized domain names to the numerical internet protocol addresses needed for locating and identifying computer services and devices.
 
-The need for a DNS-like system for voice, one that could connect explicit requests for specific destinations to a third-party conversational agent or voice application, has been part of OVN participant conversations since 2017. 
+The need for a DNS-like system for voice, one that could connect explicit requests for specific destinations to a third-party conversational agent or voice application, has been part of OVON participant conversations since 2017. 
 
-Soon after the incorporation of the Open Voice Network in May 2020, a Work Group was formed by the OVN Technical Committee, and tasked with evaluation of "the market/need opportunity for a global, platform-agnostic voice destination registry."  If such an opportunity was found, the Work Group was asked to "identify and define the capabilities of such a registry in preparation for the formation of an OVN Project."
+Soon after the incorporation of the Open Voice Network in May 2020, a Work Group was formed by the OVON Technical Committee, and tasked with evaluation of "the market/need opportunity for a global, platform-agnostic voice destination registry."  If such an opportunity was found, the Work Group was asked to "identify and define the capabilities of such a registry in preparation for the formation of an OVON Project."
 
 **Introduction to the VRS.**
 
@@ -211,19 +211,19 @@ For more information and details about VRS, please go to [this document](https:/
 
 ### Voice-Specific Privacy and Security
 
-Concerns regarding the privacy of voice assistant conversations (and the subsequent use of conversational data) has been repeatedly identified by user research and voice industry analysts as a major issue inhibiting voice use at individual and enterprise levels.  (See _Kinsella; add details here_)  In early, summer 2020 meetings of the OVN Technical Committee, it was decided to form a Work Group to _"identify, defined, and prioritze the capabilities that the OVN must 'design in' to its other work in regards to individual privacy and data security."_
+Concerns regarding the privacy of voice assistant conversations (and the subsequent use of conversational data) has been repeatedly identified by user research and voice industry analysts as a major issue inhibiting voice use at individual and enterprise levels.  (See _Kinsella; add details here_)  In early, summer 2020 meetings of the OVON Technical Committee, it was decided to form a Work Group to _"identify, defined, and prioritze the capabilities that the OVON must 'design in' to its other work in regards to individual privacy and data security."_
 
-In addition to its advisory role to the VRS and Architecture Work Groups, it was also determined in subsequent meetings that a Privacy and Security Work Group could bring benefit to the OVN and the industry at large by developing neutral, platform-agnostic guidelines for the protection of legislated and regulated privacy rights, and the promotion of widely-held privacy values.  
+In addition to its advisory role to the VRS and Architecture Work Groups, it was also determined in subsequent meetings that a Privacy and Security Work Group could bring benefit to the OVON and the industry at large by developing neutral, platform-agnostic guidelines for the protection of legislated and regulated privacy rights, and the promotion of widely-held privacy values.  
 
-To meet this broad remit, the OVN Privacy and Security Work Group began its work in Q3 2020 with the study of the critical legislation and regulation that now governs individual privacy, as well as highly-cited third party privacy guidelines and those of leading voice assistant providers.  (A list of references follows.)  
+To meet this broad remit, the OVON Privacy and Security Work Group began its work in Q3 2020 with the study of the critical legislation and regulation that now governs individual privacy, as well as highly-cited third party privacy guidelines and those of leading voice assistant providers.  (A list of references follows.)  
 
 _additional content as of 2021.01.03 to be added here_.
 
 ### Component Definition and Interface Interoperability
 
-The interoperability of voice assistance platforms and conversational agents -- one with the ease of use of today's multi-browser internet -- is at the heart of the OVN's vision of an open, accessible voice ecosystem that is worthy of user trust. 
+The interoperability of voice assistance platforms and conversational agents -- one with the ease of use of today's multi-browser internet -- is at the heart of the OVON's vision of an open, accessible voice ecosystem that is worthy of user trust. 
 
-With this in mind, the OVN Technical Committee formed in the Summer of 2020 an Architecture Work Group, tasked to _"identify, define, and prioritize common voice assistant components for potential standardization"._
+With this in mind, the OVON Technical Committee formed in the Summer of 2020 an Architecture Work Group, tasked to _"identify, define, and prioritize common voice assistant components for potential standardization"._
 
 The Architecture Work Group began its efforts by studying the architectures and components of several independent voice assistant concepts, including those of the the W3C Voice Interaction Community and the Stanford Open Voice Assistant Lab (OVAL), seeking to identify and define the common "building block" components of voice assistance.   
 
@@ -297,9 +297,9 @@ TTS, Text To Speech
 - Input: text (possibly with hints for pronunciation)
 - Output: audio
 
-#### 2. Ford Model T “Foundational” Component Basket (Core functionality + OVN unique value)
+#### 2. Ford Model T “Foundational” Component Basket (Core functionality + OVON unique value)
 
-Named after the Model T, a  practical, affordable transportation for the common man which quickly became prized for its low cost, durability, versatility, and ease of maintenance.  This basket of components provides core functionality and OVN unique value. 
+Named after the Model T, a  practical, affordable transportation for the common man which quickly became prized for its low cost, durability, versatility, and ease of maintenance.  This basket of components provides core functionality and OVON unique value. 
 
 VRS Locator Service
 
@@ -379,7 +379,7 @@ Purpose: extend the NGL result generator to include multi-modal, multi-media con
 
 ### Vocabulary
 
-See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
+See [OVON vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
 
 ### Examples
 
@@ -484,7 +484,7 @@ Both STT, and TTS can be implemented on the cloud, on-premise, or embedded devic
 
 There are multiple known STT / TTS technologies in the industry such as Watson STT, Google Cloud, Microsoft, and Mozilla Deepspeech.
 
-This is another domain where OVN can play a significant role in influencing the standard schema for all the STT / TTS technologies players.
+This is another domain where OVON can play a significant role in influencing the standard schema for all the STT / TTS technologies players.
 
 _Previously-developed and broadly-adopted standards that have shaped STT and TTS development include Web Speech API (a JavaScript API that allows web developers to incorporate speech recognition and synthesis into their web pages), Speech Synthesis Markup Language (SSML) Version 1.0 (a standard way to control presentation of speech such as pronunciation, volume, pitch rate, etc. across different synthesis-capable platforms), Proununciation Lexicon Specification Version 1.0 (a syntax for specifiying pronunciation lexicons to be used by Automatic Speech Recognition and Speech Synthesis engines in voice browser applications), Emotion Markup Language (Emotion ML) 1.0 (a "plug-in" language suiteable for use in three different areas:  1) manual annotation of data, 2) automatic recognition of emotion-related stsates from user behavior; and 3) generation of emotion-related system behavior), anbd ToBI (a set of conventions for transcribing and annotating the prosody of speech.)._  
 
@@ -494,7 +494,7 @@ As we enter the era of human-machine conversation, the crown jewel component of 
 
 The global identity solves the interoperability aspect of NLPs. For example, the word "BigGrocery" in Amazon NLP is going to be treated the same way in Microsoft Luis or Einstein. Like domain names, this gives businesses the flexibility to be handled identically in the world of the human-machine conversation regardless of the NLP provider they choose.
 
-NLP schema is another place where OVN can influence the standard. Different NLPs have their own set of schema that leads to the different implementation of standards. Some NLPs understand the concept of entity, but some do not. Some understand the intent, and some have different flavors of it and call it "action." Because of the closed implementations, each business has to orchestrate this separately or build their abstracted implementation version to be able to adapt to different NLP standards. OVN is proposing to set a standard schema for all NLP to follow:
+NLP schema is another place where OVON can influence the standard. Different NLPs have their own set of schema that leads to the different implementation of standards. Some NLPs understand the concept of entity, but some do not. Some understand the intent, and some have different flavors of it and call it "action." Because of the closed implementations, each business has to orchestrate this separately or build their abstracted implementation version to be able to adapt to different NLP standards. OVON is proposing to set a standard schema for all NLP to follow:
 
 ```json
 {
@@ -613,7 +613,7 @@ Manages the actual context of the conversation. It is responsible for choosing t
 ```
 
 > There are several previously-developed and broadly adopted standards which may
-> be of relevance to the Dialog Manager development. OVN research in Q4 2020
+> be of relevance to the Dialog Manager development. OVON research in Q4 2020
 > suggests the following: Voice Extensible Markup Language (VoiceXML) 2.1
 > (designed for creating audio dialogs that feature synthesized speech,
 > digitized audio, recognition of spoken and DTMF key input, recording of spoken
@@ -643,7 +643,7 @@ Items in the vertical dependencies need to be addressed in each architectural co
 
 # Privacy
 
-Part of the principles of OVN is privacy. Below are the guidelines to focus on:
+Part of the principles of OVON is privacy. Below are the guidelines to focus on:
 
 - Always end-users interest first. This is essential, especially for end-users who are marginalized or vulnerable sectors of the society who may not be aware of how their data are being collected, used, or shared. 
 - Always ask. Get an informed acknowledgment from the end-user, before collecting, sharing, or using the data.
