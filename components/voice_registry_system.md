@@ -269,8 +269,11 @@ By following the SRP, we achieve the following:
 
 
 ### 1.0.6. Architecture Decision
+
 #### 1.0.6.1 Do we need central location for common words?
-//todo: #85
+
+[TO DO; see issue #85](https://github.com/open-voice-network/docs/issues/85)
+
 #### 1.0.6.2 Who is the decision maker whether user's utterance is explicit or implicit invocation?
 //todo: #86
 
