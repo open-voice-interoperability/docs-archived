@@ -2,6 +2,8 @@
 
 This document is meant to capture VRS meeting notes and decisions.
 
+Meeting notes after 22 July 2021 are available in the [OVON Google Drive](https://docs.google.com/document/d/1zkDcWoT7JOBmDckneaNpS_JUhGfFpTdlkCyAac2iZsA/).
+
 ## Meeting Thursday, 22 July 2021
 
 <details>
