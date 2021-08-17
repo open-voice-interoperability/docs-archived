@@ -335,3 +335,25 @@ No meeting.
 -   Architecture Work Group
 -   Voice Registry System Work Group
 - Adjournment
+
+# 2021-08-20
+- Antitrust statement and notice of recording (1`minute)
+- Review of the agenda; purpose, expectations for the meeting (2 minutes) -- D. Cundiff
+- Open Voice Network news (5 minutes) -- J. Stine
+- OVON Technical Committee moving forward (10 minutes) -- J. Stine
+    - Recommend monthly meetings.
+    - Confirm central functions of the Technical Committee:
+        - ways of working: tools, processes, vocabulary  (how)
+        - strategic direction: 
+        -     areas of resource investment (time, personnel, R&D monies)  (what and why)
+        -     deliverables (what, when, who)
+        - Master Plan: review, final decisions
+     - Sponsors representatives participate in the Technical Committee
+     - New Technical Committee chair to be proposed (?)
+- Technical Committee Work Groups update (30 minutes)
+  -   What is the most important achievement/milestone between now and EOM September?
+  -   What will be accomplished by EOM October?
+  -   R&D investment update:  what, who, how much?
+ - Discussion: open items, news notes
+ - Adjournment
+        - 
