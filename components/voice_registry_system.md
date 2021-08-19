@@ -327,29 +327,75 @@ To handle this scenario every entity will have a primary name and one more alter
 The above behaviour can be supported by two approaches:
 
 **OPTION 1. Create a relationship with the same record.**
+
 example:
 ```
 {
    record: 1
-   record_name: Cisco Network
-   alternative_names: Cisco
+   record_name: Target
+   alternative_names: Tarjey
    ...
 }
 ```
 
 **OPTION 2. Create 2 records**
+
 example:
 ```
 {
    record: 1
-   record_name: Cisco Network
+   record_name: Target
    ...
 }
 {
    record: 2
-   record_name: Cisco
+   record_name: Tarjey
 }
 ```
+
+Evaluating Option 1 and Option 2 under following headings:
+
+**Maintenance**
+
+    Each record holds data in addition to the record_name, every correction/update will be based on the record_name.
+
+    Option 1: Update happens simply by identifying the record_name and update the record data
+    Option 2: Search all records (that uses alternate_name) belonging to the record_name and update the same. This would require storing the mapping in both the records. Updating will require searching updating multiple records.
+    
+**Corrections/Updates**
+
+    Let us pick Cisco as an example. ‘Cisco’ is the record_name, and ‘Sysco’ is the alternative_names. Suppose Sysco is a different entity, and its business owner would like to claim ‘Sysco’ as its record_name.
+
+    Option 1: The fix is to remove ‘Sysco’ from alternative_names under Cisco record. And searching a record for edit is easy because the search is on ’Cisco’
+    Option 2: The fix is to remove 'Sysco' from the record list. And update mapping between Cisco and Sysco
+
+**Storage**
+
+    The system will need to use two types of storage (for performance) - a persistent storage (like DB) and an in-memory storage (cache). A forward cache is the ideal way to implement the system. All read (search) operations go to cache, while all update (write/update/delete) go to cache and DB (with enough safeguards to ensure data integrity)
+
+**DB Usage**
+
+   Supports both Options - Option 1 is simpler to update records since there is only one record per business entity, whereas Option 2 stores multiple records per business entity and might require additional mapping table to relate/map the multiple records.
+   
+**Cache Usage**
+
+The chosen Option will have an impact here:
+
+    Option 1: Will need two caches:
+        a. Cache 1 - (Key, Value) --> (record_name/alternative_name, record_id/record_no)
+        b. Cache 2 - (Key, Value) --> (record_id/record_no, record_data)
+        
+        Pros: Updates are simple
+        Cons: Search requires two hits on Cache
+
+    Option 2: Single cache:
+        a. Cache 1 - (Key, Value) --> (record_name/alternate_name, record_data)
+        Pros: Search requires one hit on Cache - simple
+        Cons: Updates require - updating multiple records
+
+**Conclusion** 
+
+Option 1 has more merits in terms of maintaining the system, while Option 2 is better from search perspective. Consider Option 1 to store in DB, and Option 2 in Cache.
 
 ### 1.0.7. Discussions
  1. Do we need central location for common words?
