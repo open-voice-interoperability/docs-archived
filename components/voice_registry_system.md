@@ -371,7 +371,7 @@ Evaluating Option 1 and Option 2 under following headings:
 
 **Storage**
 
-    The system will need to use two types of storage (for performance) - a persistent storage (like DB) and an in-memory storage (cache). A forward cache is the ideal way to implement the system. All read (search) operations go to cache, while all update (write/update/delete) go to cache and DB (with enough safeguards to ensure data integrity)
+    The system will need to two storages for persistence and better performance - a persistent storage (like DB) and an in-memory storage (cache). A read-only cache is an ideal way to implement the system. All read (search) operations go to cache, while all update (write/update/delete) go to DB and then update cache (with enough safeguards to ensure data integrity)
 
 **DB Usage**
 
@@ -379,17 +379,18 @@ Evaluating Option 1 and Option 2 under following headings:
    
 **Cache Usage**
 
-The chosen Option will have an impact here:
+The chosen Option (Option 1 or Option 2) impacts the cache design as follows:
 
-    Option 1: Will need two caches:
+    For Option 1: Needs two caches:
         a. Cache 1 - (Key, Value) --> (record_name/alternative_name, record_id/record_no)
         b. Cache 2 - (Key, Value) --> (record_id/record_no, record_data)
         
         Pros: Updates are simple
         Cons: Search requires two hits on Cache
 
-    Option 2: Single cache:
+    For Option 2: Single cache:
         a. Cache 1 - (Key, Value) --> (record_name/alternate_name, record_data)
+        
         Pros: Search requires one hit on Cache - simple
         Cons: Updates require - updating multiple records
 
