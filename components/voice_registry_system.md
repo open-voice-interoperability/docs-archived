@@ -322,7 +322,7 @@ Refers to handling scenarios where a single voice application might be invoked (
 
 This is different from mispronunciation.
 
-To handle this scenario every entity will have a primary name and one more alternative names; e.g. "Target" is the primary name, while "Tarjey" is the alternative name. The VRS system should provide similar behaviour when invoked with alternative name vs the primary name.
+To handle this scenario every entity has a primary name and one more alternative names; e.g. "Target" is the primary name, while "Tarjey" is the alternative name. The VRS system should provide same behvavior irrespective of whether the use used the primary or alternative name.
 
 The above behaviour can be supported by two approaches:
 
@@ -357,10 +357,10 @@ Evaluating Option 1 and Option 2 under following headings:
 
 **Maintenance**
 
-    Each record holds data in addition to the record_name, every correction/update will be based on the record_name.
+    Each record holds data in addition to the record_name, every correction/update is based on the record_name.
 
-    Option 1: Update happens simply by identifying the record_name and update the record data
-    Option 2: Search all records (that uses alternate_name) belonging to the record_name and update the same. This would require storing the mapping in both the records. Updating will require searching updating multiple records.
+    Option 1: Update happens simply by identifying the record_name and an update to the record data
+    Option 2: Search all records (by alternative_name) belonging to the record_name and update the same. This requires storing the mapping in both the records, and updating requires searching updating multiple records.
     
 **Corrections/Updates**
 
@@ -371,11 +371,11 @@ Evaluating Option 1 and Option 2 under following headings:
 
 **Storage**
 
-    The system will need to two storages for persistence and better performance - a persistent storage (like DB) and an in-memory storage (cache). A read-only cache is an ideal way to implement the system. All read (search) operations go to cache, while all update (write/update/delete) go to DB and then update cache (with enough safeguards to ensure data integrity)
+    The system needs two storages for persistence and better performance - a persistent storage (like DB) and an in-memory storage (cache). A read-only cache is an ideal way to implement the system. All read (search) operations go to cache, while all update (write/update/delete) go to DB and then update cache (with enough safeguards to ensure data integrity)
 
 **DB Usage**
 
-   Supports both Options - Option 1 is simpler to update records since there is only one record per business entity, whereas Option 2 stores multiple records per business entity and might require additional mapping table to relate/map the multiple records.
+   Supports both Options - Option 1 is simpler to update records since there is only one record per business entity, whereas Option 2 stores multiple records per business entity and requires additional mapping table to relate/map the multiple records.
    
 **Cache Usage**
 
@@ -396,7 +396,7 @@ The chosen Option (Option 1 or Option 2) impacts the cache design as follows:
 
 **Conclusion** 
 
-Option 1 has more merits in terms of maintaining the system, while Option 2 is better from search perspective. Consider Option 1 to store in DB, and Option 2 in Cache.
+Option 1 has more merits in terms of maintaining the system, while Option 2 is better from search perspective. Consider Option 1 to DB design, and Option 2 for Cache design.
 
 ### 1.0.7. Discussions
  1. Do we need central location for common words?
