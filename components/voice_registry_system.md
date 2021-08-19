@@ -314,6 +314,10 @@ As mentioned above, in the initial phase, VRS would not be involved in the impli
 
 A future version of VRS may add additional functionality to include or futher aid implicit utterance resolution.
 
+#### 1.0.6.2 Handling Alternative 'names' scenario
+
+[See issue #96 for details](https://github.com/open-voice-network/docs/issues/96)
+
 ### 1.0.7. Discussions
  1. Do we need central location for common words?
  2. Who is the decision maker whether user's utterance is explicit or implicit invocation?
