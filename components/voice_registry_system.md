@@ -314,9 +314,42 @@ As mentioned above, in the initial phase, VRS would not be involved in the impli
 
 A future version of VRS may add additional functionality to include or futher aid implicit utterance resolution.
 
-#### 1.0.6.2 Handling Alternative 'names' scenario
+#### 1.0.6.3 Handling Alternative 'names' scenario
 
 [See issue #96 for details](https://github.com/open-voice-network/docs/issues/96)
+
+Refers to handling scenarios where a single voice application might be invoked (or known) by more than one name e.g. "Tarjey" = "Target"; "Delta" = "Delta Dental". 
+
+This is different from mispronunciation.
+
+To handle this scenario every entity will have a primary name and one more alternative names; e.g. "Target" is the primary name, while "Tarjey" is the alternative name. The VRS system should provide similar behaviour when invoked with alternative name vs the primary name.
+
+The above behaviour can be supported by two approaches:
+
+**OPTION 1. Create a relationship with the same record.**
+example:
+```
+{
+   record: 1
+   record_name: Cisco Network
+   alternative_names: Cisco
+   ...
+}
+```
+
+**OPTION 2. Create 2 records**
+example:
+```
+{
+   record: 1
+   record_name: Cisco Network
+   ...
+}
+{
+   record: 2
+   record_name: Cisco
+}
+```
 
 ### 1.0.7. Discussions
  1. Do we need central location for common words?
