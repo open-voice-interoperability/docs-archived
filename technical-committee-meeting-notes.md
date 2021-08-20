@@ -1,3 +1,71 @@
+# 2021-08-20 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers,  S. Baul, J. Crabb, P. Gogal
+
+The meeting began at 9:02 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Open Voice Network News 
+* Synthetic Voice Study Group Report due EOM September 
+  * Potential impact to authentication, payment as well as advertising-media-entertainment areas
+  * Recommendations will be brought to the Technical Committee for review and action 
+* Open Voice Network headlines in *Variety* 
+  * Detailed coverage of OVON white paper on the use, value of voice assistance in the media and entertainment industries
+  * Authored by OVON Ambassadors Donald Buckley and Janice Mandel
+* OVON initiating outreach to Health & Wellness industry 
+  * Goals for SME participation and sponsorship
+  * OVON Ambassador:  Harry Pappas, CEO of Intelligent Health Association
+
+### OVON Technical Committee moving forward
+* Recommend monthly meetings 
+  * 3rd Friday of the month following the Steering Committee 
+  * Agreed that some can be extended to 90 minutes due to content and/or setup separate review sessions as needed 
+* Request representation from every OVON sponsor 
+* Begin process of recruiting a new chair of the OVON Technical Committee (rotate among sponsors every 6 months)
+   * Discussed role of Vice Chair and Chair –where Vice Chair moves to Chair after 6 months rotation.   This will go to the Steering Committee 
+* Confirm central functions of the Technical Committee 
+  * Ways of working:  tools, processes, vocabulary (code-owner per workgroup). [Link to git Ways of Working doc]( https://github.com/open-voice-network/docs/blob/main/way_of_working.md)
+  * Strategic direction:  areas of resource investment (time, personnel, monies)
+  * Deliverables:  confirmation and review 
+  * Master Plan:  development, review, final decisions 
+* Need for Chief Architect for OVON
+  * Need to define job description and role definition 
+  * Assumed to be a part time position and volunteer at this point 
+
+### Investment of OVON R&D Funds 
+* Reminder to submit your needs using the form that Jon has shared 
+* Deadline for forms 8/27/21 
+* Technical committee will review and bring to the Steering Committee accordingly 
+
+### Intellectual Property Licensing – Update 
+* Jon will setup 2 new projects to accommodate the licensing requirements of The Linux Foundation 
+
+### Technical Committee Workgroup Updates 
+* Privacy 
+  * Privacy Guidelines 1.0 circulated and reviewed by end of September
+  * Privacy 2.0 document drafted for review by end of September 
+  * Privacy v2.0 document completed by end of October 
+  * Ready to submit form for resources by deadline
+* Security 
+  * Security Guidelines completed first draft 
+  * Submitted form for resources with high priority need 
+  * Completing outline and creating draft Security Guidelines document for review by end of October 
+* VRS
+  * Deployment of VRS 1.0 (MVP) by end of September for use and review 
+  * Agreement on VRS 2.0 scope by end of October 
+* Architecture 
+  * Establish 1.0 library of interoperability scenarios –to publish in git 
+  * Publish 1.0 requirements for sharing dialogs and data between conversational agents 
+  * Defined 6 enhancements for Voice Agents interoperability 
+  * Deutsche Telekom will be initial user   
+  * No resource requests at this time 
+
+Meeting adjourned at 9:51am ct 
+
+
 # 2021-07-23 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Trammell, N Myers,  A Paik, D Rogers,  S Austin, S. Baul
