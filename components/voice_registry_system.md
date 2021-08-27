@@ -158,7 +158,7 @@ will remain responsible for:
 1. identifying the user's intent for their utterance
 2. classifying the VRS type in an utterance
  
-See [AD-002](architecture/decisions/002-vrs-type.md").
+See [AD-0002](../architecture/decisions/0002-vrs-type.md).
 
 There are a couple of assumptions in the initial phase. The accountablity of the Conversation Platform (CP) extends to
 the decision-making of classifying whether an invocation is _implicit_ or _explicit_. 
