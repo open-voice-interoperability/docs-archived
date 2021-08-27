@@ -181,11 +181,7 @@ By following the SRP, we achieve the following:
  4. VRS will provide search functionality for voice application.
  5. VRS will provide data administrations.
 
-<br>
-//todo: #88 Note: get more requirements from developers group.
-<br>
-<br>
-
+> [TO DO: get more requirements from developers group](https://github.com/open-voice-network/docs/issues/88)
 
 ### 1.0.5. Proposed Schema
 ***Note:*** The swagger is something what it can look like but by no means vetted out<br>
