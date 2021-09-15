@@ -353,3 +353,16 @@ No meeting.
   - Most important achievement / milestone between now and EOM October
   - R&D investment update – due EOM August
 - Open item discussion / news / adjournment
+
+# 2021-09-17
+- Antitrust statement and notice of recording
+- Review of the agenda, expectations for the meeting
+- Community Specifications License -- Scott Nicholas, Linux Foundation
+- Ways of working:  new technical committee chair; process, personnel
+- OVON R&D investment: as proposed to the Steering Committee
+- OVON opportunities for collaboration: adopt, adapt, partner
+- Technical Committee Work Group updates:  recent actions, achievement of milestones
+  - Architecture
+  - Privacy and Security
+  - VRS
+- Open item discussion / news / adjournment
