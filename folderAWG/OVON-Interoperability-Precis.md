@@ -4,7 +4,7 @@ This overview of the Open Voice Network’s approach to voice agent interoperabi
 
 Documentation of the Open Voice Network (OVON) Interoperability Initiative will be stored in the Open Voice Network’s GitHub repository, which can be accessed here:  github.com/open-voice-network/docs/folderAWG/OVON-Interoperability-Precis.md
 
-###Working Definition of Interoperability
+### Working Definition of Interoperability
 
 **The ability for voice agents of different platforms or technological parentage to share dialogs, data, context, and controls.**
 
