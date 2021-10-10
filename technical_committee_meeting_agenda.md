@@ -353,3 +353,18 @@ No meeting.
   - Most important achievement / milestone between now and EOM October
   - R&D investment update – due EOM August
 - Open item discussion / news / adjournment
+
+# 2021-10-15
+- Antitrust statement and notice of recording
+- Review of the agenda, expectations for the meeting
+- Introductions:  Christian Wuttke, John Trammell
+- Open Voice Network news 
+- Updates:
+  - Sponsor and participant recruitment
+  - Program Management
+  - Hiring
+ - New Technical Committee chair to be nominated
+- Technical Committee Work Group updates
+  - Current work, relevance to other Work Groups
+  - Performance vs. Git-documented milestones 
+  - Open item discussion / news / adjournment
