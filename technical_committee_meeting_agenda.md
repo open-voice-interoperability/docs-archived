@@ -363,7 +363,7 @@ No meeting.
   - Sponsor and participant recruitment
   - Program Management
   - Hiring
- - New Technical Committee chair to be nominated
+- New Technical Committee chair to be nominated
 - Technical Committee Work Group updates
   - Current work, relevance to other Work Groups
   - Performance vs. Git-documented milestones 
