@@ -1,3 +1,43 @@
+# 2021-10-15 Notes of the Technical Committee Meeting
+
+In attendance:  C. Wuttke, Chair; J. Trammell, Vice-Chair; N. Caidin, S. Prayaga, M. Brinas-Dobrowski, O. Coleman, N. Myers, J. Larson, J. Stine
+
+The meeting was called to order at 9:02 CDT (US).
+
+### Antitrust statement and notice of recording -- J. Stine
+
+### Review of the agenda, purpose of and expectations for the meeting -- C. Wuttke
+
+### Introductions.  
+
+Christian Wuttke of Schwarz Gruppe introduced, instituted as Technical Committee Chair.  John Trammell of Target Corporation introduced, instituted as Technical Committee Vice-Chair.  Neal Caidin of the Linux Foundation introduced as the new Open Voice Network Program Manager.  Introductions of Work Group moderators:  Shyamala Prayaga and Jim Larson, Architecture Work Group; Nick Myers, Privacy and Security Work Group, with Senior Advisor Oita Coleman; Maria Brinas-Dobrowski, VRS Work Group.
+
+### OVON Updates -- J. Stine
+
+J. Stine provided the following updates:
+- Hiring status:  as of Thursday, 14 October, CV's have been received for all three strategic Work Group positions: 2 for the Security position, 16 for the Interoperability programmer position, and 2 for the VRS Solution Architect position.
+- Hiring Process and milestones:  CV's to reviewed no later than 18 October 2021, and finalists selected; interviews, statements of work to be requested no later than 25 October.  Regarding pricing: we will ask for Statements of Work from final candidates.  In some cases, the expertise we desire may be more expensive than the monies budgeted.  Our response will be determined by the expertise of the applicant; however, we may choose to limit deliverables (or phase the work into 2022) to stay within budget.  Per a question from O. Coleman: a) we may engage either with individuals or with the entities with which a candidate is affiliated or employed; b) we will use for agreement the standard Linux Foundation consultant agreement.  Copies of the latter can be obtained from N. Caidin or J. Stine.
+- Community Specifications licenses now in place for OVON Interoperability and VRS Work, per J. Stine.  Four actions required:
+	* S. Nicholas of the LF to review, approve establishment of Community Specifications licenses, as now in GitHub
+	* N. Caidin, J. Stine to determine and commmunicate tequired Work Group process changes to Work Group moderators 
+	* Work Group moderators to announce Community Specifications license and required processes to Work Group participants
+	* 3rd Party Contractors to work within Community Specifications license
+- Collaboration relationships, specifically with W3C Voice Interaction Community and Stanford University OVAL:  discussions ongoing.  OVON submitted statements of support for an OVAL grant proposal to the Sloan Foundation.
+- Logo change:  per advice from LF counsel, the Open Voice Network should change its logo (the amplitude graphic was found to be at issue.)  An interim logo is now in use; a LF graphic designer is now preparing new logo options for Steering Committee consideration.
+
+### Work Group Reports
+
+- C. Wuttke reviewed, emphasized the Adopt-Adapt-Build priority model that is to guide all Technical Committee work.
+- All Work Group milestones now up to date in OVON GitHub repository.
+- Architecture Work Group:  J. Larson reported on status of work, the "six enhancement" strategic direction. Identified year-end 2021 objective of a working prototype.
+- Privacy and Security Work Group:  N. Myers and O. Coleman spoke to month-by-month expectations for the 2.0 Privacy Guidelines.  By EOM October: a topical outline.  By EOM November: a first draft.  By EOM December, a reviewed, revised, and ready-for-public distribution second draft.
+	* O. Coleman presented content prepared for the 20 October Steering Committee Meeting; a strategic review of the work to date, and anticipated/potential next steps.  Discussion, recommendations.
+- Voice Registry Work Group:  M. Brinas-Dobrowski reported ongoing progress against the three 2021 deliverables, noting the completion of initial POC's.  
+
+C. Wuttke adjourned the meeting at 9:58 a.m. CDT. 
+
+
+
 # 2021-09-17 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb, P. Gogal, M. Brinas-Dobrowski, S. Nichols, A. Paik
