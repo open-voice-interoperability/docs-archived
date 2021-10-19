@@ -7,7 +7,8 @@ Voice Registry System (VRS) is one of the components  in the
 VRS's goal is to provide and promote voice openness and transparency. 
 
 ### 1.0.2. Terminology Alignment
-See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
+
+See the [OVON vocabulary document](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
 
 ### 1.0.3. Problem Context
 The task of the Open Voice Network Voice Registry System (VRS) Work Group is to develop standards-based solutions for how _verbalized, explicitly-requested conversational agent destinations_ will,by another conversational agent, **be uniquely identified and connected.**
