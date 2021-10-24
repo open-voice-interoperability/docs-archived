@@ -1,3 +1,72 @@
+# 2021-09-17 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb, P. Gogal, M. Brinas-Dobrowski, S. Nichols, A. Paik
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Community Specifications License – S. Nicholas, TLF
+* Specifications at the Linux Foundation
+  * We have been working under the Charter of the Open Voice Network Vocabulary and Definition Project, which was opened under a CC4 license
+* Community Specification License 
+  * Incorporates the terms and processes required for specification development 
+  * Designed to enable collaboration at the speed of open source
+  * Includes copyright license and patent license 
+  * Includes source code license 
+* [link to community specification license]( https://github.com/CommunitySpecification/1.0)
+
+### Ways of working:  New Technical Committee Chair; process, personnel –J. Stine
+* New Technical Committee Chair needed
+* Rotating Technical Committee Chair across Platinum-Gold sponsors 
+  * Chair as a 1 year term 
+  * A vice chair is identified and serves at the same time.  Vice chair will rotate into the chair in the following year 
+  * Each January, identification of the next vice chair 
+
+### OVON R&D investment: as proposed to the Steering Committee – J. Stine
+* 6 Proposed R&D investments to date were submitted to and approved by the Steering Committee
+* Jon is meeting with TLF HR to begin the process of sourcing candidates from TLF
+
+### OVON Opportunities for collaboration:  adopt, adapt, partner  --
+* Exploring collaboration with variety of organizations: 
+  * W3C, Stanford University, Oasis Open Projects - RECITE, Intel Open-source virtual assistant, NVIDIA RIVA NLP 
+* Accelerating our work :  Strategic Guidance
+  * Adopt – First Choice
+  * Adapt – Second Choice
+  * Build – Third Choice 
+* Discussion: 
+  * need to ensure that any adapt or adopt meets the base goals & priorities of the OVON 
+  * consider adding a 4th option of collaboration –or this this a horizontal layer across the 3 of adopt, adapt, build 
+  * does our problem statement need revision?  Jon will add some clarity 
+
+### Technical Committee Workgroup Updates 
+* Privacy 
+  * Privacy Guidelines 1.0 feedback sessions held and a public open forum held 
+  * Privacy 2.0 document draft plan created and WIP  
+  * Privacy v2.0 document completed by end of October is current goal (may extend a bit) 
+  
+* Security 
+  * Security 2.0 document –analysis and outline completed.  Working to define feedback process 
+
+* Architecture 
+  * Defined 6 enhancements for Voice Agents interoperability (comm infrastructure, VRS 1.0, Switcher-Roo, Arbitration, data share, private persona)
+  * creating roadmap of tasks for each of the 6 layers 
+  * POCs being created for each of the 6 layers 
+  * OVON Workshop demo being planned for each as well 
+
+* VRS
+  * 2 POCs developed (RUST app built from scratch, DNSMasque)
+  * Looking to discuss with Deutsche Telekom 
+
+### Open item discussion/news/adjournment 
+* Collaborative discussions will provide some insight into how we might need to move forward
+* Good to see progress from all teams 
+
+Meeting adjourned at 9:54am ct 
+
+
 # 2021-08-20 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers,  S. Baul, J. Crabb, P. Gogal

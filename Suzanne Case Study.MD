@@ -1,6 +1,6 @@
 # Suzanne Case Study
 A user, Suzanne, would like to plan a trip to an international conference and she needs visa information and airline reservations. 
-This is a futuristic scenario in which Suzanne has a personal agent named Jeeves inspired by the in BBC TV series Jeeves and Wooster based on a series of books by P. G. Woodhouse. For the next few years when Jeeves is not available, Suzanne would need to do all the tasks perform by Jeeves.
+This is a futuristic scenario in which Suzanne has a personal agent named Jeeves inspired by the in BBC TV series Jeeves and Wooster based on a series of books by P. G. Wodehouse. For the next few years when Jeeves is not available, Suzanne would need to do all the tasks perform by Jeeves.
 This scenario features issues of privacy, security, and component behavior.    
 1.	Suzanne begins by pressing a button on her cell phone to begin her conversation with her Jeeves.  Jeeves is local to Susan’s phone and has permission to access Susan’s personal data.
 2.	Jeeves:  Hi, I’m Jeeves, your personal assistant. Could you please say your name? Jeeves will use three forms of user authentication based on Susan’s personal data.  Suzanne can change this if she wants.
