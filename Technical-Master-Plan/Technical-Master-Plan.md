@@ -399,7 +399,7 @@ Several examples that are useful to explain all the concepts required in the des
 
 ### Component Architecture
 
-![Component Architecture](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
+![Component Architecture](assets/component_architecture_diagram.png "Fig. 1 - Component Architecture Diagram")
 
 > Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
 
@@ -407,7 +407,7 @@ Several examples that are useful to explain all the concepts required in the des
 
 This component flow section aims to describe the general steps that happen in and between each component.
 
-![Sequence Diagram](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_flow_sequence_diagram.png?token=AABSWQX53UKQK2Y3A557URK6UIA4A "Fig. 2 - Component Flow Sequence Diagram")
+![Sequence Diagram](assets/component_flow_sequence_diagram.png "Fig. 2 - Component Flow Sequence Diagram")
 
 1. "{wake word}, add milk to my shopping list at BigGrocery."
 2. NLP calls VRS and passes the query. NLP sends in the query its location and what it thinks the VRS name lookup should resolve for (in the case below it understands that "biggrocery" is what the VRS lookup is for). See Figure 1.0.
