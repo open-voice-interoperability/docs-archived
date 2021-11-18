@@ -368,3 +368,17 @@ No meeting.
   - Current work, relevance to other Work Groups
   - Performance vs. Git-documented milestones 
   - Open item discussion / news / adjournment
+
+# 2021-11-19 
+- Notice of recording, antitrust policy statement
+- Review of the agenda, expectations for the meeting – Christian Wuttke
+- Quick Updates – Jon Stine
+    Potential collaboration partners: Stanford
+    Meeting management / responsibilities 
+- Work Group reports  (Architecture, Privacy & Security, VRS)
+     Hiring
+    What we will accomplish by year-end 2021
+- 2021 in Review / 2022 in Focus 
+    2021 in Review – areas for improvement:  three things (overall, and in our Work Groups) we could- /should have done better
+    2022 in Focus:  three things we must accomplish
+Adjourn
