@@ -1,3 +1,53 @@
+# 2021-11-19 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb,  M. Brinas-Dobrowski, N. Caidin, B. Epstein
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+* [link to antitrust policy]( https://www.linuxfoundation.org/antitrust-policy/)
+* Discussed need to discuss this further in a future meeting 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Quick Updates –J. Stine 
+* Potential collaboration partners:  Stanford
+  * mutual desire to collaborate in the areas of technologies, 
+  * would require financial contribution from OVON, will be brought to OVON Steering in December 
+* Meeting management/responsibilities 
+  * Zoom -10 licenses 
+  * Recommendation:   In 2022, move all of the meeting management from Outlook to Google calendar to be the source of truth.   Zoom meetings setup then through central Google OVON calendar
+  * Discussion: 
+    * Risk of others ‘crashing’ our meetings
+    * TLF is rolling out a new set of meeting management tools.  N. Caidin will share back 
+
+### Technical Committee Workgroup Updates 
+* Privacy & Security 
+  * Have selected an candidate and received their SOW and are in the process of negotiating.   Expect completion next week with goal to start work December 1
+  * Privacy:  Publish Privacy Guidelines v2.0 by end of year 
+  * Security:  Publish Security Guidelines v2.0 by February 2022
+
+* Architecture 
+  * Have selected an candidate and received their SOW and are in the process of negotiating with goal to start work December 1
+  * Tiger team working on MOAD demo planned before year end 
+
+* VRS
+  * Reviewed candidates and short listed.  Interviewing is next step and goal to start work mid-December 
+  * VRS year end deliverables are:  POC w/Deutsche Telekom, assessment of adding another conversation platform (ex. Magenta 2.0)
+  * Agreed that VRS and Architecture workgroups should discuss connection points  
+
+### 2021 in Review/2022 in Focus 
+* 2021 in Review
+  * Documentation management is an area of opportunity  -Structure and what should go in Github vs Googledocs 
+  * Privacy & Security workgroup members have reduced which has impacted deliverables –how can we better retain workgroup members 
+  * Decision making –many choices available and hard to determine which is best.  Decisions are often revisited (even without new information) 
+* 2022 in Focus 
+  * Architecture Workshop in March 
+* We didn’t have a lot of time to review the above and suggested that this reflection be done periodically throughout the year 
+
+Meeting adjourned at 10:00 am ct 
+
+
 # 2021-10-15 Notes of the Technical Committee Meeting
 
 In attendance:  C. Wuttke, Chair; J. Trammell, Vice-Chair; N. Caidin, S. Prayaga, M. Brinas-Dobrowski, O. Coleman, N. Myers, J. Larson, J. Stine
