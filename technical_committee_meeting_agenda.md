@@ -368,3 +368,21 @@ No meeting.
   - Current work, relevance to other Work Groups
   - Performance vs. Git-documented milestones 
   - Open item discussion / news / adjournment
+
+# 2021-12-17
+**Invocation, reading of the LF Antitrust Guidance**
+**Ways of Working:**
+- when GitHub, when Google, and why
+- Seliverables and Milestone management
+- cleaning up the OVON GitHub repository
+**The Master Plan:**
+- LF expectations for transparency, visibility
+    - public-facing documents: GitHub (in .md) and OVON.org (Word or Google docs, pdf)
+- a Master Plan, or a Master Plan and multiple sub-plans?
+- J. Trammell review and assessment
+**Plan 2022:**
+- Observations from Steering Committee members
+- the "headline" for the Technical Committee at YE 2022
+- top-down proposed 2022 objectives
+- top-down proposed 2022 Q1 milestones
+**Adjourn** 
