@@ -1,3 +1,56 @@
+# 2021-12-17 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb,  N. Caidin, S. Nicholas. P.Gopal
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+* [link to antitrust policy]( https://www.linuxfoundation.org/antitrust-policy/)
+* Please review the linked policy 
+* S. Nicholas was present and suggested that if you have questions, engage your company counsel and connect with Scott for a discussion as needed 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Trammell 
+
+### Work group contractor hiring status 
+* Privacy & Security 
+  * Has hired Ed Sewell 
+* Architecture 
+  * Now in renegotiation with 7 January as completion goal 
+* VRS 
+  * Working through scheduling interviews with candidates and goal to get them arranged for the near term 
+
+### Ways of working: 
+* When Github, when Google and why 
+  * Collaborative document development may be in either Google workspace for Github docs repo.  Decision managed by work group moderator 
+  * Public facing final versions of documentation MUST be published in Github in pdf form.  For broader public distribution, it is recommended that the pdf also be posted on opevoicenetwork.org (http://openvoicenetwork.org)
+    * Aligned that a workgroup should be formed to define detailed standards – John Trammell to lead 
+  * Work group code and proposed protocols (from 0.1 to final) MUST be published and managed in Github
+* Deliverables and milestone management 
+  * Work groups, communities and task forces may manage tasks in Trello or Github or other tool preferred by work group.  Decision to be managed by work group moderator
+  * Each work group will establish in Github deliverables and milestones that are measured quarterly.  These will reside in the Technical Committee Project 
+  * Agreed that some training may be required to achieve goaled standards 
+* Cleaning up of the OVON Github repository 
+  * Github Repos currently need a lot of cleanup work 
+  * J.Stine, K.Dank, and N.Caidin will start the process but each work group will need to own cleanup of their repos at some point
+
+### The Master Plan: 
+* LF expectations for transparency, visibility
+  * LF requires final public facing documents and all code/protocols in Github 
+* A master plan or a master plan with multiple sub-plans? 
+  * J. Trammell reviewed the Master Plan
+    * Observations:   Good document, good calls to action, some gaps 
+    * Actions:   J. Trammell will meet with each work group and create recommendations for go forward approach 
+
+### Plan 2022:   Topic postponed to next meeting 
+* Observations from Steering Committee members 
+* The “headline” for the Technical Committee at YE 2022
+* Top-down proposed 2022 objectives 
+* Top-down proposed 2022 milestones 
+
+Meeting adjourned at 9:59 am ct 
+
+
+
 # 2021-11-19 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb,  M. Brinas-Dobrowski, N. Caidin, B. Epstein
