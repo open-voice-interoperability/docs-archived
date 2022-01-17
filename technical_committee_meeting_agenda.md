@@ -395,3 +395,21 @@ No meeting.
   - 2021 in Review – areas for improvement:  three things (overall, and in our Work Groups) we could- /should have done better
   - 2022 in Focus:  three things we must accomplish
 - Adjourn
+
+# 2021-12-17
+**Invocation, reading of the LF Antitrust Guidance**
+**Ways of Working:**
+- when GitHub, when Google, and why
+- Deliverables and Milestone management
+- cleaning up the OVON GitHub repository
+**The Master Plan:**
+- LF expectations for transparency, visibility
+    - public-facing documents: GitHub (in .md) and OVON.org (Word or Google docs, pdf)
+- a Master Plan, or a Master Plan and multiple sub-plans?
+- J. Trammell review and assessment
+**Plan 2022:**
+- Observations from Steering Committee members
+- the "headline" for the Technical Committee at YE 2022
+- top-down proposed 2022 objectives
+- top-down proposed 2022 Q1 milestones
+**Adjourn** 
