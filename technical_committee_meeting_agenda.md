@@ -400,7 +400,7 @@ No meeting.
 **Invocation, reading of the LF Antitrust Guidance**
 **Ways of Working:**
 - when GitHub, when Google, and why
-- Seliverables and Milestone management
+- Deliverables and Milestone management
 - cleaning up the OVON GitHub repository
 **The Master Plan:**
 - LF expectations for transparency, visibility
