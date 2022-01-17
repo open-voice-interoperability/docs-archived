@@ -354,6 +354,19 @@ No meeting.
   - R&D investment update – due EOM August
 - Open item discussion / news / adjournment
 
+# 2021-09-17
+- Antitrust statement and notice of recording
+- Review of the agenda, expectations for the meeting
+- Community Specifications License -- Scott Nicholas, Linux Foundation
+- Ways of working:  new technical committee chair; process, personnel
+- OVON R&D investment: as proposed to the Steering Committee
+- OVON opportunities for collaboration: adopt, adapt, partner
+- Technical Committee Work Group updates:  recent actions, achievement of milestones
+  - Architecture
+  - Privacy and Security
+  - VRS
+- Open item discussion / news / adjournment
+
 # 2021-10-15
 - Antitrust statement and notice of recording
 - Review of the agenda, expectations for the meeting
@@ -368,6 +381,20 @@ No meeting.
   - Current work, relevance to other Work Groups
   - Performance vs. Git-documented milestones 
   - Open item discussion / news / adjournment
+
+# 2021-11-19 
+- Notice of recording, antitrust policy statement
+- Review of the agenda, expectations for the meeting – Christian Wuttke
+- Quick Updates – Jon Stine
+  -  Potential collaboration partners: Stanford
+  -  Meeting management / responsibilities 
+- Work Group reports  (Architecture, Privacy & Security, VRS)
+  - Hiring
+  - What we will accomplish by year-end 2021
+- 2021 in Review / 2022 in Focus 
+  - 2021 in Review – areas for improvement:  three things (overall, and in our Work Groups) we could- /should have done better
+  - 2022 in Focus:  three things we must accomplish
+- Adjourn
 
 # 2021-12-17
 **Invocation, reading of the LF Antitrust Guidance**
