@@ -1,6 +1,9 @@
 ---
-
+layout: default
+title: Technical Master Plan v1
+parent: Technical Master Plan
 ---
+
 # Technical Masterplan
 
 ## Abstract
