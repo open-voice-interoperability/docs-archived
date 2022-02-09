@@ -14,11 +14,11 @@ The code and implementation of the VRS is in the [VRS code](https://github.com/o
 
 For the working group that is as diverse as us from different countries, companies, industries, specialties, and backgrounds, we **must define each word similarly and meant the same way**. To use an analogy of a car, a wheel alignment is critical because this is one necessary factor that can significantly affect how the vehicle will run and allay any accidents. The goal is to save time, remove confusion, and be concise with our discussion. In short, we should be speaking the same language as a cohesive team.
 
-If you are new to the group, please review the [OVON vocabulary document]({% link OVON/vocabulary.md %}).
+If you are new to the group, please review the [OVON vocabulary document]({% link ovon/vocabulary.md %}).
 
 ## Working Style
 
-- In general, VRS follows the [working ways guidelines]({% link OVON/way-of-working.md %}).
+- In general, VRS follows the [working ways guidelines]({% link ovon/way-of-working.md %}).
 - To get access to the tools we use, please follow the instruction [here](https://github.com/open-voice-network/docs/blob/master/way_of_working.md).
 - The working group meets every Thursday every two weeks, 9 AM CST. If you are interested in being added, please contact OVON Executive Director (<jon.stine@openvoicenetwork.org>).
 - The working group leverages [github issues](https://github.com/open-voice-network/vrs/issues) for any great discussion that we need to track. For easy filtering, please make sure to label the issue with VRS properly. 

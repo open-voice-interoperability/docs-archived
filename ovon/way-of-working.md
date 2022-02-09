@@ -4,7 +4,6 @@ title: Way of Working
 parent: OVON
 ---
 
-
 # Overview
 
 This document aims to describe the ways in which OVN will work with regards to knowledge sharing, meetings, etc.
