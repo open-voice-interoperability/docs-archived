@@ -203,6 +203,10 @@ Soon after the incorporation of the Open Voice Network in May 2020, a Work Group
 
 **Introduction to the VRS.**
 
+The Voice Registry System (VRS) is envisioned to be a hierarchial and decentralized system for registering, identifying, and connecting to an _explicitly verbalized destination_, be it an independent agent or platform-based application (for example, a skill, action, or capsule.)  We believe that a Voice Registry System is essential to the growth of user trust in the enterprise use of voice; much as the DNS does today for websites, it will provide a single, neutral registry (and accompanying arbitration system) for organizations through which they will own and protect their names and brands.  Individual(s) seeking connection to a specific organization will be confident that, thanks to the VRS, they will connect with their organization of choice.
+
+The Voice Registry System will be comprised of three major parts:  a hierarchial and decentralized database of organization names and supporting attributes; a standardized set of components that will receive and respond to speech-to-text data, and route the request to the requested organization's destination; and a neutral, non-profit organization responsible for managing and ever-improving the protocols, standards, and database(s) of the VRS.  
+
 Voice Registry System (VRS) is the new concept that is part of the open-voice standards. VRS is a new global entity and, therefore, part of the pre-processing identification in the NLP. Once the NLP identifies @vrs, it passes the information to the VRS server.
 
 The job of the VRS is to resolve the query by trying to resolve first in the root server. If not found, it is smart enough to point to the next name server, and this process continues until the request is resolved, or determined that the requested @vrs is not registered.
