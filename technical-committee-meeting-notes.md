@@ -1,3 +1,348 @@
+# 2021-12-17 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb,  N. Caidin, S. Nicholas. P.Gopal
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+* [link to antitrust policy]( https://www.linuxfoundation.org/antitrust-policy/)
+* Please review the linked policy 
+* S. Nicholas was present and suggested that if you have questions, engage your company counsel and connect with Scott for a discussion as needed 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Trammell 
+
+### Work group contractor hiring status 
+* Privacy & Security 
+  * Has hired Ed Sewell 
+* Architecture 
+  * Now in renegotiation with 7 January as completion goal 
+* VRS 
+  * Working through scheduling interviews with candidates and goal to get them arranged for the near term 
+
+### Ways of working: 
+* When Github, when Google and why 
+  * Collaborative document development may be in either Google workspace for Github docs repo.  Decision managed by work group moderator 
+  * Public facing final versions of documentation MUST be published in Github in pdf form.  For broader public distribution, it is recommended that the pdf also be posted on opevoicenetwork.org (http://openvoicenetwork.org)
+    * Aligned that a workgroup should be formed to define detailed standards – John Trammell to lead 
+  * Work group code and proposed protocols (from 0.1 to final) MUST be published and managed in Github
+* Deliverables and milestone management 
+  * Work groups, communities and task forces may manage tasks in Trello or Github or other tool preferred by work group.  Decision to be managed by work group moderator
+  * Each work group will establish in Github deliverables and milestones that are measured quarterly.  These will reside in the Technical Committee Project 
+  * Agreed that some training may be required to achieve goaled standards 
+* Cleaning up of the OVON Github repository 
+  * Github Repos currently need a lot of cleanup work 
+  * J.Stine, K.Dank, and N.Caidin will start the process but each work group will need to own cleanup of their repos at some point
+
+### The Master Plan: 
+* LF expectations for transparency, visibility
+  * LF requires final public facing documents and all code/protocols in Github 
+* A master plan or a master plan with multiple sub-plans? 
+  * J. Trammell reviewed the Master Plan
+    * Observations:   Good document, good calls to action, some gaps 
+    * Actions:   J. Trammell will meet with each work group and create recommendations for go forward approach 
+
+### Plan 2022:   Topic postponed to next meeting 
+* Observations from Steering Committee members 
+* The “headline” for the Technical Committee at YE 2022
+* Top-down proposed 2022 objectives 
+* Top-down proposed 2022 milestones 
+
+Meeting adjourned at 9:59 am ct 
+
+
+
+# 2021-11-19 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb,  M. Brinas-Dobrowski, N. Caidin, B. Epstein
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+* [link to antitrust policy]( https://www.linuxfoundation.org/antitrust-policy/)
+* Discussed need to discuss this further in a future meeting 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Quick Updates –J. Stine 
+* Potential collaboration partners:  Stanford
+  * mutual desire to collaborate in the areas of technologies, 
+  * would require financial contribution from OVON, will be brought to OVON Steering in December 
+* Meeting management/responsibilities 
+  * Zoom -10 licenses 
+  * Recommendation:   In 2022, move all of the meeting management from Outlook to Google calendar to be the source of truth.   Zoom meetings setup then through central Google OVON calendar
+  * Discussion: 
+    * Risk of others ‘crashing’ our meetings
+    * TLF is rolling out a new set of meeting management tools.  N. Caidin will share back 
+
+### Technical Committee Workgroup Updates 
+* Privacy & Security 
+  * Have selected an candidate and received their SOW and are in the process of negotiating.   Expect completion next week with goal to start work December 1
+  * Privacy:  Publish Privacy Guidelines v2.0 by end of year 
+  * Security:  Publish Security Guidelines v2.0 by February 2022
+
+* Architecture 
+  * Have selected an candidate and received their SOW and are in the process of negotiating with goal to start work December 1
+  * Tiger team working on MOAD demo planned before year end 
+
+* VRS
+  * Reviewed candidates and short listed.  Interviewing is next step and goal to start work mid-December 
+  * VRS year end deliverables are:  POC w/Deutsche Telekom, assessment of adding another conversation platform (ex. Magenta 2.0)
+  * Agreed that VRS and Architecture workgroups should discuss connection points  
+
+### 2021 in Review/2022 in Focus 
+* 2021 in Review
+  * Documentation management is an area of opportunity  -Structure and what should go in Github vs Googledocs 
+  * Privacy & Security workgroup members have reduced which has impacted deliverables –how can we better retain workgroup members 
+  * Decision making –many choices available and hard to determine which is best.  Decisions are often revisited (even without new information) 
+* 2022 in Focus 
+  * Architecture Workshop in March 
+* We didn’t have a lot of time to review the above and suggested that this reflection be done periodically throughout the year 
+
+Meeting adjourned at 10:00 am ct 
+
+
+# 2021-10-15 Notes of the Technical Committee Meeting
+
+In attendance:  C. Wuttke, Chair; J. Trammell, Vice-Chair; N. Caidin, S. Prayaga, M. Brinas-Dobrowski, O. Coleman, N. Myers, J. Larson, J. Stine
+
+The meeting was called to order at 9:02 CDT (US).
+
+### Antitrust statement and notice of recording -- J. Stine
+
+### Review of the agenda, purpose of and expectations for the meeting -- C. Wuttke
+
+### Introductions.  
+
+Christian Wuttke of Schwarz Gruppe introduced, instituted as Technical Committee Chair.  John Trammell of Target Corporation introduced, instituted as Technical Committee Vice-Chair.  Neal Caidin of the Linux Foundation introduced as the new Open Voice Network Program Manager.  Introductions of Work Group moderators:  Shyamala Prayaga and Jim Larson, Architecture Work Group; Nick Myers, Privacy and Security Work Group, with Senior Advisor Oita Coleman; Maria Brinas-Dobrowski, VRS Work Group.
+
+### OVON Updates -- J. Stine
+
+J. Stine provided the following updates:
+- Hiring status:  as of Thursday, 14 October, CV's have been received for all three strategic Work Group positions: 2 for the Security position, 16 for the Interoperability programmer position, and 2 for the VRS Solution Architect position.
+- Hiring Process and milestones:  CV's to reviewed no later than 18 October 2021, and finalists selected; interviews, statements of work to be requested no later than 25 October.  Regarding pricing: we will ask for Statements of Work from final candidates.  In some cases, the expertise we desire may be more expensive than the monies budgeted.  Our response will be determined by the expertise of the applicant; however, we may choose to limit deliverables (or phase the work into 2022) to stay within budget.  Per a question from O. Coleman: a) we may engage either with individuals or with the entities with which a candidate is affiliated or employed; b) we will use for agreement the standard Linux Foundation consultant agreement.  Copies of the latter can be obtained from N. Caidin or J. Stine.
+- Community Specifications licenses now in place for OVON Interoperability and VRS Work, per J. Stine.  Four actions required:
+	* S. Nicholas of the LF to review, approve establishment of Community Specifications licenses, as now in GitHub
+	* N. Caidin, J. Stine to determine and commmunicate tequired Work Group process changes to Work Group moderators 
+	* Work Group moderators to announce Community Specifications license and required processes to Work Group participants
+	* 3rd Party Contractors to work within Community Specifications license
+- Collaboration relationships, specifically with W3C Voice Interaction Community and Stanford University OVAL:  discussions ongoing.  OVON submitted statements of support for an OVAL grant proposal to the Sloan Foundation.
+- Logo change:  per advice from LF counsel, the Open Voice Network should change its logo (the amplitude graphic was found to be at issue.)  An interim logo is now in use; a LF graphic designer is now preparing new logo options for Steering Committee consideration.
+
+### Work Group Reports
+
+- C. Wuttke reviewed, emphasized the Adopt-Adapt-Build priority model that is to guide all Technical Committee work.
+- All Work Group milestones now up to date in OVON GitHub repository.
+- Architecture Work Group:  J. Larson reported on status of work, the "six enhancement" strategic direction. Identified year-end 2021 objective of a working prototype.
+- Privacy and Security Work Group:  N. Myers and O. Coleman spoke to month-by-month expectations for the 2.0 Privacy Guidelines.  By EOM October: a topical outline.  By EOM November: a first draft.  By EOM December, a reviewed, revised, and ready-for-public distribution second draft.
+	* O. Coleman presented content prepared for the 20 October Steering Committee Meeting; a strategic review of the work to date, and anticipated/potential next steps.  Discussion, recommendations.
+- Voice Registry Work Group:  M. Brinas-Dobrowski reported ongoing progress against the three 2021 deliverables, noting the completion of initial POC's.  
+
+C. Wuttke adjourned the meeting at 9:58 a.m. CDT. 
+
+
+
+# 2021-09-17 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb, P. Gogal, M. Brinas-Dobrowski, S. Nichols, A. Paik
+
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Community Specifications License – S. Nicholas, TLF
+* Specifications at the Linux Foundation
+  * We have been working under the Charter of the Open Voice Network Vocabulary and Definition Project, which was opened under a CC4 license
+* Community Specification License 
+  * Incorporates the terms and processes required for specification development 
+  * Designed to enable collaboration at the speed of open source
+  * Includes copyright license and patent license 
+  * Includes source code license 
+* [link to community specification license]( https://github.com/CommunitySpecification/1.0)
+
+### Ways of working:  New Technical Committee Chair; process, personnel –J. Stine
+* New Technical Committee Chair needed
+* Rotating Technical Committee Chair across Platinum-Gold sponsors 
+  * Chair as a 1 year term 
+  * A vice chair is identified and serves at the same time.  Vice chair will rotate into the chair in the following year 
+  * Each January, identification of the next vice chair 
+
+### OVON R&D investment: as proposed to the Steering Committee – J. Stine
+* 6 Proposed R&D investments to date were submitted to and approved by the Steering Committee
+* Jon is meeting with TLF HR to begin the process of sourcing candidates from TLF
+
+### OVON Opportunities for collaboration:  adopt, adapt, partner  --
+* Exploring collaboration with variety of organizations: 
+  * W3C, Stanford University, Oasis Open Projects - RECITE, Intel Open-source virtual assistant, NVIDIA RIVA NLP 
+* Accelerating our work :  Strategic Guidance
+  * Adopt – First Choice
+  * Adapt – Second Choice
+  * Build – Third Choice 
+* Discussion: 
+  * need to ensure that any adapt or adopt meets the base goals & priorities of the OVON 
+  * consider adding a 4th option of collaboration –or this this a horizontal layer across the 3 of adopt, adapt, build 
+  * does our problem statement need revision?  Jon will add some clarity 
+
+### Technical Committee Workgroup Updates 
+* Privacy 
+  * Privacy Guidelines 1.0 feedback sessions held and a public open forum held 
+  * Privacy 2.0 document draft plan created and WIP  
+  * Privacy v2.0 document completed by end of October is current goal (may extend a bit) 
+  
+* Security 
+  * Security 2.0 document –analysis and outline completed.  Working to define feedback process 
+
+* Architecture 
+  * Defined 6 enhancements for Voice Agents interoperability (comm infrastructure, VRS 1.0, Switcher-Roo, Arbitration, data share, private persona)
+  * creating roadmap of tasks for each of the 6 layers 
+  * POCs being created for each of the 6 layers 
+  * OVON Workshop demo being planned for each as well 
+
+* VRS
+  * 2 POCs developed (RUST app built from scratch, DNSMasque)
+  * Looking to discuss with Deutsche Telekom 
+
+### Open item discussion/news/adjournment 
+* Collaborative discussions will provide some insight into how we might need to move forward
+* Good to see progress from all teams 
+
+Meeting adjourned at 9:54am ct 
+
+
+# 2021-08-20 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers,  S. Baul, J. Crabb, P. Gogal
+
+The meeting began at 9:02 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine 
+
+### Open Voice Network News 
+* Synthetic Voice Study Group Report due EOM September 
+  * Potential impact to authentication, payment as well as advertising-media-entertainment areas
+  * Recommendations will be brought to the Technical Committee for review and action 
+* Open Voice Network headlines in *Variety* 
+  * Detailed coverage of OVON white paper on the use, value of voice assistance in the media and entertainment industries
+  * Authored by OVON Ambassadors Donald Buckley and Janice Mandel
+* OVON initiating outreach to Health & Wellness industry 
+  * Goals for SME participation and sponsorship
+  * OVON Ambassador:  Harry Pappas, CEO of Intelligent Health Association
+
+### OVON Technical Committee moving forward
+* Recommend monthly meetings 
+  * 3rd Friday of the month following the Steering Committee 
+  * Agreed that some can be extended to 90 minutes due to content and/or setup separate review sessions as needed 
+* Request representation from every OVON sponsor 
+* Begin process of recruiting a new chair of the OVON Technical Committee (rotate among sponsors every 6 months)
+   * Discussed role of Vice Chair and Chair –where Vice Chair moves to Chair after 6 months rotation.   This will go to the Steering Committee 
+* Confirm central functions of the Technical Committee 
+  * Ways of working:  tools, processes, vocabulary (code-owner per workgroup). [Link to git Ways of Working doc]( https://github.com/open-voice-network/docs/blob/main/way_of_working.md)
+  * Strategic direction:  areas of resource investment (time, personnel, monies)
+  * Deliverables:  confirmation and review 
+  * Master Plan:  development, review, final decisions 
+* Need for Chief Architect for OVON
+  * Need to define job description and role definition 
+  * Assumed to be a part time position and volunteer at this point 
+
+### Investment of OVON R&D Funds 
+* Reminder to submit your needs using the form that Jon has shared 
+* Deadline for forms 8/27/21 
+* Technical committee will review and bring to the Steering Committee accordingly 
+
+### Intellectual Property Licensing – Update 
+* Jon will setup 2 new projects to accommodate the licensing requirements of The Linux Foundation 
+
+### Technical Committee Workgroup Updates 
+* Privacy 
+  * Privacy Guidelines 1.0 circulated and reviewed by end of September
+  * Privacy 2.0 document drafted for review by end of September 
+  * Privacy v2.0 document completed by end of October 
+  * Ready to submit form for resources by deadline
+* Security 
+  * Security Guidelines completed first draft 
+  * Submitted form for resources with high priority need 
+  * Completing outline and creating draft Security Guidelines document for review by end of October 
+* VRS
+  * Deployment of VRS 1.0 (MVP) by end of September for use and review 
+  * Agreement on VRS 2.0 scope by end of October 
+* Architecture 
+  * Establish 1.0 library of interoperability scenarios –to publish in git 
+  * Publish 1.0 requirements for sharing dialogs and data between conversational agents 
+  * Defined 6 enhancements for Voice Agents interoperability 
+  * Deutsche Telekom will be initial user   
+  * No resource requests at this time 
+
+Meeting adjourned at 9:51am ct 
+
+
+# 2021-07-23 Notes of the Technical Committee Meeting
+
+Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Trammell, N Myers,  A Paik, D Rogers,  S Austin, S. Baul
+
+The meeting began at 9:03 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- D. Cundiff 
+
+### Alignment: Open Voice Network News, Vocabulary Updates  --J. Stine 
+* OVON vacation first 2 weeks of August –enjoy! 
+* The new acronym for Open Voice Network is OVON.  We ask the spelling out as O-V-O-N
+* We are an Open-Source association of the Linux Foundation 
+* Per Linux Foundation, Jon has initiated the process of creating 2 new technical projects for VRS and Architecture work group 
+* Investment of OVON R&D Funds
+  * Do need a formal write up.   Verbal reviews done at prior technical committee meetings do not suffice
+  * Jon Stine will share out a template for resource requests
+  * Please then send to Jon Stine
+  * Will leverage technical resources of TLF as a first source, else other sources as needed 
+  * Keep in mind IP implications
+* OVON was presented to the EU on 7/21/21.  This will also be shared with the Steering Committee meeting.  Jon will post slides & white papers in slack 
+ 
+## The OVON Technical Committee Workgroups –the plan through year end:  
+## AWG
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 	
+* Update on deliverables 
+   * Requirements Document  
+   * Draft Framework 
+   * Data Sharing Project 
+   * Arbitration Project 
+   * Timing and Roadmap will be created later in August for review in September.   First Demo likely available in early 2022 
+ * Update on investment plans
+   * Will have needs but specifics to be determined 
+
+## Privacy &Security Workgroup 
+Privacy 
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 
+  * Phases and phases to be completed this year 
+    * OVON Privacy guidelines review on 2021.8.25.  11am central time 
+    * Privacy Guidelines & Capabilities v2.0  Due 2021.10.30
+    * Privacy Standards, OVON “privacy certification” v1.0 due 2021.12.31
+* Update on deliverables 
+  * Privacy Guidelines and capabilities v2.0 - completed 
+  * Enterprise privacy policy assessment – in progress 
+  * Privacy policy template- not started 
+* Update on investment plans
+  * Will need a technical writer and some legal counsel (Separate funding available for legal needs).  Specifics to be determined 
+
+Security 
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 
+* Update on deliverables 
+    * Finalize document outline by August 
+    * First Draft by October 2021
+* Update on investment plans
+  * will need a security expert –specifics to be determined.   Will work with Doug Rogers on potential resources there 
+
+## VRS
+* The workgroups vision of “the rocket” it is building and how it fits into the whole 
+  * Vision in 5 years – global usage of VRS, Voice assistant platforms are using VRS, scaled and modularized 
+* Update on investment plans
+  * Will need software engineers.  Specifics being documented for submission 
+
+Meeting adjourned at 10:00am CT
+
 # 2021-06-25 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman, M. Brinas-Dobrowski, J. Crabb,  J. Trammell, Nick Myers,  D. Cundiff, M. Lens-FitzGerald 

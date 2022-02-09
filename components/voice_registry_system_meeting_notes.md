@@ -1,13 +1,42 @@
 # Voice Registry System Meeting Minutes
-This document is meant to capture the meeting notes and decision.
+
+This document is meant to capture VRS meeting notes and decisions.
+
+Meeting notes after 22 July 2021 are available in the [OVON Google Drive](https://docs.google.com/document/d/1zkDcWoT7JOBmDckneaNpS_JUhGfFpTdlkCyAac2iZsA/).
+
+## Meeting Thursday, 22 July 2021
+
+<details>
+
+### Agenda
+
+* Discussion of Entity/Relationship diagram - next steps 
+
+#### Open PRs
+
+* [Update voice_registry_system.md - issue 86](https://github.com/open-voice-network/docs/pull/221)
+* [Master](https://github.com/open-voice-network/docs/pull/229)
+* [Update voice_registry_system.md: tomorrow's ecosystem...](https://github.com/open-voice-network/docs/pull/231)
+
+#### VRS Open Issues
+
+* https://github.com/open-voice-network/docs/issues?q=is%3Aissue+is%3Aopen+label%3AVRS
+* https://github.com/open-voice-network/vrs/issues
+
+#### Demos
+
+* postgrest - REST interface on top of PostgreSQL
+
+### Notes
+
+</details>
+
 ## Meeting 07.09.2021
-<details>    
+<details>
 
 ### Agenda:
 - Issue [#190](https://github.com/open-voice-network/docs/issues/190) - 30 mins
 - Postmortem - 30 mins
-
-
 
 </details>
 
@@ -15,6 +44,12 @@ This document is meant to capture the meeting notes and decision.
 <details>    
 
 ### Agenda:
+- Issue #86
+
+### Discussion:
+- We discussed PR issue #221, about the implicit and explicit. We talked about some other examples to clarify the implicit and explicit definitions. There are few comments on the PR, and Roger will make those changes and make the changes. 
+
+Next meeting, we will pick the #190 issue, which is the hierarchical structure of VRS, and the remaining we will spend time doing post-mortem or lessons learned. 
 
 - Issue #86
 

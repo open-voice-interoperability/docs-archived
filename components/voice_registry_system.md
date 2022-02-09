@@ -7,7 +7,8 @@ Voice Registry System (VRS) is one of the components  in the
 VRS's goal is to provide and promote voice openness and transparency. 
 
 ### 1.0.2. Terminology Alignment
-See [OVN vocabularies](https://github.com/open-voice-network/docs/blob/master/vocabulary.md)
+
+See the [OVON vocabulary document](https://github.com/open-voice-network/docs/blob/master/vocabulary.md).
 
 ### 1.0.3. Problem Context
 The task of the Open Voice Network Voice Registry System (VRS) Work Group is to develop standards-based solutions for how _verbalized, explicitly-requested conversational agent destinations_ will,by another conversational agent, **be uniquely identified and connected.**
@@ -26,7 +27,7 @@ Broadly, this is about the ability of individual users to **find** a conversatio
 For these reasons,  propose the development of a decentralized, standardized global destination registry for conversational agents and related voice assistant systems: **the Voice Registry System.**
 
 
-### Situation Analysis: Today's Voice Ecosystem
+### 1.0.3.1 Situation Analysis: Today's Voice Ecosystem
 
 Today, voice assistance is dominated by proprietary, cloud-centric conversation platforms that deliver services using closed implementations.  Examples of these are Amazon Alexa, Google Assistant, Microsoft Cortana, and Apple Siri.  Every user invocation is received and managed by the hosting platform, which in turn will direct the user to one or more platform-specific assistance skills/actions/capsules.  Whenever an "explicit invocation" is invoked by the user -- that is, the user requests a specific destination -- each proprietary platform has a different method  (i.e., brand vocabulary, etc) and process for verification and connection to the user's desired entity.  
 
@@ -103,6 +104,28 @@ A user utters, "{wake word}, Please find nearest Tarrjay location." A user prefe
 <br>
 <br>
 
+### 1.0.3.2  Situation Analysis: Tomorrow's Voice Ecosystem
+
+Voice industry analysts currently see (mid-year 2021) and predict the emergence of a "hybrid" conversational agent (or voice application) ecosystem, one made up of general purpose conversational platforms (with agents) and organization-owned and -operated conversational agents built independently or with third-party tools.  This market transition is being accelerated by the growing enterprise perception of voice assistance as a means to customer service, customer development, and operational efficiencies; the emergence is also spurred by the growth in capabilities of third-party independent voice developers.
+
+As enterprises perceive voice as a business of value, three issues come to the forefront:
+
+  1. the ability of an owner of a conversational destination to own the name of that destination;
+  2. the ability of an individual voice user to find and connect directly to a voice destination of choice, regardless of its platform; and,
+  3. the ability of a conversational agent destination (most often an organization) to own and control the development
+     and delivery of its voice experience.
+   
+A Voice Registry System -- a destination registry that enables platform-agnostic connection -- is intended to enable all three needs.
+
+Within tomorrow's voice ecosystem there will be three primary actors connected to and affected by a Voice Registry System:
+
+  1. the individual user, who seeks direct, unimpeded access to a destination of choice;
+  2. the original conversational agent of the user, which would use the Voice Registry System to identify
+     possible destinations and connect to a destination of choice, and
+  3. the owners of the destination conversational agent, who will use the Voice Registry System to uniquely
+     own its name or brand and to own and execute a unique, destination-specific voice experience. 
+
+
 ### 1.0.4. Voice Registry System
 The core solution approach to the problem is to stand up a neutral component that is not tightly associated with any of the conversational platforms to avoid any influence and bias. The VRS component will serve as the neutral party and address the balance and fairness for the user and entities. 
 
@@ -136,7 +159,7 @@ will remain responsible for:
 1. identifying the user's intent for their utterance
 2. classifying the VRS type in an utterance
  
-See [AD-002](architecture/decisions/002-vrs-type.md").
+See [AD-0002](../architecture/decisions/0002-vrs-type.md).
 
 There are a couple of assumptions in the initial phase. The accountablity of the Conversation Platform (CP) extends to
 the decision-making of classifying whether an invocation is _implicit_ or _explicit_. 
@@ -159,11 +182,7 @@ By following the SRP, we achieve the following:
  4. VRS will provide search functionality for voice application.
  5. VRS will provide data administrations.
 
-<br>
-//todo: #88 Note: get more requirements from developers group.
-<br>
-<br>
-
+> [TO DO: get more requirements from developers group](https://github.com/open-voice-network/docs/issues/88)
 
 ### 1.0.5. Proposed Schema
 ***Note:*** The swagger is something what it can look like but by no means vetted out<br>
@@ -247,10 +266,50 @@ By following the SRP, we achieve the following:
 
 
 ### 1.0.6. Architecture Decision
+
 #### 1.0.6.1 Do we need central location for common words?
-//todo: #85
+
+[TO DO; see issue #85](https://github.com/open-voice-network/docs/issues/85)
+
 #### 1.0.6.2 Who is the decision maker whether user's utterance is explicit or implicit invocation?
-//todo: #86
+The voice assistant system will decide if a user's utterance is explicit or implicit. For the initial release, VRS will only handle explicit invocations and the voice assistant system will handle and disambiguate implicit invocations.
+
+Note: The name of a voice application is different than the wake word. A wake word is the user's word(s) used to get a voice assistant to start listening. For instance, "Alexa", "Hey Google" and "Hi Bixby" are wake words. If a user says:
+``` Alexa, ask Target to add milk to my shopping list ``` then  
+``` Alexa``` is the wake word and ```Target``` is the name of the voice application
+
+**Explicit Invocation Definition:** An invocation of a voice application where the name of the application is part of the invocation utterance. For example (omitting the wake word):
+- ```Ask Target, to add milk to my shopping list```  
+- ```Open Target```  
+- ```Talk to Target```  
+- ```Ask Target, what’s on sale```  
+- ```Add milk to my Target shopping list```  
+
+In each of the above utterances, the user has explicitly identified ```Target``` as the name of the voice application they wish to use.
+
+There will be instances where there is more than one voice application with the same name. For example:
+- ```Ask John's Bakery, when do you open```
+  
+There may be more than one voice application named *John's Bakery*. Indeed, there may be many different *John's Bakery* voice applications. If a user's explicit invocation results in multiple VRS matches, VRS will return all of the matching records. Included in the records will be the address and other metadata about the voice applications. The voice assistant will then use this information and other user information to disambiguate. Possible ways to disambiguate the above example include:
+- Using the address to find the nearest *John's Bakery*
+- Using the last launched *John's Bakery* application
+- Asking the user which *John's Bakery* to use (and likely store this in user preferences for future use)
+- Some other AI based algorithm to find the best option for the user
+
+**Implicit Invocation Definition:** An invocation of a voice application where the utterance has a meaning (action, question, etc) but the name of the voice application is not in the utterance. For example:
+- ```Add milk to my shopping list``` *(which shopping list?)*
+- ```What’s on sale this week``` *(where?)*
+- ```Get me a car to the airport``` *(using which provider?)*
+- ```What’s the weather``` *(using which provider?)*  
+
+In these implicit examples, there is an ambiguity as to which voice application should be used to satisfy the request. The voice assistant system must resolve this ambiguity by either:
+1. Using an algorithm to determine the best voice application for the user
+2. Look up a user’s preference for that particular utterance/group of utterances and their preferred voice application
+3. Ask the user which voice application to use
+
+As mentioned above, in the initial phase, VRS would not be involved in the implicit disambiguation - this would be up to the voice assistant system. The system may use VRS data in this decision process but the scope of VRS does not include resolving implicit utterances.
+
+A future version of VRS may add additional functionality to include or futher aid implicit utterance resolution.
 
 ### 1.0.7. Discussions
  1. Do we need central location for common words?
@@ -258,3 +317,4 @@ By following the SRP, we achieve the following:
  3. Is VRS only going to focus on explicit invocation?
  <br>-Similar to the web where if a user typed www.patrickdessert.com directly and the DNS resolver gets involve. This feels like a reasonable balance in for entities, and conversational platform. </The>
  
+{"mode":"full","isActive":false}

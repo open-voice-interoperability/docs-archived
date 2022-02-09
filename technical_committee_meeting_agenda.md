@@ -347,4 +347,81 @@ No meeting.
 -   Update on investment plans (what, when, how much)
 - News and Updates
 - Adjournment
--   
+   
+# 2021-08-20
+- Antitrust statement and notice of recording
+- Review of the agenda, expectations for the meeting
+- Open Voice Network news
+- OVON Technical Committee moving forward 
+  - Recommend monthly meetings
+  - Confirm central functions of the Technical Committee
+    - Ways of working:  tools, processes, vocabulary (code-owner per GitHub per Work Group)
+    - Strategic direction:  areas of resource investment (time, personnel, monies)
+    - Deliverables: confirmation and review
+    - Master Plan: development, review, final decisions
+- New Technical Committee chair to be nominated
+- Technical Committee Work Group updates
+  - Most important achievement / milestone between now and EOM September
+  - Most important achievement / milestone between now and EOM October
+  - R&D investment update – due EOM August
+- Open item discussion / news / adjournment
+
+# 2021-09-17
+- Antitrust statement and notice of recording
+- Review of the agenda, expectations for the meeting
+- Community Specifications License -- Scott Nicholas, Linux Foundation
+- Ways of working:  new technical committee chair; process, personnel
+- OVON R&D investment: as proposed to the Steering Committee
+- OVON opportunities for collaboration: adopt, adapt, partner
+- Technical Committee Work Group updates:  recent actions, achievement of milestones
+  - Architecture
+  - Privacy and Security
+  - VRS
+- Open item discussion / news / adjournment
+
+# 2021-10-15
+- Antitrust statement and notice of recording
+- Review of the agenda, expectations for the meeting
+- Introductions:  Christian Wuttke, John Trammell
+- Open Voice Network news 
+- Updates:
+  - Sponsor and participant recruitment
+  - Program Management
+  - Hiring
+- New Technical Committee chair to be nominated
+- Technical Committee Work Group updates
+  - Current work, relevance to other Work Groups
+  - Performance vs. Git-documented milestones 
+  - Open item discussion / news / adjournment
+
+# 2021-11-19 
+- Notice of recording, antitrust policy statement
+- Review of the agenda, expectations for the meeting – Christian Wuttke
+- Quick Updates – Jon Stine
+  -  Potential collaboration partners: Stanford
+  -  Meeting management / responsibilities 
+- Work Group reports  (Architecture, Privacy & Security, VRS)
+  - Hiring
+  - What we will accomplish by year-end 2021
+- 2021 in Review / 2022 in Focus 
+  - 2021 in Review – areas for improvement:  three things (overall, and in our Work Groups) we could- /should have done better
+  - 2022 in Focus:  three things we must accomplish
+- Adjourn
+
+# 2021-12-17
+**Invocation, reading of the LF Antitrust Guidance**
+**Ways of Working:**
+- when GitHub, when Google, and why
+- Deliverables and Milestone management
+- cleaning up the OVON GitHub repository
+**The Master Plan:**
+- LF expectations for transparency, visibility
+    - public-facing documents: GitHub (in .md) and OVON.org (Word or Google docs, pdf)
+- a Master Plan, or a Master Plan and multiple sub-plans?
+- J. Trammell review and assessment
+**Plan 2022:**
+- Observations from Steering Committee members
+- the "headline" for the Technical Committee at YE 2022
+- top-down proposed 2022 objectives
+- top-down proposed 2022 Q1 milestones
+**Adjourn** 
