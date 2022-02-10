@@ -2,6 +2,7 @@ theme: just-the-docs
 title: Open Voice Network - Doc Site
 description: OVON published and WIP artifacts, docs, etc.
 logo: "/images/ovon-logo.jpg"
+timezone: America/New_York
 color_scheme: light
 search_enabled: true
 show_downloads: true
