@@ -1,0 +1,4 @@
+# OVON members and staff get PR notifications. See
+# https://help.github.com/articles/about-codeowners/ for details.
+
+*   @open-voice-network/members @open-voice-network/staff

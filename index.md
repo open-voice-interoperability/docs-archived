@@ -4,13 +4,14 @@ title: Home
 nav_order: 1
 ---
 
-## Open Voice Network Technical Docs
+## Open Voice Network (OVON) Technical Documentation
 
-This repository contains the published and work in progress artifacts, docs, schemas, technical committee working group meeting minutes, etc of the OVON. 
+This repository contains the published and work in progress artifacts, docs, schemas,
+technical committee working group meeting minutes, etc. of the Open Voice Network.
 
 ## OVON way of working
 
-If you are interested to see our working style, see this [link]({% link way_of_working.md %}).
+If you are interested to see our working style, see this [link]({% link ovon/way-of-working.md %}).
 
-Still unsure what to do? Ask in the #general channel in the OVON Slack workspace
+Still unsure what to do? Ask in the `#general` channel in the OVON Slack workspace
 and someone can help you.
