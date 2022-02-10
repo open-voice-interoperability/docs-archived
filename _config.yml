@@ -11,3 +11,4 @@ aux_links:
 heading_anchors: true
 footer_content: "Copyright &copy; Open Voice Network 2017-2022"
 markdown: kramdown
+destination: docs
