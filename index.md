@@ -4,6 +4,8 @@ title: Home
 nav_order: 1
 ---
 
+The main Open Voice Network (OVON) web site is located at <https://openvoicenetwork.org/>.
+
 ## Open Voice Network (OVON) Technical Documentation
 
 This repository contains the published and work in progress artifacts, docs, schemas,
