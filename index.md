@@ -2,6 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
+has_children: true
 ---
 
 The main Open Voice Network (OVON) web site is located at <https://openvoicenetwork.org/>.

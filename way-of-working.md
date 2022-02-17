@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Way of Working
-parent: OVON
+parent: Home
 ---
 
 # Overview
