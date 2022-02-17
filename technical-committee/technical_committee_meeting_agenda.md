@@ -463,11 +463,27 @@ No meeting.
   - public-facing documents: GitHub (in .md) and OVON.org (Word or Google docs, pdf)
 - a Master Plan, or a Master Plan and multiple sub-plans?
 - J. Trammell review and assessment
-
-## Plan 2022
-
+- **2022 Plan**
 - Observations from Steering Committee members
 - the "headline" for the Technical Committee at YE 2022
 - top-down proposed 2022 objectives
 - top-down proposed 2022 Q1 milestones
-- Adjourn 
+- adjourn
+
+# 2022-02-18
+
+- **Antitrust Invocation**
+- **Introduction of New Participants**
+- **Review of the Agenda** (C. Wuttke)
+- **Ways of Working**
+- Reminder of Meeting Protocols
+- OVON GitHub Reorganization; Table of Contents
+- Community Specifications License: operational implications for Architecture, VRS Work Groups
+- **Vocabulary Review**
+- **2022.02.17 Steering Committee Meeting Review**  (C. Wuttke)
+- **Work Group Updates: Status vs. Q1 and 1H Deliverables**
+  - Privacy and Security (N. Myers, O. Coleman)
+  - VRS (M. Brinas-Dobrowski)
+  - Architecture-Interoperability (J. Larson)
+- **Identification of Outstanding Issues**
+- Adjourn
