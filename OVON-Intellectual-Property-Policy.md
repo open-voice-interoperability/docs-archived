@@ -1,9 +1,16 @@
-## Intellectual Property Policy 
+---
+layout: default
+title: Intellectual Property Policy
+parent: Home
+---
 
-### From the Technical Charter for the Vocabulary and Definition Project a Series of LF Projects LLC
-### A Project of the Open Voice Network, an open-source community of the Linux Foundation
+# OVON Intellectual Property Policy 
 
-### Adopted May 15, 2020
+## From the Technical Charter for the Vocabulary and Definition Project a Series of LF Projects LLC
+
+## A Project of the Open Voice Network, an open-source community of the Linux Foundation
+
+## Adopted May 15, 2020
 
 Collaborators acknowledge that the copyright in all new contributions will be 
 retained by the copyright holder as independent works of authorship and that no 
