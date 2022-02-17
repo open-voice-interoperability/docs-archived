@@ -1,3 +1,10 @@
+---
+layout: default
+title: Voice Security Capabilities Report, v1
+parent: Voice Security Capabilities
+---
+
+
 ## Voice Security Capabilities Report
 
 ### Open Voice Network, Privacy & Security Workgroup 
