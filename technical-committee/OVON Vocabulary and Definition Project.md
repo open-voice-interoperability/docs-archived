@@ -1,4 +1,11 @@
+---
+layout: default
+title: Vocabulary & Definition Project
+parent: Technical Committee
+---
+
 ## Technical Charter (the “Charter”) for the Vocabulary and Definition Project a Series of LF Projects, LLC
+
 Adopted May 15, 2020
 
 This Charter sets forth the responsibilities and procedures for technical contribution to, and

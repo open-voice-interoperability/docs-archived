@@ -1,3 +1,9 @@
+---
+layout: default
+title: Proposed Activities
+parent: Technical Committee
+---
+
 # Proposed Activities
 
 The following is an initial list of possible OVN activities, organized along Jon&#39;s five big areas of activity:

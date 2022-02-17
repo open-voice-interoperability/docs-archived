@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vocabulary
-parent: OVON
+parent: Technical Committee
 ---
 
 ## A
