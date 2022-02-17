@@ -1,6 +1,13 @@
+---
+layout: default
+title: OVON Privacy & Security Working Group Remit
+parent: Privacy & Security Working Group
+---
+
 ### Open Voice Network Privacy & Security Work Group
 ### Working Document
-As developed by the Privacy & Security Work Group of the Open Voice Network Technical Committee for review by the Technical Committee, for the purpose of 
+As developed by the Privacy & Security Work Group of the Open Voice Network Technical Committee for review by the Technical Committee, for the purpose of
+
 * advancing the OVN Technical Commmittee MasterPlan
 * guiding OVN Technical Committee discussions in re: privacy and security
 * guiding OVN Technical Committee decisions
