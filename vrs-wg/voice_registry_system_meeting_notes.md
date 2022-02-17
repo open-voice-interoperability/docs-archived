@@ -1,3 +1,9 @@
+---
+layout: default
+title: Voice Registry System Meeting Minutes
+parent: VRS Working Group
+---
+
 # Voice Registry System Meeting Minutes
 
 This document is meant to capture VRS meeting notes and decisions.

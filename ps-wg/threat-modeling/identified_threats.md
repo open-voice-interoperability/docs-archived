@@ -1,3 +1,9 @@
+---
+layout: default
+title: Identified Threats in Voice Systems - STRIDE Analysis
+parent: Privacy & Security Working Group
+---
+
 # Identified Threats in Voice Systems
 
 Using the [STRIDE framework](https://en.wikipedia.org/wiki/STRIDE_(security)), the following are identified threats. This is intended to be a living document. As more use-cases are discussed, this document should be updated to catalog the threats.

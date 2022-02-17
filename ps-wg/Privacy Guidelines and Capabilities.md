@@ -1,3 +1,9 @@
+---
+layout: default
+title: Privacy Guidelines & Capabilities Unique to Voice
+parent: Privacy & Security Working Group
+---
+
 # **Privacy Guidelines and Capabilities Unique to Voice**
 
 ## Open Voice Network, Privacy & Security Workgroup 
