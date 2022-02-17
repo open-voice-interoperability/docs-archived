@@ -342,6 +342,18 @@ No meeting.
 -   Voice Registry System Work Group
 - Adjournment
 
+# 2021-07-23
+- Antitrust statement and notice of recording (1 minute)
+- Review of the agenda; purpose and expectations for the meeting (2 nminutes) -- D. Cundiff
+- Open Voice Network news, vocabulary updates
+- The OVON Technical Committee Work Groups: the plan through year-end
+-   The Work Group's role in "building the rocket" -- Work Group vision, and how it fits into the whole
+-     phases, and phases that will be completed this year
+-   Update on deliverables (as shown on a slide and as reflected in GitHub)
+-   Update on investment plans (what, when, how much)
+- News and Updates
+- Adjournment
+   
 # 2021-08-20
 - Antitrust statement and notice of recording
 - Review of the agenda, expectations for the meeting
