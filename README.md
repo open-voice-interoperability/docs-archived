@@ -4,7 +4,8 @@
 
 ## Open Voice Network Technical Docs
 
-This repository contains the published and work in progress artifacts, docs, schemas, technical committee working group meeting minutes, etc of the OVN. 
+This repository contains the published and work in progress artifacts, docs, schemas, technical
+committee working group meeting minutes, etc of the OVN. 
 
 ## OVN way of working
 
@@ -15,6 +16,5 @@ Still unsure what to do? Ask in the #general channel in the OVN Slack and someon
 ## Site development
 
 ```sh
-bundle exec jekyll serve
+bundle exec jekyll serve --baseurl=""
 ```
-
