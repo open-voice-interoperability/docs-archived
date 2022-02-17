@@ -8,8 +8,10 @@ color_scheme: light
 search_enabled: true
 show_downloads: true
 aux_links:
+  "Main Open Voice Site":
+    - https://openvoicenetwork.org/
   "OVON Docs on GitHub":
-    - "//github.com/open-voice-network/docs" 
+    - "//github.com/open-voice-network/docs"
 heading_anchors: true
 footer_content: "Copyright &copy; Open Voice Network 2017-2022"
 
