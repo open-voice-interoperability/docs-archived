@@ -9,11 +9,11 @@ nav_order: 1
 
 April 22, 2021
 
-Dr. Andrea Jelinek
-Chair
-European Data Protection Board
-Rue Wiertz 60 
-B-1047 Brussels
+Dr. Andrea Jelinek  
+Chair  
+European Data Protection Board  
+Rue Wiertz 60  
+B-1047 Brussels  
 
 Dear Dr. Jelinek,
 
@@ -62,6 +62,6 @@ Thank you for this important work.
 Sincerely, 
 
 
-Jon Stine
-Executive Director
-Open Voice Network
+Jon Stine  
+Executive Director  
+Open Voice Network  

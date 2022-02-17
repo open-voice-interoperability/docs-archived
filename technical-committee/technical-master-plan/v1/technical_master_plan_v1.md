@@ -2,9 +2,10 @@
 layout: default
 title: Technical Master Plan v1
 parent: Technical Master Plan
+grand_parent: Technical Committee
 ---
 
-# Technical Masterplan
+# Technical Master Plan
 
 ## Abstract
 
@@ -236,7 +237,9 @@ The Architecture Work Group began its efforts by studying the architectures and 
 
 # Components and Artifacts
 
-Each voice agent contains several components such as those illustrated in Figure C1.  Each component consumes artifacts from previous components and produces artifacts for use by later components.  For example, the TTS component will accept text artifacts as input and produce speech artifacts as output.  Each component should have a standard format for its input and output artifacts so a component can be easily replaced or reused. 
+![Figure C1: Components and artifacts within a voice agent.]({{ site.baseurl }}{% link /technical-committee/technical-master-plan/v1/figure-c1.png %} "Figure C1: Components and artifacts within a voice agent.")
+
+Each component consumes artifacts from previous components and produces artifacts for use by later components.  For example, the TTS component will accept text artifacts as input and produce speech artifacts as output.  Each component should have a standard format for its input and output artifacts so a component can be easily replaced or reused. 
 
 ### Flexibility
 
@@ -248,6 +251,8 @@ We will define the formats for input and output artifacts of voice processing co
 Voice agent developers can select components from multiple vendors that fill the developers specific needs, and connect the selected components together because they communicate with each other using standardized artifacts.
 
 Here are some examples:
+
+![Figure C2: ASR embedded into microphone and TTS embedded into speaker.]({{ site.baseurl }}{% link /technical-committee/technical-master-plan/v1/figure-c2.png %} "Figure C2: ASR embedded into microphone and TTS embedded into speaker.")
 
 - In a smart home environment, it may be desirable to add speech recognition and encoding software to a microphone. (Figure C2)  The microphone converts speech to digital text which is then encoded for security purposes before transmission to a network hub for further processing.  Because text is more compact than speech, this approach saves transmission bandwidth.  
 TTSs are often designed to perform well with a specific national language (North American English, German, etc.) 
@@ -405,9 +410,11 @@ Several examples that are useful to explain all the concepts required in the des
 
 ### Component Architecture
 
-![Component Architecture](https://raw.githubusercontent.com/open-voice-network/docs/master/technical_masterplan_assets/component_architecture_diagram.png?token=AABSWQTW7TMH2VHUFSG5Q226UH7XC "Fig. 1 - Component Architecture Diagram")
+![Component Architecture]({{ site.baseurl }}{% link /technical-committee/technical-master-plan/v1/component_architecture_diagram.png %})
 
-> Note: Dialog Broker, VRS, and Dialog Manager are new concepts. NLP, TTS / STT, and Channels are things that already exist, but we list them because they will be affected and influenced by the standards.
+> **Note:** Dialog Broker, VRS, and Dialog Manager are new concepts.
+> NLP, TTS / STT, and Channels are things that already exist, but we
+> list them because they will be affected and influenced by the standards.
 
 ### Component Flow
 

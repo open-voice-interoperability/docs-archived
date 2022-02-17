@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Technical Master Plan
-nav_order: 4
 parent: Technical Committee
 has_children: true
 ---
 
+The **Technical Master Plan** describes the technical roadmap the Open Voice
+Network intends to follow.
