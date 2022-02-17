@@ -1,3 +1,9 @@
+---
+layout: default
+title: PSWG Meeting Notes
+parent: Privacy & Security Working Group
+---
+
 ## Open Voice Network Technical Committee Privacy & Security Working Group
 ### 2020.07.14 Notes of the Meeting
 The meeting was called to order at 9:02 a.m. CDT (US)
