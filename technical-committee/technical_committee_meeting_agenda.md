@@ -5,6 +5,7 @@ parent: Technical Committee
 ---
 
 # 2020-04-03
+
 - Review agenda - Dan - 5 mins
 - Antitrust compliance - Scott Nicholas - 5 mins
 - Launching the technical committee: tools, processes, meeting cadence - Dan Cundiff - 15 mins
@@ -14,15 +15,18 @@ parent: Technical Committee
 - Introducing the idea of projects - team - 5 mins
 
 # 2020-04-17
+
 - Review Linux Foundation Project Charter - Scott Nicholas - 5 mins
 - Final v1 review of vocabulary - Maria - 10 mins
 - Review Masterplan - Dan and Maria - 1 hour
 - Projects to focus on roundtable (be prepared to describe your three highest priority projects) - Dan - remaining time
 
 # 2020-05-01
+
 - CANCELLED
 
 # 2020-05-14
+
 - Definition of "Project" - Scott Nicholas - 5 mins
 - Update on communities and their role - Jon Stine - 5 mins
 - Discuss and check peoples access to tools - team - 10 mins
@@ -31,6 +35,7 @@ parent: Technical Committee
 - Feedback - team - 10 mins
 
 # 2020-05-29
+
 - Antitrust statement - Jon Stine - 1 mins
 - Introduction - Ways of Working document on Git - Jon Stine - 5 mins
 - Follow-up from 2020-05-14 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 mins
@@ -38,6 +43,7 @@ parent: Technical Committee
 - Review 1.0 proposed list of Tech Comm development projects - Jim
 
 # 2020-06-10
+
 - Antitrust statement -- Jon Stine - 1 min
 - Organizational updates and introductions/questions - Jon Stine - 10 mins
 - Website development work and volunteers - Dan Cundiff - 10 mins
@@ -45,6 +51,7 @@ parent: Technical Committee
 - Follow-up from 2020-05-29 meeting - outstanding issues - Dan Cundiff or Kristi Dank - 10 mins
 
 # 2020-06-26
+
 - Antitrust statement and notice of recording - Jon Stine - 1 min
 - Follow-up: GitHub training and on-boarding meeting recordings - links via Slack - Jon Stine - 3 minutes
 - Follow-up: review Technical Committee and Developer Community inputs into proposed activities list: foundationalexploratory, etc. - Dan Cundiff
@@ -54,6 +61,7 @@ parent: Technical Committee
 - Review of meeting processes, question, comments - Dan Cundiff
 
 # 2020-07-10
+
 - Antitrust statement and notice of recording - Jon Stine - 1 min
 - Ethical use update - Jon Stine - 5 mins
 - Google question - Jon Stine - 10 mins
@@ -62,6 +70,7 @@ parent: Technical Committee
 - Request to go over the details of the Technical Masterplan - Dan Cundiff
 
 # 2020-07-24
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda and expectations for the meeting (1 minute) -- D. Cundiff 
 - Open Voice Network: update from Steering Committee (2 minutes) -- J. Stine
@@ -74,6 +83,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-08-07
+
 - Antitrust statement and notice of recording (1 minutes) -- J. Stine
 - Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Update: challenges, updates -- (5 minutes) -- J. Stine
@@ -84,6 +94,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-08-21
+
 - Antitrust statement and notice of recording (1 minutes) -- J. Stine
 - Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Update: membership update, milestones -- (10 minutes) -- J. Stine
@@ -94,6 +105,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-09-4
+
 - Antitrust statement and notice of recording (1 minutes) -- J. Stine
 - Review of the agenda and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Update: membership update, milestones -- (5 minutes) -- J. Stine
@@ -104,6 +116,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-09-18
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Update:  membership update, communications (5 minutes) -- J. Stine
@@ -114,6 +127,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-10-02
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN Positioning: market transitions, future of voice assistance (5 minutes) -- J. Stine
@@ -124,6 +138,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-10-16
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (5 minutes) -- D. Cundiff
 - OVN organizational update: sponsorship, participation, messaging (5 minutes) -- J. Stine
@@ -135,6 +150,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- D. Cundiff
 
 # 2020-10-30
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- J. Stine
 - Milestone review-reminders (1 minutes) -- J. Stine
@@ -148,6 +164,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- J. Stine
 
 # 2020-11-13
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff 
 - Review of Work Group process, preview of 2020.11.20 meeting -- J. Stine (1 minute)
@@ -162,6 +179,7 @@ parent: Technical Committee
 - Review of actions, next steps (5 minutes) -- J. Stine
 
 # 2020-11-20
+
 - Antitrust statement and notice of recording (1 minute) -- J. Stine
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff 
 - Review of Work Group processes:  ways of working, vocabulary review, Technical Charter -- J. Stine (5 minutes)
@@ -180,7 +198,9 @@ parent: Technical Committee
 - Calendar Moving Forward  (5 minutes) -- J. Stine
 
 # 2020-12-11
-# The 2020 Review; the 2021 View
+
+## The 2020 Review; the 2021 View
+
 - Antitrust statement and notice of recording (1 minute) -- O. Coleman
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- D. Cundiff 
 - The YE 2020 Report
@@ -197,7 +217,9 @@ parent: Technical Committee
 - Summation (D. Cundiff)
 
 # 2021-01-08
-# Planning 2021
+
+## Planning 2021
+
 - Antritrust statement and notice of recording (1 minutes)
 - Review of the agenda, purpose of and expectations for the meeting (2 minutes) -- J. Stine
 - Open Items/Issues to Review?  -- J. Stine
@@ -207,9 +229,9 @@ parent: Technical Committee
   -- Plans by Work Group
 - Open Items, questions, comments, criticisms
 - Summation and Next Steps -- J. Stine
-- 
 
 # 2021-01-22
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2-minutes) -- D. Cundiff
 - Plan 2021 Overview, OVN -- J. Stine 
@@ -224,6 +246,7 @@ parent: Technical Committee
 - Summation and Next Steps
 
 # 2021-02-5
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2-minutes) -- D. Cundiff
 - Proposed Change:  Technical Committee Agenda going forward  
@@ -235,51 +258,55 @@ parent: Technical Committee
 - Summation and Next Steps
 
 # 2021-02-19
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Reminder: Work Group Deep Dives begin 5 March
 - Quarterly milestones review (10 minutes)
-    - Q1 milestones: Green-yellow-red report
-    - In order: VRS, Architecture, Privacy and Security
+  - Q1 milestones: Green-yellow-red report
+  - In order: VRS, Architecture, Privacy and Security
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
 
 # 2021-03-05
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Quarterly milestones review (10 minutes)
-    - Q1 milestones: Green-yellow-red report
-    - In order: VRS, Architecture, Privacy and Security
+  - Q1 milestones: Green-yellow-red report
+  - In order: VRS, Architecture, Privacy and Security
 - 2021.03.05 DEEP DIVE:  Privacy, of the Privacy & Security Work Group (M. Frazzini)
   - _reminder of "Deep Dive" schedule: 19 March -- VRS; 2 April -- Security; 16 April -- Architecture_
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
 
 # 2021-03-19
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Update: the OVN and the European Data Protection Board Version 1.0 on Virtual Voice Assistants (5 minutes) -- J. Stine, O. Coleman
 - Quarterly milestones review (5 minutes)
-    - Q1 milestones: Green-yellow-red report
-    - In order: VRS, Architecture, Privacy and Security
+  - Q1 milestones: Green-yellow-red report
+  - In order: VRS, Architecture, Privacy and Security
 - 2021.03.05 DEEP DIVE:  Voice Registry System (VRS) -- M. Brinas-Dobrowski 
   - _reminder of "Deep Dive" schedule: 2 April -- Security; 16 April -- Architecture_
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
 
 # 2021-04-02
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Q2 Milestones (5 minutes)
--   - thoughts on our progress -- Jon 
-    - Q2 milestones: In order: VRS, Architecture, Privacy and Security
+  - thoughts on our progress -- Jon 
+  - Q2 milestones: In order: VRS, Architecture, Privacy and Security
 - 2021.03.05 DEEP DIVE:  Security -- M. Lens-Fitzgerald
   - _reminder of "Deep Dive" schedule: 16 April -- Architecture_
 - News and New Items -- Trends, thought-provokers, core questions (10 minutes) 
 - Adjourn
 
-
 # 2021-04-16
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda, purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Ways of working:  OVN programming language; hosting OVN POC's -- D. Cundiff 
@@ -290,21 +317,23 @@ parent: Technical Committee
 - Adjourn
 
 # 2021-04-30
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Outstanding issue:  OVN programming language (15 minutes) -- D. Cundiff
--   issue recap -- bringing all parties to a common understanding -- D. Cundiff
--   expression of opinions and proposals for adoption
+  - issue recap -- bringing all parties to a common understanding -- D. Cundiff
+  - expression of opinions and proposals for adoption
 - OVN vocabulary: key words, phrases (5 minutes) - O. Coleman
 - Updates (5 minutes)
--   Open Voice Network EDPB response: --  O. Coleman
--   Open Voice Network Voice Agent Interoperability Workshop -- J. Larson
+  - Open Voice Network EDPB response: --  O. Coleman
+  - Open Voice Network Voice Agent Interoperability Workshop -- J. Larson
 - Continuation from last Technical Committee meeting:  Architecture Work Group (20 minutes) -- J. Larson, D. Attwater, D. Dahl
--   Deep Dive into three scenarios: the identification and documentation of requirements - process to date and examples
+- Deep Dive into three scenarios: the identification and documentation of requirements - process to date and examples
 - Outstanding items, news, and events of note
 - Adjournment
 
 # 2021-05-14
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - OVN News -- J. Stine
@@ -315,46 +344,51 @@ parent: Technical Committee
 - Adjournment
 
 # 2021-05-28
+
 No meeting.
 
 # 2021-06-11
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Open Voice Network News -- J. Stine
 - Open Voice Network vocabulary: key words, phrases (5 minutes) - J. Stine
 - Open Voice Network R&D Investment first thoughts: _to accomplish this deliverable in 2021, we will probably need ________ 
--   Privacy and Security Work Group
--   Architecture Work Group
--   Voice Registry System Work Group
+- Privacy and Security Work Group
+- Architecture Work Group
+- Voice Registry System Work Group
 - Voice Agent Interoperability Workshop 15-17 June -- Workshop Program Committee
--   Agenda/program/speakers
--   Adjournment
+- Agenda/program/speakers
+- Adjournment
 
 # 2021-06-25
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda; purpose and expectations for the meeting (2 minutes) -- D. Cundiff
 - Open Voice Network News -- J. Stine
 - Open Voice Network Voice Agent Interoperability Workshop: lessons learned, next steps 
 - Mid-Year Review: Deliverables, Opportunities
 - Open Voice Network R&D Investment first thoughts: _to accomplish these deliverables in 2021, we will probably need ________ 
--   Privacy and Security Work Group
--   Architecture Work Group
--   Voice Registry System Work Group
+- Privacy and Security Work Group
+- Architecture Work Group
+- Voice Registry System Work Group
 - Adjournment
 
 # 2021-07-23
+
 - Antitrust statement and notice of recording (1 minute)
 - Review of the agenda; purpose and expectations for the meeting (2 nminutes) -- D. Cundiff
 - Open Voice Network news, vocabulary updates
 - The OVON Technical Committee Work Groups: the plan through year-end
--   The Work Group's role in "building the rocket" -- Work Group vision, and how it fits into the whole
--     phases, and phases that will be completed this year
--   Update on deliverables (as shown on a slide and as reflected in GitHub)
--   Update on investment plans (what, when, how much)
+- The Work Group's role in "building the rocket" -- Work Group vision, and how it fits into the whole
+- phases, and phases that will be completed this year
+- Update on deliverables (as shown on a slide and as reflected in GitHub)
+- Update on investment plans (what, when, how much)
 - News and Updates
 - Adjournment
    
 # 2021-08-20
+
 - Antitrust statement and notice of recording
 - Review of the agenda, expectations for the meeting
 - Open Voice Network news
@@ -373,6 +407,7 @@ No meeting.
 - Open item discussion / news / adjournment
 
 # 2021-09-17
+
 - Antitrust statement and notice of recording
 - Review of the agenda, expectations for the meeting
 - Community Specifications License -- Scott Nicholas, Linux Foundation
@@ -386,6 +421,7 @@ No meeting.
 - Open item discussion / news / adjournment
 
 # 2021-10-15
+
 - Antitrust statement and notice of recording
 - Review of the agenda, expectations for the meeting
 - Introductions:  Christian Wuttke, John Trammell
@@ -401,11 +437,12 @@ No meeting.
   - Open item discussion / news / adjournment
 
 # 2021-11-19 
+
 - Notice of recording, antitrust policy statement
 - Review of the agenda, expectations for the meeting – Christian Wuttke
 - Quick Updates – Jon Stine
-  -  Potential collaboration partners: Stanford
-  -  Meeting management / responsibilities 
+  - Potential collaboration partners: Stanford
+  - Meeting management / responsibilities 
 - Work Group reports  (Architecture, Privacy & Security, VRS)
   - Hiring
   - What we will accomplish by year-end 2021
@@ -415,19 +452,22 @@ No meeting.
 - Adjourn
 
 # 2021-12-17
-**Invocation, reading of the LF Antitrust Guidance**
-**Ways of Working:**
+
+- **Invocation, reading of the LF Antitrust Guidance**
+- **Ways of Working:**
 - when GitHub, when Google, and why
 - Deliverables and Milestone management
 - cleaning up the OVON GitHub repository
 **The Master Plan:**
 - LF expectations for transparency, visibility
-    - public-facing documents: GitHub (in .md) and OVON.org (Word or Google docs, pdf)
+  - public-facing documents: GitHub (in .md) and OVON.org (Word or Google docs, pdf)
 - a Master Plan, or a Master Plan and multiple sub-plans?
 - J. Trammell review and assessment
-**Plan 2022:**
+
+## Plan 2022
+
 - Observations from Steering Committee members
 - the "headline" for the Technical Committee at YE 2022
 - top-down proposed 2022 objectives
 - top-down proposed 2022 Q1 milestones
-**Adjourn** 
+- Adjourn 
