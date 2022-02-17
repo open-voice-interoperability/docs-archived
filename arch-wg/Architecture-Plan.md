@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Architecture Plan
-parent: OVON
+title: Architecture Plan - Defining Voice Assistant Components
+parent: Architecture Working Group
 ---
 
 # Architecture Plan: Defining Voice Assistant Components
