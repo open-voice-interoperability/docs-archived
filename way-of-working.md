@@ -132,6 +132,6 @@ and background for why the PR is being made.
 
 ## Intellectual Property Policy
 
-The [OVON Intellectual Property Policy]({{ site.baseurl }}{% link /OVON-Intellectual-Property-Policy.md %})
+The [OVON Intellectual Property Policy]({{ site.baseurl }}{% link OVON-Intellectual-Property-Policy.md %})
 describes the licensing requirements for any contributed or published material. The Linux Foundation provides
 information on how to comply with the Developer Certificate of Origin (DCO) at <https://wiki.linuxfoundation.org/dco>.
