@@ -61,7 +61,17 @@ Next meeting, we will pick the #190 issue, which is the hierarchical structure o
 Next meeting, we will pick the #190 issue, which is the hierarchical structure of VRS, and the remaining we will spend time doing post-mortem or lessons learned. 
 
 </details>
- 
+
+## Meeting 06.18.2021
+
+<details>
+
+### Agenda:
+- Issue #86
+- Issue #217
+
+</details>
+
 ## Meeting 06.10.2021
 <details>    
 
