@@ -1,3 +1,9 @@
+---
+layout: default
+title: Architecture Design - Target Architecture
+parent: Architecture Working Group
+---
+
 # Architecture Design
 
 ## Abstract
