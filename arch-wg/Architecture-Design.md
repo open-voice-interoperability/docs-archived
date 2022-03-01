@@ -1,3 +1,9 @@
+---
+layout: default
+title: Architecture Design - Target Architecture
+parent: Architecture Working Group
+---
+
 # Architecture Design
 
 ## Abstract
@@ -226,8 +232,6 @@ Shop for something and then the shopping app uses a different payment app
 
 ## Can Fulfil Intent
 
-'Bigtincan how bright is Jupiter in the night sky?'
+'Bigtincan what's the weather like in California tomorrow?''
 
-
-
-
+![](images\Scenario-Implicit-Skill-Invocation.png)
