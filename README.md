@@ -1,20 +1,22 @@
-## Static Site Location
+# Open Voice Network (OVON) document repo
 
-<https://open-voice-network.github.io/docs>
+This is the document repo for the Open Voice Network. This repository contains the published
+and work in progress artifacts, docs, schemas, technical committee working group meeting
+minutes, etc of the OVON. 
 
-## Open Voice Network Technical Docs
+A static version of this repo is hosted at <https://open-voice-network.github.io/docs>.
 
-This repository contains the published and work in progress artifacts, docs, schemas, technical
-committee working group meeting minutes, etc of the OVN. 
+## OVON way of working
 
-## OVN way of working
-
-If you are interested to see our working style, see this [link](https://github.com/open-voice-network/docs/blob/master/way_of_working.md).
+Our "way of working" is documented [here](./way-of-working.md).
 
 Still unsure what to do? Ask in the #general channel in the OVN Slack and someone can help you.
 
-## Site development
+## Static site development
+
+Our static site is built with [Jekyll](https://jekyllrb.com/).
 
 ```sh
+# command for local Jekyll site build
 bundle exec jekyll serve --baseurl=""
 ```
