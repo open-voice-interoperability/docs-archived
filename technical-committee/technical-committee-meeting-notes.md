@@ -4,6 +4,56 @@ title: Meeting Notes
 parent: Technical Committee
 ---
 
+
+## Feb. 18, 2022 Notes of the Technical Committee meeting
+
+Attendees: J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N. Myers, D. Rogers, O. Coleman, C. Wuttke, B. Epstein, J. Trammell
+
+### Ways of Working – J. Trammell
+
+* Reminder of Meeting Protocols
+* OVON GitHub Reorganization; Table of Contents
+* Community Specifications License:  Operational Implications for Architecture, VRS Work Groups
+  * Add to the Ways of Working Document
+ 
+### Vocabulary Review – J. Stine, C. Wuttke, J. Trammell
+
+* Conversational Capability – Provides dialog functions that inform an agent
+* Conversational Sub-Agent – Can only be invoked through another agent
+* Conversational Agent – Is perceived by users to be a single conversation actor.  It can operate on behalf of the user
+* Conversational Assistant – Is perceived by users to be a single conversational actor
+* Conversational Platform – The combination of components that enables the operation and management of one or more conversational agents
+  *Aligned to include a few examples of each with the definitions and some additional dialog needed via the Architectural Workgroup
+ 
+### 2022.02.17 Steering Committee Meeting Review – Observations, Takeaways, Implications – C. Wuttke
+
+* Jon shared market development for voice solutions
+  *conversational AI becoming more popular
+  * global market for conversational AI will increase ~29% through 2026
+* smart speaker sales in the US market are dropping
+* Definition of Mission and Strategy for 2022
+  * team worked to define a vision for 2022 with an ideation phase/process
+  * additional discussions will occur to refine the mission
+  * update at next technical committee meeting
+ 
+### Work Group Updates:  Status vs. Q1 and 1H Deliverables  -- C.Wuttke
+
+* Privacy & Security  -- N. Myers, O. Coleman
+  * Privacy
+    * Completed the draft of the Privacy Principles and Capabilities Unique to Voice and has been sent to Janice Mandel for copyediting
+    * Will now start on the V 1.0 Summary of Legislative Actions followed by the Privacy Policy Self-evaluation Template
+  * Security
+    * Draft Security Guidelines progress:  Executing timeline from contractor and will have document for review by Feb 25.   Draft has been posted to privacy/security slack channel
+    * Will then start on identifying security use case to demonstrate security architecture
+* Architecture- Interoperability – J. Larson
+* Work continues on developing specifications and POC implementation for interoperability
+  * Reprioritized enhancements  for interoperable conversational interfaces
+  * Working on variety of Q1 deliverables towards the specs and POCs
+  * Planning an workshop for May 15, 2022
+  * Suggested leveraging contributions from David Attwater in this work
+* VRS  -- M. Brinas-Dobrowski
+  * Working on the VRS- Magenta POC and are working with Magenta to align on outcomes and scope
+
 # 2021-12-17 Notes of the Technical Committee Meeting
 
 Attendees:  J. Larson, K. Dank, J. Stine, O. Coleman,  J. Trammell, N. Myers, J. Crabb,  N. Caidin, S. Nicholas. P.Gopal
