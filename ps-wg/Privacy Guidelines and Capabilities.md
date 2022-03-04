@@ -42,7 +42,7 @@ The goal of the Open Voice Network privacy and security workgroup is to explore,
 
 The following diagram illustrates at-a-glance, the framework for Open Voice Network scope, deliberation, and decision making with respect to privacy:
 
-![OVN Privacy Scope Diagram](/components/privacy_scope_diagram.png)
+![OVN Privacy Scope Diagram](privacy_scope_diagram.png)
 
 
 ## **Open Voice Network Privacy Problem Statement**
@@ -78,7 +78,7 @@ The Privacy & Security Work Group of the Open Voice Network has developed this d
 
 To provide context as to what the Privacy & Security Workgroup defines as a Voice Assistant System (VAS) the following diagram has been prepared that defines the specific actors, modalities, channels, components, and services/devices that make up a VAS. This diagram is one possible arrangement that illustrates a complete VAS as data flows from the user through a VAS and back to the user (depending on the type of interaction or request that is elicited from the user).
 
-![Voice Assistant System Overview](https://github.com/open-voice-network/docs/blob/master/Voice%20Security%20Capabilities%20Report.assets/Voice%20Assistant%20System%20Overview.png)
+![Voice Assistant System Overview](Voice%20Assistant%20System%20Overview.png)
 
 _*Please refer to figure above_
 
@@ -174,7 +174,7 @@ _Example: The voice technology platform has an interface that allows the user to
  
 _Example: A user provides information to a voice assistant to refill a prescription with a reference to a prescription number, the voice assistant application confirms the request but does not playback (TTS) the name or description of the prescription medicine unless explicitly requested to._
 
-![OVN Privacy Values, Guidelines, and Capabilities Diagram](/components/Privacy_Values_Guidelines_Diagram.png)
+![OVN Privacy Values, Guidelines, and Capabilities Diagram](Privacy_Values_Guidelines_Diagram.png)
 
 ## Privacy Rights and Guidance Not Specific to Voice
 
