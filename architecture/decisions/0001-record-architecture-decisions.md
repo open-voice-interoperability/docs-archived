@@ -1,3 +1,7 @@
+---
+published: false
+---
+
 # 1. Record architecture decisions
 
 Date: 2021-02-04
