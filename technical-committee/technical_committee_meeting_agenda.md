@@ -487,3 +487,22 @@ No meeting.
   - Architecture-Interoperability (J. Larson)
 - **Identification of Outstanding Issues**
 - Adjourn
+
+# 2022-03.18
+**0:01	Greeting, Antitrust Invocation**
+**0:02	Introduction of New Participants**
+**0:04	Review of Notes from 2022.02.18 Meeting; review of 2022.03.18 Agenda** (C. Wuttke)
+**0:05	Open Questions, Issues from 2022.02.18 Meeting:**
+	-- Vocabulary; proposal to move forward 
+**0:15	OVON Development Expectations** (C. Wuttke, J. Trammell)
+**0:25	OVON Vision:  Roadmap Development**
+	-- Purpose, value; tie-in to GitHub Master Plan
+**0:30	Work Group Reviews:**  Privacy & Security, Architecture, VRS
+  -- Performance vs. Deliverables
+  -- Critical strategic decisions
+  -- Use or existing research and/or standards; requests for connections, meetings
+  -- Impediments to progress
+  -- Cross Work-Group coordination; what, when, how 
+**0:59	Adjournment**
+
+
