@@ -3,6 +3,94 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+## 2022-03-18 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, J. Trammell, N. Caidin, B.Epstein 
+	
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine
+
+### Introduction of New Participants  
+* No new participants 
+
+### Review of Notes from 2022.02.18 meeting –J. Trammell
+* Notes accepted 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Trammell 
+
+### Open Questions, issues from 2022.02.18 meeting:  Vocabulary; proposal to move forward
+* Seeking adoption of:  
+  * Conversational Capability – Provides dialog functions that inform an agent
+  * Conversational Sub-Agent- Can be only invoked through another agent  
+  * Conversational Agent- Is perceived by users to be a single conversational actor.  It can operate on behalf of the user 
+  * Conversational Assistant – Is perceived by users to be a single conversational actor 
+  * Conversational Platform  - The combination of components that enables the operation and management of one or more conversational agents 
+  * Terms were accepted provisionally pending examples being brought forward (for clarity and differentiation) 
+* Findability vs Discoverability 
+  * The Architecture Workgroup will review and bring back recommendations.  M. Brinas-Dobrowski may consult  
+
+### OVON Development Expectations –J. Trammell 
+* Primary sources of information 
+* Collaboration
+* Call to Action for Workgroups: 
+  * Find another group or tech in a similar space 
+  * Become familiar with it
+  * At next WG meeting, discuss for 5 minutes 
+
+### OVON Vision:  Roadmap Development – Purpose, value; tie-in to Github Master Plan – J. Stine 
+* Jon reviewed a functional diagram of how our work might integrate, amplify and accelerate noting milestones from each of the workgroups
+* Discussion 
+  * We are making progress towards protocols and standards 
+  * Diagram should be extended to include white papers and other artifacts 
+  * Should diagrams like this be integrated with the Technical Master Plan?  Some don’t feel so 
+  * Need 2 more documents -1 that says WHAT and another that tells HOW
+* Next Steps:  J. Larson and B. Epstein will meet on next steps
+
+### Work Group Reviews 
+#### Architecture- Interoperability – J. Larson, B. Epstein 
+* Reviewed Deliverables  
+  * Demonstration of agent-to-agent-to-assistant sharing of text, voice on track for end of March 
+  * Publication of interoperability reference architecture on track for end of March 
+  * Publication of data modes: voice-text semantic at risk for end of March
+  * Publication of integration messages, properties at risk for end of March
+  * Stanford OVAL-OVON collaboration agreement at risk for end of March
+* Critical strategic decisions
+  * need a programmer to manage code and perform demos 
+* Use of existing research and/or standards; requests for connections, meetings
+  * Have made a connection on data sharing and very familiar with W3C standards
+* Impediments to progress
+  * Confusion between VRS and the Architecture Workgroups and how Stanford architecture will fit in 
+  * Limited by David Attwater (or the like) time constraints 
+* Cross work group coordination; what, when, how 
+  * Working with VRS and Stanford – J. Larson and M. Brinas-Dobrowski will share information on discussions 
+
+#### Privacy & Security  -- N. Myers, O. Coleman 
+* Reviewed Deliverables
+  * Publication of Privacy Guidelines v2.0 on track for end of March 
+  * Publication of Security Guidelines v1.0 on track for end of March 
+  * Publication of Summary of Global Legislative Actions will not be completed by end of March
+  * Demonstration of Privacy Policy Voice Navigator Project on track for end of June 
+* Critical strategic decisions
+  * Need to determine how to move from the what to actionable work 
+* Use of existing research and/or standards; requests for connections, meetings
+* Impediments to progress
+* Cross work group coordination; what, when, how 
+
+#### VRS  -- M. Brinas-Dobrowski 
+* Reviewed Deliverables
+  * VRS POC on track
+* Critical strategic decisions
+* Use of existing research and/or standards; requests for connections, meetings
+* Impediments to progress
+  * None at this point 
+* Cross work group coordination; what, when, how 
+  * Overlap and connections with the Architecture Workgroup 
+
+### Adjournment 
+
+Meeting adjourned at 9:59 am CT
+
 
 
 ## Feb. 18, 2022 Notes of the Technical Committee meeting
