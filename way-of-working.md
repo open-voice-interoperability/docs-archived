@@ -2,6 +2,7 @@
 layout: default
 title: Way of Working
 parent: Home
+nav_order: 3
 ---
 
 # Overview

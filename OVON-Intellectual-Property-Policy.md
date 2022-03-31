@@ -2,6 +2,7 @@
 layout: default
 title: Intellectual Property Policy
 parent: Home
+nav_order: 2
 ---
 
 # OVON Intellectual Property Policy 
