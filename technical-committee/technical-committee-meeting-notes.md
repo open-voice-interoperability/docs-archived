@@ -3,6 +3,74 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+# 2022-04-15 Notes of the Technical Committee Meeting 
+
+Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, J. Trammell, N. Caidin, B.Epstein, S. Palma, H. Pappas 
+	
+The meeting began at 9:01 am CT
+
+### Antitrust statement and notice of recording  -- J. Stine
+
+### Introduction of New Participants  
+* Guests- Sebastian Palma  & Harry Pappas
+
+### Review of Notes from 2022.03.18 meeting –J. Trammell 
+* Notes accepted 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Trammell 
+
+### OVON Vision:  The world to which we build – J. Stine 
+* Are we building toward the Michelangelo moment?  
+  * General purpose proprietary voice platforms/agents & Enterprise chatbots and voice assistants, now inside the firewall
+* The world to which we build a worldwide voice web 
+  * Growth from today to billions of WW digital voice assistant availability and trillions of WW installed IOT end points, WW AI’s, metaverse
+* Overview of a potentially feasible use case for an ecosystem of cooperating voice agents 
+  * Noted that this use case could also include discoverability
+
+### OVON Roadmap Q2 and Forward
+* Review and reminder of 2022.03.18 Work Group integration slide (same as shared in last month’s meeting)
+* Review of Work Group Roadmaps 
+
+ * Architecture- J. Larson & B. Epstein 
+   * MOAD (mother of all demos) demo – June 
+   * Reference architecture document – June draft 1
+   * Basic integration messages and properties spec – July draft 1
+   * Principles and requirements for privacy and sharing data – June draft 1 
+   * Privacy and data sharing spec – August draft 1
+   * Post MOAD demos- several items planned for Q3 and Q4
+   * Team needs additional resources that have done similar work before 
+   * [Link to slides]( https://docs.google.com/spreadsheets/d/1kL_mOXYp5HNWuBvI-1aSLwFHHTLMrQHi/edit#gid=1620385906)
+
+ * Privacy and Security – O. Larson & N. Myers
+   * 2022 Q2
+     * Privacy Guidelines v2.0
+     * Generic voice-specific privacy policy
+     * Voice-specific privacy checklist 
+   * 2022 Q3 
+     * Commercial privacy guidelines v.10
+     * Research privacy factors impacting voice adoption 
+     * Privacy POC aligned with interoperability standards
+   * 2022 Q4
+     * Voice-specific privacy maturity model
+     * Privacy standards recommendations 
+     * Privacy guidelines v3.0
+
+* VRS – M. Brinas-Dobrowski 
+  * Magenta and OVON POC completed.  Next steps:  
+    * Discuss if OVON needs to play in a search engine model 
+    * VRS integration with open-source conversation platform 
+    * VRS needs to add more security context when passing to another agent 
+  * Collaboration with VRS & Architecture work groups needed 
+  
+ * ACTION:  Documentation of 1H-Q3 deliverables—Github
+
+### Adjournment 
+* Meeting adjourned at 10:00am CT
+
+
+
+
+
 ## 2022-03-18 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, J. Trammell, N. Caidin, B.Epstein 
