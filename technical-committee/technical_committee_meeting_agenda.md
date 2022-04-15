@@ -487,3 +487,23 @@ No meeting.
   - Architecture-Interoperability (J. Larson)
 - **Identification of Outstanding Issues**
 - Adjourn
+
+# 2022.04.15
+- **Greeting, Antitrust Recitation**
+- **Introduction of New Participants**
+- **Review of Notes from 2022.03.18 meeting; review of 2022.04.15 agenda**
+- **OVON Vision: the World To Which We Build**
+-   - thought provocation 
+- **The OVON Roadmap Q2 and forward**
+-   - review of 2022.03.18 Work Group integration slide
+-   - review of Work Groups roadmap
+-     - Architecture
+-     - Privacy and Security
+-     **ACTION: DOCUMENTATION OF 1H-Q3 DELIVERABLES
+- **Work Group Reviews: Privacy and Security, Architecture, VRS
+    - cross work group coordination, integration -- what, when, how
+    - **ACTION: SCHEDULING OF FIRST INTEGRATION MEETINGS
+- **Adjournment**
+
+
+
