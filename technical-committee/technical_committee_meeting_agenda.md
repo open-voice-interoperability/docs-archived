@@ -506,4 +506,19 @@ No meeting.
 - **Adjournment**
 
 
+## 2022.08.19
+## TECHNICAL COMMITTEE AGENDA
 
+#### Greeting, antitrust Invocation 
+#### Introduction of New Participants
+#### Approval of Minutes
+#### Overview and Review of Agenda -- Christian Wuttke
+#### Updates from 2022.08.10 Steering Committee Meeting
+  * Techical Senior Advisor positions
+  * Publication of Interoperability Whitepaper
+#### Technical Work and Study Group Updates
+  * YE 2020 headlines
+  * Deliverables through YE 2022
+  * Development Roadmaps
+  * Integration
+#### Adjournment 
