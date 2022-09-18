@@ -3,6 +3,400 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+
+# Notes of the Technical Committee Meeting - Sep. 16, 2022
+
+### Attendees: J. Stine, A. Paik, E. Snider, N. Southern, D. Dahl, N. Myers, B. Epstein, E. Sewell, C. Scott, J. Larson
+
+## The Meeting Began at 10:01am EST.
+* Mr. Stine acknowledged that Mr. Christian Wuttke cannot be present today due to a family commitment.
+
+### Antitrust statement and notice of recording  -- J. Stine
+
+### Roundtable Introduction of New Participants and Guests - Evan Snider, Alissa Paik, Ed Sewell, Carl Scott. 
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+
+* Mr. Stine acknowledged that we will begin with a review of the Senior Technical Advisor Position hire and then move into a discussion of the Interoperability White Paper. Mr. Stine asked Dr. Dahl to lead this discussion in the absence of Dr. Larson. (Note: Dr. Larson joined subsequently)
+* Mr. Stine also acknowledged a primary focus of this mtg.: presentation of draft 2022/2023 technical roadmap to be reviewed today, by Mr. Wuttke upon his return, and very soon, by the Steering Committee. 
+* We will also review deliverables using a new format today. 
+* This will lead into bigger questions to be discussed with Evan and Alissa re: how we promote, communicate, etc.
+
+### Review of Notes from 2022.08.19  meeting –J. Stine
+
+* Notes accepted - first motion from J. Stine second motion from Mr. Crabb. 
+* Unanimous approval.
+
+### Review of Senior Technical Positions
+
+* Mr. Stine:   Dr. Dahl now serving as Senior Technical Editor for Interoperability, and thus responsible for corresponding white paper, and interoperability contributions to roadmap.
+* Also we are in discussion for someone to serve as senior advisor for technical committee, replacing J. Stine and assisting C. Wuttke on technical committee from sponsor side, in developing agendas, managing GitHub, managing the master plan of OVON - combination of all OVON work. Candidate very interested in role and will bring expertise to role in conversational assistance, standards development and overall voice tech, but we are dealing with related visa issues that are being worked out with Linux Foundation Legal.
+
+* We've also been asked by Steering Committee @ OVON to consider another part time investment in a senior advisor role. We are therefore looking at another appointment of a part time 10/20 hrs./month senior advisor role and related fiscal investment. Steering committee has asked Mr. Stine to come back to them in Oct. '22 with ideas about how we can and should invest to accelerate work. Encouragement of progress we're making but also impatience to move faster. Further investment in personnel to move this forward. 
+
+### Interoperability White Paper - D. Dahl & J. Larson - Process followed, lessons learned, next steps.
+
+* Dr. Dahl: interoperability white paper published 8/18/22. Fairly substantial; dcovers whole perspective on conversational interoperability/applications. We've solicited comments via soft launch from a friendly audience. 200+ solicitations to review the paper. We've received a response but it has been somewhat limited. 36 comments from about 4 people so far - good and constructive, but below our expectations. Mostly clarifications. No comments insinuating entire white paper as misguided.  
+* By end of Sep.: new version with typos and clarifications will be released to general public (larger group) with typos & other corrections incorporated - paper will also be sent out to general public for comments.
+* Mr. Stine: general release directed to friends, family, also general notes issued to experts in voice community, eg. Brett Kinsella, Bradley Metrock, etc., soliciting feedback from them. Also will be released and made known through social media. 
+* Mid-Nov workshop seminar/webinar. Format and length TBD, content focused on explaining not only the paper but next steps coming from the paper. Draft messaging protocols/specifications. Potential standards will be shared and discussed as well.
+* We are also asking for comments to come back by end of day today. A gentle deadline.
+* Request from Mr. Stine to Dr. Dahl re: updated slide. Dr. Dahl pulled up a consolidated technical road map on screen accordingly, including both interoperability architecture milestones, and privacy and security milestones, that takes us through first quarter of 2023. 
+* Dr. Dahl: part of focus re: revisions of interoperability white paper - ongoing reviews -  deciding what to do with extra material in appendices.  Several other inclusions to consider re: new material to be potentially folded in. General orientation - white paper - toward overall approach. Ultimately we will be working toward ##specification documents##. One concerning Delegation will be published in early October. One on Payload data history will be published in November (what information will be passed around? history of interaction?). 3 additional docs to be published in early 2023 re: Security & Authentication, Data Sharing & Privacy Patterns, and Discovery & Location.
+* Dr. Dahl: how we organize it will really depend on what the content additions are.
+* Mr. Stine: should we consider these additions next chapters? We need a framework to be thinking about this. Next chapters, incremental add-ons, etc. What do these represent?
+* Dr. Dahl: we can call these architectural patterns & specifications, we have not agreed on the exact title yet. 'Chapters' might be a strong way to talk about it. Organization/structure will become clearer with time.
+* Mr. Epstein: each of these additions brings more clarity with requirements layering on top of the underlying patterns. He is unclear whether these will be new chapters or paragraphs in existing chapters. Ultimately we'll be working toward a three-dimensional document. 
+
+### Privacy & Security Work Group - N. Myers & O. Coleman
+
+* Mr. Myers: re: Commercial Privacy Guidelines document. We are taking a deeper dive into voice-specific privacy, its capabilities and what we view as guidelines, since Q2 2022, (v. 2.0 paper) when we focused on a user/consumer perspective. Now, the questions are: how do we work more aggressively/concertedly toward standards on commercial/org privacy. Over the last several weeks we've been diving more deeply into voice-specific privacy as it relates to organizations, focusing on data sharing, how data is shared between organizations, etc. This is where we are headed.  Goal: to get draft done by the end of October. 
+* Much of work circles back to what is data ownership and who owns data. We will make an effort to define this and get some specifics laid in stone. This is paramount to organizational privacy.
+* Update to privacy guidelines document by the end of the year. Privacy Guidelines 3.0 to be published in Dec.
+* Ms. Coleman: security guidelines white paper - draft forthcoming of update by end of Dec. Information will be included touching on beginnings of authentication.
+* Ms. Coleman: This WG needs use cases aligned with interoperability work, as well as reference architecture. ETA: Q1 2023
+* Mr. Stine walked through milestones in Oct. '22 - noted that delegation, payload & history will be in AWG. Howeve, data sharing & privacy patterns will be informed by and will be informing privacy & security WG. Noted that this is where the work of different groups begins to coalesce (especially privacy/security and authentication and interoperability). Publication in January indicates prerequisites before then, perhaps Use Cases. What is needed and when is it needed from Privacy and Security and Discovery/Location? And when is it needed to meet these goals? Key questions. This coord. btwn work groups is a gap. Needs to be closed before the next meeting of this technical body ~ within a month. 
+* In response to a clarifying question from Mr. Epstein, Ms. Coleman pointed out that our current work concerns guidance and principles. Mr. Epstein: we can only do group merges 1 by 1, we can't do complexity of all of them at once. Group agreed with this strongly. Case study piece needs clarified.
+* Mr. Sewell: agreed with this statement. In response to Mr. Epstein's question: on Security White Paper, document goes beyond guidelines and principles to start communicating specific requirements. Also advocated EA and Program Management resources, to help align workstreams. 
+* Mr. Stine: raised questions about dependencies regarding the particular order of work that lies ahead especially in early 2023. Sequencing? 
+* Dr. Dahl: in architecture group we are focused in interop. architecture. Needs to be provided w/requirements and use cases, because we need experts in Security & Privacy to ensure us yes property x is in our standards, etc., to ensure that requirements will be met.  
+* Mr. Stine: discovery & location a potential hornet's nest. We may be obtaining requirements on data sharing & privacy patterns/security authentication long before discovery & location is worked out. Reaffirmed Mr. Epstein's point that work needs to be incremental and sequential. (Dr. Dahl expressed her conviction that Discovery & Location is most independent).
+* Mr. Larson asked about Privacy Use Case Alignment/Interoperability Standards - will this be a standalone document or merged with Interop. Conversational Assistance Document? Or part of new Specifications Document? Ms. Coleman: doesn't see it as a standalone document. It will go in the Privacy Guidelines 3.0 but will also be part of the work of the Dispatch for the Interoperability Paper. We're not delivering a tech document. Interoperability Group will cover those technical specifications. Work will need to be coordinated re: what this looks like. 
+* Mr. Stine: also wants a decision made today. The statement of principles & requirements is responsibility of individual WGs and should be standalone documents. Specifications will be responsibility of Architectural Work Group. Principles/requirements will feed architecture which will turn it into the specifications. This is a working model that we can pursue. AWG will own data sharing, guidelines and principles, & use cases will be owned by Data & Security. (Ms. Coleman and Mr. Myers agreed with this). 
+
+### Confirmations of What We've Agreed on and Need - Mr. Stine & Dr. Dahl
+* Dr. Dahl noted standard two-track development process. One is specification document development (this takes the lead). Noted many steps - group reaches consensus, we publish the document, we get family/friends comments, we do revisions in an ongoing process. We will also be producing demos & frameworks 3rd parties can use to develop their own prototypes and systems. i.e., Parallel software track with github repository/design of system architecture. We obtain any other 3rd party software to test for interop., implement a test & demo system, and then keep the demo system and specs in synch by having them inform each other. 
+* Mr. Stine: proposed that we adopt this as our template, guided by Dr. Dahl. 
+* Mr. Stine: takeaways. By next meeting, in a month, the P&S & VRS workgroup will have identified what steps and by when need to be taken to inform and enable the publication of specifications as defined in roadmap in designated time. Second: we've agreed the individual workgroups - privacy & study and VRS - will be responsible for principles, use cases and requirements. However specifications themselves will be developed by Architecture Work Group.
+
+### Adjournment - Mr. Stine adjourned meeting at 11:00am.
+
+
+# Notes of the Technical Committee Meeting - Aug. 19, 2022
+
+### Attendees: J. Stine, O. Coleman, N. Southern, N. Myers, C. Wuttke, H. Pappas, D. Dahl, B. Epstein, J. Larson, D. Rogers
+
+## The Meeting Began at 10:02am EST.
+
+###  Introductory Matters
+* Welcome to Everyone by J. Stine
+* Reading of LF Anti-Trust Statement by MN. Southern
+
+### Updates from Steering Committee Meeting of 8/11/22 especially concerning senior advisor position, hires that were approved and some shifts in their responsibilities.
+
+### Review of Technical Advisor Hires by Ovon - PFC Program
+
+* R&D funds approved by steering committee in every case except for 1 (Sr. Advisor to Tech Comm) - Legal issues surrounding this re: visa/immigration 
+	
+* Emphasis moving forward will lie on development of developer community surrounding OVON and small new voice firms that will carry industry fwd.
+
+### Individual hires
+
+* O. Coleman - continues with expanded responsibility
+* J. Larson - Continues to lead AWG assisted by Mr. Epstein - will be looking at how we manage & lead for destination/location services. This may be added to J. Larson's portfolio.
+* D. Dahl - responsible for technical editing on interoperability work last voice & pen on papers going forward, and responsible for revisions of current paper. Development of relationships with technical standards bodies, academic communities, etc. Management of key processes. (Here Ms. Dahl introduced herself and ran through her background).
+
+### Interoperability White Paper
+
+* J. Stine announced that we just distributed to 190 individuals 1.0 or 0.1 friends & family - with a number of key messages. Including "this is what we believe, this is how we will do it and this is the world toward which we're 	building. Follows up strategic committee conversations in direct way.	
+* Paper is in Git Hub; also in .pdf form that was sent via a newsletter email.
+* Also shared summation deck of 9 slides. Went to a friends and family mailing list - 
+* J. Stine encouraging copies sent via email to those not on the initial list.
+* Review of mechanisms for getting and receiving feedback - groups.io, pull requests on github, and groups receiving comments through email.
+* J. Stine asked attendees for any comment or things to add.
+* D. Dahl asked J. Stine for a copy of the original list of recipients to avoid duplication in individual outreach - Mr. Stine agreed to send her this.
+* Dr. Larson encouraged everyone present in group to review document and send us comments; majority of those present affirmed that they did receive.
+* Mr. Stine outlined the process, moving forward. This is the preview version. Target # of comments by mid September. After this, another version will be developed. In original document, 20-25 pages of appendix contained content that hadn't been worked into body of paper. This is still work as yet to be done.
+* No consensus about its inclusion in the paper. Add'l content beyond the appendix may grow from the AWG, Privacy & Security, Ethical Use, etc.
+* Paper will grow and mature and play a key role in the growth and development of the OVON Master Plan in Github - this will give us an opportunity to update that CONTENT and bring it forward.
+
+### Work and Study Group Updates - roadmaps, y. 2022 updated headline, and deliverables through year end 2022. Each of groups: focus on integration interoperability - where, how, when, what. Guiding hypotheses.
+
+* Mr. Stine presented a slide for overarch. OVON roadmap - to be updated as we learn and discuss groups today. Placeholder.
+
+### Ms. Coleman & Mr. Myers - Privacy and Security Presentation
+* Mr. Myers - moving on from Q2 '22 v. 2.0 document which was about voice-specific privacy (user/consumer focus). Focusing more on commercial privacy/organizational privacy. Over last several weeks we've been diving into the nuances of voice-specific privacy as it relates to organizations and their data sharing and the mechanisms to protect data sharing when transferred btwn organizations. 
+* Asking questions about what is data ownership/who owns data? And how do we break this down to a voice-specific context. 
+* Ms. Coleman: Privacy Guidelines 1.0 will be updated. Draft should be completed by end of October '22. Organizational privacy paper will be published early '23.
+* Ms. Coleman:  Group is also working on Security Guidelines white paper. Looking long term at how this fits into interop. standards. End of year: a secondary draft should be completed.
+* Ms. Coleman: looking forward to leveraging groups.io. Also referenced commercial privacy guidelines and pointed to potential reissue of privacy white paper to get feedback so we can incorporate it into v. 3.0 by the  end of the year.
+* Comments on commercial privacy.  Mr. Stine: this work will assert a right by privacy for commercial data within voice dialogues. Asked Mr. Stine asked Mr. Myers and Ms. Coleman to share initial hypotheses. 
+* Mr. Myers: we need to redefine commercial privacy - has been user focused but commercial entities have a right to data privacy as well, especially re: interoperability. How is that data kept within an ecosystem without necess. having to be shared. Ms. Coleman: only add'n: few regulations re: commercial privacy, many globally for privacy but not commercial side. EU adopted DMA - a great first step re: asserting rights of commercial entities in add'n to consumers.
+* Mr. Wuttke: very much looking forward to add'l enhanced guidelines and elaborations on commercial privacy. Guidelines in this area are critical.
+* Mr. Larson: section in interop. document on privacy needs to be extended - will be looking to Mr. Myers and Ms. Coleman for rewording of the document. Specifically areas concerning enforcement, surveillance, etc. Asserting a right of privacy - how can it be enforced, 	managed, monitored. Ms. Coleman: critical to define what the parameters are - enforcement, surveillance, etc. Is that trust but verify, behind the scenes validation, etc. Critical that we understand what this means by "validation." How do we monitor communication?
+* Mr. Pappas asked if we're addressing issues within the health & wellness community on the privacy roadmap. Mr. Myers:  yes, although the first privacy white paper didn't cover health care specifically. With commercial privacy guidelines, we can segment out and address different industries including health care. Ms. Coleman: we can describe industry-spec. scenarios.
+* Mr. Rogers: should we include specifics around content that's transpired btwn two entities. Where does this begin and end? Does content matter in privacy guidelines? Should we take it to a granular level of data classification, e.g., medical data that should be protected versus more innocuous personal data?
+* Mr. Pappas: should we also extend privacy & security to nonprofit sector? Mr. Stine: a nomenclature change may be appropriate. "Commercial privacy" may be too narrow of a classification.
+* Headline & deliverables - Ms. Coleman: new approaches to data privacy for consumers and commercial enterprises - FTC. has proposed regulations on surveillance and data privacy - request for comments due by Sep. 8th - 	working on a response from OVON. Broadened headline to include commercial/organizational in addn to consumer
+
+### Security Group - Ms. Coleman - Updates
+* White paper draft is in process of copy editing  - Ms. Mandel will have this done by the end of this month.  Using groups.io for feedback
+* Inviting suggestions about who we can send this to, more broadly.
+	
+### Ethical Use
+* Ethical guidelines v 1.0 completed and released
+* Webinar completed in June
+* Assets/collateral/power point decks/graphics have been put together - getting more eyes on it. 
+* Guidance on how to operationalize the guidelines - Asking how other orgs operationalize that. We're going through the process of creating self-audit checklist and will do a test pilot with some friends and sponsor orgs to be sure we have it right.
+* This should be completed by October 15th. 
+	
+### Architecture - Mr. Larson & Mr. Epstein
+* Mr. Larson - update of roadmap - shared this on screen, slide.
+* New version of interop. white paper issued each month - v. 0.1, v. 0.2, v. 0.3, etc. Ms. Dahl will summarize changes as they occur.
+* Information from appendices will be reviewed/possibly reincorporated
+* New material being worked out - in area of delegation. Data load and history and sharing. More will be worked out toward the end of the year. Concentrating on individual aspects one at a time.
+* Next week: (Wed. 8/24) webinar on conversational agents
+* November: deep dive workshop - active participation from attendees. Participants will write sample scenarios on working with multiple voice assistants. Prototypes may be developed based on these scenarios. Attendees will be asked to give advice on how they think we should describe aspects of data - structure, schema, format, etc. Many alternative ways to represent data. We are working twd standardizing right approach.
+* Mr. Larson and Ms. Dahl will be reviewing comments to white paper as they come in.
+* Independent group doing a VRS study report - should be available in a couple of months. Activity may take place in AWG or may be a sep. group.
+
+### VRS Group - Mr. Stine 
+* Relabeling VRS in white paper as "destination and location services."
+* A placeholder pending formal review and recommendation by this body.
+* VRS team has taken a step back, reviewing potential opportunities for OVON in this space. 
+* Recommendation to technical committee will be brought fwd by mid-September by architecture and VRS teams.
+* Rethought currently taking place, new work building atop the old from 2021
+
+### Thoughts/comments/suggestions from group about AWG.
+* Ms. Dahl: questions about webinar: should we try to market this to colleagues? Linked in posts, etc. Mr. Stine: more information forthcoming on this later today.
+* Mr. Epstein: noted that over the next few months as we make progress on various aspects Jim has highlighted, we'll be in a position to work more closely with some of our partners who are implementing similar things in the current marketplace. We're reaching the point where we may want to reengage with less active partners as we define new formats, data sharing 
+principles. We may want to benefit from existing marketplace implementations as demonstration. Especially as we define delegations, payload, history, formats, etc. 
+* Mr. Pappas: asked to schedule a call with Mr. Larson to walk through some of these areas. Mr. Larson agreed to send an email facilitating this.
+* Mr. Larson: developing a preliminary user scenario on interactive voice agents to form basis of future work. Will chat with people individually about writing these scenarios and implementing prototypes to test assumptions. To get a sense of how it will work. 
+* Mr. Stine: one suggestion. Question. On this roadmap where can we publish initial messaging protocols or specifications? How soon can we give development community something to play or work with? Can we put on roadmap as parallel stream?
+* Mr. Larson: in weeks ahead we will be doing a deep dive into delegation. One of outcomes of that dive will be a preliminary description of delegate vs. demand. Will include various parameters we hope to identify. This will be part of incremental releases. Start in October of preliminary 	specifications. Mr. Larson committed to putting a dotted line or 
+placeholder on this etc. 
+* Ms. Coleman: re: building up friends community. Offering special webinars/sessions for friends. Put a date on roadmap of when specifications will be available - one way to heighten participation: suggested special session for friends and participants. Good opp. to share with friends outside of the work groups. Mr. Stine asked Mr. Larson to put in a placeholder for sub-issue.
+
+### Headlines/2H Deliverables - here Mr. Stine pulled up a corresponding slide.
+* Mr. Stine asked Mr. Larson to call out any pertinent deliverables for the AWG and any corresponding callouts.
+* Incremental updates to the working draft
+* Deep dive workshop coming in November.
+	
+### VRS
+* Mid-Sep: delivery of position paper on destination and location services using name as a placeholder and submitting this to Architecture Work	Group and the Technical Committee.
+* Potentially the re-formation of VRS Work Group or Destination Location Svcs Work Group depending on how prior discussions go/guidance in AWG and decisions in Technical Committee
+* Publication of VRS/Destination Location Roadmap - from this point, TBD
+* Mr. Stine pointed to a need to find and discover not only destinations and locations but also content. We need to enable the finding of both. There may be a need for a registry, a standardized approach to metadata, a number of things as we learn what is needed in a world of delegation and mediation as specified and described by white paper. What is needed to make this work? This is the most pertinent question right now
+
+### Mr. Pappas - comments - re: Health & Wellness 
+* They have been interviewing health care professionals around the world on the impact voice technologies will have not only on remote patient monitoring but remote patient mgmt as well. No current voice use cases but wearables and sensors have made great progress. Pandemic pushed telehealth, telemedicine, and remote patient monitoring. With latter comes improved relocation management. This is helping people receive better, safer, less costly outcomes around the world. Forthcoming summary will be reviewed by executives in the medical community.
+
+* Also developing a friends program and communities to help get the word out about OVON's work. working with Oita, Alissa, Jon, others, to develop give/get program.
+
+### Adjournment - Mr. Stine formally adjourned meeting at 11:02am EST.
+
+
+# Notes of the Technical Committee Meeting - 7/15/22
+
+### Attendees: J. Stine, N. Southern, O. Coleman, J. Larson, N. Myers, H. Pappas, J. Crabb.
+
+## The meeting began at 10:01 EST.
+
+### Opening Remarks by Mr. Stine
+* Greetings by Mr. Stine - acknowledgement that we do not have a quorum this morning. Waiting for Mr. Wuttke - without him we will have a very informal discussion. Content review only. 
+* Mr. Stine invited Mr. Southern to read the Linux Foundation Anti-Trust Statement and Mr. Southern followed suit.
+
+### Motion to approve June meeting minutes as posted in Google workspace & Github, by Mr. Stine. Unanimously approved.
+
+### Updates from Steering Committee Meeting - run through of slides in Steering Committee 
+* Mr. Stine shared slides viewed and affirmed by SC - which SC then edited on Monday. 
+* Strategic direction of OVON re: interoperability:
+* Op definition of interoperability - agent->agent trans. or do we believe in smooth handoff (mobile-like) interop.? Per Amazon's VI initiative. Continuum presented on screen. Steering committee came down in the middle - we're in favor of Agent->Agent transfer - But world is not there now. We 
+will assert @ OVON.
+* Major questions addressing and discussing issues: what is future of voice? will future be diverse or limited? We are in an early phase of voice development - not a mature phase. We are working to build for the present and consumer platform reality while also building for a diverse future but 
+must acknowledge leadership of consumer-centric gen. purpose platforms. Adoption path likely through these platforms, and what we build must consider this.
+* Are we building for all of voice industry? Are we building to enable young companies? Do we want to build for major corporations? Metaverse as well as platforms? Should we upset apple cart or change the apple cart altogether? Is our total market comprehensive and emerging? Steering committee: yes, open. All and emerging. But adoption path will go through general purpose platforms. 
+* Should we work to ensure Open Voice Network protocol and interface standards bear no or ltd resemblances to various existing proprietary implementations, or should the OVON evaluate and consider through adaptation or adoption the use of proprietary platform protocols and interfaces? (Per recommendation by Monica Lam - look first to Amazon). Steering committee said: let's start by eval. work of existing proprietary platforms. Their technologies, protocols, messaging	specifications. What can we learn from them or develop based on what they have, to catalyze adoption. i.e., we start on the right and move to the left. Paving the path toward adoption;. We must be alert to potential copyright issues to make sure we are clear and safe 
+legally. Scott Nicholas: we should be cautious.
+
+### Mr. Crabb's Comments and Guidance to team & resultant feedback
+* OVON has put fwd strategic position on all of this re: questions steering committee and other bodies have grappled with for at least a year. We need to define what future will be.
+* Voice world can go one of two ways: the way of search (where one or two engines dominate) or the WWW which is more freeform - huge diversity of ecosystems. Without standards and protocols in place and interoperability endemic, connectivity would be a beacon/asset. We try do two things:
+Say this is what we want to do/where we want to go, with caveat that this is where the world is now.
+* Going off on our own @ OVON would be an academic exercise, working with existing platforms more productive, but OVON but remain a leader. Best way to have influence here is to start close, enable people to see the value or generic platforms, then gradually show value of OVON standard and point to value of interop. Hopeful that what we plan to do aligns well with the community.
+* Mr. Crabb called for questions and feedback from participants in group.
+* Mr. Stine: Mr. Crabb's suggestion of a multipage strategy summary is a great one. He will take responsibility of taking this first document and bringing it on par with slides representative of decisions.
+* A comment: Mr. Myers agreed that we are @ inflection point with voice tech that could go either way. Some of the cracks revealing selves in direction of islands controlling most of the market. Really positions OVON in an interesting spot as standards-est'd entity. Potentially moving in the direction of open ecosystem.
+* Ms. Coleman thanked Mr. Crabb for sharing perspective. Asked what the measure of success by, e.g. the end of this year. What is metric?
+* Mr. Crabb: expressed his uncertainty affirmed the criticality of discussing and exploring this. 
+* Mr. Stine agreed: this is pivotal. What are EOY deliverables? Critical to have this. 
+* Ms. Coleman: not only key to define where we want to go but how we will get there. (Others broadly agreed).
+* Mr. Larson asked: will a summary of these 4 slides be placed on the website, and if so where? World needs to know our position and direction. Mr. Stine affirmed that slides will be worked into revised draft of strategy paper, which was published on Jun. 6; this will be made available on the 
+website, as well as in the Google workspace.
+* Mr. Pappas & Mr. Crabb feel position resonates well, Mr. Pappas loves idea of amplification; feels website can be used to amplify our statement to public and invite comments
+* Mr. Stine: most critical statement for OVON: we build for a diverse future, in lieu of a limited and closed future
+* Ms. Coleman: forthcoming webinar about White Paper: will said position be expressed in first webinar and second webinar will go through paper? 
+* Mr. Stine: current working version of paper includes a perspective on future diversity. But also anticipates this should be part of webinar. 
+* Mr. Larson: this should be used to introduce our interop. work to world. Also requested that Mr. Stine prepare slides everyone can use in all their presentations; a uniformity of msg.
+* Ms. Coleman: agrees. These slides can be very powerful and and foment extended discussion (20 min. or more of content, 10+ min. of questions) in a webinar context. (Mr. Stine agreed). 
+
+### Senior Advisors 
+* Mr. Crabb - high level on senior advisors, OVON, & funding we have dollars to spend, not necessarily spending on expected development. Yet some of committees lack advisors. First thought: because two OVON Target execs have moved on, and we're feeling that loss, it occurred to him that dedicated paid team resources are preferable to volunteers. Mr. Stine took this to SC and amplified it, so we are poised to hire three additional advisors
+* Mr. Stine: originally we looked at one advisor for technical committee, a role he is currently filling. As of early May this money hadn't been 
+spent. Three exceptional candidates expressing interest in serving a senior advisor. (At this point, Mr. Stine pulled up a slide with five key 
+open opportunities: Technical Committee and Senior Plan Dev; Findability-Discoverability VRS Lead; Interoperability Architecture/Development Mgr.; Community Development Friends/Crowdfunding; and Development of Relationships with Other Standards Bodies & LF Organizations). Top 4 are immediate; fifth is to come in Q4 of this year, in the very near future.
+* Mr. Crabb: looks at this as a shift to maturity of OVON. Volunteers grow weary. Volunteer base is valid but we should have these folks focus on what interests them most. We also need dedicated paid resources as a mature organization. Increase momentum and ability to execute in next year or two, and use the dollars we've been granted. Better organization of work so volunteer efforts are more meaningful.
+* Mr. Larson: small concern. Many leaders without support staff which we need for full implementation (worker bees). This should be considered. Mr. Crabb pointed out that after we hire these advisors, we will still have $130,000+ for worker bees. We hope to get more proposals along these lines - this would be worker bees.
+* Mr. Stine: adding to Mr. Crabb's point: in Community Dev. and Interop. Partner Dev. categories: we have worker bee and volunteer recruitment, done in such a way that instills value in participation. Pointed to Mr. Myers as a prime example. We want to find MVP people like him and support him and others of ilk. Assured that there will be investment in finding people like Mr. Myers.
+* Mr. Myers: quick comment. Very passionate about OVON work. But curious about how other groups were lead. We've lucked out because we have Ms. Coleman as senior advisor.  She has driven ship on many things - always keeps things moving and gives us direction. Invaluable. Much to be said about a volunteer run org. from  volunteer perspective happy to see investment in paid leadership for the reason that many of original volunteers have dropped out. Retention will be increased with this new strategy.
+* Mr. Crabb: maybe we can recapture some of initial leadership along the lines of Ms. Coleman.
+* Mr. Stine: reviewing this decision today (7/15) with the technical committee; he's meeting with three said candidates and then they will meet with Mr. Wuttke, Mr. Crabb and Mr. Saul; candidates should be active by mid-Aug '22.
+* Mr. Crabb: expressed enthusiasm although this is a rapid timeline.
+								
+### Work Group Reviews - Architecture - Mr. Larson
+* We spent all energy on producing draft of white paper arch. reqs. Will be published on 7/25. Now editing, and removing inconsistencies, elucidating. Mr. Stine is actively scrubbing through this document. Making good impressive progress. 
+* Mr. Stine added that this document in mid-editing is on Google Workspace drive. Document will be ready for friends and family review by 7/25/22. Thanked Mr. Larson for getting us to this point.
+* A corresponding webinar has been scheduled for August, and a combination webinar/seminar/workshop is being looked at for September potentially. Outsiders will be brought in to discuss.
+* Mr. Larson: rollout - we will first meet with each of the sponsors, have them review the white paper. Explain what it is, answer their queries and explore how we can do future project collaborations with them. Second rollout: friends and family - perhaps in a webinar. Third rollout: announcement to world, perhaps in a  workshop framework. Details TBD.
+
+### Privacy and Security - Ms. Coleman & Mr. Myers
+* Mr. Myers: working on diving into commercial privacy. Process of narrowing down, id'ing goals and requirements. Direction and goal became much clearer in last two meetings. What we are outlining - different entities at the center of commercial privacy and what are they looking to gain. Great feedback from Fraunhofer and Respeecher. Small delays but A1 progress in terms of what we're working to achieve.
+* Mr. Stine: we will be focused on deliverables for second half of year.
+* Ms. Coleman: from a security side, paper will be dist'd on Monday for further review. Speaking with Janice about copy editing. She will be avail to receive paper by mid-late Aug. This will give us time to get it out there for review, have a couple of rounds dist'd further than just internally, ID key friends and family members to receive paper. 
+* Mr. Stine: Security & operability published in the same 10-day time period, very exciting. Ms. Coleman agreed - emphasized that scrubbing, copy editing, plagiarism checks being done, up front so that when we get to Janice it will be a quick turnaround. 
+								
+### Ms. Coleman - Ethical Use Task Force
+* Their webinar @ EUTF Wed. 7/27 at 12pm EST. Emily & Valeria & Shilpi from DataEthics4All will be on the panel.
+* Goal: to use webinar to broaden audience as much as possible. Announcement is being tweaked in light of some of recent news headlines - broadening to more than just practitioners, building public interest.
+* Mr. Stine - VRS. Putting together strategic package to wrap around Maria's developed POC.  
+* Looking through value propositions of a dest./voice registry, findability/discoverability. 
+* Yesterday as a team, we began working through what is the UX and requirements/dependencies of a destination management and registry. How does it work when we have a post agent, or an initiating agent that then delegates in our envisioned interop. world? What are requirements?
+* Defining how consent, authentication, etc. work together-difficult questions. Tied back to POC and prior work.
+* A white paper will ultimately be produced w/further recommendations.
+
+### Mr. Crabb - Final Comments
+* Thanks to everyone. Glad we are moving into execution phase. Looking forward to seeing progress made accordingly
+* Happy we're assigning resources to everything we've indicated we want to do
+### Adjournment - without additional comments, Mr. Stine adjourned mtg at 10:58am EST.
+							
+
+## Open Voice Technical Committee Meeting Minutes - 6/17/22
+
+### Attendees: J. Stine, O. Coleman, B. Epstein, N. Southern, J. Trammell, N. Myers, C. Wuttke, J. Crabb, D. Rogers
+
+### Mr. Southern began by formally adjourning the meeting at 10:03AM and reading the Linux Foundation antitrust statement. 
+* There were no new introductions this morning. 
+
+### (Hire)of a new Senior Advisor for the technical committee - Mr. Stine
+* Mr. Stine shared his screen and a description of the role. Noted that this is a part time technical contractor position - ran through the expectations of this hire - objectives, deliverables, etc. And how we would measure the success associated with this position. 
+* Mentioned that he will soon begin a recruiting process and bring to the TSC three candidates by the July mtg scheduled for July 18th (?). 
+* Called for the finding for support to Mr. Trammell and Mr. Wuttke to facilitate this.
+
+### Interoperability Discussion - Mr. Larson 
+* Mr. Southern turned the discussion over to Mr. Larson - who touched on the voice agents Microsoft, Magenta, Speechly, Genie. two new additions: Cortana and Google. However we have decided to postpone investmennt in the development of two Axxessio Demos until protocols have been established.
+* Mr. Stine: dependency for moving fwd is the publication of related specifications. Also noted that MS work will be directed to Azure team under guidance of Dalloul and Wang.... who have been providing white label services to develop conversational AI. Mr. Dalloul has said MS would be interested in test/dev op of additional demos once our protocols have been developed. This will further accelerate/advance our interoperability efforts.
+* Mr. Stine outlined the order of anticipated work. Mr. Stine also touched on recent developments with Google - in terms of the recent changes that have taken place there re: absorption into the Android team. We will be requesting to work with Android team.
+* Mr. Trammell: this sounds like a technical master plan. Should we document it as such? Mr. Stine agreed with this.
+
+### VRS Updates - Mr. Stine
+* Mr. Stine discussed possible integration of architectural and VRS work group which we have decided not to do. 
+* Mr. Stine laid out his rationale for not doing this work - put a road map on the screen for the direction in which we want to move. 
+* Engineering approach pursued great things were learned but we didn't fully define why what or how. Recommendation is that we take next 4 mtgs of VRS group and assemble a working document that we could present to this body and the steering committee.
+* Mr. Wuttke: still a fan of merging groups in the future but understands that in the short term it makes sense to get the knowledge from the VRS. Mr. Stine: question is not whether we merge groups but when do we merge, and do we have work completed before this is considered.
+* Mr. Crabb: asked why architecture group can't do this work. Mr. Stine: we have a core group of eight who can pursue it in the short term. Mr. Larson: other issue - AWG is a bit behind in its specifications. Wants to avoid distracting the progress and movement of VRS group. Mr. Crabb: as long as there is progress I'm fine with it.
+* Mr. Stine: presented his 'modest proposal' regarding our short term plans. One question: structure, execution and governance. There is also per Mr. Hochstatter concern that we haven't addressed user experience and the questions surrounding this as well.
+* Mr. Stine asked for Mr. Wuttke's thoughts: Mr. Wuttke from a UX point of view 
+
+* Discussion then turned do the AWG with the corresponding timeline laid out on the screen. 
+
+### Clarification of future activities 
+* White paper has been delayed until June
+* Mr. Stine thanked Joel & steering committee's leadership. Thoughts will be incorporated into the white paper. 
+
+### Privacy & Security WG Updates - Mr. Myers
+* Moving into an identifying requirements phase.  Much of the work they have done so far on the privacy side is focused largely on users. He feels it would be valuable to set up a meeting or discussion
+
+### Meeting Adjourned By Mr. Stine at 11:01am
+
+# Notes of the Technical Committee Meeting - May 20, 2022
+
+### Attending and Participating: J. Trammell (Target), O. Coleman (Ovon), K. Dank (Target), J. Larson (SpeechTEK), N. Southern (Linux Foundation), N. Caidin (Linux Foundation), J. Crabb (Target), D. Rogers (Wegmans), N. Myers (Red Fox AI), B. Epstein (Aebis Inc.). Not In Attendance: C. Wuttke (Conversational Solutions), J. Stine (OVON)
+
+### Call to Order
+* Mr. Southern called the meeting to order at 10:04am Eastern Time and recorded the minutes. A quorum was established for the conduct of business, and the meeting, having been duly convened, was ready to proceed with business. A quorum was present.
+
+### Antitrust Policy Notice: Mr. Southern reviewed and reiterated the Linux Foundation Antitrust Policy. 
+
+
+### Investment Exploration - Strategizing
+* Mr. Southern pointed out per Mr. Stine that we have roughly $170,000 tasked by our sponsors for development and growth, which prompts a question of how we can effectively invest this. 
+* Different ideas presented but foremost to discuss is the possible extension of the Axxessio contract which expires 5/31/22 after going into effect on 1/17/22. 
+* Three deliverables enumerated. Total of contract - €20,000, but Mr. Southern denoted that per discussions with Mr. Stine, if contract is renewed it should probably be revised with a more acute financial breakdown per individual phases of completion. 
+* At this point, Mr. Southern handed the discussion off to Mr. Larson.
+* Mr. Larson: per our current contract, we've been able to demonstrate how Mycroft can interact with three other voice agents, invoking Magenta (Deutsch Telekom); Genie (Stanford U.); and Speechly, which is not really a voice agent per se but a voice agent-like entity - a web page that has been voice-enabled so that you can speak directly to the web page. Now possible to switch back and forth between these agents which is an asset. 
+* Mr. Larson indicated that demo will be available in around a week. Mr. Larson pointed out that with the Technical Committee's formal approval, we would like to extend this contract at ballpark of about €20,000.
+* This will add Microsoft Cortana and Google Home to our stable of voice agents that are interoperatively enabled. Cortana, is not a commercial product now, but is sold by Microsoft as a white box to other enterprises, so that they can develop their own voice agents. Pointed out the benefit of extending Cortana to make it interoperatively voice enabled, so new companies will have this capability when they come aboard. Also an ideal point of entry for OVON working with Microsoft. 
+* Mr. Larson pointed out that Google Home is one of two largest and most widespread voice agents now in use globally. Making Google Home interoperable will dramatically expand the scope of what we can do. Mr. Larson anticipates a couple of related issues, because Google Home like Alexa has a 'walled garden.' It will be a challenge to surmount walls and make systems interact with others.
+* Mr. Larson restated the cost and outlined other possibilities attached to this. One is the ability to share data between voice agents. For example: logging onto Magenta and providing name and address to it, and then switch to Genie, reentry of personal data will not be necessary because data has been shared. 
+* Another possible extension: an end-to-end connection between users and voice agents. During sign-on, user ID'd by speaker authentication. Concurrent identification of voice agent itself to ensure its authenticity. Also: encryption of client-server messages. For now: we want to focus on Cortana and Google Home.
+* Mr. Larson formally asked for a technical committee approval of this extension for two months. 
+* Mr. Southern turned this over to a vote, but Mr. Trammell called for questions or concerns to be raised first. Mr. Rogers asked what plan we have in place to show how Google home will be tested under the extension of this contract. What are we looking to get as a deliverable, and how confident is the team that it will be successful in two months?
+* Mr. Larson affirmed that there is a risk involving Google Home and walled garden. 
+* Mr. Rogers restated his concern: do we have the time allocated and the resources to execute this time properly and do the testing. In other words, are OVON resources aligned to take advantage of this extension? Mr. Larson said yes. However he also wants to work with sponsors to see what voice options they have available and begin interacting and integrating those. So that also is on our schedule.
+* Mr. Rogers said this helps. From Wegman's perspective, they do not have a voice agent at this time to help do this testing.
+* Mr. Larson called on Mr. Trammell who indicated that he's in favor based on positive track record with Axxessio. Mr. Epstein posed a couple of questions: one about competing priorities re: how and where we can spend this money. Second question concerns what Mr. Rogers was alluding to re: priorities. We are embarking on parallel paths: standards development and systems design Asked if we have overall leadership and implementation resources broad enough to lead these to successful completion?
+* Mr. Larson: we want to have demonstration team implement our ideas to validate that our APIs do indeed work. This is main goal of implementation effort. Secondary goal: to be sure that the work provides videos for marketing purposes. These are primary purposes of demo team. Demo team will no create their own voice agent - this is out of scope. Merely validate that we are on the right path.
+* Mr. Epstein indicated that this answered his second question. What of the first? Mr. Southern briefly touched on the remaining funds from the $170000 and some possibilities discussed such as the hiring of an information architect. 
+* Mr. Rogers: no competing need for the €20,000 but there are other ways to spend $. But absolutely enough in the budget for a R&D task such as this. Key question: do we want to spend it, and the time constraints. Will there be a delay? He is concerned about this.
+* Mr. Southern asked Mr. Larson to comment on the success of the Axxessio contract so far. Mr. Larson affirmed that it has been quite successful. Axxessio has proven interoperability between voice agents with a persuasive demo. Should prove very important and instrumental in the long term, most important re: ability to switch back and forth. Axxessio people have done an excellent job with this demo, have given us the code, we're testing it out etc. Completion has provided validation so far.
+* Mr. Crabb: pointed out, in response to Mr. Larson's earlier comment, that Target doesn't have its own voice agent. Agreed with Mr. Rogers re: adequate funding present for a renewal of this contract for research & development allotment. Clarified: are we only getting a demo or also an interoperability standard? Mr. Larson: goal of AWG is to develop standards - protocols, message formats. Purpose of demonstration group is to demonstrate those protocols & message formats A. work and B. work correctly. Mr. Crabb: clarification. Are we saying that we're trying to prove the standards we already have are working correctly, or working on discovering new standards? Mr. Larson: a bit of both. Formal standards group has not yet reached the point where they are articulating precisely what the standards are. We know what the messages are in general but we've not reached a great level of detail yet. Currently, the demo group is leading ahead of the specifications group. That will likely be reversed in next couple of months.
+* Mr. Crabb: does contract specify that working groups will also examine standards? He would love to have more involvement from other groups than to pull the standards out as axxessio is doing the work. Mr. Larson affirmed that Axxessio participates regularly in our standards identification meetings based on the work that has been done, and that implementation follows from this. 
+* Mr. Crabb: feels that re: spending the money, getting the connections in place is a great thing to do. But also would add in to contract: some expectation that this is leaning toward definition of standards we are trying to create. Mr. Larson: it would be formulated as Axxessio's validation of the standards we are working to specify. Mr. Crabb affirmed that this works for him.
+* Mr. Epstein: believes we should absolutely continue this. Point we may need to discuss offline before next Technical Committee Meeting: to whom does Axxessio's IP that they are currently producing belong? Is it theirs, ours, etc.? The expertise that they are gaining in permitting heterogenous voice agents to correspond will have a significant value in the future of interoperable workplace. An opportunity will emerge from this. Mr. Larson responded: Axxessio people are authoring the contract. Recipe for developing new interoperable voice agents, so they can leverage what they have learned. Second, we own the code they've produced per the contract and therefore the IP and the recipe to build interactive objects they are producing.
+* Mr. Trammell added: there is a developer COO requirement for the code we obtain from Axxessio. It is being licensed per Apache, open source, and open voice standard. Ms. Coleman addressed IP question and related it to website contract with developer being discussed this week. That contract has been amended to explicitly claim IP ownership by OVON. So we may need to explicitly cover this in Axxessio.
+* Mr. Southern called for a vote. Unanimous consent from committee. Decision to move forward. 
+* Mr. Larson prompted additional discussion about hiring a data architect consultant. We are backlogged with David Atwater - works w/us in spare time but lacks the bandwidth to do everything we would like him to do. Question: should we use additional funds from $170,000 to hire someone knowledgeable in both architecture and speech. Opened it up to opinions and suggestions. Ms. Coleman affirmed that it would be a valuable idea - useful to do it in context of questions raised by Mr. Crabb and Mr. Rogers re: Are we advancing toward standards? SMEs would be worthwhile, but should we vote on this now, or should interoperability working group discuss and create a formal proposal for us?
+* Mr. Southern raised question: what is the cost? Mr. Crabb affirmed that we need to clarify the purpose of hiring these gentlemen. If it's a qustion of getting v. 1 of Interoperability Standards written, or working with the Axxessio team to better understand how standards emerge from their work: a valuable use of these monies. But hiring them with unclear objectives, he would be opposed. Mr. Larson agrees entirely. The goal Mr. Larson pointed out would be to accelerate development of specifications to speed up our work. Mr. Larson affirmed that it would be primarily driven by advice and expertise. Mr. Crabb expressed mixed feelings about this. Concerned that advice alone may slow us down or could accelerate given the advanced knowledge of SME. Can (or should) be a minimal contract.
+* Mr. Southern proposed moving forward in interest of time and others agreed. 
+* Mr. Epstein wants to talk to Mr. Larson off-meeting - has a different view of our needs for this person. Wants to work out a proposal and submit this for approval.
+
+### VRS Updates
+* Mr. Larson affirmed that VRS work Phase 1 is completed, that we've demonstrated how an explicit request is converted to a voice agent, that Mr. Trammell may just create forthcoming video demo, or otherwise we may just rely on Axxessio for this if theirs suffices. Maria Dombrowski has left VRS team, so that WG group needs a new moderator. Action items: we need a new moderator for VRS team. This needs to be sent to John Trammell. They are recommending that group be paused for a few weeks, follow steps listed on the right side. May include: rebranding VRS as "Visibility," revisiting the goal of what they are trying to achieve, defining the problem(s) 3 - a. discoverability, b. prioritization and c. findability. Also identifying what's available today, determining what OVON and other technical players should do, provide a sense of global landscape, and ultimately providing recommendations to techical committee.
+
+* Comments: Joel Crabb - what about suggestion that VRS and interoperability groups merge? Mr. Larson said he would prefer that this doesn't happen, because architectural group has its hands full. Wants to keep the groups separated for the time being, until VRS determines next steps. We can revisit a merge at that time. Mr. Trammell: a bit puzzled, thought a merger was a given at this point. If we are to pursue further development with VRS, it makes sense to keep it separate, but he thought VRS project had wrapped. If we are to continue to develop it with a different set of ideas, he's fine keeping it open.
+
+* Mr. Larson pointed out that VRS group has several members of architectural group on it, so they are not exactly separate committees, and there is a lot of overlap between the two. He wants the time spent by VRS to focus on what next steps should be, and not distract the architecture group from its objectives. 
+
+* Mr. Crabb: suggested that Mr. Larson and Mr. Wuttke touch base, because Mr. Wuttke is the one who suggested a merger. Mr. Larson agreed. Stated he's not opposed to a merger, just concerned about VRS becoming more swamped. Mr. Crabb pointed out that discoverability also came to the steering committee and for VRS, and we are not clear that this is something OVON should be doing. Mr. Larson agreed. He wants VRS to decide what needs to be done - next key steps. We may need to dispense with discoverability. Needs to be formally considered and decided, what we can do to facilitate this, we may eliminate discoverability.
+
+* Mr. Myers: inquired why we are rebranding VRS as "visibility." Mr. Southern suggested that Ms. Coleman comment on this. Ms. Coleman: we are rebranding to be more than about just fulfilling an explicit request, expanding to visibility allows research or requirements on findability and discoverability. This was a proposal from John Trammell and the research he did. Ms. Coleman suggested that Mr. Trammell comment on the technical reasons behind it.
+
+* Mr. Larson expressed an ambivalence about label of group and indicated that what he wants is for them to have a broader view of what is needed beyond just explicit requests. How do we handle implicit requests that may include discoverability, and that will help us decide if we want to get involved with discoverability? 
+
+* Mr. Myers: with VRS in mind, have there been any explicit face to face or virtual discussions with entities that currently operate voice assistants, as to how they view data sharing re: a potential VRS interoperability? 
+
+* Mr. Larson: No but such discussions need to take place. Some will happen in VRS group, or Mr. Myers's group or the Architecture group.
+
+* Mr. Epstein: before asking the VRS to reorganize and plan next steps, if we hire an outside expert, they must be hired before VRS group starts this. We need equivalent for VRS of what David Atwater did a year ago for the Interoperability Work Group, which was an initial white paper outlining fundamental principles and direction to be followed.
+
+Ms. Coleman: called for informal vote on pausing VRS - unanimous yes consent.
+
+### Interoperability Work to Date and Roadmap - Mr. Trammell
+* Mr. Trammell: on 5/11 we had a discussion with two reps from Microsoft. Discussion: How do we want to go forward? What metaphor do we want to pursue? Does the Stanford OVAL (Open Virtual Assistant Lab) model make the most sense? Or are we looking more for interoperability that we've been discussing up to our awareness of Genie, which is more separate independent pieces that we define the protocols for discussing for sharing information? w/o qualification, MS said the independent pieces are the way they want to pursue, with an understanding and respect for the market incentives of all the players that are in the voice space. This is a critical part of a solution that can be implemented.
+
+* Mr. Larson: it became clear that we need meetings with each of our customers, and we are planning these accordingly in the coming weeks to get opinions on which of these models we should use. Mr. Trammell: we also need to understand and clarify our problems before presenting solutions. Another point re: Stanford. We need to influence them as much as they have influenced us. This is a two-way street with good ideas on all sides. Cross-pollination is critical. And finally: they noted that despite the growing #s of smart speakers in people's homes, enterprise voice is more interesting and more likely to dominate in the future. We need to keep an eye on this area.
+
+### Process For Answering Stanford vs. OVON Question
+* Mr. Larson led discussion on how we get alignment in terms of fundamental understanding of Stanford Model. We chatted with Microsoft and now will be having discussions with Target, Wegmans, Schwarz Gruppe and Deutsche Telekom. What is the direction we should take? Jon Stine is preparing 1-2 page document. Next meeting on June 6th - Mr. Southern emphasized a critical concern about getting alignment on the Stanford issue question - as Mr. Larson affirmed earliest this week.
+
+* Mr. Crabb affirmed that we can easily set up a meeting w/Target to discuss accordingly. Target had asked for Jon's briefing document, that will help us as we go through it. The discussion as well.
+
+### Action Items - Mr. Southern outlined action items.
+* Approved Axxessio extension, now the contract needs to be reformulated and moved forward w/a sow for renewal. 
+* In revising, Axxessio contract needs to spell out IP ownership.
+*  We are pausing the VRS group for the time being and rebranding as 'visibility.' They will come back with a plan at next Technical Committee Meeting. Pause and regroup and discuss rebranding. This will be presented for approval to steering committee. 
+* In tandem with this, we need a new moderator for VRS team.
+* Disagreement on combining VRS and Interoperability. This needs to be sorted out.
+* Mr. Epstein and Mr. Larson will meet to discuss some of his thoughts about hiring an information architecture consultant, and draft a proposal accordingly. 
+
+### With no further topics discussed, Mr. Southern adjourned the meeting of the Governing Board at 11:08am Eastern Time.
+
+
+Meeting Adjourned 
+
+
+
 # 2022-04-15 Notes of the Technical Committee Meeting 
 
 Attendees:  J. Larson, K. Dank, J. Stine, M. Brinas-Dobrowski, N.Myers, J.Crabb, D. Rogers, O. Coleman, J. Trammell, N. Caidin, B.Epstein, S. Palma, H. Pappas 
