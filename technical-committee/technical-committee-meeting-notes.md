@@ -1,8 +1,108 @@
+***********
+
 ---
 layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+
+# Notes of the Technical Committee Meeting - October 21, 2022
+
+### Attendees: J. Stine, N. Southern, C. Wuttke, J. Larson, O. Coleman, D. Dahl, B. Epstein, E. Sewell
+
+We lacked a quorum today for approval of notes from the 9/16/22 meeting.
+
+The Meeting Began at 10:02am EST.
+
+### Notice of Recording - J. Stine
+### Linux Foundation Anti-Trust Statement - N. Southern
+
+### Review of the agenda, purpose of and expectations for the meeting  -- J. Stine
+* A high-level report with notes from the Steering Committee
+* October work group reports and outlook starting with technical roadmap and dependencies schedule
+* Nov 9-10 Interoperability Webinar and Workshop (J. Larson)
+* Notes on security specific to voice and next steps from Ms. Coleman and Mr. Sewell
+* First draft of a redirection on destination and relocation services
+* Closing Comments
+
+### Steering Committee Meeting Update from 10/17/22 meeting - following key conversations were had:
+* Affirmation and encouragement about the performance of OVON, if using the Tuckman model Storming-Forming-Norming-Performing-Transforming of org. development. OVON has reached the performing stage with validation of this from the Steering Committee. The next step is transforming, and this equates to key tasks in 2023. 
+* The monthly cadence of draft specifications that is now planned for Q4 2022-Q1 2023
+* Conversations about an OVON trustmark starting in Ethical Use
+* The possibility of professional education relationships with the Conversation Design Institute and University of Central Florida which has adult/external education/certification program. They have reviewed OVON's work and see it worthy of further discussion where professional education in voice for content mgrs. and voice developers could be developed in conversation with the CDI and OVON. Greater awareness and exposure for OVON. 
+* Questions raised by Mr. Hochstatter about major KPIs Q4 2022-Q1 2023. Several topics could lead to KPI development: affiliation with relevant standards bodies (IEEEs, W3Cs, IETFs). Outreach to said standards
+* Creation and development of awareness/participation in voice developer community
+* Programs of value delivery for sponsors/participants. (e.g., privacy & security technologies, reference architectures, guidance in privacy/security/authentication realm, professional education, a friends program, widgets - i.e., reference architectures for technologies that could be developed for OVON
+* Interoperability demo envisioned by Dr. Larson - showing our vision to the world. 
+* Increased fiscal and organizational strength.
+
+### Industry Outreach Updates - J. Stine
+* Voice 22 Voice & Business Bootcamp - Voice & Healthcare Track
+* Voice and healthcare bootcamp in Malta at a healthcare event - partnership with Conversation Design Institute - vendor neutral
+* Interoperability 6 hour webinar on 9-10th of November. 
+
+### Technical Roadmap Review - D. Dahl
+Dr. Dahl led us through Q4 2022 and Q1 2023.
+* Close to publishing our overview of patterns of agent--->agent delegation - first publication targeted end of Oct.
+* Simultaneously publishing an updated version of Interoperability White Paper with newly incorporated comments. (Over 60 so far).
+* November: patterns for interoperable dialogues - will take us into the granular level of agent interoperability communications.
+* End of Dec.: Architecture group will be updating Oct. document with add'l requirements on arch. patterns and specifications for delegation and will add some interoperable dialog requirements
+* Q1 2023: documents will be published with dependencies on privacy, discovery/location, and authentication (end March 2023).
+* Publications at end of October on security specific to voice. 
+* End of Dec.: Privacy 3.0 Guidelines and Privacy Use case. **Privacy will be aligned with interoperability**. Jan. '23: commercial privacy guidelines to be published.
+* 2 activities just starting - authentication and destination and location services - target of destination/location paper 2/28/23
+* Dependencies have been laid out. Architecture work dependent on privacy, destination/location services and security. Will come into play at end of Jan. with privacy paper publication from Architecture group. Our general policy: any dependency document should be published 4 wks before its succeeding document.
+* J. Stine noted: we need to keep a close eye on the dependency work - (e.g. destination/location services - this may slide - and we may move personal authentication out further). Any scheduling adjustments will be brought to this body for approval. 
+
+_Mr. Sewell asked at this point if we have a Program Manager identified to own the plan and do we have an Enterprise Architect who can drive the technical components and make sure that they all work together in synch? Mr. Stine: Nathan will lead Program Management for Integration with help from Dr. Dahl. Re: Resource Allocation, resources are in budget for moving into 2023 to support work. We do not have an enterprise architect but Mr. Stine deferred to Mr. Epstein, Dr. Larson, Ms. Coleman, Dr. Dahl et. al., on where and when we need this talent and how to bring it in_
+
+_Dr. Dahl noted that while critical, this won't come into play for a few months because we lack concrete specifications that we can use as the basis of software. Mr. Epstein: the need is closer than we think. Integrations will begin on January 1st. Ms. Coleman agreed. Mr. Stine noted that this position will be ongoing_
+
+_Mr. Sewell also noted the importance of having the technical architecture in place to test interoperability, and stressed the fact that whoever we hire needs Conversational AI Experience with Language Models, Database Experience, Conversational AI Data Management.
+
+_Mr. Epstein suggested that we recruit/hire two Enterprise Architects, not one. One that has the necessary breadth for conceptual architecture to help with specification integration, and one with sufficient technical baggage to set up a testing lab. The integration function is critical. 
+
+### Interoperability Workshop - 11/9-11/10 - Dr. Larson (schedule presented)
+* Deep discussion on how delegation works w/corresponding examples and Q&A (First morning)
+* Parallel sessions delving into privacy and the ways of describing data. Parallel sessions will be interactive with a great deal of user feedback.
+* A panel discussion about what lies ahead and what needs to be done
+* The problems people see and how can they be solved. Opportunity for participants to participate
+* Afterglow period at the end of each day emulating social hour at ends of conferences. Several special interest groups here - interfaces, databases, etc.
+* Mr. Stine: publicity on this will go out to more than 1000 people next week. Also personal individuals going out from leadership team. Attendance goal: 50+ people. Many will be newcomers.
+
+### Updates on Security Standards Recommendations - Ms. Coleman and Mr. Sewell
+* Group published an earlier version of Security Guidelines Document v. 2.0. Working on 2.1 that will published and avail for review end of Oct.
+* Version 2.0 - two security standards recommended: secure voice identification of human users and conversational agenda, and the other secure multiconversational agent data sharing.
+* Ms. Coleman and Mr. Sewell then identified - with an accompanying chart - all the different types of personal data that be collected from a user's voice. (A chart presented on the screen - Ms. Coleman). Ms. Coleman noted that if not properly managed this data can be used in numerous ways.
+* Mr. Sewell discussed add'l recommendations, next steps, and path forward for security work. Reviewed zero trust network access model. Noted that velocity is leveraging zero trust as the model for voice and conversational AI-enabled security processes, which align with various other business processes (payment processes, eg., with high security requirements), to analyze and share data. 
+* Mr. Sewell also discussed collaborating with other standards bodies such as the FIDO alliance. Apple, Microsoft & Google are collaborating with FIDO and rallying behind it as a default identification standard on smart devices and eventually in IOT. He noted that he's working on integrating voice with FIDO. 
+* Mr. Stine noted that OVON had a separation authentication study track, and this suggests that that group, and security/privacy, have come together/merged. (Mr. Sewell agreed with this - unifies personal authentication and secure data sharing between multiple agents). 
+* Mr. Stine also noted that another strand of authentication involves the yet-to-be-scoped pursuit of individual voice passports, and the work Mr. Sewell is discussing can serve as a foundation for that. 
+* Mr. Sewell also discussed world of host agents and delegate agents. Host: needs/desires/wants of the human. Interacting with conversational agents to perform tasks on their behalf. Touched on Velocity conversational AI referenced architecture which has already been deployed with a number of partners. Goal of enlisting this architecture: acceleration of the work of the Privacy/Security Work Group but the Interoperability Team.
+* Ms. Coleman: noted that first step in this process is requirements identification in the white paper at the end of October. The personal authentication scope of work is listed on the roadmap as a dependency, feeding into the security authentication patterns (3/31/23) - so as we define the work, some things may be shuffled; depends on SOW and resources available to do the work. 
+
+_Mr. Stine noted briefly a conversation from the Architecture Work Group about patterns and giving new names to patterns and the AWG will determine what that vocabulary will be. The phrases 'delegation' and 'mediation' may change but should do so ASAP so we can begin circulation of new terms throughout OVON._
+
+### VRS Work Group as a Foundation for Our Work Moving Forward - Mr. Stine 
+* Primacy achievement was a demonstration of POC showing how explicit requests could lead to a connection inside or outside a host platform. i.e., an explicit request leading to delegation. They also demonstrated minimal viable contract necessary for a level of authentication, and the latency criteria.
+* This work can serve as a foundation for our work moving forward.
+* More broadly, we should think about an enlarged scope for voice registry, and can we change this from voice registry to destination and location services? For the interoperable world, we must enable the ability to find explicit content and destinations/disambiguate that; we also need to increase findability for destinations and content. How do we improve discoverability of those who are working in voice and seeking connections, and how do we enable this (operational delivery, mgmt and governance). Is this something OVON itself takes on, or an external service? 
+_Mr. Epstein asked about explicit vs. implicit request - Mr. Stine noted that this should be included in "be discovered."
+* Mr. Stine noted that we may foresee a destination registration with multiple layers - content or services within the destination. Processes and protocols for finding and connecting. Could be a standard metadata scheme that could be adopted for finding and discovery of content. And then governance of this - a big question but one that needs to be addressed.
+* Mr. Stine presented a first draft that he's reviewing with members of the original VRS group. Anticipates bringing this forward to a finished working document brought to this body in a month. 
+* Also noted that we have traditionally emphasized decentralization as opposed to a centralized registry.
+* 
+### Action Items and Corresponding Ownership
+* Dr. Dahl and Mr. Southern - cement basic editing timeline for Interoperability and place it on the personal calendar with corresponding dates
+* Dr. Dahl and Mr. Southern - Program Management - oversee the passage of documents and information from one group to another on the roadmap (calendared dates).
+* Mr. Stine: author a first draft set of requirements for the Enterprise Architect position(s) that will be circulated to the individuals on this call. Also there should be estimates associated with how much work time we think each person will occupy. (Full time? Part time? etc.) (Move quickly).
+* Once approved, this group - Mr. Epstein, Dr. Larson, Ms. Coleman, Dr. Dahl, Mr. Sewell - will formally respond to this google document within a week.
+* Mr. Stine:  bring final version Mr. Wuttke for review and then to the steering committee for approval at the appropriate time
+* Said group and Mr. Stine will begin the process of recruitment.
+* Mr. Stine: prepare a first draft announcement on the Interoperability Webinar of 11/9-11/10.
+* Mr. Epstein, Mr. Larson, Ms. Dahl: finalize terms 'mediation' and 'delegation' ASAP., and Dr. Larson will add this as an agenda item for the Interop meeting of Tue. 10/25.
+
+### Adjournment - Mr. Stine adjourned meeting at 10:58am.
 
 # Notes of the Technical Committee Meeting - Sep. 16, 2022
 
