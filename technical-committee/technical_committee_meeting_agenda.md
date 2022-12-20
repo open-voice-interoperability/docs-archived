@@ -505,5 +505,19 @@ No meeting.
     - **ACTION: SCHEDULING OF FIRST INTEGRATION MEETINGS
 - **Adjournment**
 
-
+# 2022.09.16
+- **Greeting, Antitrust Recitation**
+- **Introduction of New Participants**
+- **Review and Approval of Meeting Minutes**
+- **Review of Agenda**
+- **Update: OVON Senior Advisors**
+- **Update: Interoperability White Paper**
+- **2022-2023 OVON Technical Roadmap**
+- **Review of Deliverables Through Year-End 2022**
+- Ethical Use Task Force
+- Architecture Work Group
+- Privacy and Security
+- Voice Registry System / Destination and Location
+- Authentication Study Group
+- **Open Items, Adjournment**
 
