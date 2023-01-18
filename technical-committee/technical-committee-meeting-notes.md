@@ -45,19 +45,19 @@ The Meeting Began at 10:04am ET.
 
 * Equally pertinent: a need for clarity in OVON messaging, friends program, executive education that we'll be testing and piloting this year, communication program and the like.
 
-*Vision/Strategy/Execution followed by metrics
+* Vision/Strategy/Execution followed by metrics
 
-*The OVON Pivot toward immediacy and relevancy (through Q1)
+* The OVON Pivot toward immediacy and relevancy (through Q1)
 
--We're researching several key areas and then identifying the immediacy & relevancy of OVON work in each of these areas. E.g. the automotive space (significant need here for interoperability - massive ecosystem), health care, social gaming, financial services, authentication/payment, restaurant
+	- We're researching several key areas and then identifying the immediacy & relevancy of OVON work in each of these areas. E.g. the automotive space (significant need here for interoperability - massive ecosystem), health care, social gaming, financial services, authentication/payment, restaurant
 
--Horizontal areas: enterprise customer service call center (25% annual compound growth rate)
+	- Horizontal areas: enterprise customer service call center (25% annual compound growth rate)
 
--Enterprise content owners
+	- Enterprise content owners
 
--Payment and authentication
+	- Payment and authentication
 
--We need to boil this down from 9 to 4-5 priorities or at least evaluate our importance in each of these key areas. Bring it closer to constituents' immediate needs. 
+	- We need to boil this down from 9 to 4-5 priorities or at least evaluate our importance in each of these key areas. Bring it closer to constituents' immediate needs. 
 
 ###### _Mr. Martens asked Dr. Dahl to review what she sees as the most important/critical points on the roadmap and to help contextualize them. In response, Dr. Dahl discussed several different workstreams that are ongoing on OVON, including the technical synthesis track, architectural principles track and the privacy & security track (Ms. Coleman). The synthesis work, born out of interoperability, will bring everything together in the form of 7 clusters of technical and privacy and security areas, each with ~ 5 types of activities that fit in there. A synthesis document will be published at the end of January and this will be our marquee activity that gives us a much bigger picture (master blueprint)._ ######
 
@@ -65,14 +65,13 @@ The Meeting Began at 10:04am ET.
 
 * Dr. Dahl Reviewed the Various Synthesis Clusters.
 
--On top level: agent interaction is particularly critical (how interoperable agents communicate with each other and find one another) - different patterns of negotiation, interaction, etc.
--Execution control - how does one start and end things? How does execution happen?
--Trust, Integrity and Security - all things that have to be done to ensure that interaction is secure and trusted
--Data integrity - closely related to trust, integrity, etc.
--Data flow - how does data move through an application or a user session? How do we transmit data among the agents in an interaction?
--Building blocks - fundamental specs agents use to interact with one another
-
--In next couple of weeks, the group will be prioritizing this work in lieu of pursuing all of it at the same time.
+	- On top level: agent interaction is particularly critical (how interoperable agents communicate with each other and find one another) - different patterns of negotiation, interaction, etc.
+	- Execution control - how does one start and end things? How does execution happen?
+	- Trust, Integrity and Security - all things that have to be done to ensure that interaction is secure and trusted
+	- Data integrity - closely related to trust, integrity, etc.
+	- Data flow - how does data move through an application or a user session? How do we transmit data among the agents in an interaction?
+	- Building blocks - fundamental specs agents use to interact with one another
+	- In next couple of weeks, the group will be prioritizing this work in lieu of pursuing all of it at the same time.
 
 ##### _Dr. Larson noted that on Tue. 1/17, the Synthesis group will refine these activities and begin to prioritize them._ #####
 
@@ -92,13 +91,10 @@ The Meeting Began at 10:04am ET.
 * Budgetarily we are looking at the implementation of a test bed, and need to decide how to allocate the budget and explore strategically (position) how we want to work, realizing the test bed implementations. 
 
 * Mr. Martens outlined three possible options, each with different pros and cons.
-
--$80,000 USD available to invest into the prototypes and test bed implementations
--We might also invest in our own staff and team members, for instance, hire senior advisors or developers. 
-
--Another option would be to contract additional development resources externally and outsource the developers among different external development partners or agencies. ($80000 is perhaps not enough to sustain this). 
-
--A third option would be to crowdsource the development of prototype implementations to the OVON community and/or public. We might also give awards to the most successful implementation of the OVON standard.
+	- $80,000 USD available to invest into the prototypes and test bed implementations
+	- We might also invest in our own staff and team members, for instance, hire senior advisors or developers. 
+	- Another option would be to contract additional development resources externally and outsource the developers among different external development partners or agencies. ($80000 is perhaps not enough to sustain this). 
+	- A third option would be to crowdsource the development of prototype implementations to the OVON community and/or public. We might also give awards to the most successful implementation of the OVON standard.
 
 * Here Mr. Martens opened the floor to opinions and feedback about how to invest these R&D monies - wisest use of the budget, etc.
 
