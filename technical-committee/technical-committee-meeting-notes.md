@@ -79,9 +79,9 @@ The Meeting Began at 10:04am ET.
 
 ##### _Dr. Larson noted that on Tue. 1/17, the Synthesis group will refine these activities and begin to prioritize them._ #####
 
-##### _Mr. Epstein thanked Dr. Dahl for the diagram and noted that each bubble on the chart may represent one deliverable. To illustrate the breadth/depth of the scope we're attempting to accomplish, and the complexity involved - for him, this was the key revelation from the creation of the synthesis document. _#####
+##### _Mr. Epstein thanked Dr. Dahl for the diagram and noted that each bubble on the chart may represent one deliverable. To illustrate the breadth/depth of the scope we're attempting to accomplish, and the complexity involved - for him, this was the key revelation from the creation of the synthesis document._ #####
 
-##### _Mr. Martens asked for questions about Bruce's synthesis work, but none were immediately presented. _#####
+##### _Mr. Martens asked for questions about Bruce's synthesis work, but none were immediately presented._ #####
 
 ### Mr. Martens - Budget Overview
 
@@ -105,19 +105,19 @@ The Meeting Began at 10:04am ET.
 
 * Here Mr. Martens opened the floor to opinions and feedback about how to invest these R&D monies - wisest use of the budget, etc.
 
-#####_Mr. Stine added that we are budgeting conservatively for 2023 in part given a period of layoffs and economic downturn, and in part given the rapid approach of the end of three-year commitments that initially launched OVON. Should the sponsorship situation take a positive turn, the $80,000 number would increase. This is a floating number; in a conservative planning mode, it is currently at 80. Steering committee has always set aside R&D monies to accelerate the work. The Technical Committee must formally decide how the funds are to be invested. In what way and for what purpose._#####
+##### _Mr. Stine added that we are budgeting conservatively for 2023 in part given a period of layoffs and economic downturn, and in part given the rapid approach of the end of three-year commitments that initially launched OVON. Should the sponsorship situation take a positive turn, the $80,000 number would increase. This is a floating number; in a conservative planning mode, it is currently at 80. Steering committee has always set aside R&D monies to accelerate the work. The Technical Committee must formally decide how the funds are to be invested. In what way and for what purpose._ #####
 
-##### _Dr. Larson suggested adding a capstone project run by university students to achieve a targeted outcome - this could be a possible fourth scenario. _ #####
+##### _Dr. Larson suggested adding a capstone project run by university students to achieve a targeted outcome - this could be a possible fourth scenario._ #####
 
-##### _Dr. Dahl - scenario 3 can be pursued in addition to #1 or #2. These are not mutually exclusive. It can be done economically, with modest prizes. She noted that she and Dr. Larson have run previous competitions for AVIOS and XML forum and have this expertise. Dr. Dahl also suggested hackathons that are fairly economical. _#####
+##### _Dr. Dahl - scenario 3 can be pursued in addition to #1 or #2. These are not mutually exclusive. It can be done economically, with modest prizes. She noted that she and Dr. Larson have run previous competitions for AVIOS and XML forum and have this expertise. Dr. Dahl also suggested hackathons that are fairly economical._ #####
 
-##### _Ms. Coleman asked a question about the categories for investment of the funds. She expressed her support and enthusiasm for funds to be set aside for the implementation of the Trustmark program, and wants to ensure that we are considering the work that needs to be done (re: implementation) in this area. For instance, one initiative is the development on the online self-assessment with the maturity model. This will require funds. _#####
+##### _Ms. Coleman asked a question about the categories for investment of the funds. She expressed her support and enthusiasm for funds to be set aside for the implementation of the Trustmark program, and wants to ensure that we are considering the work that needs to be done (re: implementation) in this area. For instance, one initiative is the development on the online self-assessment with the maturity model. This will require funds._ #####
 
-##### _In response, Mr. Stine noted that the Privacy & Security Work Group reports to the technical committee, and the Trustmark program comes from the Ethical Use Task Force and the Privacy & Security Work Group. It thus falls within the Technical Committee Realm, and is a top priority for 2023 - it should be considered and prioritized as an investment. _#####
+##### _In response, Mr. Stine noted that the Privacy & Security Work Group reports to the technical committee, and the Trustmark program comes from the Ethical Use Task Force and the Privacy & Security Work Group. It thus falls within the Technical Committee Realm, and is a top priority for 2023 - it should be considered and prioritized as an investment._ #####
 
 ##### _Mr. Sewell noted that if the goal is to accelerate the work, $80000 is not a sufficient number for acceleration. He asked if there is any engagement with the sponsors on OVON and/or the Linux Foundation to fund this. In response. Mr. Stine noted that conversations with prospective sponsors are continually ongoing. Wrt direct investment sponsorship contribution to OVON, $80000 is where we stand._ #####
 
-##### _Mr. Martens noted that the research process now ongoing will result in additional insights about what kind of voice AI implementations exist among OVON members that are suited to be integrated in the test bed. We are hopeful that our members & and sponsors will support the effort and develop implementations as part of this test bed - to such a degree that the $80000 wouldn't be spent on these implementations but instead we will look for professional facilitation during this process. _#####
+##### _Mr. Martens noted that the research process now ongoing will result in additional insights about what kind of voice AI implementations exist among OVON members that are suited to be integrated in the test bed. We are hopeful that our members & and sponsors will support the effort and develop implementations as part of this test bed - to such a degree that the $80000 wouldn't be spent on these implementations but instead we will look for professional facilitation during this process._ #####
 
 ### Update on Trustmark Program by Ms. Coleman
 * We are looking forward to presenting our plans to the steering committee.
@@ -134,18 +134,18 @@ The Meeting Began at 10:04am ET.
 
 * We will complete the Ethical Guidelines 2.0 white paper, set up follow up DT meetings, and work with Linux Foundation to design and launch program on Conversational AI Ethics, and are working on preparing a presentation for the Steering Committee.
 
-##### _Dr. Larson inquired about a target date for announcing the Trustmark launch to the public; Ms. Coleman stated a target of late in Q1. The two deliverables initially be available are the training course and the self-assessment maturity model. Prioritization for the funding of that work will determine the date of delivery. _#####
+##### _Dr. Larson inquired about a target date for announcing the Trustmark launch to the public; Ms. Coleman stated a target of late in Q1. The two deliverables initially be available are the training course and the self-assessment maturity model. Prioritization for the funding of that work will determine the date of delivery._ #####
 
 ### Action Items - Mr. Southern (recap)
 * Prioritization of blocks in the synthesis group
 * Q2 decide on how funds are to be invested for prototypes in the R&D area
 * Set up next steps for Trustmark - e.g., continuing requirements interviews, continuing ethical guidelines and course preparation, and preparing a presentation for the Steering Committee meeting
-*Mr. Stine: suggested that in looking toward February - we have the synthesis outlines, clusters and modules, and need to decide what comes next
-*Mr. Stine also asked for proposals with regard to investment. 
+* Mr. Stine: suggested that in looking toward February - we have the synthesis outlines, clusters and modules, and need to decide what comes next
+* Mr. Stine also asked for proposals with regard to investment. 
 
-##### _Dr. Dahl commented on prioritization and referenced Mr. Southern's list of prioritization filters and what factors we might take into account wrt prioritization. From the technical side, we need to gauge technical feasibility, but we need input from the Jon side (external marketing and management) wrt concerns or thoughts about what priorities will help strengthen our relationships with external constituencies. Then we can decide technical feasibility._#####
+##### _Dr. Dahl commented on prioritization and referenced Mr. Southern's list of prioritization filters and what factors we might take into account wrt prioritization. From the technical side, we need to gauge technical feasibility, but we need input from the Jon side (external marketing and management) wrt concerns or thoughts about what priorities will help strengthen our relationships with external constituencies. Then we can decide technical feasibility._ #####
 
-##### _Mr. Stine agreed that this discussion is critical and suggested that everyone present take part in a related discussion on Slack using said prioritization filters as a guide. _#####
+##### _Mr. Stine agreed that this discussion is critical and suggested that everyone present take part in a related discussion on Slack using said prioritization filters as a guide._ #####
 
 ##### _Mr. Sewell asked about the timelines and the related roadmap - and if it is fixed or malleable (aspirational)._ #####
 
