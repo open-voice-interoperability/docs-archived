@@ -8,7 +8,7 @@ parent: Technical Committee
 
 # Notes of the Technical Committee Meeting - January 13, 2023
 
-### Attendees: J. Stine, N. Southern, O. Coleman, J. Larson, T. Martens, D. Dahl, C. Scott, E. Sewell, H. Pappas, B. Epstein, Y. Eristiren, M. Buyuktuncay, U. Yasik, 
+### Attendees: J. Stine, N. Southern, O. Coleman, J. Larson, T. Martens, D. Dahl, C. Scott, E. Sewell, H. Pappas, B. Epstein, Y. Eristiren, M. Buyuktuncay, U. Yasik
 
 The Meeting Began at 10:04am ET.
 
@@ -17,7 +17,7 @@ The Meeting Began at 10:04am ET.
 
 * We had a quorum today and approved the Dec. 16, 2022 Technical Committee meeting notes with a first motion from Mr. Stine, a second motion from Ms. Coleman, and no immediate objections presented. 
 
-### Introductions from two new attendees, Yalim Eristiren and Mert Buyuktuncay, and Umut Yasik, of Sestek.
+### Introductions from three new attendees, Yalim Eristiren and Mert Buyuktuncay, and Umut Yasik, of Sestek.
 
 ### Review of the agenda, purpose of and expectations for the meeting  -- T. Martens
 * Update by Mr. Stine on planning for 2023
