@@ -36,11 +36,11 @@ The Meeting Began at 10:04am ET.
 
 * Mr. Stine then presented three prime strategies from this vision
 
--We will be the experts in ethics, privacy & security for voice
+- We will be the experts in ethics, privacy & security for voice
 
--We will be the global source for credible research/guidance on the ethical use of conversational A.I., including the ethical use task force for privacy and security
+- We will be the global source for credible research/guidance on the ethical use of conversational A.I., including the ethical use task force for privacy and security
 
--We will be the experts in interoperable voice assistance (The AWG has developed seven clusters/five modules that touch every inch of OVON's work), and translate this to areas of immediacy & relevancy in the industry - and create value for our constituents. 
+- We will be the experts in interoperable voice assistance (The AWG has developed seven clusters/five modules that touch every inch of OVON's work), and translate this to areas of immediacy & relevancy in the industry - and create value for our constituents. 
 
 * This leads to the question of how OVON can create value for its 200+ monthly volunteers, its participants, who bring so much value to us.
 
