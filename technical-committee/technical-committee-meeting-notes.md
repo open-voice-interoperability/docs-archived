@@ -5,11 +5,6 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
---
-layout: default
-title: Meeting Notes
-parent: Technical Committee
----
 
 # Notes of the Technical Committee Meeting - January 13, 2023
 
