@@ -38,9 +38,9 @@ The Meeting Began at 10:01am ET.
 * At OVON, Mr. Martens and others have affirmed their desire to embrace this topic yet stay focused wrt OVON's mission: enabling the interoperability of different agents. Said agents can be either rule-based or generative AI-based large language. 
 * Mr. Martens noted that we now see an opportunity to tie aspects of OVON's work to large language models.
 
-###### _Mr. Epstein, at this point, posted a comment. He noted a sense of déja vu - feeling exactly the same as he did ~ five years ago when text-based chat bots met at first appearance. Mr. Epstein noted that if a generic, predictable answer is desired, then AI perfect. But if emotion is involved, we need a trained, skilled human answering._ #####
+###### _Mr. Epstein, at this point, posted a comment. He noted a sense of déja vu - feeling exactly the same as he did ~ five years ago when text-based chat bots met at first appearance. Mr. Epstein noted that if a generic, predictable answer is desired, then AI perfect. But if emotion is involved, we need a trained, skilled human answering._ ######
 
-##### _In response, Mr. Martens expressed an agreement with this Epstein statement on behalf of the larger project team. He noted that traditionally (in the beginning), Generative AI was used to increase efficiency in internal processes at companies, and it only gradually has become a central component of customer-facing applications._ #####
+###### _In response, Mr. Martens expressed an agreement with this Epstein statement on behalf of the larger project team. He noted that traditionally (in the beginning), Generative AI was used to increase efficiency in internal processes at companies, and it only gradually has become a central component of customer-facing applications._ ######
 
 * Mr. Martens also limned a couple of interoperability questions wrt how to design this tech, and listed several related issues tied to large language models. Specifically:
 -Compatibility Issues: Different architectures and input/output formats 
