@@ -53,28 +53,28 @@ computational resource needs.
 - Data Privacy Concerns: Data from different sources raises privacy 
 concerns. 
 
-##### _At this point, Ms. Coleman requested clarification regarding data privacy concerns - GDPR, right to explanation, and how we will be able to explain results from different sources and ensure transparency on the accuracy of results._ ##### 
+###### _At this point, Ms. Coleman requested clarification regarding data privacy concerns - GDPR, right to explanation, and how we will be able to explain results from different sources and ensure transparency on the accuracy of results._ ###### 
 
-##### _In response, Mr. Martens affirmed Ms. Coleman's concerns, and stated that LLMs in comparison to rule-based AIs pose a different set of questions, such as how will be data be useful training, what kind of data sources are available and can be shared, and how are the privacy of user data and company trade secrets protected. All of these, Mr. Martens said, are questions we are considering. Mr. Martens also stated, more broadly, that the group is working on this topic, and will be announcing updates on how OVON plans to progress very soon. In the meantime, requirements will be included in the first published version of OVON standards. _#####
+###### _In response, Mr. Martens affirmed Ms. Coleman's concerns, and stated that LLMs in comparison to rule-based AIs pose a different set of questions, such as how will be data be useful training, what kind of data sources are available and can be shared, and how are the privacy of user data and company trade secrets protected. All of these, Mr. Martens said, are questions we are considering. Mr. Martens also stated, more broadly, that the group is working on this topic, and will be announcing updates on how OVON plans to progress very soon. In the meantime, requirements will be included in the first published version of OVON standards._ ######
 
-##### _Mr. Martens also responded to a comment from meeting participants about the criticality of determining how to package this - and affirmed this is something OVON is still weighing - if it should be generative AI, or large language models, or something else. _#####
+###### _Mr. Martens also responded to a comment from meeting participants about the criticality of determining how to package this - and affirmed this is something OVON is still weighing - if it should be generative AI, or large language models, or something else._ ######
 
-##### _Mr. Epstein commented on policies banning the use of GAI to avoid leakage of sensitive data. Mr. Martens agreed that yes, there will be many cases to explore, and it will get interesting._ #####
+###### _Mr. Epstein commented on policies banning the use of GAI to avoid leakage of sensitive data. Mr. Martens agreed that yes, there will be many cases to explore, and it will get interesting._ ######
 
 ### Tactical steps / action items proposed by Mr. Stine in response to this
 * Dr. Dahl and Mr. Martens - begin a slack conversation on this topic - Dr. Dahl should lift conversation to the Architecture Work Group slack channel. 
 * Mr. Martens  - place his GAI slide in said discussion as a reference point.
 * Mr. Wüttke - place his GAI slide in said discussion as a reference point.
 
-##### _Mr. Stine stated that Open Voice is being asked from many sources to formally comment on GAI/LLMs chiefly from an ethical perspective - Wired magazine has asked for comment. Others have asked if it makes Open Voice Network irrelevant. It manifestly does not, however OVON needs to be very clear. It is critical that Open Voice remain in the middle of the current changes. This leads to another key action point :_ #####
+###### _Mr. Stine stated that Open Voice is being asked from many sources to formally comment on GAI/LLMs chiefly from an ethical perspective - Wired magazine has asked for comment. Others have asked if it makes Open Voice Network irrelevant. It manifestly does not, however OVON needs to be very clear. It is critical that Open Voice remain in the middle of the current changes. This leads to another key action point :_ ######
 
 * A 3-4 page formal statement on this from the Open Voice Network by mid-March will be essential. This should grow out of the conversation in slack/architecture group
 
-##### _Mr. Epstein: as great of a need as there is for OVON's involvement in this space, he is concerned that it could distract us from the real problems underneath it. Asked could we be in conversation with the open AI people to see if they need guidance from OVON in the creation of standards. At the same time, he is wary of this becoming the bright shiny new object that pulls OVON away from its central objectives._ #####
+###### _Mr. Epstein: as great of a need as there is for OVON's involvement in this space, he is concerned that it could distract us from the real problems underneath it. Asked could we be in conversation with the open AI people to see if they need guidance from OVON in the creation of standards. At the same time, he is wary of this becoming the bright shiny new object that pulls OVON away from its central objectives._ ######
 
-##### _Mr. Stine responded that much of the purpose of this involves giving people like himself and Ms. Coleman the knowledge necessary to speak in public when GAI and/or LLMs are mentioned. Mr. Stine agreed that this shouldn't and won't detract us from the momentum attached to our synthesis/interoperability work. Re: conversations with OpenAI, Mr. Stine agreed that these discussions are critical and affirmed that OVON is proactively reaching out to them. He stated that Ali Dalloul is the individual working on the integration of OpenAI, ChatGPT and other tools into Microsoft, and therefore remains our ideal liaison/best point of contact._ #####
+###### _Mr. Stine responded that much of the purpose of this involves giving people like himself and Ms. Coleman the knowledge necessary to speak in public when GAI and/or LLMs are mentioned. Mr. Stine agreed that this shouldn't and won't detract us from the momentum attached to our synthesis/interoperability work. Re: conversations with OpenAI, Mr. Stine agreed that these discussions are critical and affirmed that OVON is proactively reaching out to them. He stated that Ali Dalloul is the individual working on the integration of OpenAI, ChatGPT and other tools into Microsoft, and therefore remains our ideal liaison/best point of contact._ ######
 
-##### _Dr. Dahl spoke at length and agreed with all of the above, and described the very real limitations of ChatGPT, for instance, with respect to individual companies' use cases and adaptation to customer service applications. At some point, it drops the omniscience and begins having to cooperate with other systems. For this reason, said technology increases the need for standards as will the number of these bots being built, which doubles down on the need for scalability (she predicts millions of ChatGPT-like bots,)_ #####
+###### _Dr. Dahl spoke at length and agreed with all of the above, and described the very real limitations of ChatGPT, for instance, with respect to individual companies' use cases and adaptation to customer service applications. At some point, it drops the omniscience and begins having to cooperate with other systems. For this reason, said technology increases the need for standards as will the number of these bots being built, which doubles down on the need for scalability (she predicts millions of ChatGPT-like bots,)_ ######
 
 ### Trust Mark Discussion & Next Steps from Q1-Q2 of 2023 - Ms. Coleman
 * Ethical Guidelines v. 2.0 White Paper - out for review - final feedback will be incorporated. Should be available by February 28th. 
@@ -109,11 +109,11 @@ concerns.
 	-Interoperability Patterns: Security and Authentication
 	-Security Specific to Voice 2.1
 
-##### _Mr. Stine raised the question of whether the current work groups should be redirected or reinstituted in light of said postponements, and/or if parallel work groups should be set up. (Would these be of value?) What this might be and how might this advance the work._ #####
+###### _Mr. Stine raised the question of whether the current work groups should be redirected or reinstituted in light of said postponements, and/or if parallel work groups should be set up. (Would these be of value?) What this might be and how might this advance the work._ ######
 
 * Action Item: This is the question to discuss between now and our meeting in March. 
 
-##### _Dr. Dahl pointed out that we now have a foundation of architectural work that wasn't present last year, and suggested that perhaps some of the work groups set aside in 2022, such as VRS, could be revived - which would help our current groups become more focused._ #####
+###### _Dr. Dahl pointed out that we now have a foundation of architectural work that wasn't present last year, and suggested that perhaps some of the work groups set aside in 2022, such as VRS, could be revived - which would help our current groups become more focused._ ######
 
 * Mr. Stine broadly agreed with this statement. 
 
@@ -122,10 +122,10 @@ concerns.
 * Dr. Dahl also noted that work to come includes a second demo, a third demo, and overall interoperability specifications that includes the dialog packet as a component. The partner activities will include partner surveys (Tobias), a testbed specification (Tobias), and our agreements with partners - what specifications and demos they will be working on. Then we have an interoperability webinar on 3/22, a trustmark webinar (3/15) and the project voice conference (late April).
 
 
-##### _Mr. Sewell asked about the demo and specifically what use cases we're looking at/what we are demoing._ #####
-##### _Dr. Dahl indicated that Demo #1 has no use case, and merely illustrates interagent communication. Demo #2 and Demo #3 probably involve use cases that are a combination of automobile and restaurant - details TBD and subject to change. Will depend on what partners are interested in doing._ ######
+###### _Mr. Sewell asked about the demo and specifically what use cases we're looking at/what we are demoing._ ######
+###### _Dr. Dahl indicated that Demo #1 has no use case, and merely illustrates interagent communication. Demo #2 and Demo #3 probably involve use cases that are a combination of automobile and restaurant - details TBD and subject to change. Will depend on what partners are interested in doing._ ######
 
-##### _Mr. Martens added, bridging off of Dr. Dahl's comment, that we will be talking to partners through the surveys and gathering data points about what most interests them. The central goal with the demos is engaging partners and members and friends of Open Voice in launching the specifications. One possibility is enabling two different voice AI platforms to connect and communicate for advanced functionalities and hand-off of context - information, authentication, etc. - Another possibility: one interface using several platforms to answer to a customer request. These use cases should be chosen from the community. Ovon's role is to facilitate said prototypes not to define them._ #####
+###### _Mr. Martens added, bridging off of Dr. Dahl's comment, that we will be talking to partners through the surveys and gathering data points about what most interests them. The central goal with the demos is engaging partners and members and friends of Open Voice in launching the specifications. One possibility is enabling two different voice AI platforms to connect and communicate for advanced functionalities and hand-off of context - information, authentication, etc. - Another possibility: one interface using several platforms to answer to a customer request. These use cases should be chosen from the community. Ovon's role is to facilitate said prototypes not to define them._ ######
 
 ### Report re: Authentication Study Group - J. Stine (two slides shared)
 * Critical to ask what our problem statement is
@@ -143,19 +143,19 @@ concerns.
 * OVON will have a conversation with an Enterprise Solution Architect to address the delivery architecture (high security, low latency, fitting across a world of billions of assistants)
 
 
-***** _Dr. Larson asked if 'authorization' includes privacy constraints? Is there overlap with the privacy/security area? And does it overlap with watermarking/tamper detection?_ *****
+###### _Dr. Larson asked if 'authorization' includes privacy constraints? Is there overlap with the privacy/security area? And does it overlap with watermarking/tamper detection?_ ######
 
-***** _Mr. Epstein: these are not overlaps but dependencies - so the people defining the requirements for privacy/watermarking will feed into this. This is where the implementation will occur._ *****
+###### _Mr. Epstein: these are not overlaps but dependencies - so the people defining the requirements for privacy/watermarking will feed into this. This is where the implementation will occur._ ######
 
-***** _Mr. Sewell at this point asked Mr. Stine if the Open Voice Network is planning to create a voice authentication standard._ *****
+###### _Mr. Sewell at this point asked Mr. Stine if the Open Voice Network is planning to create a voice authentication standard._ ######
 
-***** _Mr. Stine expressed his uncertainty in response to this question but a sense that our research will take us there - though we don't know what this will entail or require._ *****
+###### _Mr. Stine expressed his uncertainty in response to this question but a sense that our research will take us there - though we don't know what this will entail or require._ ######
 
-***** _Mr. Sewell asked Mr. Stine secondarily if this decision will grow out of the revamped and relaunched Authentication Study Group. _*****
+###### _Mr. Sewell asked Mr. Stine secondarily if this decision will grow out of the revamped and relaunched Authentication Study Group. _######
 
-***** _Mr. Stine stated that it could very well be a recommendation of that group._ *****
+###### _Mr. Stine stated that it could very well be a recommendation of that group._ ######
 
-***** _Mr. Stine formally presented several action items as presented above before Mr. Wüttke and the Technical Committee:_ *****
+###### _Mr. Stine formally presented several action items as presented above before Mr. Wüttke and the Technical Committee:_ ######
 
 * Re-form the Authentication Study Group to review, revise the task delineation shown on this slide, with submission of final recommendation 2023.03.31. 
 
@@ -163,10 +163,10 @@ concerns.
 
 * Recruit a proven enterprise solution architect to address issues in line #8, with submission of published recommendation by 2023.04.30. 
 
-***** _In response, Mr. Wüttke advised Mr. Stine to go ahead. No objections were presented._ *****
+###### _In response, Mr. Wüttke advised Mr. Stine to go ahead. No objections were presented._ ######
 
 ### Q&A Session - Group
-***** _Mr. Sewell asked for clarity on the expression 'The North Star' and in response, Mr. Stine returned to Dr. Dahl's slide and limned three priorities for 1H 2023: -publish specifications/interop demo, -launch the Trust Mark program, and -Jon will do his pipeline work wrt raising money and building sponsorships. _*****
+###### _Mr. Sewell asked for clarity on the expression 'The North Star' and in response, Mr. Stine returned to Dr. Dahl's slide and limned three priorities for 1H 2023: -publish specifications/interop demo, -launch the Trust Mark program, and -Jon will do his pipeline work wrt raising money and building sponsorships._ ######
 
 ### Adjournment - Mr. Stine adjourned the meeting at 11:00am.
 
