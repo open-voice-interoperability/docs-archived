@@ -151,7 +151,7 @@ concerns.
 
 ###### _Mr. Stine expressed his uncertainty in response to this question but a sense that our research will take us there - though we don't know what this will entail or require._ ######
 
-###### _Mr. Sewell asked Mr. Stine secondarily if this decision will grow out of the revamped and relaunched Authentication Study Group. _######
+###### _Mr. Sewell asked Mr. Stine secondarily if this decision will grow out of the revamped and relaunched Authentication Study Group._ ######
 
 ###### _Mr. Stine stated that it could very well be a recommendation of that group._ ######
 
