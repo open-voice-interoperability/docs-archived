@@ -27,7 +27,7 @@ parent: Technical Committee
 
 ##### Planning of the Open Voice Interoperability Webinar - J. Larson, D. Dahl ##
 
-**Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture with three corresponding patterns, and include the group's first demo of two independent interoperating agents sending messages back and forth. Then a discussion will take place.** 
+*Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture with three corresponding patterns, and include the group's first demo of two independent interoperating agents sending messages back and forth. Then a discussion will take place.* 
 
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
