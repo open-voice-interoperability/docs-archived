@@ -5,6 +5,29 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+# Notes of the Technical Committee Meeting - March 10, 2023
+
+## The Meeting Began at 10:07am EST.
+
+## Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens
+
+## Notice of Recording - J. Stine
+
+## Linux Foundation Anti-Trust Statement - J. Stine
+
+**Mr. Southern called for approval of minutes from the prior OVON Technical Committee Meeting of February 10, 2023. Mr. Stine put forth a first motion, and Mr. Larson a second motion. With the minutes duly approved, the group moved on to the formal agenda.**
+
+## Review of the agenda, purpose of and expectations for the meeting  -- T. Martens.
+* Planning of the Open Voice Interoperability Webinar - J. Larson, D. Dahl
+* Status Interoperability Initiative Roadmap and Deliverables - J. Larson, D. Dahl
+* Report from the first Authentication Work Group - B. Epstein
+* Update on Trust Mark Initiative Launch - O. Coleman
+* Open Voice Network and Generative AI-LLM - J. Stine
+* Comments, Questions and Miscellaneous - Group
+
+##### Planning of the Open Voice Interoperability Webinar - J. Larson, D. Dahl ##
+
+**Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture with three corresponding patterns, and include the group's first demo of two independent interoperating agents sending messages back and forth. Then a discussion will take place.** 
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
 
