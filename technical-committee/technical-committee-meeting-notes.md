@@ -5,8 +5,6 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
-# Notes of the Technical Committee Meeting - March 10, 2023
-
 **The Meeting Began at 10:07am EST.**
 
 **Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens**
@@ -43,7 +41,20 @@ parent: Technical Committee
 * Demo of Two Independent Agents Cooperating in a Delegation Pattern (Demo 1) - accelerated and augmented with capabilities planned for later demos, such as speech interaction (live demo & video to be presented at webinar)
 * Launch of identification of agents activity - goal to have a requirements document available  at the end of April
 * Dialog Packets Work - first specifications. Communicating natural language messages between users and systems. The work here has grown more specific
-* Technical paper on interoperability has been submitted to the Interspeech 2023 conference - this will provide great visibility to the academic/research communities. 
+* Technical paper on interoperability has been submitted to the Interspeech 2023 conference - this will provide great visibility to the academic/research communities.
+* Preparations for the interoperability webinar
+
+*Dr. Dahl then summarized the group's plans for the months ahead:*
+* Keep executing on 1H 2023 goals
+* Write specifications
+* Keep recruiting external partners
+* Keep doing demonstrations
+* Hoping to write the following specifications:
+  * Interaction Modes (which patterns are being used?)
+  * Inter-Agent Protocols (Communication other than Dialog Packets)
+  * Dialog Event Management (Communication About Error Conditions)
+  * Data Packets
+  * Context and History
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
 
