@@ -25,9 +25,25 @@ parent: Technical Committee
 * Open Voice Network and Generative AI-LLM - J. Stine
 * Comments, Questions and Miscellaneous - Group
 
-##### Planning of the Open Voice Interoperability Webinar - J. Larson, D. Dahl ##
+## Planning of the Open Voice Interoperability Webinar - J. Larson, D. Dahl ##
 
-*Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture with three corresponding patterns, and include the group's first demo of two independent interoperating agents sending messages back and forth. Then a discussion will take place.* 
+*Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture with three corresponding patterns, and include the group's first demo of two independent interoperating agents sending delegation messages back and forth. Then a discussion will take place.*
+
+*Mr. Martens added that it will be an exciting opportunity if we can have a demo - to identify from the webinar a couple of smaller clips that we can share via social media.*
+
+*Dr. Dahl also stated that promotion of the webinar is being worked out. Dr. Larson compiled a large list of emails to people who should be invited, and the team is putting together an invitation message.*
+
+*Mr. Stine stated that there will be a general mailing to the OVON mailing list of approximately 1,200 individuals. The team will then follow up with a personal follow up note to 150 earmarked individuals perceived to be of high interest and/or value to this conversation. This list is being finalized this morning, and is currently in the hands of vendor Thrive Marketing.*
+
+
+## Status update of the Architecture Roadmap and Deliverables - D. Dahl, J. Larson ##
+
+*Dr. Dahl summarized the work as follows that has taken place since the last Technical Committee meeting:*
+
+* Demo of Two Independent Agents Cooperating in a Delegation Pattern (Demo 1) - accelerated and augmented with capabilities planned for later demos, such as speech interaction (live demo & video to be presented at webinar)
+* Launch of identification of agents activity - goal to have a requirements document available  at the end of April
+* Dialog Packets Work - first specifications. Communicating natural language messages between users and systems. The work here has grown more specific
+* Technical paper on interoperability has been submitted to the Interspeech 2023 conference - this will provide great visibility to the academic/research communities. 
 
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
