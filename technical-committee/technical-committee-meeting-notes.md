@@ -7,13 +7,13 @@ parent: Technical Committee
 ---
 # Notes of the Technical Committee Meeting - March 10, 2023
 
-**The Meeting Began at 10:07am EST.
+** The Meeting Began at 10:07am EST.
 
-**Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens
+** Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens
 
-**Notice of Recording - J. Stine
+** Notice of Recording - J. Stine
 
-**Linux Foundation Anti-Trust Statement - J. Stine
+** Linux Foundation Anti-Trust Statement - J. Stine
 
 *Mr. Southern called for approval of minutes from the prior OVON Technical Committee Meeting of February 10, 2023. Mr. Stine put forth a first motion, and Mr. Larson a second motion. With the minutes duly approved, the group moved on to the formal agenda.*
 
@@ -44,8 +44,6 @@ parent: Technical Committee
 * Launch of identification of agents activity - goal to have a requirements document available  at the end of April
 * Dialog Packets Work - first specifications. Communicating natural language messages between users and systems. The work here has grown more specific
 * Technical paper on interoperability has been submitted to the Interspeech 2023 conference - this will provide great visibility to the academic/research communities. 
-
-
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
 
