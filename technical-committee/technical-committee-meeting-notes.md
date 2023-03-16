@@ -5,6 +5,8 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+
+# Notes of the Technical Committee Meeting - March 10, 2023
 **The Meeting Began at 10:07am EST.**
 
 **Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens**
