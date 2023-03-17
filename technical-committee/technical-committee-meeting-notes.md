@@ -7,6 +7,7 @@ parent: Technical Committee
 ---
 
 # Notes of the Technical Committee Meeting - March 10, 2023
+
 **The Meeting Began at 10:07am EST.**
 
 **Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens**
@@ -56,6 +57,99 @@ parent: Technical Committee
   * Inter-Agent Protocols (Communication other than Dialog Packets)
   * Dialog Event Management (Communication About Error Conditions)
   * Data Packets
+  * Context and History
+
+*Mr. Stine noted that the Information Systems Authority (ISA) of Estonia, creators of the Bürokratt virtual assistant, have agreed to be one of the external partners whom Dr. Dahl identified above.*
+
+*Mr. Martens noted that the survey will be used to develop a tool that can be used when friends and partners of OVON are encountered - a way to involve them in prototypes. The survey/interview guide will facilitate conversations. It is a peer-reviewed effort.*
+
+*Mr. Stine added a mention of Ms. Olga Howard's approach to use cases; this will continue to be valuable. The team will also continue having discussions with industry people on the outside. However, Ms. Howard's work is instrumental in connecting external use cases to the work led by the interoperability team.*
+
+*Mr. Martens noted that the Estonian government represents a key piece of the equation for Open Voice regarding the establishment of a government partner; what remains is for OVON to find multiple technology providers - given the discussions about generative AI, Microsoft AI is one possibility, Nuance is another. OVON should also have corporate users of Voice Assistant technologies such as Schwarz Grüppe or Volkswagen.*
+
+*Dr. Dahl then reviewed the Interoperability Roadmap, as set up in Trello. and presented a slide with the group's partner activities, main activity and the future demos and draft specifications. She then presented a timeline view of the previous slide, and noted that the group is nearly finished with Demo 1 and close to finishing the Dialog Packet draft. Also forthcoming is Demo 2, which has broader capability than Demo 1. Demo 1 is two independent agents delegating tasks back and forth to one another, with a simple use case and speech interaction (a "hello world" demo). Demo 2 - the main addition is use of more specifications, such as negotiation and cooperation between two agents. Demo 3 will introduce channeling pattern where the second agent - the one delegated to, that does the actual work - asks the first agent to speak and listen for it. The agent that is being delegated to is conducting the dialog, but using the agent to which the user is speaking as its voice. By the end of Demo 3 the group will be able to demo two patterns.*
+
+
+## Headline Deliverables 1H 2023  - J. Stine ##
+
+*Mr. Stine presented a slide detailing OVON's deliverables for the first half of 2023:*
+
+* Build Qualified Sponsor-Contributor Participant Pipeline
+  * 1H Success Metric: Second-Level Conversations with >10 potential >$10k     
+    contributors/sponsors
+  * A new category of support for OVON: a 1x or 1Y contribution to OVON without 
+    being a member of the Linux Foundation. This is a way for smaller firms to support 
+    the Open Voice Network. This will open up additional revenue streams.
+* Launch TrustMark Program - launched by Ms. Coleman on March 29, 2023 in a  webinar
+* Publish-Demo First Interoperability Specifications.
+
+*Mr. Stine also noted that the group is on track to deliver. Deliverables 2 and 3 above make Deliverable 1 doable as they build organizational credibility.*
+
+## Ecosystem for Participation, Development 1H 2023  - J. Stine ##
+
+*Mr. Stine discussed potential vertical prospects for OVON, in areas including Automotive, Healthcare, Social Gaming, Financial Services, Retail, Restaurant Hospitality, Government and Smart Home. He noted that the same issues face all, but they differ in use cases and metrics. He also referenced several horizontal value propositions that cut across industries, including Customer Service, Enterprise Content Management and Standardized Transaction/Authentication. In the latter area, there is not a standard method for voice-based authentication and transaction which is a concern in all the consumer-facing industries. Mr. Stine also noted the presence of a development ecosystem, and different small providers of solutions in various industries, clustered. Different firms are also doing strategy and solution, security/authentication, open voice platforms, language models and big monster tech with specific interests in conversational AI.*
+
+*Mr. Stine then outlined the distinction between OVON members, sponsors and contributors, each class an integral part of the Open Voice ecosystem.*
+
+*Mr. Stine stressed the criticality at this time of OVON transitioning from reactive to proactive as it shifts to outreach to individuals in all of the said categories. Progress on this outreach will be reported to the technical committee.*
+
+## Authentication Study Group Report - B. Epstein ##
+
+*The Authentication Study Group launched on Fri., Mar. 3, 2023, output posted on slack and the google drive, with the following guidelines:*
+
+* Objective: Identify and document the technical requirements for identifying and authenticating voice assistants.
+* Two primary questions:
+   * How do we identify?
+   * How do we authenticate?
+* Areas not covered - that may need additional study groups:
+   * Discovery 
+   * Disambiguation (similar sounding names - we are not concerned with this yet)
+   * Arbitration (how a voice system chooses which assistant it connects to)
+   * User identification and authentication
+   * Goal is to have a first draft of the specifications document ready by the end of April.
+
+*The group is in a 'call for comments' phase - to collect ideas for requirements about the identification and authentication of voice assistants.*
+
+*Mr. Epstein asked if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let him know.*
+
+*Mr. Martens noted the many ongoing discussions about Large Language Models and how they should identify themselves - about training data, biases, and the like. For that reason, this exercise can benefit many stakeholders.*
+
+
+## Trust Mark Initiative Updates - O. Coleman
+
+* On deck to have program launch on 3/29/23
+* Helpful discussion regarding branding Trust Mark with the legal team at Linux Foundation about the need for copyright or lack thereof
+* The current working name is 'The Trust Mark Initiative of the Open Voice Network.'
+* A webinar is scheduled for March 29th. The website will be updated and social media outreach is planned.
+* Also on the 29th - the first module of the LF training course will be previewed with a teaser. 
+* Letters of invitation for a board of advisors are going out - a group of people in the industry who can help with the program, providing support and introduction to companies and entities that will offer support of the program
+* Project Voice 2023 will include a formal announcement and a conversation with the voice AI leadership council.
+* Excellent meeting with Deutsch Telekom.
+   * DT provided a view into its self-assessment tool, modeled in turn on the Trustworthy AI Framework from the European Union. 
+   * Leveraging the work DT has done will get the Trust Mark initiative 90% of the way.      
+   * The remainder of the work is the front matter of text changes, any training the team needs (for example, DT's educational training), etc. 
+  * This may be a key investment area - an area where it makes sense to have a developer. It means using web forms but has IT support on the back end for authentication and data storage. 
+  * It may mean putting a prototype on the website.
+
+* The group is aligning its code of ethics (to be announced - in draft mode now) - which covers the following principles
+   * Transparency 
+   * Inclusivity
+   * Accountability 
+   * Sustainability
+   * Privacy
+   * Compliance
+
+*Ms. Coleman also presented and called for a review of the code of ethics within the meeting.
+
+*At Project Voice, Bradley Metrock will be convening the Conversational A.I. Leadership Council. There will be 300 enterprise decision makers for this gathering. Those present will be asked by Metrock to sign the aforementioned OVON code of ethics.
+
+*OVON will be speaking at the Conversational A.I. Leadership Council and speaking to the principles it espouses in the said ethical statment.
+
+## Action Items - N. Southern:
+
+* Group - if anyone has ideas about requirements for identification of voice assistants, submit to Jon
+* Group -  if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let Bruce know.*
+
   * Context and History
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
