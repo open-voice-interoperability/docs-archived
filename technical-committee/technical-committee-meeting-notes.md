@@ -144,10 +144,40 @@ parent: Technical Committee
 
 *OVON will be speaking at the Conversational A.I. Leadership Council and speaking to the principles it espouses in the said ethical statement.*
 
+*Mr. Stine then noted that he finished a meeting with a German conversational AI development team in the midst of working on 'Charismatic Conversational AI' - with an emphasis on consumer-facing contexts such as call center and retail, hospitality and financial services. They feel OVON's work in ethical use is critical for them to espouse/support their ethical principles and to be able to say that said principles bely their work.*
+
+## Large Language Models and Generative A.I. - J. Stine
+
+*Mr. Stine shared a slide previously shown to the OVON Steering Committee on Feb. 23rd, about GAI and LLMs, and the tangible impact of these areas on the Open Voice Network. It covered the following questions and answers:*
+
+* Does it change OVON's mission? No, although it does increase industry-enterprise ethical use concerns and will, in time, increase perceived need for system-assistant interoperability.  
+
+* Does it change OVON's work? Slightly. -Ethical use: means  new use cases, larger harms. Interoperability: no, if language models have NLP-NKG front ends.  Yes, if LM’s decoupled
+
+* Does it improve OVON's prospects? Yes, to a degree. Our leadership in ethical use even more important.  It will, in time, increase perceived need forsystem-assistant interoperability.  
+
+* Does it change OVON's messaging? Yes, to a degree. It’s the topic du jour we must reflect it in our white papers, presentations. 
+
+*In response to this, Dr. Dahl suggested that there could be a widespread public perception that with the advent of ChatGPT there is no longer a need for interoperability, nor a development of natural language-based systems. She asked how to address this without getting into complicated waters. For instance - enterprise information that empowers enterprise agents and call centers and is hidden behind paywalls. Dr. Dahl then asked how we address this.*
+
+*Mr. Stine responded that mainstream media sources are drawing people to that conclusion, but that brand managers will not want their brands represented by OpenAI's large language model. To this end, Sean King of Veritone has just developed with his team a Generative AI process for creating domain-specific language models for brands - this is essential because a brand owner will want to manage the "truth" of that brand. In this new world, the process of obtaining information may move from queries to prompts. Every brand will need to create a domain-specific language model.*
+
+*Mr. Larson: two reasons why it is critical to do a better job on describing why we need interoperability:*
+1. People will misperceive Generative AI's elimination of the need for interoperability
+2. Some feel we already have PC-based interoperability.
+
+*Mr. Martens agreed with Dr. Dahl regarding the paradigm change about how important APIs are and how they are being addressed - and linked between systems - which becomes easier with LLMs. However, the current discussion sees all companies working to integrate the openAI APIs into their production systems.*
+
+*Mr. Epstein: if everything is being done with APIs, they do not need Open Voice. OVON is the Open Voice Network, not the Open API Network. OVON exists because humans will still want to interact with the system components through voice. Mr. Epstein re-stressed the criticality of finding a way to get voice assistants to interoperate.*
+
 ## Action Items - N. Southern:
 
+* Interoperability Team: develop an invitation message for webinar
 * Group - if anyone has ideas about requirements for identification of voice assistants, submit to Jon. 
 * Group -  if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let Bruce know.
+* Jon Stine - write an OVON blog statement on Generative AI and Large Language models.
+
+### Adjournment - Mr. Martens adjourned the meeting at 11:00am.
 
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
