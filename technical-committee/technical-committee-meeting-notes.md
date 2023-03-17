@@ -5,7 +5,6 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
-
 # Notes of the Technical Committee Meeting - March 10, 2023
 
 **The Meeting Began at 10:07am EST.**
@@ -139,18 +138,17 @@ parent: Technical Committee
    * Privacy
    * Compliance
 
-*Ms. Coleman also presented and called for a review of the code of ethics within the meeting.
+*Ms. Coleman also presented and called for a review of the code of ethics within the meeting.*
 
-*At Project Voice, Bradley Metrock will be convening the Conversational A.I. Leadership Council. There will be 300 enterprise decision makers for this gathering. Those present will be asked by Metrock to sign the aforementioned OVON code of ethics.
+*At Project Voice, Bradley Metrock will be convening the Conversational A.I. Leadership Council. There will be 300 enterprise decision makers for this gathering. Those present will be asked by Metrock to sign the aforementioned OVON code of ethics.*
 
-*OVON will be speaking at the Conversational A.I. Leadership Council and speaking to the principles it espouses in the said ethical statment.
+*OVON will be speaking at the Conversational A.I. Leadership Council and speaking to the principles it espouses in the said ethical statement.*
 
 ## Action Items - N. Southern:
 
-* Group - if anyone has ideas about requirements for identification of voice assistants, submit to Jon
-* Group -  if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let Bruce know.*
+* Group - if anyone has ideas about requirements for identification of voice assistants, submit to Jon. 
+* Group -  if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let Bruce know.
 
-  * Context and History
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
 
