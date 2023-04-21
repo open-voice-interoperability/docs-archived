@@ -90,13 +90,42 @@ parent: Technical Committee
 *Ms. Coleman then presented the Trello Board - an illustration of everything that was accomplished to reach the Trust Mark launch date. These included the following:*
 * Completing the code of ethics
 * Sample module training course - 'voice data analytics'
-* Training course e-learning design document
+* Training course e-learning design document done with Linux Foundation
 * Completion of Ethical Guidelines v. 2.0 white paper by March 24th
 * Addition of Advisory Board Members
 * Trust Mark Webinar on March 29th
-* Completion of Self-Assessment Checklist Template
+* Completion of Self-Assessment Checklist/Maturity Model Template 
 * Lance PR Rollout Plan
 
+*Ms. Coleman noted that for Q2 2023, her group wants to have the following:*
+* At least the bare bones of the training course available or completed by the end of June,
+* The Self-Assessment and Maturity Model Phase 1 implementation by the end of June
+* Participating organizations helping them complete the training, review the training, and review the self-assessment. 
+* Any design work on badges should also be done at that time.
+
+*Ms. Coleman then ran through a basic overview of the Trust Mark initiative for the benefit of newcomers to the meeting, and Mr. Stine stressed that the team plans to ask friend organizations of the Open Voice Network, including Sestek, to consider endorsing Trust Mark as it gets further along in development.*
+
+##### _Mr. Krish responded by expressing Sestek's enthusiasm for the initiative and strong desire to be involved. _#####
+
+##### _Ms. Coleman noted that she has heard from Mr. Wüttke, and his organization, Schwarz, has indicated its support of the Trust Mark program as well. Mr. Wüttke affirmed this in meeting and noted that it feels particularly critical and relevant to his team in light of the increasing commonality of Generative AI and ChatGPT._ #####
+
+##### _Mr. Stine then informed Mr. Dincel that he will shortly forward pertinent information about Trust Mark to the Sestek team._ #####
+
+##### _In the chat, Dr. Larson asked when E-learning will be available. Ms. Coleman stated that her team is working with the instructional design team of the Linux Foundation, and has submitted to them an instructional design document from which they are constructing a course. Dr. Larson stated that he is most interested in the content of the course. Ms. Coleman stated that the content - which is in active development - will be based on the Ethical Guidelines Document, Privacy Paper and the Security White Paper._ #####
+
+*Ms. Coleman then ran through the action item(s) and schedule associated with the Trust Mark Initiative, delineated as follows:*
+
+By 4/14/2023
+* Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource. 
+<u>By 5/10/2023<u>
+* 4 weeks of reworking the questions and comparing with the 2 assessments we have been considering as models.
+* Work along with the developer to figure out implementation and internationalization requirements. 
+By 6/14/2023
+* Implementation phase working closely with the developer to implement the assessment as an interactive and multilingual tool. We would like to consider implementing it in multiple languages from the start, so we'll need to consider internationalization at this stage. 
+By 6/28/2023 
+* 2 weeks of early adopter / intense testing to ensure functional requirements are met. 
+By 6/30/2023
+* Launch (based on feedback / testing). 
 
 
 # Notes of the Technical Committee Meeting - March 10, 2023
