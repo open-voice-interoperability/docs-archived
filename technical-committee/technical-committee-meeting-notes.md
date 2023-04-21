@@ -116,7 +116,8 @@ parent: Technical Committee
 *Ms. Coleman then ran through the action item(s) and schedule associated with the Trust Mark Initiative, delineated as follows:*
 * By 4/14/23: Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource.
 * By 5/10/23
-
+  * 4 weeks of reworking the questions and comparing with the 2 assessments we have been considering as models.
+  * Work along with the developer to figure out implementation and internationalization requirements. 
 
 # Notes of the Technical Committee Meeting - March 10, 2023
 
