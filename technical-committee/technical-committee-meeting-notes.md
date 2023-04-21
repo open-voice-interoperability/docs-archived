@@ -158,7 +158,7 @@ parent: Technical Committee
 * Mr. Stine will meet shortly with Dr. Larson and Dr. Dahl to discuss a draft of the Interoperability Proposal for Estonia. 
 * Mr. Stine will be compiling a non-binding Letter of Intent for Estonia, using the standard Linux Foundation format as approved by Scott Nicholas and others and identify areas of collaboration, general deliverables, resource commitments and communication commitments. This will not be a binding contract.
 
-*Mr. Stine also emphasized Open Voice's interest in exploring the same opportunities and partnerships with Sestek and Kaizen Voiz. 
+*Mr. Stine also emphasized Open Voice's interest in exploring the same opportunities and partnerships with Sestek and Kaizen Voiz.*
 
 ## Minutes Approval - Prior Technical Committee Meeting from Mar. 10th ##
 
