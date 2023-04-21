@@ -25,7 +25,7 @@ parent: Technical Committee
 * Trust Mark Initiative - Next Steps - O. Coleman
 * Partnerships - Updates & Testbed Investments- J. Stine & T. Martens
 * Comments, Questions and Miscellaneous - Group
-* Closing Remarks - C. Wüttke
+* Closing Remarks - C. Wüttke 
 
 ## Director Updates - Q2 Deliverables & Member Engagement - J. Stine ##
 
