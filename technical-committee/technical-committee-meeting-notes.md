@@ -114,10 +114,16 @@ parent: Technical Committee
 ##### _In the chat, Dr. Larson asked when E-learning will be available. Ms. Coleman stated that her team is working with the instructional design team of the Linux Foundation, and has submitted to them an instructional design document from which they are constructing a course. Dr. Larson stated that he is most interested in the content of the course. Ms. Coleman stated that the content - which is in active development - will be based on the Ethical Guidelines Document, Privacy Paper and the Security White Paper._ #####
 
 *Ms. Coleman then ran through the action item(s) and schedule associated with the Trust Mark Initiative, delineated as follows:*
-* By 4/14/23: Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource.
+* By 4/14/23: 
+  * Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource.
 * By 5/10/23
   * 4 weeks of reworking the questions and comparing with the 2 assessments we have been considering as models.
   * Work along with the developer to figure out implementation and internationalization requirements. 
+* By 6/14/2023: 
+  * Implementation phase working closely with the developer to implement the assessment as an interactive and multilingual tool. We would like to consider implementing it in multiple languages from the start, so we'll need to consider internationalization at this stage. 
+  * By 6/28/2023: 2 weeks of early adopter / intense testing to ensure functional requirements are met. 
+  * By 6/30/2023 - Launch (based on feedback / testing). 
+
 
 # Notes of the Technical Committee Meeting - March 10, 2023
 
