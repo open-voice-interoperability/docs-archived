@@ -137,21 +137,33 @@ parent: Technical Committee
 *Mr. Martens provided a quick overview of next steps for the Open Voice Network Test Bed and how the project plans to invest in components that can either enable or facilitate implementation of OVON specs together with Open Voice's partners. This is a watershed moment for Open Voice. On this note, the committee needs to alert this forum about upcoming requests for funding, and said committee will ultimately need to approve funding requests. Participants in the working groups will ultimately need to submit proposals that require funding and that can be included in the Test Bed discussion. Open Voice's relationship with the Estonian government and its work in voice AI will provide a viable use case; additional use cases will be sought in vertical sectors such as banking and insurance and retail and automotive. The goal will be not to run these kinds of implementations ourselves, but to invest strategically in partnerships and be an enabler of these use cases that will implement and exhibit the Open Voice specifications.* 
 *Mr. Martens stressed the need to clear this with the committee.*
 ##### _Dr. Dahl asked, should we say 'prototype' rather than 'MVP' which implies a product?_ #####
-##### _To this, Mr. Martens responded, 'MVP' actually implies a functionality we can showcase that has a benefit to the participating parties. However 'MVP' and 'prototype' do imply two sides of the same coin. This wording must be straightened out semantically. _#####
+##### _To this, Mr. Martens responded, 'MVP' actually implies a functionality we can showcase that has a benefit to the participating parties. However 'MVP' and 'prototype' do imply two sides of the same coin. This wording must be straightened out semantically._ #####
 ##### _Mr. Stine spoke directly to Sestek participants at this point, noting that in the months ahead, Open Voice Network will be actively recruiting firms such as Sestek, and rhetorically asked these participants if Sestek has enterprise customers - banking, insurance, retail, automotive, other verticals - who may be ready to begin expanding their voice, with their customers, outside the firewall, connecting to other partners that they have or to voice AI-welcoming and -using consumers? OVON would welcome this conversation and there would be reciprocal benefits for said organizations._ ##### 
+
 ##### _Mr.  Sewell asked Mr. Stine about his vision for the Open Voice Network Test Bed, and if he envisions it as more of a Proof of Concept or a lab test bed, or as more of a pilot Test Bed that could serve as a business opportunity, get customers in, and operationalize and scale?_ #####
+
 ##### _Mr. Stine ultimately deferred this decision to the Technical Committee as a whole, but his instinct is that Open Voice would follow each of these steps in succession (1-2) and would want to get to the level of showing the business benefit in a production pilot as opposed to a lab POC. However, this is still to be determined and confirmed._ #####
+
 ##### _Mr. Sewell then asked Mr. Stine if such a POC would be driving toward a standard._ #####
+
 ##### _Mr. Stine said yes, without question. He foresees a testing process of the draft specifications coming out of the Architecture Working Group._ #####
+
 ##### _Mr. Martens and others agreed, and further clarified/outlined that with the various OVON working groups, the specifications have been reviewed by multiple stakeholders; soon it will be time to test them under live conditions. He foresees two phases, starting with implementations that will overlap; if all parties agree that there is a benefit of rolling them out, they will be rolled out. Open Voice sees its role as discovering use cases and then facilitating them._ #####
+
 ##### _Dr. Dahl expressed a concern about OVON getting into a position of offering a component (say a speech recognition component) as something OVON creates, branded with Open Voice, that could be directly implemented into a given product. Open Voice lacks the bandwidth for this kind of work. This would be out of scope for Open Voice and extremely expensive. It means being cautious about how Open Voice positions itself with individual components_ #####
 ## Estonia ISA - Open Voice Network Collaborative Partnership ## 
+
 *Mr. Stine announced the steps that need to be taken with Estonian Information System Authority and OVON's colleagues therein. They wish to partner with The Open Voice Network in testing and publicly demonstrating OVON Interoperability Specifications. This fits within the long-range roadmap of the services that Bürokratt will provide for the citizens and different government functions of Estonia. Estonia sees itself also as publicly endorsing the Trust Mark, are exciting by its direction, and on this level they are eager to move forward. The following steps will need to take place:*
+
 * Mr. Stine will meet shortly with Dr. Larson and Dr. Dahl to discuss a draft of the Interoperability Proposal for Estonia. 
 * Mr. Stine will be compiling a non-binding Letter of Intent for Estonia, using the standard Linux Foundation format as approved by Scott Nicholas and others and identify areas of collaboration, general deliverables, resource commitments and communication commitments. This will not be a binding contract.
-* Mr. Stine also emphasized Open Voice's interest in exploring the same opportunities and partnerships with Sestek and Kaizen Voiz. 
+
+*Mr. Stine also emphasized Open Voice's interest in exploring the same opportunities and partnerships with Sestek and Kaizen Voiz. 
+
 ## Minutes Approval - Prior Technical Committee Meeting from Mar. 10th ##
-*Mr. Stine put forth a first motion for approval, Ms. Coleman a second, and with no further objections, Mr. Southern marked the minutes duly approved.
+
+*Mr. Stine put forth a first motion for approval, Ms. Coleman a second, and with no further objections, Mr. Southern marked the minutes duly approved.*
+
 **Adjournment - The Meeting formally adjourned at 12pm EDT.**
 
 
