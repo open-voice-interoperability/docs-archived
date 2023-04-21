@@ -103,7 +103,7 @@ parent: Technical Committee
 * Participating organizations helping them complete the training, review the training, and review the self-assessment. 
 * Any design work on badges should also be done at that time.
 
-*Ms. Coleman then ran through a basic overview of the Trust Mark initiative for the benefit of newcomers to the meeting, and Mr. Stine stressed that the team plans to ask friend organizations of the Open Voice Network, including Sestek, to consider endorsing Trust Mark as it gets further along in development.*
+*Ms. Coleman then ran through a basic overview of the Trust Mark initiative for the benefit of newcomers to the meeting, and Mr. Stine stressed that the team plans to ask friend organizations of the Open Voice Network, including Sestek and Kaizen Voiz, to consider endorsing Trust Mark as it gets further along in development.*
 
 ##### _Mr. Krish responded by expressing Sestek's enthusiasm for the initiative and strong desire to be involved._ #####
 
@@ -113,7 +113,7 @@ parent: Technical Committee
 
 ##### _In the chat, Dr. Larson asked when E-learning will be available. Ms. Coleman stated that her team is working with the instructional design team of the Linux Foundation, and has submitted to them an instructional design document from which they are constructing a course. Dr. Larson stated that he is most interested in the content of the course. Ms. Coleman stated that the content - which is in active development - will be based on the Ethical Guidelines Document, Privacy Paper and the Security White Paper._ #####
 
-*Ms. Coleman then ran through the action item(s) and schedule associated with the Trust Mark Initiative, delineated as follows:*
+*Ms. Coleman then ran through the action item(s) and schedule associated with the Self  Assessment Maturity Model Web-Based Tool, delineated as follows. Each org that completes the assessment will have their own logon credentials and OVON will not have access to their results - this is for their own consideration and benefit*
 * By 4/14/23: 
   * Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource.
 * By 5/10/23
@@ -123,6 +123,38 @@ parent: Technical Committee
   * Implementation phase working closely with the developer to implement the assessment as an interactive and multilingual tool. We would like to consider implementing it in multiple languages from the start, so we'll need to consider internationalization at this stage. 
   * By 6/28/2023: 2 weeks of early adopter / intense testing to ensure functional requirements are met. 
   * By 6/30/2023 - Launch (based on feedback / testing). 
+*Ms. Coleman then noted the basic structure of the cost breakdown - six weeks at fifteen hours a week, $100 an hour, which will equate to $9000.*
+##### _Mr. Southern mentioned that his query to Christina Oliviero at the Linux Foundation soliciting help finding an external web developer is still active, and there should be additional news on this soon._ #####
+##### _Dr. Dahl inquired about the provision for maintaining this Trust Mark web app - it will be, she noted, a highly interactive application, and will need someone keeping an eye on it and updating it regularly._ ######
+##### _Ms. Coleman agreed with the need for this support. Some will come from Thrive Marketing. The need for additional support beyond this will be discussed, and will likely require funding. That will be scoped. There is a longer implementation plan of it having greater interactivity, and further guidance along the lines of 'if your score is a 7 out of 10, take these steps.' In other words, this is only Phase 1 implementation._ #####
+##### _Mr. Stine: any organization that asserts that it is an authority on ethical behavior in conversational AI lives in a glass house - so issues of privacy, data security and protection become doubly important for OVON. We need to doubly or triply check all of our own actions._ #####
+*Ms. Coleman noted that for this work to proceed, it will be taken to the Steering Committee at the end of this month for approval of allocated R&D dollars.*
+##### _Mr. Stine: the Technical Committee has the right to approve this as coming from General Ledger number 6325._#####
+*Ms. Coleman formally moved to have this allocation of $9000 approved by the technical community. Phase 1 development of the self-assessment maturity model tool. Mr. Stine gave it a second motion. There were no objections presented. Mr. Wüttke marked it duly approved, and Mr. Stine added one amendment - that any needed expenditures above and beyond the $9000 will come back to the Technical Committee.*
+*Ms. Coleman: will work with Mr. Southern on identifying the correct/appropriate developer, creating the right implementation plan and making sure it falls within the above dollar amount. This proposal will be scoped for privacy/security and functionality and dollar allocation - the group must work within these constraints.*
+*Said vote excludes the approval of additional and unrelated development monies for the website.*
+## Investment and Co-Creation of the OVON Test Bed - J Stine and T. Martens ##
+*Mr. Martens provided a quick overview of next steps for the Open Voice Network Test Bed and how the project plans to invest in components that can either enable or facilitate implementation of OVON specs together with Open Voice's partners. This is a watershed moment for Open Voice. On this note, the committee needs to alert this forum about upcoming requests for funding, and said committee will ultimately need to approve funding requests. Participants in the working groups will ultimately need to submit proposals that require funding and that can be included in the Test Bed discussion. Open Voice's relationship with the Estonian government and its work in voice AI will provide a viable use case; additional use cases will be sought in vertical sectors such as banking and insurance and retail and automotive. The goal will be not to run these kinds of implementations ourselves, but to invest strategically in partnerships and be an enabler of these use cases that will implement and exhibit the Open Voice specifications.* 
+*Mr. Martens stressed the need to clear this with the committee.*
+##### _Dr. Dahl asked, should we say 'prototype' rather than 'MVP' which implies a product?_ #####
+##### _To this, Mr. Martens responded, 'MVP' actually implies a functionality we can showcase that has a benefit to the participating parties. However 'MVP' and 'prototype' do imply two sides of the same coin. This wording must be straightened out semantically. _#####
+##### _Mr. Stine spoke directly to Sestek participants at this point, noting that in the months ahead, Open Voice Network will be actively recruiting firms such as Sestek, and rhetorically asked these participants if Sestek has enterprise customers - banking, insurance, retail, automotive, other verticals - who may be ready to begin expanding their voice, with their customers, outside the firewall, connecting to other partners that they have or to voice AI-welcoming and -using consumers? OVON would welcome this conversation and there would be reciprocal benefits for said organizations._ ##### 
+##### _Mr.  Sewell asked Mr. Stine about his vision for the Open Voice Network Test Bed, and if he envisions it as more of a Proof of Concept or a lab test bed, or as more of a pilot Test Bed that could serve as a business opportunity, get customers in, and operationalize and scale?_ #####
+##### _Mr. Stine ultimately deferred this decision to the Technical Committee as a whole, but his instinct is that Open Voice would follow each of these steps in succession (1-2) and would want to get to the level of showing the business benefit in a production pilot as opposed to a lab POC. However, this is still to be determined and confirmed._ #####
+##### _Mr. Sewell then asked Mr. Stine if such a POC would be driving toward a standard._ #####
+##### _Mr. Stine said yes, without question. He foresees a testing process of the draft specifications coming out of the Architecture Working Group._ #####
+##### _Mr. Martens and others agreed, and further clarified/outlined that with the various OVON working groups, the specifications have been reviewed by multiple stakeholders; soon it will be time to test them under live conditions. He foresees two phases, starting with implementations that will overlap; if all parties agree that there is a benefit of rolling them out, they will be rolled out. Open Voice sees its role as discovering use cases and then facilitating them._ #####
+##### _Dr. Dahl expressed a concern about OVON getting into a position of offering a component (say a speech recognition component) as something OVON creates, branded with Open Voice, that could be directly implemented into a given product. Open Voice lacks the bandwidth for this kind of work. This would be out of scope for Open Voice and extremely expensive. It means being cautious about how Open Voice positions itself with individual components_ #####
+## Estonia ISA - Open Voice Network Collaborative Partnership ## 
+*Mr. Stine announced the steps that need to be taken with Estonian Information System Authority and OVON's colleagues therein. They wish to partner with The Open Voice Network in testing and publicly demonstrating OVON Interoperability Specifications. This fits within the long-range roadmap of the services that Bürokratt will provide for the citizens and different government functions of Estonia. Estonia sees itself also as publicly endorsing the Trust Mark, are exciting by its direction, and on this level they are eager to move forward. The following steps will need to take place:*
+* Mr. Stine will meet shortly with Dr. Larson and Dr. Dahl to discuss a draft of the Interoperability Proposal for Estonia. 
+* Mr. Stine will be compiling a non-binding Letter of Intent for Estonia, using the standard Linux Foundation format as approved by Scott Nicholas and others and identify areas of collaboration, general deliverables, resource commitments and communication commitments. This will not be a binding contract.
+* Mr. Stine also emphasized Open Voice's interest in exploring the same opportunities and partnerships with Sestek and Kaizen Voiz. 
+## Minutes Approval - Prior Technical Committee Meeting from Mar. 10th ##
+*Mr. Stine put forth a first motion for approval, Ms. Coleman a second, and with no further objections, Mr. Southern marked the minutes duly approved.
+**Adjournment - The Meeting formally adjourned at 12pm EDT.**
+
+
 
 
 # Notes of the Technical Committee Meeting - March 10, 2023
