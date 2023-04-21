@@ -105,7 +105,7 @@ parent: Technical Committee
 
 *Ms. Coleman then ran through a basic overview of the Trust Mark initiative for the benefit of newcomers to the meeting, and Mr. Stine stressed that the team plans to ask friend organizations of the Open Voice Network, including Sestek, to consider endorsing Trust Mark as it gets further along in development.*
 
-##### _Mr. Krish responded by expressing Sestek's enthusiasm for the initiative and strong desire to be involved. _#####
+##### _Mr. Krish responded by expressing Sestek's enthusiasm for the initiative and strong desire to be involved._ #####
 
 ##### _Ms. Coleman noted that she has heard from Mr. Wüttke, and his organization, Schwarz, has indicated its support of the Trust Mark program as well. Mr. Wüttke affirmed this in meeting and noted that it feels particularly critical and relevant to his team in light of the increasing commonality of Generative AI and ChatGPT._ #####
 
@@ -117,7 +117,7 @@ parent: Technical Committee
 
 By 4/14/2023
 * Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource. 
-<u>By 5/10/2023<u>
+<u>By 5/10/2023
 * 4 weeks of reworking the questions and comparing with the 2 assessments we have been considering as models.
 * Work along with the developer to figure out implementation and internationalization requirements. 
 By 6/14/2023
@@ -126,6 +126,7 @@ By 6/28/2023
 * 2 weeks of early adopter / intense testing to ensure functional requirements are met. 
 By 6/30/2023
 * Launch (based on feedback / testing). 
+
 
 
 # Notes of the Technical Committee Meeting - March 10, 2023
