@@ -117,7 +117,7 @@ parent: Technical Committee
 
 By 4/14/2023
 * Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource. 
-<u>By 5/10/2023
+By 5/10/2023
 * 4 weeks of reworking the questions and comparing with the 2 assessments we have been considering as models.
 * Work along with the developer to figure out implementation and internationalization requirements. 
 By 6/14/2023
@@ -126,6 +126,7 @@ By 6/28/2023
 * 2 weeks of early adopter / intense testing to ensure functional requirements are met. 
 By 6/30/2023
 * Launch (based on feedback / testing). 
+ 
 
 
 
