@@ -5,7 +5,91 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
-ments for mechanisms to monitor privacy and ethical principles.
+# Notes of the Open Voice Network Technical Committee Meeting - June 9, 2023
+**The Meeting Began at 11:01am EDT.**
+
+**Attendees: J. Stine, N. Southern, O. Coleman, T. Martens, J. Larson, D. Dahl, B. Epstein, H. Pappas**
+
+**Basic Welcome to Meeting Attendees   -- T. Martens**
+
+**Notice of Recording - T. Martens**
+
+**Reading of Linux Foundation Anti-Trust Statement - N. Southern**
+
+## Minutes Approval of May 12, 2013 Technical Committee Meeting - T. Martens ##
+
+*Mr. Stine put forth a first approval motion; Dr. Larson seconded that motion; Mr. Southern marked the minutes duly approved.*
+
+## Review of Agenda, Opening Comments - T. Martens ##
+
+*Mr. Martens noted the following agenda items for today's meeting*
+
+* Bürokratt update on Estonia - Working Plan - D. Dahl
+* Interoperability Roadmap update - D. Dahl
+* Interoperability Webinar on June 15th - D. Dahl
+* Recruitment for Demonstrators- J. Stine & T. Martens
+* Trustmark Initiative Update/Self-Assessment Tool -  O. Coleman
+* New Terms for OVON Glossary - J. Larson
+* Miscellaneous Comments/Questions - Group
+* Closing Remarks - T. Martens
+
+## Bürokratt update on Estonia - Working Plan - D. Dahl ##
+
+*Dr. Dahl just finished a call with Rainer Türner from the Estonia ISA and that great progress is made overall.*
+
+*Mr. Türner is creating a series of user stories. For the first one, Bürokratt wants to provide voice-based communication based on OVON specifications to integrate their technology with third-party participants following the same specifications. This is the overarching goal.*
+
+*The Estonia ISA plans to ultimately implement OVON specifications in their Bürokratt system. and provide feedback to the Open Voice Network team on what they find useful or not useful; they are willing to do this and assist OVON with comments on aspects of the initiative for which the details still need to be worked out.*
+
+
+
+*Reciprocally, OVON needs to provide specifications and documentation and help them with any issues that they have surrounding the specifications.*
+
+*Rainer Türner and Dr. Debbie Dahl are the two technical project leads.*
+
+*A full project plan can be found at the url https://github.com/orgs/buerokratt/projects/35. The goal is to have everything wrapped up by December 31, 2023.*
+
+##### _Mr. Stine asked what Dr. Dahl envisions to be the incrementally additional resources for the Open Voice Network to make this happen? What else is in front of us, besides recruitment and involving third-party practitioners?_ #####
+
+##### _Dr. Dahl noted that interoperability specifications are not nearly as far along as the dialog events specifications, and Mr. Türner is very willing to help with solidifying these specs, but any other OVON people willing to focus on this would be helpful. Emmett Coin is already deeply involved because he's implementing it. He's searching for gaps and things to tighten up/resolve. The goal: Bürokratt is doing the heavy lifting and providing expertise and advice._ #####
+
+##### _Dr. Dahl then brought said project plan up on the screen._ #####
+
+##### _Mr. Martens noted that Estonia has implemented the current version of Bürokratt using Raza, and if they start using OVON specifications, it would be a welcome opportunity for other OVON members/contributors to come in and provide their technologies using OVON specifications. This call is welcome/open to everyone. OVON will act as facilitators._ #####
+
+*Dr. Dahl: a couple of other things are going on in parallel focusing on the interoperability effort with Estonia. One is the overarching collaboration agreement; the agreement that Mr. Stine put together also includes a privacy and security component.*
+
+##### _Mr. Stine noted that an overarching piece of handshake documentation has been extended to Raïner's supervisor, Kaupo Laagriküll. This agreement speaks to two engagements: interoperability, and the trial and testing of trustmark educational and self-assessment tools as they become ready. Part of it will be led not only by Laagriküll but by the overarching leader of the Estonia ISA., Ott Velsberg. There is strong interest in testing, using, exploring the Trustmark Tools Ms. Coleman and co. are developing, and we are to come back to Estonia as those tools are ready for testing and review. The agreement is in Kaupo's hands and he will circle back to Mr. Stine soon with thoughts._ #####
+
+##### _It was clarified that the second half of the Estonia partnership concerns Trustmark, in lieu of Privacy and Security._ #####
+
+*In terms of the Estonian partnership: a draft outreach email that would be going to potential third party participants with the Estonian initiative. There are six targeted companies (prospects) and Mr. Stine will be reviewing these prospects with Dr. Dahl before the emails go out.*
+
+## Interoperability Roadmap Update - D. Dahl ##
+
+* The Dialog Events Specification v.1 draft  - has been edited/formatted;  ready to be published although it needs to include a list of the authors' names.
+* The Interoperability Webinar is slated for Thu. Jun. 15th - it will have a panel format, and will  include the announcement of a dialog event specification.
+* Dr. Dahl and Dr. Larson have done considerable work on identifying volunteer opportunities, and there are six different items. It has been useful wrt pointing new contributors in the right direction.
+* Dr. Larson is also maintaining a log of people who have expressed some level of interest in contributing to Open Voice.
+
+##### _It was also suggested that all the members of the Architecture Work Group be asked to sign off on the Dialog Events Specification document, but noted in response that the AWG includes over 100 people, so it would probably make more sense to save this for the next publication._ #####
+
+## Interoperability Webinar on June 15th - 12pm Eastern - D. Dahl - Highlights ## 
+* Announcement of Publication of Dialog Events Specification 1.0
+* Demonstration of simple negotiation between assistants and passing on dialog history
+* Round Table Discussion of Demo Features
+
+##### _Mr. Stine noted thirty registrants as of Thursday, June 8th, asked anyone to register who has not done so, and noted two more rounds of promotion yet to go out. The number of existing registrations should escalate dramatically in the last 24 hours, so a total registration of 60-70 persons is projected. Mr. Stine noted a steady increase in webinar attendance numbers over the past months, because Ovon has increased the size of its mailing list from roughly 1200 individuals to around 3300 individuals.  #####
+ 
+## Webinar - Recruitment for Demonstrators - J. Stine and T. Martens ##
+
+*Dr. Stine and Dr. Dahl have opened up a new series of volunteer opportunities for Open Voice Network contributors, in the following  key areas:*
+
+* Write OVON-based assistant with minimal functionality that can be used to test other assistants using OVON protocols.
+* Refine and develop a Python library for Dialog Event processing.
+* Create usage scenarios to measure progress against the development of functionality.
+* Extend and refine dialog history and context representations.
+* Define requirements for mechanisms to monitor privacy and ethical principles.
 * Define requirements for mechanisms to evaluate trustworthiness of voice assistants.
 * Review and improve Interoperability Patterns API (Delegation, Channeling and Mediation) and make it worthy for publication. 
 
@@ -81,6 +165,22 @@ ments for mechanisms to monitor privacy and ethical principles.
 ##### _Ms. Coleman: the Privacy & Security Work Group has renewed its efforts to review what is now happening in the privacy/security sphere from a regulatory/legislative perspective, globally. It is evaluating how to update its policy white papers accordingly. This week it will be discussing the upcoming EU AI Act. It has passed committee, and will be up for a formal vote between June 12-15. They have defined risk categories, from low to unacceptable. Any AI-based product services that do biometric processing are deemed unacceptable risks. Some friends of OVON may be doing work in this category; it raises related questions for Open Voice and how OVON should respond. The bottom line is that Open Voice needs to understand what the implications are. It may be worth having a 10 minute discussion in the next Technical Committee Meeting on the outcome of this vote and what steps should be taken accordingly._ #####
 
 ## Adjournment - With no additional comments or areas of discussion, this meeting was adjourned at 11:54am Eastern. ##
+
+
+## Action Items - Group ##
+
+* J. Stine, D. Dahl, T. Martens - determine who can be brought into the Estonia project from Open Voice's internal network, as contributors.*
+* D. Dahl: add a list of authors and a document summary and AWG (group) acknowledgments to the Dialog Event Specification Paper.
+* D. Dahl: get final slides for interoperability webinar to N. Southern by Monday 
+* J. Stine & group: after the 6/15 webinar send out solicitations to participants to volunteer.
+* N. Southern: continue to work on sourcing emails not yet available in Hubspot.
+* Group members: if you know of any friends who might be interested in volunteering for Open Voice Network, point them to the drop-down on the OVON website.
+* D. Dahl & Estonia team - pinpoint one specific use case to do with Estonia.
+* J. Stine - track down and review job description sent to him by Dr. Larson and Dr. Dahl
+* O. Coleman -provide Trust Mark sentence for the Interoperability Webinar.
+
+
+
 
 
 ## Action Items - Group ##
