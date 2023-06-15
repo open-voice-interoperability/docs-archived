@@ -107,7 +107,7 @@ parent: Technical Committee
 
 *Mr. Stine and Dr. Dahl will be working together on these prospective partnerships. Heath care may be a particularly strong focus, as it mirrors one of Rainer Türner (Estonia ISA)'s use cases - specifically, making an appointment with a pediatrician. The Estonian ISA plans to work with three specific use cases - two Estonian and one English. They expect at least one use case from Open Voice that still needs to be pinned down.*
 
-##### _Dr. Larson pointed out that recruitment of demonstrators may involve Estonia but not necessarily, and they must be coordinated carefully and discussed with Dr. Dahl prior to  onboarding them._#####
+##### _Dr. Larson pointed out that recruitment of demonstrators may involve Estonia but not necessarily, and they must be coordinated carefully and discussed with Dr. Dahl prior to  onboarding them._ #####
 
 ##### _Mr. Stine pointed out that this will require resources of the collaborative engagement party._ #####
 
@@ -129,7 +129,7 @@ parent: Technical Committee
 
 ###### _Mr. Stine has noted by way of elaboration that Lotas Productions, run by Jim Kenneally, has evinced strong support of the Trust Mark Initiative; his firm procures and vets voice talent for leading NYC ad agencies. He's contributing pro bono to bring in top-tiered voice talent to be voicing the training courses for the Open Voice Network._ #####
 
-##### _ Dr. Dahl asked if there would be a benefit of briefly acknowledging Trust Mark in the Interoperability Webinar. Ms. Coleman and others strongly agreed. This will take the form of an announcement._ #####
+##### _Dr. Dahl asked if there would be a benefit of briefly acknowledging Trust Mark in the Interoperability Webinar. Ms. Coleman and others strongly agreed. This will take the form of an announcement._ #####
 
 ##### _Mr. Stine noted that  with respect to the Trustmark Initiative, Open Voice Network is looking for organizations to endorse its principles. It is also open to individuals. If you are able to act as an individual without committing your company, that's a place to show your name. Accordingly, several names are on the website in this capacity. Every company is different, and whether or not one can endorse as an individual, it isn't true in every case. Open Voice Network is looking to the leaders of the Open Voice Network to endorse the initiative as individuals._ #####
 
