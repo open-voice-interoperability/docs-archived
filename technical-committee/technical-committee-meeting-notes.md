@@ -5,6 +5,99 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+ments for mechanisms to monitor privacy and ethical principles.
+* Define requirements for mechanisms to evaluate trustworthiness of voice assistants.
+* Review and improve Interoperability Patterns API (Delegation, Channeling and Mediation) and make it worthy for publication. 
+
+*This gives people the opportunity to support Open Voice by performing specific tasks.*
+*Dr. Larson and Dr. Dahl start the process with each individual by having a conversation with them about what their interests are, and if it's appropriate for them to start working with OVON*
+*If it is appropriate, the team will try to find something of mutual benefit to that individual and to Open Voice.*
+*Those who fill out the form - their information is sent to Evan via email.*
+
+##### _At this juncture, Mr. Stine pulled up the Open Voice Network website, which includes a drop-down list that gives various options for the many ways in which one can contribute to/participate in The Open Voice Network. This is still as of yet a work in progress. It lists tasks and skills - if you have an interest in x, y, z, etc. This is a new observation to the Open Voice Network website._ #####
+
+
+## Recruitment of Demonstrators - J. Stine ##
+
+*Mr. Stine has had informal conversations with six organizations, which he then listed in the meeting and asked to be kept confidential - plus one major voice assistant based in Europe. At least five of the prospects have asked to know more; three of those five have bene unusually enthusiastic, but collaboration will require resources, time and a product that is not in a lab but operable and has been implemented.*
+
+*Mr. Stine and Dr. Dahl will be working together on these prospective partnerships. Heath care may be a particularly strong focus, as it mirrors one of Rainer Türner (Estonia ISA)'s use cases - specifically, making an appointment with a pediatrician. The Estonian ISA plans to work with three specific use cases - two Estonian and one English. They expect at least one use case from Open Voice that still needs to be pinned down.*
+
+##### _Dr. Larson pointed out that recruitment of demonstrators may involve Estonia but not necessarily, and they must be coordinated carefully and discussed with Dr. Dahl prior to  onboarding them._#####
+
+##### _Mr. Stine pointed out that this will require resources of the collaborative engagement party._ #####
+
+## Trust Mark Initiative Update - O. Coleman ##
+
+*The Trustmark team is actively working on delivery the self-assessment tool and training course.*
+
+*Regarding the self-assessment tool: the developer (Luis) has been interviewed and hired under contract as a vendor to Linux Foundation, and began his work on Monday. yesterday there was a meeting to go over the requirements and he showed Oita, Valeria and Nathan his design mock-ups; that meeting went very well; he will now begin development; he's planning to deliver a version of the tool the week of June 19th, when the initial testing will begin.*
+
+*Overall the goal for wrapping up the project is for initial release to early adopters by the end of July.*
+
+*Luis is very easy to work with and extremely intelligent and capable, and his work so far has been extremely forward-thinking. The tool - the questions - are text based and text intensive; on his own, Luis has added an admin tool so that  the Open Voice team can do edits themselves as needed and won't need to go to a web developer. It doesn't involve updates to the code, but to metadata behind the questions only.*
+
+*The Trustmark training course is being actively worked out. The content draft will be completed by the end of the day today, and content revisions and copy editing are slated to begin by Monday June 12, 2023. Lotas Productions (Jim Kenneally) has been critical in this regard. They will be providing voice talent - videos and voiceovers, including synthetic voices, for some of the images.*
+
+*In approximately one week, the content will be handed over to the Linux Foundation to be uploaded into the LMS System. The launch date is projected to be tentatively August 2, 2023. Linux Foundation will provide a more definitive date once they see the content.*
+
+*A link to the draft chapter information is posted on Slack (ethics channel of OVON) in google doc form for anyone who wants to review in this format (pre-copy editing) and provide feedback.*
+
+###### _Mr. Stine has noted by way of elaboration that Lotas Productions, run by Jim Kenneally, has evinced strong support of the Trust Mark Initiative; his firm procures and vets voice talent for leading NYC ad agencies. He's contributing pro bono to bring in top-tiered voice talent to be voicing the training courses for the Open Voice Network._ #####
+
+##### _ Dr. Dahl asked if there would be a benefit of briefly acknowledging Trust Mark in the Interoperability Webinar. Ms. Coleman and others strongly agreed. This will take the form of an announcement._ #####
+
+##### _Mr. Stine noted that  with respect to the Trustmark Initiative, Open Voice Network is looking for organizations to endorse its principles. It is also open to individuals. If you are able to act as an individual without committing your company, that's a place to show your name. Accordingly, several names are on the website in this capacity. Every company is different, and whether or not one can endorse as an individual, it isn't true in every case. Open Voice Network is looking to the leaders of the Open Voice Network to endorse the initiative as individuals._ #####
+
+## New Terms for the OVON Glossary - Dr. Larson ##
+
+*Many discussions have taken place between Dr. Larson and numerous people involving controversial terms that follow:*
+
+* Conversational Assistant
+* Interoperability Pattern
+* Native Pattern
+* Delegation Interoperability Pattern
+* Mediation Interoperability Pattern
+* Channeling Interoperability Pattern
+* Dialog Event
+* Dialog Event Feature
+* Assistant Identity
+* Assistant Authentication
+* Tampered Assistant
+* Assistant Browser 
+* Endpoint
+
+*Accordingly Dr. Larson put forward revised definitions of each of the above in this meeting. He proposed that these terms be placed in the Open Voice Network Glossary and that the Technical Committee vote on them, and that any comments be reviewed in the next Technical Committee Meeting.*
+
+##### _Mr. Stine raised a key concern about Dr. Larson's proposed definition of the term 'Assistant Browser' - on the basis of the presumption that this is synonymous with 'Assistant.'_ #####
+
+##### _Dr. Larson disagreed and noted that an Assistant Browser is a special software module that manages the speaker, the display, the keyboard, that accepts requests from user(s) and sends them back. This, Dr. Larson noted, is different from an 'assistant.'_ #####
+
+*Dr. Larson put this approval forward as a first motion. Mr. Stine put forward a second motion. There were no objections. Said definitions were designated duly approved.*
+
+## Closing Remarks - Group ##
+
+##### _Moving forward, Dr. Larson asked that the Technical Committee slides be sent out a couple of days before the meeting, so that he has more time to respond._ #####
+##### _Ms. Coleman: the Privacy & Security Work Group has renewed its efforts to review what is now happening in the privacy/security sphere from a regulatory/legislative perspective, globally. It is evaluating how to update its policy white papers accordingly. This week it will be discussing the upcoming EU AI Act. It has passed committee, and will be up for a formal vote between June 12-15. They have defined risk categories, from low to unacceptable. Any AI-based product services that do biometric processing are deemed unacceptable risks. Some friends of OVON may be doing work in this category; it raises related questions for Open Voice and how OVON should respond. The bottom line is that Open Voice needs to understand what the implications are. It may be worth having a 10 minute discussion in the next Technical Committee Meeting on the outcome of this vote and what steps should be taken accordingly._ #####
+
+## Adjournment - With no additional comments or areas of discussion, this meeting was adjourned at 11:54am Eastern. ##
+
+
+## Action Items - Group ##
+
+* J. Stine, D. Dahl, T. Martens - determine who can be brought into the Estonia project from Open Voice's internal network, as contributors.*
+* D. Dahl: add a list of authors and a document summary and AWG (group) acknowledgments to the Dialog Event Specification Paper.
+* D. Dahl: get final slides for interoperability webinar to N. Southern by Monday 
+* J. Stine & group: after the 6/15 webinar send out solicitations to participants to volunteer.
+* N. Southern: continue to work on sourcing emails not yet available in Hubspot.
+* Group members: if you know of any friends who might be interested in volunteering for Open Voice Network, point them to the drop-down on the OVON website.
+* D. Dahl & Estonia team - pinpoint one specific use case to do with Estonia.
+* J. Stine - track down and review job description sent to him by Dr. Larson and Dr. Dahl
+* O. Coleman -provide Trust Mark sentence for the Interoperability Webinar.
+
+
+
+
 # Notes of the Technical Committee Meeting - April 14, 2023
 **The Meeting Began at 11:02am EDT.**
 
