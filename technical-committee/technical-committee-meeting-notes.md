@@ -35,7 +35,7 @@ parent: Technical Committee
 
 ## Bürokratt update on Estonia - Working Plan - D. Dahl ##
 
-*Dr. Dahl just finished a call with Rainer Türner from the Estonia ISA and that great progress is made overall.*
+*Dr. Dahl just finished a call with Rainer Türner from the Estonia ISA and noted that great progress is being made overall.*
 
 *Mr. Türner is creating a series of user stories. For the first one, Bürokratt wants to provide voice-based communication based on OVON specifications to integrate their technology with third-party participants following the same specifications. This is the overarching goal.*
 
@@ -179,21 +179,6 @@ parent: Technical Committee
 * J. Stine - track down and review job description sent to him by Dr. Larson and Dr. Dahl
 * O. Coleman -provide Trust Mark sentence for the Interoperability Webinar.
 
-
-
-
-
-## Action Items - Group ##
-
-* J. Stine, D. Dahl, T. Martens - determine who can be brought into the Estonia project from Open Voice's internal network, as contributors.*
-* D. Dahl: add a list of authors and a document summary and AWG (group) acknowledgments to the Dialog Event Specification Paper.
-* D. Dahl: get final slides for interoperability webinar to N. Southern by Monday 
-* J. Stine & group: after the 6/15 webinar send out solicitations to participants to volunteer.
-* N. Southern: continue to work on sourcing emails not yet available in Hubspot.
-* Group members: if you know of any friends who might be interested in volunteering for Open Voice Network, point them to the drop-down on the OVON website.
-* D. Dahl & Estonia team - pinpoint one specific use case to do with Estonia.
-* J. Stine - track down and review job description sent to him by Dr. Larson and Dr. Dahl
-* O. Coleman -provide Trust Mark sentence for the Interoperability Webinar.
 
 
 
