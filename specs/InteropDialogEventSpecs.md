@@ -6,34 +6,36 @@ parent: specs
 
 ## 2023.06.09
 ## Draft Version 1.0.0
-Interoperable Dialog Event Object Specification Version 1.0
-The Open Voice Network
-Architecture Work Group of the Technical Committee
-Editor-in-chief: David Attwater Contributors: Emmett Coin
-Deborah Dahl Jim Larson
 
-June 9, 2023
 
-TABLE OF CONTENTS
-CHAPTER 0. SCOPE AND INTRODUCTION 
-0.1 Document Scope 
-0.2 Dialog Events
-0.3 A Foundation for Further Specialization 
+**Interoperable Dialog Event Object Specification Version 1.0**  
+**The Open Voice Network**   
+**Architecture Work Group of the Technical Committee**   
+**Editor-in-chief: David Attwater**  
+**Contributors: Emmett Coin, Deborah Dahl, Jim Larson**
 
-CHAPTER 1. SPECIFICATION 
-1.1 Representation
-1.2 Dialog Event Object
-1.3 Span
-1.4 Feature Objects
-1.5 Confidence, Linking and Stand-off Annotation
-1.6 JSON Path and the substring() extension
-1.7 Alternates
-1.8 Nomenclature 
+**June 9, 2023**
 
-CHAPTER 2. SCHEMA
-CHAPTER 3. REFERENCES
-CHAPTER 4. GLOSSARY OF TERMS
-CHAPTER 5. DECISION LOG 
+# TABLE OF CONTENTS
+## CHAPTER 0. SCOPE AND INTRODUCTION 
+### 0.1 Document Scope 
+### 0.2 Dialog Events
+### 0.3 A Foundation for Further Specialization 
+
+## CHAPTER 1. SPECIFICATION 
+### 1.1 Representation
+### 1.2 Dialog Event Object
+### 1.3 Span
+### 1.4 Feature Objects
+### 1.5 Confidence, Linking and Stand-off Annotation
+### 1.6 JSON Path and the substring() extension
+### 1.7 Alternates
+### 1.8 Nomenclature 
+
+## CHAPTER 2. SCHEMA
+## CHAPTER 3. REFERENCES
+## CHAPTER 4. GLOSSARY OF TERMS
+## CHAPTER 5. DECISION LOG 
                 
 
 Chapter 0. Scope and Introduction
