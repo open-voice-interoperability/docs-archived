@@ -5,8 +5,350 @@ layout: default
 title: Meeting Notes
 parent: Technical Committee
 ---
+# Notes of the Open Voice Network Technical Committee Meeting - June 9, 2023
+**The Meeting Began at 11:01am EDT.**
+
+**Attendees: J. Stine, N. Southern, O. Coleman, T. Martens, J. Larson, D. Dahl, B. Epstein, H. Pappas**
+
+**Basic Welcome to Meeting Attendees   -- T. Martens**
+
+**Notice of Recording - T. Martens**
+
+**Reading of Linux Foundation Anti-Trust Statement - N. Southern**
+
+## Minutes Approval of May 12, 2013 Technical Committee Meeting - T. Martens ##
+
+*Mr. Stine put forth a first approval motion; Dr. Larson seconded that motion; Mr. Southern marked the minutes duly approved.*
+
+## Review of Agenda, Opening Comments - T. Martens ##
+
+*Mr. Martens noted the following agenda items for today's meeting*
+
+* Bürokratt update on Estonia - Working Plan - D. Dahl
+* Interoperability Roadmap update - D. Dahl
+* Interoperability Webinar on June 15th - D. Dahl
+* Recruitment for Demonstrators- J. Stine & T. Martens
+* Trustmark Initiative Update/Self-Assessment Tool -  O. Coleman
+* New Terms for OVON Glossary - J. Larson
+* Miscellaneous Comments/Questions - Group
+* Closing Remarks - T. Martens
+
+## Bürokratt update on Estonia - Working Plan - D. Dahl ##
+
+*Dr. Dahl just finished a call with Rainer Türner from the Estonia ISA and noted that great progress is being made overall.*
+
+*Mr. Türner is creating a series of user stories. For the first one, Bürokratt wants to provide voice-based communication based on OVON specifications to integrate their technology with third-party participants following the same specifications. This is the overarching goal.*
+
+*The Estonia ISA plans to ultimately implement OVON specifications in their Bürokratt system. and provide feedback to the Open Voice Network team on what they find useful or not useful; they are willing to do this and assist OVON with comments on aspects of the initiative for which the details still need to be worked out.*
+
+
+
+*Reciprocally, OVON needs to provide specifications and documentation and help them with any issues that they have surrounding the specifications.*
+
+*Rainer Türner and Dr. Debbie Dahl are the two technical project leads.*
+
+*A full project plan can be found at the url https://github.com/orgs/buerokratt/projects/35. The goal is to have everything wrapped up by December 31, 2023.*
+
+##### _Mr. Stine asked what Dr. Dahl envisions to be the incrementally additional resources for the Open Voice Network to make this happen? What else is in front of us, besides recruitment and involving third-party practitioners?_ #####
+
+##### _Dr. Dahl noted that interoperability specifications are not nearly as far along as the dialog events specifications, and Mr. Türner is very willing to help with solidifying these specs, but any other OVON people willing to focus on this would be helpful. Emmett Coin is already deeply involved because he's implementing it. He's searching for gaps and things to tighten up/resolve. The goal: Bürokratt is doing the heavy lifting and providing expertise and advice._ #####
+
+##### _Dr. Dahl then brought said project plan up on the screen._ #####
+
+##### _Mr. Martens noted that Estonia has implemented the current version of Bürokratt using Raza, and if they start using OVON specifications, it would be a welcome opportunity for other OVON members/contributors to come in and provide their technologies using OVON specifications. This call is welcome/open to everyone. OVON will act as facilitators._ #####
+
+*Dr. Dahl: a couple of other things are going on in parallel focusing on the interoperability effort with Estonia. One is the overarching collaboration agreement; the agreement that Mr. Stine put together also includes a privacy and security component.*
+
+##### _Mr. Stine noted that an overarching piece of handshake documentation has been extended to Raïner's supervisor, Kaupo Laagriküll. This agreement speaks to two engagements: interoperability, and the trial and testing of trustmark educational and self-assessment tools as they become ready. Part of it will be led not only by Laagriküll but by the overarching leader of the Estonia ISA., Ott Velsberg. There is strong interest in testing, using, exploring the Trustmark Tools Ms. Coleman and co. are developing, and we are to come back to Estonia as those tools are ready for testing and review. The agreement is in Kaupo's hands and he will circle back to Mr. Stine soon with thoughts._ #####
+
+##### _It was clarified that the second half of the Estonia partnership concerns Trustmark, in lieu of Privacy and Security._ #####
+
+*In terms of the Estonian partnership: a draft outreach email that would be going to potential third party participants with the Estonian initiative. There are six targeted companies (prospects) and Mr. Stine will be reviewing these prospects with Dr. Dahl before the emails go out.*
+
+## Interoperability Roadmap Update - D. Dahl ##
+
+* The Dialog Events Specification v.1 draft  - has been edited/formatted;  ready to be published although it needs to include a list of the authors' names.
+* The Interoperability Webinar is slated for Thu. Jun. 15th - it will have a panel format, and will  include the announcement of a dialog event specification.
+* Dr. Dahl and Dr. Larson have done considerable work on identifying volunteer opportunities, and there are six different items. It has been useful wrt pointing new contributors in the right direction.
+* Dr. Larson is also maintaining a log of people who have expressed some level of interest in contributing to Open Voice.
+
+##### _It was also suggested that all the members of the Architecture Work Group be asked to sign off on the Dialog Events Specification document, but noted in response that the AWG includes over 100 people, so it would probably make more sense to save this for the next publication._ #####
+
+## Interoperability Webinar on June 15th - 12pm Eastern - D. Dahl - Highlights ## 
+* Announcement of Publication of Dialog Events Specification 1.0
+* Demonstration of simple negotiation between assistants and passing on dialog history
+* Round Table Discussion of Demo Features
+
+##### _Mr. Stine noted thirty registrants as of Thursday, June 8th, asked anyone to register who has not done so, and noted two more rounds of promotion yet to go out. The number of existing registrations should escalate dramatically in the last 24 hours, so a total registration of 60-70 persons is projected. Mr. Stine noted a steady increase in webinar attendance numbers over the past months, because Ovon has increased the size of its mailing list from roughly 1200 individuals to around 3300 individuals.  #####
+ 
+## Webinar - Recruitment for Demonstrators - J. Stine and T. Martens ##
+
+*Dr. Stine and Dr. Dahl have opened up a new series of volunteer opportunities for Open Voice Network contributors, in the following  key areas:*
+
+* Write OVON-based assistant with minimal functionality that can be used to test other assistants using OVON protocols.
+* Refine and develop a Python library for Dialog Event processing.
+* Create usage scenarios to measure progress against the development of functionality.
+* Extend and refine dialog history and context representations.
+* Define requirements for mechanisms to monitor privacy and ethical principles.
+* Define requirements for mechanisms to evaluate trustworthiness of voice assistants.
+* Review and improve Interoperability Patterns API (Delegation, Channeling and Mediation) and make it worthy for publication. 
+
+*This gives people the opportunity to support Open Voice by performing specific tasks.*
+*Dr. Larson and Dr. Dahl start the process with each individual by having a conversation with them about what their interests are, and if it's appropriate for them to start working with OVON*
+*If it is appropriate, the team will try to find something of mutual benefit to that individual and to Open Voice.*
+*Those who fill out the form - their information is sent to Evan via email.*
+
+##### _At this juncture, Mr. Stine pulled up the Open Voice Network website, which includes a drop-down list that gives various options for the many ways in which one can contribute to/participate in The Open Voice Network. This is still as of yet a work in progress. It lists tasks and skills - if you have an interest in x, y, z, etc. This is a new observation to the Open Voice Network website._ #####
+
+
+## Recruitment of Demonstrators - J. Stine ##
+
+*Mr. Stine has had informal conversations with six organizations, which he then listed in the meeting and asked to be kept confidential - plus one major voice assistant based in Europe. At least five of the prospects have asked to know more; three of those five have bene unusually enthusiastic, but collaboration will require resources, time and a product that is not in a lab but operable and has been implemented.*
+
+*Mr. Stine and Dr. Dahl will be working together on these prospective partnerships. Heath care may be a particularly strong focus, as it mirrors one of Rainer Türner (Estonia ISA)'s use cases - specifically, making an appointment with a pediatrician. The Estonian ISA plans to work with three specific use cases - two Estonian and one English. They expect at least one use case from Open Voice that still needs to be pinned down.*
+
+##### _Dr. Larson pointed out that recruitment of demonstrators may involve Estonia but not necessarily, and they must be coordinated carefully and discussed with Dr. Dahl prior to  onboarding them._ #####
+
+##### _Mr. Stine pointed out that this will require resources of the collaborative engagement party._ #####
+
+## Trust Mark Initiative Update - O. Coleman ##
+
+*The Trustmark team is actively working on delivery the self-assessment tool and training course.*
+
+*Regarding the self-assessment tool: the developer (Luis) has been interviewed and hired under contract as a vendor to Linux Foundation, and began his work on Monday. yesterday there was a meeting to go over the requirements and he showed Oita, Valeria and Nathan his design mock-ups; that meeting went very well; he will now begin development; he's planning to deliver a version of the tool the week of June 19th, when the initial testing will begin.*
+
+*Overall the goal for wrapping up the project is for initial release to early adopters by the end of July.*
+
+*Luis is very easy to work with and extremely intelligent and capable, and his work so far has been extremely forward-thinking. The tool - the questions - are text based and text intensive; on his own, Luis has added an admin tool so that  the Open Voice team can do edits themselves as needed and won't need to go to a web developer. It doesn't involve updates to the code, but to metadata behind the questions only.*
+
+*The Trustmark training course is being actively worked out. The content draft will be completed by the end of the day today, and content revisions and copy editing are slated to begin by Monday June 12, 2023. Lotas Productions (Jim Kenneally) has been critical in this regard. They will be providing voice talent - videos and voiceovers, including synthetic voices, for some of the images.*
+
+*In approximately one week, the content will be handed over to the Linux Foundation to be uploaded into the LMS System. The launch date is projected to be tentatively August 2, 2023. Linux Foundation will provide a more definitive date once they see the content.*
+
+*A link to the draft chapter information is posted on Slack (ethics channel of OVON) in google doc form for anyone who wants to review in this format (pre-copy editing) and provide feedback.*
+
+###### _Mr. Stine has noted by way of elaboration that Lotas Productions, run by Jim Kenneally, has evinced strong support of the Trust Mark Initiative; his firm procures and vets voice talent for leading NYC ad agencies. He's contributing pro bono to bring in top-tiered voice talent to be voicing the training courses for the Open Voice Network._ #####
+
+##### _Dr. Dahl asked if there would be a benefit of briefly acknowledging Trust Mark in the Interoperability Webinar. Ms. Coleman and others strongly agreed. This will take the form of an announcement._ #####
+
+##### _Mr. Stine noted that  with respect to the Trustmark Initiative, Open Voice Network is looking for organizations to endorse its principles. It is also open to individuals. If you are able to act as an individual without committing your company, that's a place to show your name. Accordingly, several names are on the website in this capacity. Every company is different, and whether or not one can endorse as an individual, it isn't true in every case. Open Voice Network is looking to the leaders of the Open Voice Network to endorse the initiative as individuals._ #####
+
+## New Terms for the OVON Glossary - Dr. Larson ##
+
+*Many discussions have taken place between Dr. Larson and numerous people involving controversial terms that follow:*
+
+* Conversational Assistant
+* Interoperability Pattern
+* Native Pattern
+* Delegation Interoperability Pattern
+* Mediation Interoperability Pattern
+* Channeling Interoperability Pattern
+* Dialog Event
+* Dialog Event Feature
+* Assistant Identity
+* Assistant Authentication
+* Tampered Assistant
+* Assistant Browser 
+* Endpoint
+
+*Accordingly Dr. Larson put forward revised definitions of each of the above in this meeting. He proposed that these terms be placed in the Open Voice Network Glossary and that the Technical Committee vote on them, and that any comments be reviewed in the next Technical Committee Meeting.*
+
+##### _Mr. Stine raised a key concern about Dr. Larson's proposed definition of the term 'Assistant Browser' - on the basis of the presumption that this is synonymous with 'Assistant.'_ #####
+
+##### _Dr. Larson disagreed and noted that an Assistant Browser is a special software module that manages the speaker, the display, the keyboard, that accepts requests from user(s) and sends them back. This, Dr. Larson noted, is different from an 'assistant.'_ #####
+
+*Dr. Larson put this approval forward as a first motion. Mr. Stine put forward a second motion. There were no objections. Said definitions were designated duly approved.*
+
+## Closing Remarks - Group ##
+
+##### _Moving forward, Dr. Larson asked that the Technical Committee slides be sent out a couple of days before the meeting, so that he has more time to respond._ #####
+##### _Ms. Coleman: the Privacy & Security Work Group has renewed its efforts to review what is now happening in the privacy/security sphere from a regulatory/legislative perspective, globally. It is evaluating how to update its policy white papers accordingly. This week it will be discussing the upcoming EU AI Act. It has passed committee, and will be up for a formal vote between June 12-15. They have defined risk categories, from low to unacceptable. Any AI-based product services that do biometric processing are deemed unacceptable risks. Some friends of OVON may be doing work in this category; it raises related questions for Open Voice and how OVON should respond. The bottom line is that Open Voice needs to understand what the implications are. It may be worth having a 10 minute discussion in the next Technical Committee Meeting on the outcome of this vote and what steps should be taken accordingly._ #####
+
+## Adjournment - With no additional comments or areas of discussion, this meeting was adjourned at 11:54am Eastern. ##
+
+
+## Action Items - Group ##
+
+* J. Stine, D. Dahl, T. Martens - determine who can be brought into the Estonia project from Open Voice's internal network, as contributors.*
+* D. Dahl: add a list of authors and a document summary and AWG (group) acknowledgments to the Dialog Event Specification Paper.
+* D. Dahl: get final slides for interoperability webinar to N. Southern by Monday 
+* J. Stine & group: after the 6/15 webinar send out solicitations to participants to volunteer.
+* N. Southern: continue to work on sourcing emails not yet available in Hubspot.
+* Group members: if you know of any friends who might be interested in volunteering for Open Voice Network, point them to the drop-down on the OVON website.
+* D. Dahl & Estonia team - pinpoint one specific use case to do with Estonia.
+* J. Stine - track down and review job description sent to him by Dr. Larson and Dr. Dahl
+* O. Coleman -provide Trust Mark sentence for the Interoperability Webinar.
+
+
+
+
+
+# Notes of the Technical Committee Meeting - April 14, 2023
+**The Meeting Began at 11:02am EDT.**
+
+**Attendees: J. Stine, N. Southern, T. Martens, D. Dahl, B. Epstein, C. Wüttke, E. Sewell, O. Coleman, S. Parlak, M. Cikan, A. Krish, U. Dincel, D. Larson.**
+
+**Notice of Recording - N. Southern**
+
+**Linux Foundation Anti-Trust Statement - N. Southern**
+
+## Basic Welcome to Meeting Attendees   -- T. Martens ## 
+
+## Review of Agenda, Opening Comments - C. Wüttke ##
+
+*Mr. Wüttke greeted and welcomed everyone and covered the following agenda items*
+
+* Director Updates - Q2 Deliverables & Member Engagement - J. Stine
+* Technical Roadmap - Status & Updates - D. Dahl
+* Trust Mark Initiative - Next Steps - O. Coleman
+* Partnerships - Updates & Testbed Investments- J. Stine & T. Martens
+* Comments, Questions and Miscellaneous - Group
+* Closing Remarks - C. Wüttke 
+
+## Director Updates - Q2 Deliverables & Member Engagement - J. Stine ##
+
+*Mr. Stine noted that today is the designated deadline for Q2 deliverables which need to be placed in issues/milestones in GitHub. He will be reviewing OVON's status on Q1 and emphasized the significant progress made by the Open Voice Team from January through March.*
+
+*Mr. Stine also noted that some things were deliberately not done this quarter, and these will be reviewed as well.*
+
+*Mr. Stine noted the great effort that is going into the question of member engagement and advancing broader participation on the project. Fulsome conversations have taken place - with Ms. Coleman, Mr. Snider, Mr. Pappas, and others - regarding how OVON onboards new individuals and connects with new individuals through the nonprofit's website. Efforts are being made to expand the Open Voice mailing list from 1200 to 1600-2000 contacts and reach more deeply into the conversational AI and voice ecosystems. This work is currently underway and numerous related face-to-face meetings will take place at Project Voice in Chattanooga, TN in ten days.*
+
+*Mr. Stine, Dr. Larson and Dr. Dahl are also proactively discussing ways to bring greater participation into the interoperability work group of the OVON Architecture Work Group. There have been 47 individuals invited to AWG meetings, but attendance averages between 8-10 persons per meeting, usually the same persons at every meeting. Slack has 100+ names. This raises critical questions about how to further engage, to bring more people in, and establish processes for participation that accept the fact that people may have conflicts during the week.*
+
+## Technical Roadmap - Status & Updates - D. Dahl ##
+
+*The Architecture Work Group has made significant progress in the past month, including some of the following highlights:*
+
+* Continue Identification and Authentication of Agents activity – requirements document finished/published at the end of April 
+* Additional work on Dialog Events – communicating natural language messages between users and systems. How is this represented in an interoperable way? 
+  * Preliminary work in GitHub
+  * Gelling toward a solid specification
+ * Initial draft of spec for Delegation messages 
+ * Interoperability Webinar including interoperability demo March 22 - at least 1-2 participants recruited in architecture work as product of this webinar
+ * Discussions with government of Estonia 
+
+###### _A question was posed here in the chat, about whether or not we can authenticalte the content synthetically generated by an AI. Debbie pointed out that this is not one of the requirements. We cannot tell in many cases that the content was synthetically generated - so this will be a formidable problem if we expect a system to do this when people cannot._  ######
+
+*Dr. Dahl also presented the current OVON roadmap that has been updated with a few items. The highlights are as follows:*
+
+* Demos and specifications are the primary work of the Interoperability Team. Delegation and dialog event specs are ongoing. 
+* Demos - AWG completed Demo #1 - a simple communication link
+* Demo 2 - to be finished 5/18 - will include agent-agent passage of information, not just simple delegation. This is on track for completion by 5/18.
+* The group has in the to-do column updated Demo #3, which will start to show how agents can discover each other and transmit information about the history of a conversation from one agent to another, so that the second agent has some idea of what was going on in the earlier discussion, plus contextual information.
+* The architecture group has two new specs forthcoming:
+  * A 'Can You Handle It?' spec - where an assistant asks another if it can handle a request
+  * Another specification to help implementers of our work - an implementation hints document
+
+##### _Dr. Larson added that some of specifications will not result in publications but will be placed in the GitHub repository._ #####
+
+## Welcome to New Attendees -  J. Stine ##
+
+*Mr. Stine took time out, here, to introduce several new attendees to the Technical Committee meeting, and vice versa. Newcomers included Mr. Parlak, Mr. Cikan, Mr. Krish and Mr. Dincel.*
+
+*At this point, Dr. Dahl's discussion of the technical roadmap resumed.*
+
+##### _Dr. Larson asked Dr. Dahl for a systematic explanation and breakdown of what the colors mean, beyond the simple fact that they represent the various ongoing work streams; Dr. Dahl agreed, as an action item, to illustrate everything by creating a corresponding 'key,' that includes all of the representative icons._ #####
+
+*Dr. Dahl then reviewed the Q2 Deliverables from the roadmap, delineated as follows:*
+* Draft Interoperability Specifications/Delegation Patterns
+* Second Demo 
+* Authentication of Agents Task Force
+* Third Demo
+
+##### _Dr. Dahl mentioned that she has been over the milestones in Github and some work still needs to be done - certain milestones need to be split as they have been refined over time._ #####
+
+##### _Mr. Sewell then asked the question will the test bed spec include infrastructure, authentication, data security and privacy considerations? Dr. Dahl deferred this question to the section of the discussion led by Mr. Martens and Mr. Stine._#####
+
+*Dr. Dahl concluded by discussing the continuance of execution of H1 goals - rewriting the specifications, and the demonstrations, and the prioritizations of these. She also stated that the Architecture Work Group is currently recruiting external partners; this will be discussed/reviewed later in the meeting - as will the discussion of specific use cases.*
+
+## Trust Mark Initiative - Oita Coleman ##
+
+*Ms. Coleman thanked everyone for their support on the launch a couple of weeks earlier - during the webinar, as well as various endorsements and messages of support. She noted that the launch was only the beginning and there is still much left to go.*
+
+*Ms. Coleman then presented the Trello Board - an illustration of everything that was accomplished to reach the Trust Mark launch date. These included the following:*
+* Completing the code of ethics
+* Sample module training course - 'voice data analytics'
+* Training course e-learning design document done with Linux Foundation
+* Completion of Ethical Guidelines v. 2.0 white paper by March 24th
+* Addition of Advisory Board Members
+* Trust Mark Webinar on March 29th
+* Completion of Self-Assessment Checklist/Maturity Model Template 
+* Lance PR Rollout Plan
+
+*Ms. Coleman noted that for Q2 2023, her group wants to have the following:*
+* At least the bare bones of the training course available or completed by the end of June,
+* The Self-Assessment and Maturity Model Phase 1 implementation by the end of June
+* Participating organizations helping them complete the training, review the training, and review the self-assessment. 
+* Any design work on badges should also be done at that time.
+
+*Ms. Coleman then ran through a basic overview of the Trust Mark initiative for the benefit of newcomers to the meeting, and Mr. Stine stressed that the team plans to ask friend organizations of the Open Voice Network, including Sestek and Kaizen Voiz, to consider endorsing Trust Mark as it gets further along in development.*
+
+##### _Mr. Krish responded by expressing Sestek's enthusiasm for the initiative and strong desire to be involved._ #####
+
+##### _Ms. Coleman noted that she has heard from Mr. Wüttke, and his organization, Schwarz, has indicated its support of the Trust Mark program as well. Mr. Wüttke affirmed this in meeting and noted that it feels particularly critical and relevant to his team in light of the increasing commonality of Generative AI and ChatGPT._ #####
+
+##### _Mr. Stine then informed Mr. Dincel that he will shortly forward pertinent information about Trust Mark to the Sestek team._ #####
+
+##### _In the chat, Dr. Larson asked when E-learning will be available. Ms. Coleman stated that her team is working with the instructional design team of the Linux Foundation, and has submitted to them an instructional design document from which they are constructing a course. Dr. Larson stated that he is most interested in the content of the course. Ms. Coleman stated that the content - which is in active development - will be based on the Ethical Guidelines Document, Privacy Paper and the Security White Paper._ #####
+
+*Ms. Coleman then ran through the action item(s) and schedule associated with the Self  Assessment Maturity Model Web-Based Tool, delineated as follows. Each org that completes the assessment will have their own logon credentials and OVON will not have access to their results - this is for their own consideration and benefit*
+* By 4/14/23: 
+  * Work on the requirements for the implementation of the interactive assessment. This will result in a Statement of Work to recruit a developer resource.
+* By 5/10/23
+  * 4 weeks of reworking the questions and comparing with the 2 assessments we have been considering as models.
+  * Work along with the developer to figure out implementation and internationalization requirements. 
+* By 6/14/2023: 
+  * Implementation phase working closely with the developer to implement the assessment as an interactive and multilingual tool. We would like to consider implementing it in multiple languages from the start, so we'll need to consider internationalization at this stage. 
+  * By 6/28/2023: 2 weeks of early adopter / intense testing to ensure functional requirements are met. 
+  * By 6/30/2023 - Launch (based on feedback / testing). 
+*Ms. Coleman then noted the basic structure of the cost breakdown - six weeks at fifteen hours a week, $100 an hour, which will equate to $9000.*
+##### _Mr. Southern mentioned that his query to Christina Oliviero at the Linux Foundation soliciting help finding an external web developer is still active, and there should be additional news on this soon._ #####
+##### _Dr. Dahl inquired about the provision for maintaining this Trust Mark web app - it will be, she noted, a highly interactive application, and will need someone keeping an eye on it and updating it regularly._ ######
+##### _Ms. Coleman agreed with the need for this support. Some will come from Thrive Marketing. The need for additional support beyond this will be discussed, and will likely require funding. That will be scoped. There is a longer implementation plan of it having greater interactivity, and further guidance along the lines of 'if your score is a 7 out of 10, take these steps.' In other words, this is only Phase 1 implementation._ #####
+##### _Mr. Stine: any organization that asserts that it is an authority on ethical behavior in conversational AI lives in a glass house - so issues of privacy, data security and protection become doubly important for OVON. We need to doubly or triply check all of our own actions._ #####
+*Ms. Coleman noted that for this work to proceed, it will be taken to the Steering Committee at the end of this month for approval of allocated R&D dollars.*
+##### _Mr. Stine: the Technical Committee has the right to approve this as coming from General Ledger number 6325._#####
+*Ms. Coleman formally moved to have this allocation of $9000 approved by the technical community. Phase 1 development of the self-assessment maturity model tool. Mr. Stine gave it a second motion. There were no objections presented. Mr. Wüttke marked it duly approved, and Mr. Stine added one amendment - that any needed expenditures above and beyond the $9000 will come back to the Technical Committee.*
+*Ms. Coleman: will work with Mr. Southern on identifying the correct/appropriate developer, creating the right implementation plan and making sure it falls within the above dollar amount. This proposal will be scoped for privacy/security and functionality and dollar allocation - the group must work within these constraints.*
+*Said vote excludes the approval of additional and unrelated development monies for the website.*
+## Investment and Co-Creation of the OVON Test Bed - J Stine and T. Martens ##
+*Mr. Martens provided a quick overview of next steps for the Open Voice Network Test Bed and how the project plans to invest in components that can either enable or facilitate implementation of OVON specs together with Open Voice's partners. This is a watershed moment for Open Voice. On this note, the committee needs to alert this forum about upcoming requests for funding, and said committee will ultimately need to approve funding requests. Participants in the working groups will ultimately need to submit proposals that require funding and that can be included in the Test Bed discussion. Open Voice's relationship with the Estonian government and its work in voice AI will provide a viable use case; additional use cases will be sought in vertical sectors such as banking and insurance and retail and automotive. The goal will be not to run these kinds of implementations ourselves, but to invest strategically in partnerships and be an enabler of these use cases that will implement and exhibit the Open Voice specifications.* 
+*Mr. Martens stressed the need to clear this with the committee.*
+##### _Dr. Dahl asked, should we say 'prototype' rather than 'MVP' which implies a product?_ #####
+##### _To this, Mr. Martens responded, 'MVP' actually implies a functionality we can showcase that has a benefit to the participating parties. However 'MVP' and 'prototype' do imply two sides of the same coin. This wording must be straightened out semantically._ #####
+##### _Mr. Stine spoke directly to Sestek participants at this point, noting that in the months ahead, Open Voice Network will be actively recruiting firms such as Sestek, and rhetorically asked these participants if Sestek has enterprise customers - banking, insurance, retail, automotive, other verticals - who may be ready to begin expanding their voice, with their customers, outside the firewall, connecting to other partners that they have or to voice AI-welcoming and -using consumers? OVON would welcome this conversation and there would be reciprocal benefits for said organizations._ ##### 
+
+##### _Mr.  Sewell asked Mr. Stine about his vision for the Open Voice Network Test Bed, and if he envisions it as more of a Proof of Concept or a lab test bed, or as more of a pilot Test Bed that could serve as a business opportunity, get customers in, and operationalize and scale?_ #####
+
+##### _Mr. Stine ultimately deferred this decision to the Technical Committee as a whole, but his instinct is that Open Voice would follow each of these steps in succession (1-2) and would want to get to the level of showing the business benefit in a production pilot as opposed to a lab POC. However, this is still to be determined and confirmed._ #####
+
+##### _Mr. Sewell then asked Mr. Stine if such a POC would be driving toward a standard._ #####
+
+##### _Mr. Stine said yes, without question. He foresees a testing process of the draft specifications coming out of the Architecture Working Group._ #####
+
+##### _Mr. Martens and others agreed, and further clarified/outlined that with the various OVON working groups, the specifications have been reviewed by multiple stakeholders; soon it will be time to test them under live conditions. He foresees two phases, starting with implementations that will overlap; if all parties agree that there is a benefit of rolling them out, they will be rolled out. Open Voice sees its role as discovering use cases and then facilitating them._ #####
+
+##### _Dr. Dahl expressed a concern about OVON getting into a position of offering a component (say a speech recognition component) as something OVON creates, branded with Open Voice, that could be directly implemented into a given product. Open Voice lacks the bandwidth for this kind of work. This would be out of scope for Open Voice and extremely expensive. It means being cautious about how Open Voice positions itself with individual components_ #####
+## Estonia ISA - Open Voice Network Collaborative Partnership ## 
+
+*Mr. Stine announced the steps that need to be taken with Estonian Information System Authority and OVON's colleagues therein. They wish to partner with The Open Voice Network in testing and publicly demonstrating OVON Interoperability Specifications. This fits within the long-range roadmap of the services that Bürokratt will provide for the citizens and different government functions of Estonia. Estonia sees itself also as publicly endorsing the Trust Mark, are exciting by its direction, and on this level they are eager to move forward. The following steps will need to take place:*
+
+* Mr. Stine will meet shortly with Dr. Larson and Dr. Dahl to discuss a draft of the Interoperability Proposal for Estonia. 
+* Mr. Stine will be compiling a non-binding Letter of Intent for Estonia, using the standard Linux Foundation format as approved by Scott Nicholas and others and identify areas of collaboration, general deliverables, resource commitments and communication commitments. This will not be a binding contract.
+
+*Mr. Stine also emphasized Open Voice's interest in exploring the same opportunities and partnerships with Sestek and Kaizen Voiz.*
+
+## Minutes Approval - Prior Technical Committee Meeting from Mar. 10th ##
+
+*Mr. Stine put forth a first motion for approval, Ms. Coleman a second, and with no further objections, Mr. Southern marked the minutes duly approved.*
+
+**Adjournment - The Meeting formally adjourned at 12pm EDT.**
+
+
+
 
 # Notes of the Technical Committee Meeting - March 10, 2023
+
 **The Meeting Began at 10:07am EST.**
 
 **Attendees: J. Stine, N. Southern, B. Epstein, O. Coleman, D. Dahl, J. Larson, T. Martens**
@@ -27,7 +369,7 @@ parent: Technical Committee
 
 ## Planning of the Open Voice Interoperability Webinar - J. Larson, D. Dahl ##
 
-*Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture with three corresponding patterns, and include the group's first demo of two independent interoperating agents sending delegation messages back and forth. Then a discussion will take place.*
+*Dr. Dahl noted that the Interoperability Webinar is scheduled for Wed., Mar. 22nd, at 17:00h CET, 12:00pm EDT, and 9:00pm PDT. This will mainly cover the new interoperability standards on which Open Voice is working, especially the dialog packets. It will also cover the big picture of interoperability architecture  with three corresponding patterns, and then include the group's first demo of two independent interoperating agents sending delegation messages back and forth. Then a discussion will take place.*
 
 *Mr. Martens added that it will be an exciting opportunity if we can have a demo - to identify from the webinar a couple of smaller clips that we can share via social media.*
 
@@ -57,6 +399,128 @@ parent: Technical Committee
   * Dialog Event Management (Communication About Error Conditions)
   * Data Packets
   * Context and History
+
+*Mr. Stine noted that the Information Systems Authority (ISA) of Estonia, creators of the Bürokratt virtual assistant, have agreed to be one of the external partners whom Dr. Dahl identified above.*
+
+*Mr. Martens noted that the survey will be used to develop a tool that can be used when friends and partners of OVON are encountered - a way to involve them in prototypes. The survey/interview guide will facilitate conversations. It is a peer-reviewed effort.*
+
+*Mr. Stine added a mention of Ms. Olga Howard's approach to use cases; this will continue to be valuable. The team will also continue having discussions with industry people on the outside. However, Ms. Howard's work is instrumental in connecting external use cases to the work led by the interoperability team.*
+
+*Mr. Martens noted that the Estonian government represents a key piece of the equation for Open Voice regarding the establishment of a government partner; what remains is for OVON to find multiple technology providers - given the discussions about generative AI, Microsoft AI is one possibility, Nuance is another. OVON should also have corporate users of Voice Assistant technologies such as Schwarz Grüppe or Volkswagen.*
+
+*Dr. Dahl then reviewed the Interoperability Roadmap, as set up in Trello. and presented a slide with the group's partner activities, main activity and the future demos and draft specifications. She then presented a timeline view of the previous slide, and noted that the group is nearly finished with Demo 1 and close to finishing the Dialog Packet draft. Also forthcoming is Demo 2, which has broader capability than Demo 1. Demo 1 is two independent agents delegating tasks back and forth to one another, with a simple use case and speech interaction (a "hello world" demo). Demo 2 - the main addition is use of more specifications, such as negotiation and cooperation between two agents. Demo 3 will introduce channeling pattern where the second agent - the one delegated to, that does the actual work - asks the first agent to speak and listen for it. The agent that is being delegated to is conducting the dialog, but using the agent to which the user is speaking as its voice. By the end of Demo 3 the group will be able to demo two patterns.*
+
+
+## Headline Deliverables 1H 2023  - J. Stine ##
+
+*Mr. Stine presented a slide detailing OVON's deliverables for the first half of 2023:*
+
+* Build Qualified Sponsor-Contributor Participant Pipeline
+  * 1H Success Metric: Second-Level Conversations with >10 potential >$10k     
+    contributors/sponsors
+  * A new category of support for OVON: a 1x or 1Y contribution to OVON without 
+    being a member of the Linux Foundation. This is a way for smaller firms to support 
+    the Open Voice Network. This will open up additional revenue streams.
+* Launch TrustMark Program - launched by Ms. Coleman on March 29, 2023 in a  webinar
+* Publish-Demo First Interoperability Specifications.
+
+*Mr. Stine also noted that the group is on track to deliver. Deliverables 2 and 3 above make Deliverable 1 doable as they build organizational credibility.*
+
+## Ecosystem for Participation, Development 1H 2023  - J. Stine ##
+
+*Mr. Stine discussed potential vertical prospects for OVON, in areas including Automotive, Healthcare, Social Gaming, Financial Services, Retail, Restaurant Hospitality, Government and Smart Home. He noted that the same issues face all, but they differ in use cases and metrics. He also referenced several horizontal value propositions that cut across industries, including Customer Service, Enterprise Content Management and Standardized Transaction/Authentication. In the latter area, there is not a standard method for voice-based authentication and transaction which is a concern in all the consumer-facing industries. Mr. Stine also noted the presence of a development ecosystem, and different small providers of solutions in various industries, clustered. Different firms are also doing strategy and solution, security/authentication, open voice platforms, language models and big monster tech with specific interests in conversational AI.*
+
+*Mr. Stine then outlined the distinction between OVON members, sponsors and contributors, each class an integral part of the Open Voice ecosystem.*
+
+*Mr. Stine stressed the criticality at this time of OVON transitioning from reactive to proactive as it shifts to outreach to individuals in all of the said categories. Progress on this outreach will be reported to the technical committee.*
+
+## Authentication Study Group Report - B. Epstein ##
+
+*The Authentication Study Group launched on Fri., Mar. 3, 2023, output posted on slack and the google drive, with the following guidelines:*
+
+* Objective: Identify and document the technical requirements for identifying and authenticating voice assistants.
+* Two primary questions:
+   * How do we identify?
+   * How do we authenticate?
+* Areas not covered - that may need additional study groups:
+   * Discovery 
+   * Disambiguation (similar sounding names - we are not concerned with this yet)
+   * Arbitration (how a voice system chooses which assistant it connects to)
+   * User identification and authentication
+   * Goal is to have a first draft of the specifications document ready by the end of April.
+
+*The group is in a 'call for comments' phase - to collect ideas for requirements about the identification and authentication of voice assistants.*
+
+*Mr. Epstein asked if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let him know.*
+
+*Mr. Martens noted the many ongoing discussions about Large Language Models and how they should identify themselves - about training data, biases, and the like. For that reason, this exercise can benefit many stakeholders.*
+
+
+## Trust Mark Initiative Updates - O. Coleman
+
+* On deck to have program launch on 3/29/23
+* Helpful discussion regarding branding Trust Mark with the legal team at Linux Foundation about the need for copyright or lack thereof
+* The current working name is 'The Trust Mark Initiative of the Open Voice Network.'
+* A webinar is scheduled for March 29th. The website will be updated and social media outreach is planned.
+* Also on the 29th - the first module of the LF training course will be previewed with a teaser. 
+* Letters of invitation for a board of advisors are going out - a group of people in the industry who can help with the program, providing support and introduction to companies and entities that will offer support of the program
+* Project Voice 2023 will include a formal announcement and a conversation with the voice AI leadership council.
+* Excellent meeting with Deutsch Telekom.
+   * DT provided a view into its self-assessment tool, modeled in turn on the Trustworthy AI Framework from the European Union. 
+   * Leveraging the work DT has done will get the Trust Mark initiative 90% of the way.      
+   * The remainder of the work is the front matter of text changes, any training the team needs (for example, DT's educational training), etc. 
+  * This may be a key investment area - an area where it makes sense to have a developer. It means using web forms but has IT support on the back end for authentication and data storage. 
+  * It may mean putting a prototype on the website.
+
+* The group is aligning its code of ethics (to be announced - in draft mode now) - which covers the following principles
+   * Transparency 
+   * Inclusivity
+   * Accountability 
+   * Sustainability
+   * Privacy
+   * Compliance
+
+*Ms. Coleman also presented and called for a review of the code of ethics within the meeting.*
+
+*At Project Voice, Bradley Metrock will be convening the Conversational A.I. Leadership Council. There will be 300 enterprise decision makers for this gathering. Those present will be asked by Metrock to sign the aforementioned OVON code of ethics.*
+
+*OVON will be speaking at the Conversational A.I. Leadership Council and speaking to the principles it espouses in the said ethical statement.*
+
+*Mr. Stine then noted that he finished a meeting with a German conversational AI development team in the midst of working on 'Charismatic Conversational AI' - with an emphasis on consumer-facing contexts such as call center and retail, hospitality and financial services. They feel OVON's work in ethical use is critical for them to espouse/support their ethical principles and to be able to say that said principles bely their work.*
+
+## Large Language Models and Generative A.I. - J. Stine
+
+*Mr. Stine shared a slide previously shown to the OVON Steering Committee on Feb. 23rd, about GAI and LLMs, and the tangible impact of these areas on the Open Voice Network. It covered the following questions and answers:*
+
+* Does it change OVON's mission? No, although it does increase industry-enterprise ethical use concerns and will, in time, increase perceived need for system-assistant interoperability.  
+
+* Does it change OVON's work? Slightly. -Ethical use: means  new use cases, larger harms. Interoperability: no, if language models have NLP-NKG front ends.  Yes, if LM’s decoupled
+
+* Does it improve OVON's prospects? Yes, to a degree. Our leadership in ethical use even more important.  It will, in time, increase perceived need forsystem-assistant interoperability.  
+
+* Does it change OVON's messaging? Yes, to a degree. It’s the topic du jour we must reflect it in our white papers, presentations. 
+
+*In response to this, Dr. Dahl suggested that there could be a widespread public perception that with the advent of ChatGPT there is no longer a need for interoperability, nor a development of natural language-based systems. She asked how to address this without getting into complicated waters. For instance - enterprise information that empowers enterprise agents and call centers and is hidden behind paywalls. Dr. Dahl then asked how we address this.*
+
+*Mr. Stine responded that mainstream media sources are drawing people to that conclusion, but that brand managers will not want their brands represented by OpenAI's large language model. To this end, Sean King of Veritone has just developed with his team a Generative AI process for creating domain-specific language models for brands - this is essential because a brand owner will want to manage the "truth" of that brand. In this new world, the process of obtaining information may move from queries to prompts. Every brand will need to create a domain-specific language model.*
+
+*Mr. Larson: two reasons why it is critical to do a better job on describing why we need interoperability:*
+1. People will misperceive Generative AI's elimination of the need for interoperability
+2. Some feel we already have PC-based interoperability.
+
+*Mr. Martens agreed with Dr. Dahl regarding the paradigm change about how important APIs are and how they are being addressed - and linked between systems - which becomes easier with LLMs. However, the current discussion sees all companies working to integrate the openAI APIs into their production systems.*
+
+*Mr. Epstein: if everything is being done with APIs, they do not need Open Voice. OVON is the Open Voice Network, not the Open API Network. OVON exists because humans will still want to interact with the system components through voice. Mr. Epstein re-stressed the criticality of finding a way to get voice assistants to interoperate.*
+
+## Action Items - N. Southern:
+
+* Interoperability Team: develop an invitation message for webinar
+* Group - if anyone has ideas about requirements for identification of voice assistants, submit to Jon. 
+* Group -  if anyone is aware of other initiatives working on authentication of voice assistants or of users to please let Bruce know.
+* Jon Stine - write an OVON blog statement on Generative AI and Large Language models.
+
+### Adjournment - Mr. Martens adjourned the meeting at 11:00am.
+
 
 # Notes of the Open Voice Network Technical Committee Meeting - February 10, 2023
 
