@@ -1,12 +1,12 @@
-# 2021 Annual Report of the Open Voice Network # 
+# 2021 Annual Report of the Open Voice Network 
 
-## Introduction ##
+## Introduction 
 
 The Open Voice Network (OVON) is a non-profit industry association dedicated to the development and proposal of technology standards and usage guidelines for the emerging world of voice assistance. It is an open-source community of the Linux Foundation, and is independently funded and governed.
 
 This is the official record of the Open Voice Network for calendar year 2021.
 
-## 2021: Year-End Evaluation ## 
+## 2021: Year-End Evaluation
 
 The Open Voice Network (OVON) progressed in 2021 from team formation, process normalization, and task definition to the first deliveries of publicly-reviewed documents, white papers, and technical demonstrations. 
  
@@ -26,7 +26,7 @@ In private development conversations and public presentations, Open Voice Networ
 
 Given this response, we believe the core variable before the Open Voice Network is when, not why, what, or how. 
 
-## Performance Metrics and Highlights.## 
+## Performance Metrics and Highlights.
  
 In 2021,
 
@@ -51,36 +51,36 @@ This work points to a 2022 of impact, growth, and challenge for the Open Voice N
 
 In addition, the ethical use and industry Communities of the Open Voice Network are expected to publish a guide to the ethical use of voice assistance, and key use cases for voice assistance in the commerce, health/wellness/life sciences, media and entertainment, and K-12 education industries.  Continued research into use cases and standards is also expected on the topic of synthetic voice.
 
-## Standing Committees of the Open Voice Network ##
+## Standing Committees of the Open Voice Network 
 
 The founding charter of the Open Voice Network specifies a Steering Committee accountable to sponsors and the Linux Foundation for the governance of the organization, and four standing committees, each to be chaired by a representative of a sponsoring member entity and responsible to the Steering Committee. The four standing committees are Technical Advisory, Outreach, Budget, and Legal.
 
-## Steering Committee ##
+## Steering Committee 
 
 The Open Voice Network Steering Committee met monthly in 2021, with one exception.  The Steering Committee was chaired by Mike McNamara, Executive Vice President, Chief Information and Digital Officer, Target Corporation.  Voting members were Mirko Saul, Head of Digitalization and Innovation, Schwarz Digital GmbH & Co., KG; Ali Dalloul, Vice President, Strategy and Commercialization, Azure AI Cognitive Services, Microsoft Corporation; Joel Crabb, Vice President, Architecture, Target Corporation; Doug Rogers, Chief Security Officer, Wegmans Food Markets; Bernhard Hochstätter, Executive Product Manager and Tribe Lead Voice Platform, Deutsche Telekom; and Christian Wuttke, Manager, Conversational AI, Schwarz Gruppe, and Chair, Open Voice Network Technical Committee.   Also participating through the year were Neal Caidin, Program Manager for the Open Voice Network on behalf of the Linux Foundation; Kristi Dank, Secretary Pro Tempore and Director, Target Corporation; and Jon Stine, Executive Director, Open Voice Network.
 
-## Technical Advisory Committee ##
+## Technical Advisory Committee 
 
 As of January 1, 2021,  the Open Voice Network Technical Advisory Committee had formed and successfully launched three Work Groups (Voice Registry System, Privacy and Security, and Architecture), each tasked to research the market need and opportunity, envision and propose an approach to standardization or industry-wide guidelines, and recommend next steps.  Dan Cundiff, Principal Engineer at Target Corporation, served as Acting Chair.  
 
 In June 2021, Cundiff left Target Corporation, and his role within the Open Voice Network.  In October, 2021, the OVON Steering Committee confirmed Christian Wuttke, Manager of Conversational Solutions at Schwarz IT, a division of Schwarz Group, as the Chair of the Technical Committee, to serve a one-year term (from October 2021 through September 2022.)  In addition, John Trammell, Principal Engineer at Target Corporation, was confirmed as Vice-Chair for a one-year term (October 2021 through September 2022), with expectation that Chair responsibilities would be assumed at the conclusion of the term.
 
-## Outreach Committee ##
+## Outreach Committee 
 
 The OVN Outreach Committee was not formally constituted in 2021.   However, a group of OVN volunteers met periodically through the year to review
 * the design and functionality of the OVN website, www.openvoicenetwork.org
 * public presentation and speaking opportunities (despite uncertainties wrought by the Covid-19 pandemic).
 * OVON public-facing messaging.
 
-## Budget Committee ##
+## Budget Committee 
 
 The OVN Budget Committee was not formally constituted in 2021. Throughout the year, OVON budgets and expenditures were reviewed and approved by the Steering Committee.
 
-## Legal Committee ##
+## Legal Committee 
 
 The OVN Legal Committee was not formally constituted in 2020.
 
-## Communities of the Open Voice Network ##
+## Communities of the Open Voice Network
 
 Following the adoption of the founding charter of the Open Voice Network as of 1 June 2020, a number of "OVN Communities" were formed to further the outreach of the OVN into the voice developer, designer-strategist, testing, and enterprise voice use ecosystems, and to provide members of those ecosystems a voice into the vision, strategy, and detailed execution of the Open Voice Network.
 
@@ -96,7 +96,7 @@ OVN Communities are made up of OVN volunteers, and moderated by one or more volu
 
 In addition, an industry advisory team was launched in mid-year 2021 to provide OVON leadership with insight as to voice market transitions and critical issues.
 
-## Open Voice Network Leadership as of 31 December 2021 ##
+## Open Voice Network Leadership as of 31 December 2021 
 
 Steering Committee:
 
@@ -104,18 +104,18 @@ Chair:  Mike McNamara, Executive Vice President, Chief Information and Digital O
 Voting members: Mirko Saul, Head of Digitalization and Innovation, Schwarz Digital GmbH & Co., KG; Ali Dalloul, Vice President, Strategy and Commercialization, Azure AI Cognitive Services, Microsoft Corporation; Joel Crabb, Vice President, Architecture, Target Corporation; Doug Rogers, Chief Security Officer, Wegmans Food Markets; Bernhard Hochstätter, Executive Product Manager and Tribe Lead Voice Platform, Deutsche Telekom; and Christian Wuttke, Manager, Conversational AI, Schwarz Gruppe, and Chair, Open Voice Network Technical Committee.   
 Staff:  Neal Caidin, Program Manager for the Open Voice Network on behalf of the Linux Foundation; Kristi Dank, Secretary Pro Tempore and Director, Target Corporation; and Jon Stine, Executive Director, Open Voice Network.
 
-## Technical Advisory Committee:##
+## Technical Advisory Committee:
 
 Chair (through September 2022):  Christian Wuttke, Manager of Conversational Solutions at Schwarz IT
 Vice Chair (through September 2022):  John Trammell, Principal Engineer, Target Corporation
 
-## Technical Committee Work Groups:##
+## Technical Committee Work Groups:
 
 Architecture Work Group Co-Moderators:  John Trammell, Shyamala Prayaga, and Bruce Epstein.  Co-Moderator and Senior Advisor:  Dr. Jim Larson.
 Privacy and Security Work Group Co-Moderators:  Nick Myers and John Trammell.  Senior Advisor:  Oita Coleman.
 Voice Registry Work Group Moderator:  Maria Brinas-Dobrowski.
 
-## Open Voice Network Communities:##
+## Open Voice Network Communities:
 
 * Designer-Strategist Community Moderators:  Susan and Scot Westwater. 
 * Ethical Use Task Force Community Moderators:  Valeria Barbero and Emily Banzhaf.  Senior Advisor: Oita Coleman. 
@@ -125,7 +125,7 @@ Voice Registry Work Group Moderator:  Maria Brinas-Dobrowski.
 * Health, Wellness, and Life Sciences Community Moderator:  Harry P. Pappas. 
 * Synthetic Voice Study Group Moderator:  TBD. 
 
-## Staff:##
+## Staff:
 
 * Program Management on behalf of the Linux Foundation:  Neil Caidin
 * Senior Advisor, Privacy-Security-Ethical Use Portfolio:  Oita Coleman
