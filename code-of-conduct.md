@@ -1,10 +1,9 @@
 ---
-title: OVON Architecture - Contributor Code of Conduct
-parent: Architecture Working Group
+title: OVON Code of Conduct
+parent: Home
 layout: default
+nav_order: 1
 ---
-
-# Contributor Covenant Code of Conduct
 
 ## Our Pledge
 
